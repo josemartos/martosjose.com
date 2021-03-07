@@ -8,7 +8,7 @@ export default function Layout({ children }) {
         <title>Jose Martos - Product designer with front-end expertise</title>
       </Head>
 
-      <main>{children}</main>
+      <main className={styles.container}>{children}</main>
     </div>
   );
 }
