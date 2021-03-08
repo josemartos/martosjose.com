@@ -1,0 +1,32 @@
+// Global colors
+$c-white: #fff;
+$c-black: #000;
+$c-red: #ca726f;
+$c-blue: #588ab9;
+
+// Main colors
+$c-primary: #f16b55;
+$c-primary-light: #fbead5;
+$c-secondary: #181624;
+$c-secondary-light: #797887;
+
+// Greyscale tones
+$c-grey100: #f1f1f1;
+$c-grey100-hover: #f8f8f8;
+$c-grey200: #f4f4f4;
+$c-grey200-hover: #e4e4e4;
+$c-grey300: #767676;
+$c-grey300-hover: #bababa;
+
+// Font
+$font-base: "Jost", sans-serif;
+$font-base-size: 18px;
+$browser-context: 16px;
+
+// Breakpoints
+$phone: 575px;
+$phablet: 767px;
+$tablet: 991px;
+$m-desktop: 1199px;
+$desktop: 1399px;
+$xl-desktop: 1599px;
