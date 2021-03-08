@@ -1,8 +1,9 @@
-@import "./base/index";
+@import './base/index';
 
 .contentWrapper {
   max-width: $m-desktop;
   width: 100%;
   position: relative;
   margin: 0 auto;
+  padding: 0 1em;
 }

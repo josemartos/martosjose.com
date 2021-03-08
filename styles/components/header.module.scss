@@ -33,6 +33,7 @@
   color: #fff;
 
   &::after {
+    animation: slideBorder 300ms;
     content: '';
     color: $c-primary;
     position: absolute;
@@ -44,5 +45,14 @@
     top: 100%;
     left: 0;
     pointer-events: none;
+  }
+}
+
+@keyframes slideBorder {
+  from {
+    transform: scale3d(0, 1, 1);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
   }
 }
