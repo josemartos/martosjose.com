@@ -1,0 +1,22 @@
+.header {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.headerInner {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navBar {
+  & > a {
+    margin-left: 40px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}

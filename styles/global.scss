@@ -1,10 +1,13 @@
 html,
 body {
+  color: #fff;
   padding: 0;
   margin: 0;
   font-family: "Jost", sans-serif;
   line-height: 1.6;
   font-size: 18px;
+  height: 100%;
+  width: 100%;
 }
 
 * {
@@ -12,6 +15,7 @@ body {
 }
 
 a {
+  color: #fff;
   text-decoration: none;
 }
 

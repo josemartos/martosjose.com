@@ -4,14 +4,14 @@ import Layout from "../components/layout";
 // Styles
 import commonStyles from "../styles/common.module.scss";
 
-export default function Home() {
+export default function About() {
   return (
     <Layout>
       <Head>
-        <title>Jose Martos - Product designer with front-end expertise</title>
+        <title>About - Jose Martos - Personal portfolio</title>
       </Head>
       <div className={commonStyles.contentWrapper}>
-        <h1>Homepage</h1>
+        <h1>About page</h1>
       </div>
     </Layout>
   );
