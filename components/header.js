@@ -1,18 +1,56 @@
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+
+import GithubIcon from '../public/images/logo.svg';
 
 // Styles
-import commonStyles from "../styles/common.module.scss";
-import styles from "../styles/components/header.module.scss";
+import commonStyles from '../styles/common.module.scss';
+import styles from '../styles/components/header.module.scss';
+
+const HeaderLink = React.forwardRef(({ href, onClick, path, text }, ref) => {
+  const router = useRouter();
+
+  return (
+    <a
+      href={href}
+      ref={ref}
+      onClick={onClick}
+      className={`${styles.navItem} ${
+        router.pathname == `/${path}` ? styles.navItemActive : ''
+      }`}
+    >
+      {text || path}
+    </a>
+  );
+});
 
 const Header = () => {
   return (
     <header className={styles.header}>
       <div className={commonStyles.contentWrapper}>
         <div className={styles.headerInner}>
-          <Link href="/">Jose Martos</Link>
+          <Link href="/">
+            <a>
+              <GithubIcon />
+            </a>
+          </Link>
           <div className={styles.navBar}>
-            <Link href="/">work</Link>
-            <Link href="/about">about</Link>
+            <Link href="/" passHref>
+              <HeaderLink path="" text="work" />
+            </Link>
+            <Link href="/about" passHref>
+              <HeaderLink path="about" />
+            </Link>
+            <Link href="/resume" passHref>
+              <HeaderLink path="resume" />
+            </Link>
+            <Link href="/photos" passHref>
+              <HeaderLink path="photos" />
+            </Link>
+            <Link href="/contact" passHref>
+              <HeaderLink path="contact" />
+            </Link>
           </div>
         </div>
       </div>
