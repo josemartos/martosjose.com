@@ -6,7 +6,7 @@ import GithubIcon from '../public/images/logo.svg';
 
 // Styles
 import commonStyles from '../styles/common.module.scss';
-import styles from '../styles/components/header.module.scss';
+import styles from './header.module.scss';
 
 const HeaderLink = React.forwardRef(({ href, onClick, path, text }, ref) => {
   const router = useRouter();

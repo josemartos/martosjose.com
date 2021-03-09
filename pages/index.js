@@ -1,10 +1,11 @@
 import Head from 'next/head';
 
 import Layout from '../components/Layout';
+import HeroHeader from '../components/HeroHeader';
 
 // Styles
 import commonStyles from '../styles/common.module.scss';
-import styles from '../styles/pages/home.module.scss';
+import styles from './index.module.scss';
 
 export default function Home() {
   return (
@@ -13,9 +14,7 @@ export default function Home() {
         <title>Jose Martos - Product designer with front-end expertise</title>
       </Head>
       <section className={styles.homeSection}>
-        <div className={commonStyles.contentWrapper}>
-          <h1>Hero header</h1>
-        </div>
+        <HeroHeader />
       </section>
       <section className={`${styles.homeSection} ${styles.homeSectionWhite}`}>
         <div className={commonStyles.contentWrapper}>

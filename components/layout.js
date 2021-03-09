@@ -1,8 +1,9 @@
 import Header from './Header';
+import Footer from './Footer';
 // import TestContext from '../context/testContext';
 
 // Styles
-import styles from '../styles/components/layout.module.scss';
+import styles from './layout.module.scss';
 
 export default function Layout({ children }) {
   // const [heroLostFocus, setHeroLostFocus] = useState(false);
@@ -16,6 +17,7 @@ export default function Layout({ children }) {
         {children}
         {/* </TestContext.Provider> */}
       </main>
+      <Footer />
     </div>
   );
 }
