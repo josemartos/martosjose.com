@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "npm run build && next export"
+    "export": "npm run build && next export",
+    "format": "prettier --write \"./**/*.(js|scss)\""
   },
   "dependencies": {
     "@svgr/webpack": "^5.5.0",
@@ -16,6 +17,7 @@
     "react-intersection-observer": "^8.31.0"
   },
   "devDependencies": {
+    "prettier": "^2.2.1",
     "sass": "^1.32.8"
   },
   "browserslist": [

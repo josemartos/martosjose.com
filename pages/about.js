@@ -1,8 +1,8 @@
-import Head from "next/head";
-import Layout from "../components/layout";
+import Head from 'next/head';
+import Layout from '../components/layout';
 
 // Styles
-import commonStyles from "../styles/common.module.scss";
+import commonStyles from '../styles/common.module.scss';
 
 export default function About() {
   return (
