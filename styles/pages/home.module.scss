@@ -1,0 +1,11 @@
+@import '../base/index';
+
+.homeSection {
+  height: 100vh;
+  width: 100vw;
+}
+
+.homeSectionWhite {
+  color: $c-secondary;
+  background-color: #fff;
+}

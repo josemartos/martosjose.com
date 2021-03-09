@@ -1,10 +1,15 @@
-@import "../base/index";
+@import '../base/index';
 
 .container {
   background-color: $c-secondary;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  transition: background-color 300ms;
+}
+
+.containerWhite {
+  background-color: #fff;
 }
 
 .main {
