@@ -11,14 +11,16 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Jose Martos - Product designer with front-end expertise</title>
+        <title>Jose Martos - Designer with front-end expertise</title>
       </Head>
       <section className={styles.homeSection}>
         <HeroHeader />
       </section>
       <section className={`${styles.homeSection} ${styles.homeSectionWhite}`}>
         <div className={commonStyles.contentWrapper}>
-          <h1>Projects</h1>
+          <h2 className={styles.homeSectionTitle}>
+            Recent <strong>work</strong>
+          </h2>
         </div>
       </section>
     </Layout>

@@ -15,12 +15,13 @@ const HeroHeader = () => {
           <div>
             <p>Glad that you came, I am Jose Martos.</p>
             <h1>
-              <strong>Product designer</strong> with <strong>front-end</strong>{' '}
+              <strong>Designer</strong> with <strong>front-end</strong>{' '}
               expertise.
             </h1>
             <p>
               Focused on building <strong>beautiful</strong> yet{' '}
-              <strong>simple</strong> experiences. Currently based in Munich.
+              <strong>usable</strong> and <strong>simple</strong> experiences.
+              Currently based in Munich.
             </p>
           </div>
         </div>
