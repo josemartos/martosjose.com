@@ -7,8 +7,12 @@ import BracketIcon from '../public/images/bracket.svg';
 const HeroHeader = () => {
   return (
     <div className={commonStyles.contentWrapper}>
-      <div className={styles.heroHeaderWrapper}>
-        <div className={styles.heroHeader}>
+      <div className={styles.wrapper}>
+        <div className={styles.scroll}>
+          <div className={styles.line}></div>
+          <div className={styles.text}>scroll</div>
+        </div>
+        <div className={styles.content}>
           <div className={styles.bracket}>
             <BracketIcon />
           </div>

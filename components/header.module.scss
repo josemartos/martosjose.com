@@ -47,12 +47,3 @@
     pointer-events: none;
   }
 }
-
-@keyframes slideBorder {
-  from {
-    transform: scale3d(0, 1, 1);
-  }
-  to {
-    transform: scale3d(1, 1, 1);
-  }
-}

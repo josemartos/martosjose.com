@@ -1,25 +1,51 @@
 @import '../styles/base';
 
-.heroHeaderWrapper {
+.wrapper {
   display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: center;
+  position: relative;
 }
 
 .bracket {
   margin-right: 75px;
 }
 
-// TODO: PX to REM
-.heroHeader {
+.scroll {
+  position: absolute;
+  right: 0;
+  bottom: 10%;
+  display: flex;
+  align-items: flex-end;
+  height: 200px;
+
+  .line {
+    transform-origin: 100% 0;
+    background-color: $c-primary;
+    border-radius: 2px;
+    height: 200px;
+    width: 2px;
+    animation: slideIn 2s;
+  }
+
+  .text {
+    font-weight: 300;
+    font-size: rem(24px);
+    color: #fff;
+    margin-bottom: 15px;
+    transform: rotate(90deg);
+  }
+}
+
+.content {
   align-items: center;
   margin-top: -80px; // Header
   display: flex;
 
   h1 {
-    font-size: 48px;
-    margin-bottom: 25px;
+    font-size: rem(48px);
+    margin-bottom: 30px;
 
     & > strong {
       color: $c-primary;
@@ -30,31 +56,20 @@
   h1,
   p:first-child,
   p:last-child {
-    animation: fadein 1s;
     font-weight: 200;
   }
 
   p:first-child {
-    font-size: 36px;
-    margin-bottom: 15px;
+    font-size: rem(36px);
+    margin-bottom: 5px;
   }
 
   p:last-child {
-    font-size: 24px;
+    font-size: rem(24px);
     max-width: 575px;
 
     & > strong {
       font-weight: 600;
     }
-  }
-}
-
-// Separate animations
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
   }
 }
