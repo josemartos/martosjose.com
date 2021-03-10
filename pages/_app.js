@@ -1,9 +1,17 @@
 import Head from 'next/head';
+import { useEffect } from 'react';
+
+import smoothscroll from 'smoothscroll-polyfill';
 
 // Styles
 import '../styles/global.scss';
 
 export default function App({ Component, pageProps }) {
+  // window object available
+  useEffect(() => {
+    smoothscroll.polyfill();
+  }, []);
+
   return (
     <>
       <Head>

@@ -1,6 +1,15 @@
 @import 'reset';
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   color: #fff;
   padding: 0;
@@ -8,8 +17,6 @@ body {
   font-family: 'Jost', sans-serif;
   line-height: 1.6;
   font-size: rem(18px);
-  height: 100%;
-  width: 100%;
 }
 
 a {

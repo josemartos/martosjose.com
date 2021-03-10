@@ -29,12 +29,25 @@
     animation: slideIn 2s;
   }
 
-  .text {
+  .button {
     font-weight: 300;
     font-size: rem(24px);
     color: #fff;
     margin-bottom: 15px;
     transform: rotate(90deg);
+    color: $c-secondary-light;
+    transition: color 300ms;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+    &:focus {
+      outline: 0;
+    }
+
+    &:hover {
+      color: #fff;
+    }
   }
 }
 

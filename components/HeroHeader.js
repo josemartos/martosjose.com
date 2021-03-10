@@ -4,13 +4,15 @@ import styles from './heroHeader.module.scss';
 
 import BracketIcon from '../public/images/bracket.svg';
 
-const HeroHeader = () => {
+const HeroHeader = ({ scrollToWork }) => {
   return (
     <div className={commonStyles.contentWrapper}>
       <div className={styles.wrapper}>
         <div className={styles.scroll}>
           <div className={styles.line}></div>
-          <div className={styles.text}>scroll</div>
+          <button className={styles.button} onClick={scrollToWork}>
+            scroll
+          </button>
         </div>
         <div className={styles.content}>
           <div className={styles.bracket}>
