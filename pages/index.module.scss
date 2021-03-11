@@ -10,39 +10,4 @@
   &:first-of-type {
     height: calc(100vh - 80px); // Header
   }
-
-  .contentWrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-.homeSectionWhite {
-  padding: 120px 150px;
-  color: $c-secondary;
-  background-color: #fff;
-}
-
-.homeSectionTitle {
-  font-size: rem(32px);
-  font-weight: 300;
-
-  strong {
-    font-weight: 500;
-    position: relative;
-
-    &::after {
-      content: '';
-      color: $c-primary;
-      position: absolute;
-      width: 100%;
-      height: 4px;
-      border-radius: 4px;
-      background: currentColor;
-      top: 100%;
-      left: 0;
-      pointer-events: none;
-    }
-  }
 }

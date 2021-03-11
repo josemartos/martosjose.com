@@ -7,21 +7,19 @@ import Navbar from './Navbar';
 import commonStyles from '../styles/common.module.scss';
 import styles from './header.module.scss';
 
-const Header = () => {
-  return (
-    <header className={styles.header}>
-      <div className={commonStyles.contentWrapper}>
-        <div className={styles.headerInner}>
-          <Link href="/">
-            <a>
-              <GithubIcon />
-            </a>
-          </Link>
-          <Navbar />
-        </div>
+const Header = () => (
+  <header className={styles.header}>
+    <div className={commonStyles.contentWrapper}>
+      <div className={styles.inner}>
+        <Link href="/">
+          <a>
+            <GithubIcon />
+          </a>
+        </Link>
+        <Navbar />
       </div>
-    </header>
-  );
-};
+    </div>
+  </header>
+);
 
 export default Header;

@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={commonStyles.contentWrapper}>
-        <div className={styles.footerInner}>Footer text</div>
+        <div className={styles.inner}>Footer text</div>
       </div>
     </footer>
   );

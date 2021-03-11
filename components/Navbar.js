@@ -23,26 +23,25 @@ const NavbarLink = React.forwardRef(({ href, onClick, path, text }, ref) => {
   );
 });
 
-const Navbar = () => {
-  return (
-    <div>
-      <Link href="/" passHref>
-        <NavbarLink path="" text="work" />
-      </Link>
-      <Link href="/about" passHref>
-        <NavbarLink path="about" />
-      </Link>
-      <Link href="/resume" passHref>
+const Navbar = () => (
+  <div>
+    <Link href="/" passHref>
+      <NavbarLink path="" text="work" />
+    </Link>
+    <Link href="/about" passHref>
+      <NavbarLink path="about" />
+    </Link>
+    {/* Link to a PDF */}
+    {/* <Link href="/resume" passHref>
         <NavbarLink path="resume" />
-      </Link>
+      </Link> 
       <Link href="/photos" passHref>
         <NavbarLink path="photos" />
-      </Link>
-      <Link href="/contact" passHref>
-        <NavbarLink path="contact" />
-      </Link>
-    </div>
-  );
-};
+      </Link>*/}
+    <Link href="/contact" passHref>
+      <NavbarLink path="contact" />
+    </Link>
+  </div>
+);
 
 export default Navbar;

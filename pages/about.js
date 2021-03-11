@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Layout from '../components/layout';
 
 // Styles
+import pageStyles from '../styles/page.module.scss';
 import commonStyles from '../styles/common.module.scss';
 
 export default function About() {
@@ -10,10 +11,7 @@ export default function About() {
       <Head>
         <title>About - Jose Martos - Personal portfolio</title>
       </Head>
-      <section
-        ref={workSectionRef}
-        className={`${styles.homeSection} ${styles.homeSectionWhite}`}
-      >
+      <section className={`${pageStyles.section} ${pageStyles.sectionWhite}`}>
         <div className={commonStyles.contentWrapper}>
           <h1>About page</h1>
         </div>
