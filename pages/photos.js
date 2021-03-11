@@ -10,9 +10,14 @@ export default function Photos() {
       <Head>
         <title>Photos - Jose Martos - Personal portfolio</title>
       </Head>
-      <div className={commonStyles.contentWrapper}>
-        <h1>Photos page</h1>
-      </div>
+      <section
+        ref={workSectionRef}
+        className={`${styles.homeSection} ${styles.homeSectionWhite}`}
+      >
+        <div className={commonStyles.contentWrapper}>
+          <h1>Photos page</h1>
+        </div>
+      </section>
     </Layout>
   );
 }

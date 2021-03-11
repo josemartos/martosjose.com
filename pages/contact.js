@@ -10,9 +10,14 @@ export default function Contact() {
       <Head>
         <title>Contact - Jose Martos - Personal portfolio</title>
       </Head>
-      <div className={commonStyles.contentWrapper}>
-        <h1>Contact page</h1>
-      </div>
+      <section
+        ref={workSectionRef}
+        className={`${styles.homeSection} ${styles.homeSectionWhite}`}
+      >
+        <div className={commonStyles.contentWrapper}>
+          <h1>Contact page</h1>
+        </div>
+      </section>
     </Layout>
   );
 }

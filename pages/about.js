@@ -10,9 +10,14 @@ export default function About() {
       <Head>
         <title>About - Jose Martos - Personal portfolio</title>
       </Head>
-      <div className={commonStyles.contentWrapper}>
-        <h1>About page</h1>
-      </div>
+      <section
+        ref={workSectionRef}
+        className={`${styles.homeSection} ${styles.homeSectionWhite}`}
+      >
+        <div className={commonStyles.contentWrapper}>
+          <h1>About page</h1>
+        </div>
+      </section>
     </Layout>
   );
 }
