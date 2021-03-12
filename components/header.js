@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 import GithubIcon from 'public/images/logo.svg';
-import Navbar from './navBar';
+import Navbar from './navbar';
 
 // Styles
 import commonStyles from 'styles/common.module.scss';
