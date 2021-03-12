@@ -13,7 +13,7 @@ class MyDocument extends Document {
           <meta charSet="UTF-8" />
           <meta
             name="description"
-            content="Jose Martos - Designer with front-end expertise"
+            content="Jose Martos - Designer and front-end developer"
           />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
 

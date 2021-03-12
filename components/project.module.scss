@@ -1,0 +1,36 @@
+@import '../styles/base';
+
+.container {
+  align-items: center;
+}
+
+.image {
+  display: block;
+  max-width: 710px;
+
+  // Wrapper element from next
+  & > div {
+    background: none;
+    display: block !important;
+    box-shadow: 0 12px 24px 0 rgba(75, 77, 82, 0.1);
+  }
+}
+
+.text {
+  font-size: rem(18px);
+
+  h3 {
+    font-weight: 500;
+    font-size: rem(36px);
+  }
+
+  small {
+    display: inline-block;
+    font-weight: 200;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-weight: 300;
+  }
+}

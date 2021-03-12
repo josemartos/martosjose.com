@@ -1,0 +1,44 @@
+$grid-gap: 20px;
+$grid-columns: 12;
+
+//flex container definition
+.flexGrid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: calc(#{$grid-gap} * -1) 0 0 calc(#{$grid-gap} * -1);
+}
+
+//flex item definition
+@mixin col {
+  box-sizing: border-box;
+  padding: $grid-gap 0 0 $grid-gap;
+  background-clip: content-box;
+  flex-basis: 100%;
+}
+
+//round flex items' width - IE
+@function round-width($i) {
+  $width: floor(100 * $i * 100 / $grid-columns) / 100;
+  @return #{$width + '%'};
+}
+
+//utility classes
+@for $i from 1 through $grid-columns {
+  .col--#{$i} {
+    @include col;
+
+    flex-basis: round-width($i);
+    max-width: round-width($i);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  @for $i from 1 through $grid-columns {
+    .col--md-#{$i} {
+      @include col;
+
+      flex-basis: round-width($i);
+      max-width: round-width($i);
+    }
+  }
+}

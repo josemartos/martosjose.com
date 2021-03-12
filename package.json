@@ -2,6 +2,11 @@
   "name": "martosjose.com",
   "version": "0.1.0",
   "description": "Jose Martos - Personal Portfolio",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josemartos/martosjose.com.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

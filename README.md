@@ -20,8 +20,8 @@ development server
 npm run dev
 ```
 
-production / static
+production
 
 ```sh
-npm run export
+npm start
 ```

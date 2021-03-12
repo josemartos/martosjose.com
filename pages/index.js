@@ -3,6 +3,7 @@ import Head from 'next/head';
 
 import Layout from '../components/layout';
 import HeroHeader from '../components/heroHeader';
+import Project from '../components/project';
 
 // Styles
 import commonStyles from '../styles/common.module.scss';
@@ -18,7 +19,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Jose Martos - Designer with front-end expertise</title>
+        <title>Jose Martos - Designer and front-end developer</title>
       </Head>
       <section className={styles.homeSection}>
         <HeroHeader scrollToWork={scrollToWork} />
@@ -31,6 +32,7 @@ export default function Home() {
           <h2 className={pageStyles.mainSectionTitle}>
             Recent <strong>work</strong>
           </h2>
+          <Project />
         </div>
       </section>
     </Layout>
