@@ -1,8 +1,8 @@
 // Styles
-import commonStyles from '../styles/common.module.scss';
+import commonStyles from 'styles/common.module.scss';
 import styles from './heroHeader.module.scss';
 
-import BracketIcon from '../public/images/bracket.svg';
+import BracketIcon from 'public/images/bracket.svg';
 
 const HeroHeader = ({ scrollToWork }) => {
   return (

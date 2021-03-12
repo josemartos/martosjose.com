@@ -31,7 +31,6 @@ const Navbar = () => (
     <Link href="/about" passHref>
       <NavbarLink path="about" />
     </Link>
-    {/* Link to a PDF */}
     {/* <Link href="/resume" passHref>
         <NavbarLink path="resume" />
       </Link> 

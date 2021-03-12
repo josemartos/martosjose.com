@@ -1,13 +1,13 @@
 import { useRef } from 'react';
 import Head from 'next/head';
 
-import Layout from '../components/layout';
-import HeroHeader from '../components/heroHeader';
-import Project from '../components/project';
+import Layout from 'components/layout';
+import HeroHeader from 'components/heroHeader';
+import Project from 'components/project';
 
 // Styles
-import commonStyles from '../styles/common.module.scss';
-import pageStyles from '../styles/page.module.scss';
+import commonStyles from 'styles/common.module.scss';
+import pageStyles from 'styles/page.module.scss';
 import styles from './index.module.scss';
 
 export default function Home() {

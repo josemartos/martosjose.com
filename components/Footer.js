@@ -1,14 +1,14 @@
 import React from 'react';
 
 // Styles
-import commonStyles from '../styles/common.module.scss';
+import commonStyles from 'styles/common.module.scss';
 import styles from './footer.module.scss';
 
 const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={commonStyles.contentWrapper}>
-        <div className={styles.inner}>Footer text</div>
+        <div className={styles.inner}>Footer</div>
       </div>
     </footer>
   );

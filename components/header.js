@@ -1,10 +1,10 @@
 import Link from 'next/link';
 
-import GithubIcon from '../public/images/logo.svg';
-import Navbar from './Navbar';
+import GithubIcon from 'public/images/logo.svg';
+import Navbar from './navBar';
 
 // Styles
-import commonStyles from '../styles/common.module.scss';
+import commonStyles from 'styles/common.module.scss';
 import styles from './header.module.scss';
 
 const Header = () => (

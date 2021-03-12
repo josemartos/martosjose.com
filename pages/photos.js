@@ -1,9 +1,9 @@
 import Head from 'next/head';
-import Layout from '../components/layout';
+import Layout from 'components/layout';
 
 // Styles
-import pageStyles from '../styles/page.module.scss';
-import commonStyles from '../styles/common.module.scss';
+import pageStyles from 'styles/page.module.scss';
+import commonStyles from 'styles/common.module.scss';
 
 export default function Photos() {
   return (
