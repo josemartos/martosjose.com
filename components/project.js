@@ -1,4 +1,7 @@
 import Image from 'next/image';
+import RouterLink from 'next/link';
+
+import { LinkButton } from './link';
 
 // Styles
 import styles from './project.module.scss';
@@ -23,6 +26,9 @@ const Project = () => {
           Reworked the branding of a clothing e-commerce, and created a
           responsive web design.
         </p>
+        <RouterLink href="/work/mirror">
+          <LinkButton text="See case study" />
+        </RouterLink>
       </div>
     </div>
   );

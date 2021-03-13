@@ -1,45 +1,46 @@
 import { useRouter } from 'next/router';
 
 import React from 'react';
-import Link from 'next/link';
+import RouterLink from 'next/link';
 
 // Styles
 import styles from './navbar.module.scss';
 
-const NavbarLink = React.forwardRef(({ href, onClick, path, text }, ref) => {
+const NavbarLink = React.forwardRef(({ href, onClick, text }, ref) => {
   const router = useRouter();
+
+  const onPage = () =>
+    router.pathname === href || router.pathname.includes(text);
 
   return (
     <a
       href={href}
       ref={ref}
       onClick={onClick}
-      className={`${styles.item} ${
-        router.pathname == `/${path}` ? styles.itemActive : ''
-      }`}
+      className={`${styles.item} ${onPage() ? styles.itemActive : ''}`}
     >
-      {text || path}
+      {text}
     </a>
   );
 });
 
 const Navbar = () => (
   <div>
-    <Link href="/" passHref>
-      <NavbarLink path="" text="work" />
-    </Link>
-    <Link href="/about" passHref>
-      <NavbarLink path="about" />
-    </Link>
-    {/* <Link href="/resume" passHref>
-        <NavbarLink path="resume" />
-      </Link> 
-      <Link href="/photos" passHref>
-        <NavbarLink path="photos" />
-      </Link>*/}
-    <Link href="/contact" passHref>
-      <NavbarLink path="contact" />
-    </Link>
+    <RouterLink href="/" passHref>
+      <NavbarLink text="work" />
+    </RouterLink>
+    <RouterLink href="/about" passHref>
+      <NavbarLink text="about" />
+    </RouterLink>
+    {/* <RouterLink href="/resume" passHref>
+        <NavbarLink text="resume" />
+      </RouterLink> 
+      <RouterLink href="/photos" passHref>
+        <NavbarLink text="photos" />
+      </RouterLink>*/}
+    <RouterLink href="/contact" passHref>
+      <NavbarLink text="contact" />
+    </RouterLink>
   </div>
 );
 
