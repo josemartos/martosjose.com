@@ -22,7 +22,7 @@ export default function Home() {
       <Head>
         <title>Jose Martos - Designer and front-end developer</title>
       </Head>
-      <section className={styles.homeSection}>
+      <section className={styles.homeHeader}>
         <HeroHeader scrollToWork={scrollToWork} />
       </section>
       <section

@@ -53,6 +53,10 @@
   svg {
     margin-left: 12px;
   }
+
+  @media screen and (max-width: $phablet) {
+    text-align: center;
+  }
 }
 
 .flaticon {

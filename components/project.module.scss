@@ -18,6 +18,10 @@
     left: auto;
     right: 0;
   }
+
+  @media screen and (max-width: $phablet) {
+    display: none;
+  }
 }
 
 .container {
@@ -33,6 +37,10 @@
     background: none;
     display: block !important;
     box-shadow: 0 12px 24px 0 rgba(75, 77, 82, 0.1);
+  }
+
+  @media screen and (max-width: $phablet) {
+    margin-bottom: 40px;
   }
 }
 
@@ -54,5 +62,9 @@
   p {
     font-weight: 300;
     margin-bottom: 20px;
+  }
+
+  @media screen and (max-width: $phone) {
+    text-align: center;
   }
 }

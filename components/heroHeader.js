@@ -8,16 +8,11 @@ const HeroHeader = ({ scrollToWork }) => {
   return (
     <div className={commonStyles.contentWrapper}>
       <div className={styles.wrapper}>
-        <div className={styles.scroll}>
-          <div className={styles.line}></div>
-          <button className={styles.button} onClick={scrollToWork}>
-            scroll
-          </button>
-        </div>
         <div className={styles.content}>
           <div className={styles.bracket}>
             <BracketIcon />
           </div>
+          {/* TODO: Refine responsive version */}
           <div>
             <p>Glad that you came, I am Jose Martos.</p>
             <h1>
@@ -30,6 +25,12 @@ const HeroHeader = ({ scrollToWork }) => {
               Currently based in Munich.
             </p>
           </div>
+        </div>
+        <div className={styles.scroll}>
+          <div className={styles.line}></div>
+          <button className={styles.button} onClick={scrollToWork}>
+            scroll
+          </button>
         </div>
       </div>
     </div>

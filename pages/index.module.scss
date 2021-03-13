@@ -1,13 +1,12 @@
 @import '../styles/base';
 
-.homeSection {
+.homeHeader {
   display: flex;
-  height: 100vh;
+  height: calc(100vh - 80px); // 80px header
   width: 100%;
-  min-height: 400px;
 
-  &:first-of-type {
-    height: calc(100vh - 80px); // Header
+  @media screen and (max-width: $phablet) {
+    height: auto;
   }
 }
 
@@ -16,5 +15,9 @@
 
   &:last-of-type {
     margin-bottom: 0;
+  }
+
+  @media screen and (max-width: $phablet) {
+    margin-bottom: 120px;
   }
 }
