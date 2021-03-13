@@ -1,22 +1,26 @@
-import Head from 'next/head';
-import Layout from 'components/layout';
 import cn from 'classnames';
+import BasePage from 'components/basePage';
 
 // Styles
 import pageStyles from 'styles/page.module.scss';
 import commonStyles from 'styles/common.module.scss';
 
-export default function About() {
+export default function Mirror() {
   return (
-    <Layout>
-      <Head>
-        <title>Mirror Project - Jose Martos - Personal portfolio</title>
-      </Head>
-      <section className={cn(pageStyles.section, pageStyles.sectionWhite)}>
+    <BasePage title="Mirror e-commerce store">
+      <section
+        className={cn(
+          pageStyles.section,
+          pageStyles.mainSection,
+          pageStyles.pageSection
+        )}
+      >
         <div className={commonStyles.contentWrapper}>
-          <h1>Mirror Project</h1>
+          <h2 className={pageStyles.mainSectionTitle}>
+            <strong>Mirror</strong> e-commerce store
+          </h2>
         </div>
       </section>
-    </Layout>
+    </BasePage>
   );
 }

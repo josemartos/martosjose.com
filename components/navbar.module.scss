@@ -37,6 +37,7 @@
 }
 
 .white {
+  .item:hover,
   .itemActive {
     color: $c-secondary;
   }

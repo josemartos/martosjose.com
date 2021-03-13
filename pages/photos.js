@@ -1,6 +1,5 @@
-import Head from 'next/head';
-import Layout from 'components/layout';
 import cn from 'classnames';
+import BasePage from 'components/basePage';
 
 // Styles
 import pageStyles from 'styles/page.module.scss';
@@ -8,15 +7,20 @@ import commonStyles from 'styles/common.module.scss';
 
 export default function Photos() {
   return (
-    <Layout>
-      <Head>
-        <title>Photos - Jose Martos - Personal portfolio</title>
-      </Head>
-      <section className={cn(pageStyles.section, pageStyles.sectionWhite)}>
+    <BasePage title="Photos">
+      <section
+        className={cn(
+          pageStyles.section,
+          pageStyles.mainSection,
+          pageStyles.pageSection
+        )}
+      >
         <div className={commonStyles.contentWrapper}>
-          <h1>Photos page</h1>
+          <h2 className={pageStyles.mainSectionTitle}>
+            Some <strong>pictures</strong>
+          </h2>
         </div>
       </section>
-    </Layout>
+    </BasePage>
   );
 }

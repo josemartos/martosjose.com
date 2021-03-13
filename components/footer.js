@@ -15,7 +15,7 @@ const Footer = () => {
       <div className={commonStyles.contentWrapper}>
         <div className={styles.inner}>
           <h4 className={styles.title}>
-            Shall <strong>we</strong>?
+            Get <strong>connected</strong>
           </h4>
           <div className={styles.icons}>
             <a

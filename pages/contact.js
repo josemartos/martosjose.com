@@ -1,30 +1,13 @@
-import { useContext, useEffect } from 'react';
-import Head from 'next/head';
-import Layout from 'components/layout';
 import cn from 'classnames';
-
-import ThemeContext from 'context/themeContext';
+import BasePage from 'components/basePage';
 
 // Styles
 import pageStyles from 'styles/page.module.scss';
 import commonStyles from 'styles/common.module.scss';
 
 export default function Contact() {
-  const { setTheme } = useContext(ThemeContext);
-
-  useEffect(() => {
-    setTheme('white');
-
-    return function cleanup() {
-      setTheme('normal');
-    };
-  }, []);
-
   return (
-    <Layout>
-      <Head>
-        <title>Contact - Jose Martos - Personal portfolio</title>
-      </Head>
+    <BasePage title="Contact">
       <section
         className={cn(
           pageStyles.section,
@@ -34,10 +17,10 @@ export default function Contact() {
       >
         <div className={commonStyles.contentWrapper}>
           <h2 className={pageStyles.mainSectionTitle}>
-            Let's <strong>talk</strong>
+            Shall <strong>we</strong>?
           </h2>
         </div>
       </section>
-    </Layout>
+    </BasePage>
   );
 }
