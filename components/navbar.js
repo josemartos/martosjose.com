@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router';
+import cn from 'classnames';
 
 import React from 'react';
 import RouterLink from 'next/link';
@@ -17,7 +18,7 @@ const NavbarLink = React.forwardRef(({ href, onClick, text }, ref) => {
       href={href}
       ref={ref}
       onClick={onClick}
-      className={`${styles.item} ${onPage() ? styles.itemActive : ''}`}
+      className={cn(styles.item, { [styles.itemActive]: onPage() })}
     >
       {text}
     </a>

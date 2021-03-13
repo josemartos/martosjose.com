@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Layout from 'components/layout';
+import cn from 'classnames';
 
 // Styles
 import pageStyles from 'styles/page.module.scss';
@@ -11,7 +12,7 @@ export default function About() {
       <Head>
         <title>Mirror Project - Jose Martos - Personal portfolio</title>
       </Head>
-      <section className={`${pageStyles.section} ${pageStyles.sectionWhite}`}>
+      <section className={cn(pageStyles.section, pageStyles.sectionWhite)}>
         <div className={commonStyles.contentWrapper}>
           <h1>Mirror Project</h1>
         </div>

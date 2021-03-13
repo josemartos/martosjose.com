@@ -1,4 +1,5 @@
 import React from 'react';
+import cn from 'classnames';
 
 // Styles
 import buttonStyles from './button.module.scss';
@@ -10,7 +11,7 @@ export const LinkButton = React.forwardRef(({ href, onClick, text }, ref) => {
       href={href}
       ref={ref}
       onClick={onClick}
-      className={`${buttonStyles.button} ${buttonStyles.primary}`}
+      className={cn(buttonStyles.button, buttonStyles.primary)}
     >
       {text}
     </a>

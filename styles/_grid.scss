@@ -8,10 +8,15 @@ $grid-columns: 12;
   margin: calc(#{$grid-gap} * -1) 0 0 calc(#{$grid-gap} * -1);
 }
 
+.flexGrid.reverse {
+  flex-direction: row-reverse;
+}
+
 //flex item definition
 @mixin col {
   box-sizing: border-box;
-  padding: $grid-gap 0 0 $grid-gap;
+  // padding: $grid-gap 0 0 $grid-gap;
+  padding-left: $grid-gap;
   background-clip: content-box;
   flex-basis: 100%;
 }

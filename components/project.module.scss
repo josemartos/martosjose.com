@@ -1,5 +1,25 @@
 @import '../styles/base';
 
+.wrapper {
+  position: relative;
+}
+
+.layer {
+  position: absolute;
+  width: 50%;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  height: 90%;
+  background-color: $c-grey200;
+  margin-top: -35px;
+
+  &.reverse {
+    left: auto;
+    right: 0;
+  }
+}
+
 .container {
   align-items: center;
 }

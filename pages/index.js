@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import Head from 'next/head';
+import cn from 'classnames';
 
 import Layout from 'components/layout';
 import HeroHeader from 'components/heroHeader';
@@ -26,13 +27,18 @@ export default function Home() {
       </section>
       <section
         ref={workSectionRef}
-        className={`${pageStyles.section} ${pageStyles.mainSection}`}
+        className={cn(pageStyles.section, pageStyles.mainSection)}
       >
         <div className={commonStyles.contentWrapper}>
           <h2 className={pageStyles.mainSectionTitle}>
             Recent <strong>work</strong>
           </h2>
+        </div>
+        <div className={styles.project}>
           <Project />
+        </div>
+        <div className={styles.project}>
+          <Project reverseLayout={true} />
         </div>
       </section>
     </Layout>
