@@ -12,7 +12,7 @@ const Header = () => (
     <div className={commonStyles.contentWrapper}>
       <div className={styles.inner}>
         <RouterLink href="/">
-          <a>
+          <a title="Go to homepage">
             <GithubIcon />
           </a>
         </RouterLink>

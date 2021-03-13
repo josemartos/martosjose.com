@@ -19,6 +19,7 @@ const NavbarLink = React.forwardRef(({ href, onClick, text }, ref) => {
       ref={ref}
       onClick={onClick}
       className={cn(styles.item, { [styles.itemActive]: onPage() })}
+      title={`Go to ${text}`}
     >
       {text}
     </a>

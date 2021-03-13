@@ -4,11 +4,58 @@
   color: #fff;
   display: flex;
   align-items: center;
-  height: 80px;
 }
 
 .inner {
   align-items: center;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+.title {
+  font-size: rem(32px);
+  font-weight: 300;
+  margin-bottom: 25px;
+
+  strong {
+    color: $c-primary;
+    display: inline-block;
+    font-weight: 600;
+  }
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 70px;
+
+  > a {
+    margin-left: 20px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+.closing {
+  display: flex;
+  align-items: center;
+  font-size: rem(18px);
+  font-weight: 300;
+  margin-bottom: 20px;
+
+  svg {
+    margin-left: 12px;
+  }
+}
+
+.flaticon {
+  font-size: rem(16px);
+  font-weight: 200;
 }

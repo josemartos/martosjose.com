@@ -12,6 +12,7 @@ export const LinkButton = React.forwardRef(({ href, onClick, text }, ref) => {
       ref={ref}
       onClick={onClick}
       className={cn(buttonStyles.button, buttonStyles.primary)}
+      title={text}
     >
       {text}
     </a>

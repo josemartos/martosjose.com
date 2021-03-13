@@ -12,7 +12,9 @@ import styles from './project.module.scss';
 const Project = ({ reverseLayout }) => {
   return (
     <div className={styles.wrapper}>
-      <div class={cn(styles.layer, { [styles.reverse]: reverseLayout })}></div>
+      <div
+        className={cn(styles.layer, { [styles.reverse]: reverseLayout })}
+      ></div>
       <div className={commonStyles.contentWrapper}>
         <div
           className={cn('flexGrid', styles.container, {
