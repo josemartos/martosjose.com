@@ -1,5 +1,8 @@
+import { useContext } from 'react';
 import { useRouter } from 'next/router';
 import cn from 'classnames';
+
+import ThemeContext from 'context/themeContext';
 
 import React from 'react';
 import RouterLink from 'next/link';
@@ -26,24 +29,28 @@ const NavbarLink = React.forwardRef(({ href, onClick, text }, ref) => {
   );
 });
 
-const Navbar = () => (
-  <div>
-    <RouterLink href="/" passHref>
-      <NavbarLink text="work" />
-    </RouterLink>
-    <RouterLink href="/about" passHref>
-      <NavbarLink text="about" />
-    </RouterLink>
-    {/* <RouterLink href="/resume" passHref>
+const Navbar = () => {
+  const { theme } = useContext(ThemeContext);
+
+  return (
+    <div className={cn({ [styles.white]: theme === 'white' })}>
+      <RouterLink href="/" passHref>
+        <NavbarLink text="work" />
+      </RouterLink>
+      <RouterLink href="/about" passHref>
+        <NavbarLink text="about" />
+      </RouterLink>
+      {/* <RouterLink href="/resume" passHref>
         <NavbarLink text="resume" />
       </RouterLink> 
       <RouterLink href="/photos" passHref>
         <NavbarLink text="photos" />
       </RouterLink>*/}
-    <RouterLink href="/contact" passHref>
-      <NavbarLink text="contact" />
-    </RouterLink>
-  </div>
-);
+      <RouterLink href="/contact" passHref>
+        <NavbarLink text="contact" />
+      </RouterLink>
+    </div>
+  );
+};
 
 export default Navbar;

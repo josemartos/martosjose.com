@@ -35,3 +35,9 @@
     pointer-events: none;
   }
 }
+
+.white {
+  .itemActive {
+    color: $c-secondary;
+  }
+}

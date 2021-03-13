@@ -1,25 +1,35 @@
+import { useContext } from 'react';
+import cn from 'classnames';
 import RouterLink from 'next/link';
 
-import GithubIcon from 'public/images/logo.svg';
+import ThemeContext from 'context/themeContext';
+
+import LogoIcon from 'public/images/logo.svg';
 import Navbar from './navbar';
 
 // Styles
 import commonStyles from 'styles/common.module.scss';
 import styles from './header.module.scss';
 
-const Header = () => (
-  <header className={styles.header}>
-    <div className={commonStyles.contentWrapper}>
-      <div className={styles.inner}>
-        <RouterLink href="/">
-          <a title="Go to homepage">
-            <GithubIcon />
-          </a>
-        </RouterLink>
-        <Navbar />
+const Header = () => {
+  const { theme } = useContext(ThemeContext);
+
+  return (
+    <header
+      className={cn(styles.header, { [styles.white]: theme === 'white' })}
+    >
+      <div className={commonStyles.contentWrapper}>
+        <div className={styles.inner}>
+          <RouterLink href="/">
+            <a className={styles.logo} title="Go to homepage">
+              <LogoIcon />
+            </a>
+          </RouterLink>
+          <Navbar />
+        </div>
       </div>
-    </div>
-  </header>
-);
+    </header>
+  );
+};
 
 export default Header;

@@ -1,5 +1,8 @@
+import { useState } from 'react';
 import Head from 'next/head';
 import { useEffect } from 'react';
+
+import ThemeContext from 'context/themeContext';
 
 import smoothscroll from 'smoothscroll-polyfill';
 
@@ -7,6 +10,8 @@ import smoothscroll from 'smoothscroll-polyfill';
 import 'styles/global.scss';
 
 export default function App({ Component, pageProps }) {
+  const [theme, setTheme] = useState('normal');
+
   // window object available
   useEffect(() => {
     smoothscroll.polyfill();
@@ -28,7 +33,9 @@ export default function App({ Component, pageProps }) {
           rel="stylesheet"
         ></link>
       </Head>
-      <Component {...pageProps} />
+      <ThemeContext.Provider value={{ theme, setTheme }}>
+        <Component {...pageProps} />
+      </ThemeContext.Provider>
     </>
   );
 }
