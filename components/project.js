@@ -9,7 +9,7 @@ import { LinkButton } from './link';
 import commonStyles from 'styles/common.module.scss';
 import styles from './project.module.scss';
 
-const Project = ({ reverseLayout }) => {
+const Project = ({ reverseLayout = false }) => {
   return (
     <div className={styles.wrapper}>
       <div

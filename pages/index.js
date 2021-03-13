@@ -9,7 +9,7 @@ import Project from 'components/project';
 // Styles
 import commonStyles from 'styles/common.module.scss';
 import pageStyles from 'styles/page.module.scss';
-import styles from './index.module.scss';
+import styles from 'styles/pages/index.module.scss';
 
 export default function Home() {
   const workSectionRef = useRef(null);
