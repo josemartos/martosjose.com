@@ -33,10 +33,22 @@ export default function Home() {
           </h2>
         </div>
         <div className={styles.project}>
-          <Project />
+          <Project
+            title="Mirror"
+            type="e-commerce platform"
+            description="Reworked the branding of a clothing e-commerce, and created a responsive web design."
+            image="mirror.png"
+          />
         </div>
         <div className={styles.project}>
-          <Project reverseLayout={true} />
+          <Project
+            title="Bike store"
+            type="local business"
+            description="Working on the research and redesign of a local bike shop"
+            image="bike-store.jpg"
+            reverseLayout={true}
+            inProgress={true}
+          />
         </div>
       </section>
     </Layout>

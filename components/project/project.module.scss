@@ -39,10 +39,11 @@
   }
 
   // Wrapper element from next
-  & > div {
+  & div {
     background: none;
     display: block !important;
     box-shadow: 0 12px 24px 0 rgba(75, 77, 82, 0.1);
+    border-radius: 4px;
   }
 
   @media screen and (max-width: $phablet) {

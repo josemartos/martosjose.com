@@ -11,11 +11,11 @@ import { LinkButton } from 'components';
 import commonStyles from 'styles/common.module.scss';
 import styles from './project.module.scss';
 
-export const LinkImage = React.forwardRef(({ href, onClick }, ref) => {
+export const LinkImage = React.forwardRef(({ href, onClick, name }, ref) => {
   return (
     <a href={href} ref={ref} onClick={onClick} title="Mirror Website">
       <Image
-        src="/images/mirror.png"
+        src={`/images/${name}`}
         alt="Mirror Website"
         width={710}
         height={560}
@@ -24,7 +24,14 @@ export const LinkImage = React.forwardRef(({ href, onClick }, ref) => {
   );
 });
 
-const Project = ({ reverseLayout = false }) => {
+const Project = ({
+  title,
+  type,
+  description,
+  image,
+  reverseLayout = false,
+  inProgress = false,
+}) => {
   return (
     <div className={styles.wrapper}>
       <div
@@ -40,21 +47,22 @@ const Project = ({ reverseLayout = false }) => {
           <div className={cn(styles.image, 'col--md-7')}>
             <ComeInAnimation>
               <RouterLink href="/work/mirror">
-                <LinkImage />
+                <LinkImage name={image} />
               </RouterLink>
             </ComeInAnimation>
           </div>
           <div className="col--md-1"></div>
           <div className={cn(styles.text, 'col--md-3')}>
-            <h3>Mirror</h3>
-            <small>e-commerce platform</small>
-            <p>
-              Reworked the branding of a clothing e-commerce, and created a
-              responsive web design.
-            </p>
-            <RouterLink href="/work/mirror">
-              <LinkButton text="See case study" />
-            </RouterLink>
+            <h3>{title}</h3>
+            <small>{type}</small>
+            <p>{description}</p>
+            {inProgress ? (
+              <>Coming soon</>
+            ) : (
+              <RouterLink href="/work/mirror">
+                <LinkButton text="See case study" />
+              </RouterLink>
+            )}
           </div>
         </div>
       </div>
