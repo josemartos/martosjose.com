@@ -1,8 +1,8 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import Head from 'next/head';
 import { useEffect } from 'react';
 
-import ThemeContext from 'context/themeContext';
+import AppContext from 'context/appContext';
 
 import smoothscroll from 'smoothscroll-polyfill';
 
@@ -12,11 +12,27 @@ import { Maintenance } from 'components';
 
 function App({ Component, pageProps, maintenanceMode }) {
   const [theme, setTheme] = useState('normal');
+  const [workMenu, setWorkMenu] = useState(false);
+  const workSectionRef = useRef(null);
+
+  const scrollToWork = () => {
+    workSectionRef.current.scrollIntoView({ behavior: 'smooth' });
+    setWorkMenu(false);
+  };
 
   // window object available
   useEffect(() => {
     smoothscroll.polyfill();
   }, []);
+
+  const contextValue = {
+    theme,
+    setTheme,
+    workSectionRef,
+    scrollToWork,
+    workMenu,
+    setWorkMenu,
+  };
 
   return (
     <>
@@ -34,13 +50,13 @@ function App({ Component, pageProps, maintenanceMode }) {
           rel="stylesheet"
         ></link>
       </Head>
-      <ThemeContext.Provider value={{ theme, setTheme }}>
+      <AppContext.Provider value={contextValue}>
         {maintenanceMode === 'true' ? (
           <Maintenance />
         ) : (
           <Component {...pageProps} />
         )}
-      </ThemeContext.Provider>
+      </AppContext.Provider>
     </>
   );
 }

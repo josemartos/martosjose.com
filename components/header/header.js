@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import cn from 'classnames';
 import RouterLink from 'next/link';
 
-import ThemeContext from 'context/themeContext';
+import AppContext from 'context/appContext';
 
 import LogoIcon from 'public/images/logo.svg';
 import { Navbar } from 'components';
@@ -12,7 +12,7 @@ import commonStyles from 'styles/common.module.scss';
 import styles from './header.module.scss';
 
 const Header = () => {
-  const { theme } = useContext(ThemeContext);
+  const { theme } = useContext(AppContext);
 
   return (
     <header

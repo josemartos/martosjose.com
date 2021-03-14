@@ -57,9 +57,9 @@ export default function About() {
               </p>
               <p>
                 Besides that, you can also find me somewhere near the mountain,
-                traveling around planning where to travel next, listening,
-                writing, reading, taking some pictures, doing some bouldering,
-                or some good old martial arts.
+                planning where to travel next, listening, writing, reading,
+                taking some pictures, doing some bouldering, or some good old
+                martial arts.
               </p>
               <p>Up for a coffee?</p>
             </div>

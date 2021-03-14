@@ -2,10 +2,10 @@ import { useContext, useEffect } from 'react';
 import Head from 'next/head';
 import { Layout } from 'components';
 
-import ThemeContext from 'context/themeContext';
+import AppContext from 'context/appContext';
 
 export default function BasePage({ children, title }) {
-  const { setTheme } = useContext(ThemeContext);
+  const { setTheme } = useContext(AppContext);
 
   useEffect(() => {
     setTheme('white');

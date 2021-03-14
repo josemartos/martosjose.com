@@ -1,8 +1,9 @@
-import { useRef } from 'react';
+import { useContext, useEffect } from 'react';
 import Head from 'next/head';
 import cn from 'classnames';
 
 import { Layout, HeroHeader, Project } from 'components';
+import AppContext from 'context/appContext';
 
 // Styles
 import commonStyles from 'styles/common.module.scss';
@@ -10,10 +11,21 @@ import pageStyles from 'styles/page.module.scss';
 import styles from 'styles/pages/index.module.scss';
 
 export default function Home() {
-  const workSectionRef = useRef(null);
+  const { workSectionRef, scrollToWork, workMenu, setWorkMenu } = useContext(
+    AppContext
+  );
 
-  const scrollToWork = () =>
-    workSectionRef.current.scrollIntoView({ behavior: 'smooth' });
+  useEffect(() => {
+    if (!workMenu) return;
+
+    scrollToWork();
+  }, [workMenu]);
+
+  useEffect(() => {
+    return function () {
+      return setWorkMenu(false);
+    };
+  }, []);
 
   return (
     <Layout>
