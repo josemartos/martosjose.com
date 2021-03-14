@@ -5,7 +5,11 @@
   color: #fff;
   display: flex;
   align-items: center;
-  height: 80px;
+  height: $header-height;
+
+  @media screen and (max-width: $phablet) {
+    height: $header-height-sm;
+  }
 }
 
 .logo {

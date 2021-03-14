@@ -1,8 +1,11 @@
+import cn from 'classnames';
+
 // Styles
 import commonStyles from 'styles/common.module.scss';
 import styles from './heroHeader.module.scss';
 
 import BracketIcon from 'public/images/bracket.svg';
+import ArrowHeader from 'public/images/arrow-header.svg';
 
 const HeroHeader = ({ scrollToWork }) => {
   return (
@@ -30,6 +33,12 @@ const HeroHeader = ({ scrollToWork }) => {
           <div className={styles.line}></div>
           <button className={styles.button} onClick={scrollToWork}>
             scroll
+          </button>
+          <button
+            className={cn(styles.button, styles.arrow)}
+            onClick={scrollToWork}
+          >
+            <ArrowHeader />
           </button>
         </div>
       </div>

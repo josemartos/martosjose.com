@@ -2,10 +2,10 @@
 
 .homeHeader {
   display: flex;
-  height: calc(100vh - 80px); // 80px header
+  height: calc(100vh - #{$header-height});
   width: 100%;
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: $phablet), screen and (max-height: 580px) {
     height: auto;
   }
 }
