@@ -24,3 +24,25 @@
     transform: scaleY(1);
   }
 }
+
+@keyframes comeIn {
+  to {
+    transform: translateY(0);
+  }
+}
+
+.comein {
+  transform: translateY(150px);
+  animation: comeIn 800ms ease forwards;
+  opacity: 1 !important;
+}
+
+.comein:nth-child(odd) {
+  animation-duration: 600ms;
+}
+
+.fadein {
+  transform: translateY(0);
+  animation: none;
+  opacity: 1 !important;
+}

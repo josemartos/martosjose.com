@@ -3,6 +3,7 @@ import cn from 'classnames';
 import Image from 'next/image';
 import RouterLink from 'next/link';
 
+import ComeInAnimation from 'animation/comeIn';
 import { LinkButton } from 'components';
 
 // Styles
@@ -23,12 +24,14 @@ const Project = ({ reverseLayout = false }) => {
         >
           <div className="col--md-1"></div>
           <div className={cn(styles.image, 'col--md-7')}>
-            <Image
-              src="/images/mirror.png"
-              alt="Mirror Website"
-              width={710}
-              height={560}
-            />
+            <ComeInAnimation>
+              <Image
+                src="/images/mirror.png"
+                alt="Mirror Website"
+                width={710}
+                height={560}
+              />
+            </ComeInAnimation>
           </div>
           <div className="col--md-1"></div>
           <div className={cn(styles.text, 'col--md-3')}>
