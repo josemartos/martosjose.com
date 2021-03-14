@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import App from 'next/app';
 import Head from 'next/head';
 import { useEffect } from 'react';
 
@@ -11,7 +10,7 @@ import smoothscroll from 'smoothscroll-polyfill';
 import 'styles/global.scss';
 import { Maintenance } from 'components';
 
-function NextApp({ Component, pageProps, maintenanceMode }) {
+function App({ Component, pageProps, maintenanceMode }) {
   const [theme, setTheme] = useState('normal');
 
   // window object available
@@ -46,8 +45,8 @@ function NextApp({ Component, pageProps, maintenanceMode }) {
   );
 }
 
-NextApp.getInitialProps = () => {
+App.getInitialProps = () => {
   return { maintenanceMode: process.env.MAINTENANCE_MODE };
 };
 
-export default NextApp;
+export default App;
