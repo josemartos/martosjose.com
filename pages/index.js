@@ -28,7 +28,7 @@ export default function Home() {
         className={cn(pageStyles.section, pageStyles.mainSection)}
       >
         <div className={commonStyles.contentWrapper}>
-          <h2 className={pageStyles.mainSectionTitle}>
+          <h2 className={cn(pageStyles.mainSectionTitle, styles.sectionTitle)}>
             Recent <strong>work</strong>
           </h2>
         </div>

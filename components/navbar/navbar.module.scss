@@ -7,6 +7,7 @@
   position: relative;
   transition: color 300ms, margin-left 200ms;
   animation: fadein 400ms;
+  font-size: rem(18px);
 
   &:hover {
     color: #fff;
@@ -17,7 +18,8 @@
   }
 
   @media screen and (max-width: $phablet) {
-    margin-left: 20px;
+    font-size: rem(20px);
+    margin-left: 25px;
   }
 }
 

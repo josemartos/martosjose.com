@@ -1,0 +1,20 @@
+@import 'styles/base';
+
+.container {
+  display: flex;
+}
+
+.image {
+  @media screen and (max-width: $phablet) {
+    margin-bottom: 30px;
+  }
+}
+
+.text {
+  font-size: rem(20px);
+  font-weight: 300;
+
+  p {
+    margin-bottom: 30px;
+  }
+}
