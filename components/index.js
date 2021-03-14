@@ -5,3 +5,4 @@ export { Button, LinkButton } from './button';
 export { default as Project } from './project';
 export { default as HeroHeader } from './heroHeader';
 export { Layout, BasePage } from './layout';
+export { default as Maintenance } from './maintenance';
