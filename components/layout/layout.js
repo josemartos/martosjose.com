@@ -1,5 +1,4 @@
-import Header from './header';
-import Footer from './footer';
+import { Header, Footer } from 'components';
 // import TestContext from '../context/testContext';
 
 // Styles

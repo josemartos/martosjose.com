@@ -1,10 +1,10 @@
 import { useContext, useEffect } from 'react';
 import Head from 'next/head';
-import Layout from 'components/layout';
+import { Layout } from 'components';
 
 import ThemeContext from 'context/themeContext';
 
-export default function About({ children, title }) {
+export default function BasePage({ children, title }) {
   const { setTheme } = useContext(ThemeContext);
 
   useEffect(() => {

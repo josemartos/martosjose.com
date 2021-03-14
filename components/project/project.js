@@ -3,7 +3,7 @@ import cn from 'classnames';
 import Image from 'next/image';
 import RouterLink from 'next/link';
 
-import { LinkButton } from './link';
+import { LinkButton } from 'components';
 
 // Styles
 import commonStyles from 'styles/common.module.scss';

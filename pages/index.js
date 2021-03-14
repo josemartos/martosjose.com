@@ -2,9 +2,7 @@ import { useRef } from 'react';
 import Head from 'next/head';
 import cn from 'classnames';
 
-import Layout from 'components/layout';
-import HeroHeader from 'components/heroHeader';
-import Project from 'components/project';
+import { Layout, HeroHeader, Project } from 'components';
 
 // Styles
 import commonStyles from 'styles/common.module.scss';

@@ -1,5 +1,5 @@
 import cn from 'classnames';
-import BasePage from 'components/basePage';
+import { BasePage } from 'components';
 
 // Styles
 import pageStyles from 'styles/page.module.scss';

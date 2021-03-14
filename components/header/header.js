@@ -5,7 +5,7 @@ import RouterLink from 'next/link';
 import ThemeContext from 'context/themeContext';
 
 import LogoIcon from 'public/images/logo.svg';
-import Navbar from './navbar';
+import { Navbar } from 'components';
 
 // Styles
 import commonStyles from 'styles/common.module.scss';
