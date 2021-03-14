@@ -31,6 +31,12 @@
 .image {
   display: block;
   max-width: 710px;
+  transition: transform 100ms ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 
   // Wrapper element from next
   & > div {
