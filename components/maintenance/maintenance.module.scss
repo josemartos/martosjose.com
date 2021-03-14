@@ -1,3 +1,5 @@
+@import 'styles/base';
+
 .container {
   background-color: #181624;
   min-height: 100vh;
@@ -89,13 +91,4 @@
 
 .linkEffect:hover span {
   transform: translate3d(0, -2px, 0);
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }

@@ -36,7 +36,11 @@ function NextApp({ Component, pageProps, maintenanceMode }) {
         ></link>
       </Head>
       <ThemeContext.Provider value={{ theme, setTheme }}>
-        {maintenanceMode ? <Maintenance /> : <Component {...pageProps} />}
+        {maintenanceMode === 'true' ? (
+          <Maintenance />
+        ) : (
+          <Component {...pageProps} />
+        )}
       </ThemeContext.Provider>
     </>
   );
