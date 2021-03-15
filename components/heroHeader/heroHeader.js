@@ -38,7 +38,7 @@ const HeroHeader = ({ scrollToWork }) => {
             className={cn(styles.button, styles.arrow)}
             onClick={scrollToWork}
           >
-            <ArrowHeader />
+            <ArrowHeader aria-label="Scroll down" />
           </button>
         </div>
       </div>
