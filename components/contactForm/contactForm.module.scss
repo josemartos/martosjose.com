@@ -1,0 +1,44 @@
+@import 'styles/base';
+
+.container {
+  max-width: 500px;
+  position: relative;
+  margin: 0 auto;
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-bottom: 5px;
+  }
+
+  input {
+    margin-bottom: 25px;
+  }
+
+  textarea {
+    margin-bottom: 35px;
+    resize: vertical;
+  }
+
+  input,
+  textarea {
+    font-size: rem(16px);
+    border: 1px solid #a0a0a0;
+    border-radius: 2px;
+    padding: 8px 15px;
+
+    &::placeholder {
+      color: $c-secondary;
+      opacity: 0.4;
+    }
+  }
+}
+
+.feedback {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}

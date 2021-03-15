@@ -10,7 +10,14 @@
   transition: background-color 250ms, box-shadow 250ms;
   cursor: pointer;
 
-  &:hover {
+  &:disabled,
+  &[disabled] {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+
+  &:hover,
+  &:focus {
     background-color: darken($c-primary, 5%);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   }

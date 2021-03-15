@@ -15,6 +15,7 @@
     "format": "prettier --write \"./**/*.(js|scss)\""
   },
   "dependencies": {
+    "@formspree/react": "^2.2.3",
     "@svgr/webpack": "^5.5.0",
     "classnames": "^2.2.6",
     "next": "^10.0.8",

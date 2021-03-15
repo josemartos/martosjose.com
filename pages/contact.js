@@ -1,5 +1,5 @@
 import cn from 'classnames';
-import { BasePage } from 'components';
+import { BasePage, ContactForm } from 'components';
 
 // Styles
 import pageStyles from 'styles/page.module.scss';
@@ -19,6 +19,8 @@ export default function Contact() {
           <h2 className={pageStyles.mainSectionTitle}>
             Shall <strong>we</strong>?
           </h2>
+
+          <ContactForm />
         </div>
       </section>
     </BasePage>

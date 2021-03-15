@@ -4,8 +4,14 @@ import cn from 'classnames';
 // Styles
 import styles from './button.module.scss';
 
-export const Button = ({ text }) => {
-  return <button className={cn(styles.button, styles.primary)}>{text}</button>;
+export const Button = (props) => {
+  const { text } = props;
+
+  return (
+    <button className={cn(styles.button, styles.primary)} {...props}>
+      {text}
+    </button>
+  );
 };
 
 export const LinkButton = React.forwardRef(({ href, onClick, text }, ref) => {

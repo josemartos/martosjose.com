@@ -1,6 +1,7 @@
 @import '../base';
 
 .homeHeader {
+  background-color: $c-secondary;
   display: flex;
   height: calc(100vh - #{$header-height});
   width: 100%;

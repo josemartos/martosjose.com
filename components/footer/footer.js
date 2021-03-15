@@ -1,6 +1,5 @@
 import React from 'react';
 
-import HeartIcon from 'public/images/heart.svg';
 import EmailIcon from 'public/images/email.svg';
 import LinkedinIcon from 'public/images/linkedin.svg';
 import GithubIcon from 'public/images/github.svg';
