@@ -5,6 +5,12 @@
 }
 
 .image {
+  small {
+    color: $c-secondary-light;
+    font-size: rem(16px);
+    font-weight: 300;
+  }
+
   @media screen and (max-width: $phablet) {
     margin-bottom: 40px;
   }

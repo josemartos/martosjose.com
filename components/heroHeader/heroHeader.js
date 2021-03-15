@@ -15,9 +15,8 @@ const HeroHeader = ({ scrollToWork }) => {
           <div className={styles.bracket}>
             <BracketIcon />
           </div>
-          {/* TODO: Refine responsive version */}
           <div>
-            <p>Glad that you came, I am Jose Martos.</p>
+            <p>Glad that you came, I am Jos&eacute; Martos.</p>
             <h1>
               <strong>Designer</strong> and <strong>front-end</strong>{' '}
               developer.

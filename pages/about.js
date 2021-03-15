@@ -31,12 +31,13 @@ export default function About() {
                 width={397}
                 height={480}
               />
+              <small>Taken in Dresden, near Berlin, Germany</small>
             </div>
             <div className="col--md-1"></div>
             <div className={cn(styles.text, 'col--md-7')}>
               <p>
                 Born and raised in southern Spain, I am a Germany based{' '}
-                <strong>front-end designer</strong>. My name is José.
+                <strong>front-end designer</strong>. My name is Jos&eacute;.
               </p>
               <p>
                 The world of digital products can sometimes be disconcerting, so

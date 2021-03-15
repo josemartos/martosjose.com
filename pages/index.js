@@ -47,8 +47,8 @@ export default function Home() {
         <div className={styles.project}>
           <Project
             title="Mirror"
-            type="e-commerce platform"
-            description="Reworked the branding of a clothing e-commerce, and created a responsive web design."
+            type="course project - ux design"
+            description="Reworked the branding of a clothing e-commerce platform, and created a responsive web design."
             image="mirror.png"
             imageAlt="Mirror design"
           />
@@ -56,7 +56,7 @@ export default function Home() {
         <div className={styles.project}>
           <Project
             title="Bike shop"
-            type="local business"
+            type="capstone - ux design"
             description="Working on the research and redesign of a local bike shop"
             image="bike-shop.jpg"
             imageAlt="Bike store re-design"
