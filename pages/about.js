@@ -1,5 +1,6 @@
 import cn from 'classnames';
 import Image from 'next/image';
+import RouterLink from 'next/link';
 
 import { BasePage } from 'components';
 
@@ -61,7 +62,9 @@ export default function About() {
                 taking some pictures, doing some bouldering, or some good old
                 martial arts.
               </p>
-              <p>Up for a coffee?</p>
+              <RouterLink href="/contact">
+                <a title="Go to contact">Up for a coffee?</a>
+              </RouterLink>
             </div>
           </div>
         </div>

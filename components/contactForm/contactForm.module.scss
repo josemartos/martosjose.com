@@ -26,8 +26,8 @@
   input,
   textarea {
     font-size: rem(16px);
-    border: 1px solid #a0a0a0;
-    border-radius: 2px;
+    border: 1px solid $c-grey300;
+    border-radius: 3px;
     padding: 8px 15px;
 
     &::placeholder {

@@ -8,13 +8,13 @@
 }
 
 .mainSection {
-  padding: 100px 0 200px;
+  padding: 100px 0 180px;
   color: $c-secondary;
   background-color: #fff;
   flex-direction: column;
 
   @media screen and (max-width: $phablet) {
-    padding: 80px 0 150px;
+    padding: 80px 0 140px;
   }
 }
 
@@ -26,6 +26,10 @@
   font-size: rem(32px);
   font-weight: 300;
   margin-bottom: 60px;
+
+  &.center {
+    text-align: center;
+  }
 
   strong {
     font-weight: 500;

@@ -50,14 +50,16 @@ export default function Home() {
             type="e-commerce platform"
             description="Reworked the branding of a clothing e-commerce, and created a responsive web design."
             image="mirror.png"
+            imageAlt="Mirror design"
           />
         </div>
         <div className={styles.project}>
           <Project
-            title="Bike store"
+            title="Bike shop"
             type="local business"
             description="Working on the research and redesign of a local bike shop"
-            image="bike-store.jpg"
+            image="bike-shop.jpg"
+            imageAlt="Bike store re-design"
             reverseLayout={true}
             inProgress={true}
           />

@@ -1,5 +1,5 @@
 import cn from 'classnames';
-import { BasePage } from 'components';
+import { BasePage, CaseStudy } from 'components';
 
 // Styles
 import pageStyles from 'styles/page.module.scss';
@@ -7,7 +7,7 @@ import commonStyles from 'styles/common.module.scss';
 
 export default function Mirror() {
   return (
-    <BasePage title="Mirror e-commerce store">
+    <BasePage title="Mirror e-commerce platform">
       <section
         className={cn(
           pageStyles.section,
@@ -16,10 +16,11 @@ export default function Mirror() {
         )}
       >
         <div className={commonStyles.contentWrapper}>
-          <h2 className={pageStyles.mainSectionTitle}>
-            <strong>Mirror</strong> e-commerce store
+          <h2 className={cn(pageStyles.mainSectionTitle, pageStyles.center)}>
+            <strong>Mirror</strong>
           </h2>
         </div>
+        <CaseStudy />
       </section>
     </BasePage>
   );

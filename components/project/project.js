@@ -11,24 +11,22 @@ import { LinkButton } from 'components';
 import commonStyles from 'styles/common.module.scss';
 import styles from './project.module.scss';
 
-export const LinkImage = React.forwardRef(({ href, onClick, name }, ref) => {
-  return (
-    <a href={href} ref={ref} onClick={onClick} title="Mirror Website">
-      <Image
-        src={`/images/${name}`}
-        alt="Mirror Website"
-        width={710}
-        height={560}
-      />
-    </a>
-  );
-});
+export const LinkImage = React.forwardRef(
+  ({ href, onClick, name, alt }, ref) => {
+    return (
+      <a href={href} ref={ref} onClick={onClick} title={alt}>
+        <Image src={`/images/${name}`} alt={alt} width={710} height={560} />
+      </a>
+    );
+  }
+);
 
 const Project = ({
   title,
   type,
   description,
   image,
+  imageAlt,
   reverseLayout = false,
   inProgress = false,
 }) => {
@@ -47,7 +45,7 @@ const Project = ({
           <div className={cn(styles.image, 'col--md-7')}>
             <ComeInAnimation>
               <RouterLink href="/work/mirror">
-                <LinkImage name={image} />
+                <LinkImage name={image} alt={imageAlt} />
               </RouterLink>
             </ComeInAnimation>
           </div>

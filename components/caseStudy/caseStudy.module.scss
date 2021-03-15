@@ -1,0 +1,22 @@
+@import 'styles/base';
+
+.title {
+  font-weight: 500;
+  font-size: rem(36px);
+  line-height: rem(36px);
+}
+
+.type {
+  color: $c-secondary-light;
+  display: inline-block;
+  font-weight: 200;
+  margin-bottom: 80px;
+}
+
+.text {
+  font-weight: 300;
+}
+
+.comingSoon {
+  text-align: center;
+}
