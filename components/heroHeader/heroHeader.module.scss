@@ -97,7 +97,7 @@
 
     & > strong {
       color: $c-primary;
-      font-weight: 600;
+      font-weight: 500;
     }
 
     @media screen and (max-width: $phablet) {
@@ -132,7 +132,7 @@
     max-width: 575px;
 
     & > strong {
-      font-weight: 600;
+      font-weight: 500;
     }
 
     @media screen and (max-width: $phablet) {
