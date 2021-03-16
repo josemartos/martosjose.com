@@ -10,7 +10,7 @@ import smoothscroll from 'smoothscroll-polyfill';
 import 'styles/global.scss';
 import { Maintenance } from 'components';
 
-function App({ Component, pageProps, maintenanceMode }) {
+function App({ Component, pageProps, maintenanceMode = 'false' }) {
   const [theme, setTheme] = useState('normal');
   const [workMenu, setWorkMenu] = useState(false);
   const workSectionRef = useRef(null);
@@ -114,8 +114,9 @@ function App({ Component, pageProps, maintenanceMode }) {
   );
 }
 
-App.getInitialProps = () => {
-  return { maintenanceMode: process.env.MAINTENANCE_MODE };
-};
+// Uncomment for maintenance support
+// App.getInitialProps = () => {
+//   return { maintenanceMode: process.env.MAINTENANCE_MODE };
+// };
 
 export default App;
