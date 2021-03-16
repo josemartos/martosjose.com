@@ -16,8 +16,8 @@ export default function Mirror() {
         )}
       >
         <div className={commonStyles.contentWrapper}>
-          <h2 className={cn(pageStyles.mainSectionTitle, pageStyles.center)}>
-            <strong>Mirror</strong>
+          <h2 className={cn(pageStyles.mainSectionTitle)}>
+            <strong>Mirror</strong> Website
           </h2>
         </div>
         <CaseStudy />

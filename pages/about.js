@@ -30,6 +30,7 @@ export default function About() {
                 alt="Jose image - with a camera"
                 width={397}
                 height={480}
+                priority={true}
               />
               <small>Taken in Dresden, near Berlin, Germany</small>
             </div>
