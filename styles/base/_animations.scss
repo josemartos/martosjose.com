@@ -31,17 +31,31 @@
   }
 }
 
-.comein {
+@keyframes comeCenter {
+  to {
+    transform: translateX(0);
+  }
+}
+
+.come-in {
   transform: translateY(150px);
   animation: comeIn 800ms ease forwards;
   opacity: 1 !important;
+
+  &.come-in--left {
+    transform: translateX(-150px);
+  }
+
+  &.come-in--right {
+    transform: translateX(150px);
+  }
 }
 
-.comein:nth-child(odd) {
+.come-in:nth-child(odd) {
   animation-duration: 600ms;
 }
 
-.fadein {
+.fade-in {
   transform: translateY(0);
   animation: none;
   opacity: 1 !important;

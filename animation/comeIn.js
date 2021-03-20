@@ -1,14 +1,26 @@
+import { useInView } from 'react-intersection-observer';
 import cn from 'classnames';
-import useComeInAnimation from 'animation/useComeIn';
 
 import styles from './comeIn.module.scss';
 
-const ComeInAnimation = ({ children }) => {
-  const defaultClass = 'comeIn-effect-el';
+const ComeInAnimation = ({ children, position = '' }) => {
+  const { ref, inView, entry } = useInView({
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.3,
+  });
 
-  useComeInAnimation(defaultClass);
-
-  return <div className={cn(defaultClass, styles.wrapper)}>{children}</div>;
+  return (
+    <div
+      ref={ref}
+      className={cn(styles.wrapper, {
+        'come-in': inView === true,
+        [`come-in--${position}`]: position !== '',
+      })}
+    >
+      {children}
+    </div>
+  );
 };
 
 export default ComeInAnimation;
