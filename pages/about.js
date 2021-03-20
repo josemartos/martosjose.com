@@ -32,7 +32,7 @@ export default function About() {
                 height={480}
                 priority={true}
               />
-              <small>Taken in Dresden, near Berlin, Germany</small>
+              <small>Taken in Dresden, Germany</small>
             </div>
             <div className="col--md-1"></div>
             <div className={cn(styles.text, 'col--md-7')}>
