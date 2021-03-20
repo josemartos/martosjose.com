@@ -8,6 +8,7 @@ const ComeInAnimation = ({ children, position = '' }) => {
     root: null,
     rootMargin: '0px',
     threshold: 0.3,
+    triggerOnce: true,
   });
 
   return (
