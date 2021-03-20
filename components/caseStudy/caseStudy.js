@@ -64,16 +64,16 @@ const CaseStudy = () => {
           <div className={cn('col--md-8')}>
             <h2>Goals</h2>
             <p>
-              During the first phase at the Designlab’s UX Academy, I had to
-              work on the <strong>branding</strong> and <strong>design</strong>{' '}
-              of a responsive website for a clothing store, with the goal to
-              expand their online presence.
+              Design a logo for the company that is modern and neutral enough to
+              attract all types of people and styles. Create a{' '}
+              <strong>brand</strong> and a <strong>palette color</strong>. Brand
+              message: Neutral, Modern and fresh, Clean and clear.
             </p>
             <p>
-              I learnt a lot, since I had to dig deeper into clothing
-              e-commerce, conduct customer interviews, create wireframes and UI
-              designs, as well as prototype, test and refine the final
-              iteration.
+              Design a <strong>responsive e-commerce website</strong> that is
+              easy to use and allows customers to browse through all products.
+              Show products for all female, male, kids, casual, business, sport,
+              party, formal, color, size and more.
             </p>
           </div>
           <div className={cn('col--md-3')}></div>
