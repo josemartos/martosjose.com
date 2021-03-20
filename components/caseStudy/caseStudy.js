@@ -29,35 +29,49 @@ const CaseStudy = () => {
         </ComeInAnimation>
       </div>
 
-      <div className={cn(styles.introWrapper, commonStyles.contentWrapper)}>
-        <div className={styles.tagsLayer}></div>
-        <div className={cn('flexGrid', styles.titleWrapper)}>
+      <div className={cn(styles.introWrapper)}>
+        <div
+          className={cn(
+            'flexGrid',
+            styles.titleWrapper,
+            commonStyles.contentWrapper
+          )}
+        >
           <div className={cn('col--md-1')}></div>
           <div className={cn('col--md-11')}>
             <h1 className={styles.title}>Mirror</h1>
           </div>
         </div>
-        <div className={cn('flexGrid', styles.intro)}>
-          <div className={cn('col--md-1')}></div>
-          <div className={cn('col--md-5')}>
-            <p>
-              During the first phase at the Designlab’s UX Academy, I had to
-              work on the <strong>branding</strong> and <strong>design</strong>{' '}
-              of a responsive website for a clothing store, with the goal to
-              expand their online presence.
-            </p>
-            <p>
-              I learnt a lot, since I had to dig deeper into clothing
-              e-commerce, conduct customer interviews, create wireframes and UI
-              designs, as well as prototype, test and refine the final
-              iteration.
-            </p>
-          </div>
-          <div className={cn('col--md-2')}></div>
-          <div className={cn(styles.tagsWrapper, 'col--md-2')}>
-            <Tag label="Type" text="Course Project - Website" />
-            <Tag label="Role" text="UX / UI Design" />
-            <Tag label="Duration" text="3 Months" />
+        <div className={cn(styles.introContentWrapper)}>
+          <div className={styles.tagsLayer}></div>
+          <div
+            className={cn(
+              'flexGrid',
+              styles.introContent,
+              commonStyles.contentWrapper
+            )}
+          >
+            <div className={cn('col--md-1')}></div>
+            <div className={cn('col--md-5')}>
+              <p>
+                During the first phase at the Designlab’s UX Academy, I had to
+                work on the <strong>branding</strong> and{' '}
+                <strong>design</strong> of a responsive website for a clothing
+                store, with the goal to expand their online presence.
+              </p>
+              <p>
+                I learnt a lot, since I had to dig deeper into clothing
+                e-commerce, conduct customer interviews, create wireframes and
+                UI designs, as well as prototype, test and refine the final
+                iteration.
+              </p>
+            </div>
+            <div className={cn('col--md-2')}></div>
+            <div className={cn(styles.tagsWrapper, 'col--md-4')}>
+              <Tag label="Type" text="Course Project - Website" />
+              <Tag label="Role" text="UX / UI Design" />
+              <Tag label="Duration" text="3 Months" />
+            </div>
           </div>
         </div>
       </div>

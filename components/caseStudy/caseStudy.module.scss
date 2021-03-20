@@ -46,12 +46,20 @@
 
 .introWrapper {
   margin-bottom: 200px;
-  position: relative;
-  z-index: 1;
 
   @media screen and (max-width: $phablet) {
     margin-bottom: 50px;
   }
+}
+
+.introContentWrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.introContent {
+  position: relative;
+  z-index: 1;
 }
 
 .titleWrapper {
@@ -69,11 +77,6 @@
   @media screen and (max-width: $phablet) {
     font-size: rem(36px);
   }
-}
-
-.intro {
-  position: relative;
-  z-index: 1;
 }
 
 .tagsWrapper {
@@ -109,7 +112,8 @@
   background-color: $c-grey200;
   position: absolute;
   left: 60%;
-  top: -90%;
+  top: 50%;
+  transform: translateY(-50%);
   z-index: 0;
 
   @media screen and (max-width: $phablet) {
