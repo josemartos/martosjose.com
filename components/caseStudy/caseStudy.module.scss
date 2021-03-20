@@ -1,22 +1,144 @@
 @import 'styles/base';
 
+.comingSoon {
+  padding-top: 200px;
+  text-align: center;
+
+  @media screen and (max-width: $phablet) {
+    padding-top: 100px;
+  }
+}
+
+.wrapper {
+  font-size: rem(20px);
+
+  p {
+    margin-bottom: 35px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.hero {
+  position: relative;
+  z-index: 2;
+  max-width: $m-desktop;
+  width: 100%;
+  margin: 0 auto 120px;
+
+  // Wrapper element from next
+  & div {
+    border-radius: 3px;
+    background: none;
+    display: block !important;
+  }
+
+  @media screen and (max-width: $m-desktop) {
+    margin-bottom: 60px;
+
+    & div {
+      border-radius: 0;
+    }
+  }
+}
+
+.introWrapper {
+  margin-bottom: 200px;
+  position: relative;
+  z-index: 1;
+
+  @media screen and (max-width: $phablet) {
+    margin-bottom: 50px;
+  }
+}
+
+.titleWrapper {
+  margin-bottom: 40px;
+
+  @media screen and (max-width: $phablet) {
+    margin-bottom: 25px;
+  }
+}
+
 .title {
   font-weight: 500;
-  font-size: rem(36px);
-  line-height: rem(36px);
+  font-size: rem(48px);
+
+  @media screen and (max-width: $phablet) {
+    font-size: rem(36px);
+  }
 }
 
-.type {
-  color: $c-secondary-light;
-  display: inline-block;
-  font-weight: 200;
-  margin-bottom: 80px;
+.intro {
+  position: relative;
+  z-index: 1;
 }
 
-.text {
-  font-weight: 300;
+.tagsWrapper {
+  @media screen and (max-width: $phablet) {
+    padding-top: 35px;
+  }
 }
 
-.comingSoon {
-  text-align: center;
+.tag {
+  margin-bottom: 25px;
+
+  small {
+    font-size: rem(16px);
+    text-transform: uppercase;
+    color: $c-secondary;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: $c-secondary-light;
+    font-size: rem(20px);
+  }
+
+  @media screen and (max-width: $phablet) {
+    margin-bottom: 15px;
+  }
+}
+
+.tagsLayer {
+  width: 1200px;
+  height: 1200px;
+  border-radius: 50%;
+  background-color: $c-grey200;
+  position: absolute;
+  left: 60%;
+  top: -90%;
+  z-index: 0;
+
+  @media screen and (max-width: $phablet) {
+    display: none;
+  }
+}
+
+.goalsWrapper {
+  position: relative;
+  padding: 50px 0;
+  z-index: 1;
+
+  h2 {
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: rem(28px);
+  }
+}
+
+.goalsLayer {
+  position: absolute;
+  width: 50%;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: $c-grey200;
+
+  @media screen and (max-width: $phablet) {
+    display: none;
+  }
 }

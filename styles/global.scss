@@ -10,6 +10,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -24,4 +25,8 @@ body {
 a {
   color: $c-blue;
   text-decoration: none;
+}
+
+p {
+  font-weight: 300;
 }
