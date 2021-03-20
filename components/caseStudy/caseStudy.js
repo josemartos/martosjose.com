@@ -51,7 +51,7 @@ const CaseStudy = () => {
           </div>
           <div className={cn('col--md-2')}></div>
           <div className={cn(styles.tagsWrapper, 'col--md-2')}>
-            <Tag label="Type" text="Website" />
+            <Tag label="Type" text="Course Project - Website" />
             <Tag label="Role" text="UX / UI Design" />
             <Tag label="Duration" text="3 Months" />
           </div>
