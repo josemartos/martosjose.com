@@ -19,10 +19,10 @@ export default function About() {
           <div className={cn('flexGrid', styles.container)}>
             <div className={cn(styles.image, 'col--md-4')}>
               <CustomImage
-                src="/images/avatar.jpg"
-                alt="Jose image - with a camera"
-                width={397}
-                height={480}
+                src="/images/jose-pic-dresden.jpg"
+                alt="Jose image - in Dresden with a camera"
+                width={411}
+                height={540}
                 priority={true}
               />
               <small>Taken in Dresden, Germany</small>
