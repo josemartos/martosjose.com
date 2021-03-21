@@ -7,4 +7,4 @@ export { default as HeroHeader } from './heroHeader';
 export { Layout, BasePage } from './layout';
 export { default as Maintenance } from './maintenance';
 export { default as ContactForm } from './contactForm';
-export { default as CaseStudy } from './caseStudy';
+export { CaseStudyTag } from './caseStudy';

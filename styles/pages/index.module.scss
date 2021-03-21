@@ -11,8 +11,16 @@
   }
 }
 
+.section {
+  padding-top: 120px;
+}
+
 .sectionTitle {
   margin-bottom: 115px;
+
+  @media screen and (max-width: $phablet) {
+    margin-bottom: 80px;
+  }
 }
 
 .project {

@@ -1,1 +1,1 @@
-export { default } from './caseStudy';
+export { default as CaseStudyTag } from './caseStudyTag';

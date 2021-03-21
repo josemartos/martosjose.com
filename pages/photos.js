@@ -8,15 +8,9 @@ import commonStyles from 'styles/common.module.scss';
 export default function Photos() {
   return (
     <BasePage title="Photos">
-      <section
-        className={cn(
-          pageStyles.section,
-          pageStyles.mainSection,
-          pageStyles.pageSection
-        )}
-      >
+      <section className={pageStyles.section}>
         <div className={commonStyles.contentWrapper}>
-          <h2 className={pageStyles.mainSectionTitle}>
+          <h2 className={pageStyles.sectionTitle}>
             Some <strong>pictures</strong>
           </h2>
         </div>

@@ -1,12 +1,7 @@
 @import 'styles/base';
 
 .comingSoon {
-  padding-top: 200px;
   text-align: center;
-
-  @media screen and (max-width: $phablet) {
-    padding-top: 100px;
-  }
 }
 
 .wrapper {

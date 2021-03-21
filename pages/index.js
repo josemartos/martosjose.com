@@ -37,10 +37,10 @@ export default function Home() {
       </section>
       <section
         ref={workSectionRef}
-        className={cn(pageStyles.section, pageStyles.mainSection)}
+        className={cn(pageStyles.section, styles.section)}
       >
         <div className={commonStyles.contentWrapper}>
-          <h2 className={cn(pageStyles.mainSectionTitle, styles.sectionTitle)}>
+          <h2 className={cn(pageStyles.sectionTitle, styles.sectionTitle)}>
             Recent <strong>work</strong>
           </h2>
         </div>

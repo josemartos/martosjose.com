@@ -12,15 +12,9 @@ import styles from 'styles/pages/about.module.scss';
 export default function About() {
   return (
     <BasePage title="About">
-      <section
-        className={cn(
-          pageStyles.section,
-          pageStyles.mainSection,
-          pageStyles.pageSection
-        )}
-      >
+      <section className={pageStyles.section}>
         <div className={commonStyles.contentWrapper}>
-          <h2 className={pageStyles.mainSectionTitle}>
+          <h2 className={pageStyles.sectionTitle}>
             About <strong>me</strong>
           </h2>
           <div className={cn('flexGrid', styles.container)}>
