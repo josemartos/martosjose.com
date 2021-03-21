@@ -1,0 +1,15 @@
+.imageWrapper {
+  // Wrapper element from next
+  & div {
+    border-radius: 4px;
+    background: none;
+    display: block !important;
+  }
+}
+
+.imageShadow {
+  // Wrapper element from next
+  & div {
+    box-shadow: 0 12px 24px 0 rgba(75, 77, 82, 0.1);
+  }
+}

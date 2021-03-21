@@ -1,18 +1,23 @@
 import React from 'react';
 import cn from 'classnames';
 
-import Image from 'next/image';
 import RouterLink from 'next/link';
 
 import ComeInAnimation from 'animation/comeIn';
-import { LinkButton } from 'components';
+import { LinkButton, CustomImage } from 'components';
 
 // Styles
 import commonStyles from 'styles/common.module.scss';
 import styles from './project.module.scss';
 
 const ProjectImage = ({ name, alt }) => (
-  <Image src={`/images/${name}`} alt={alt} width={710} height={560} />
+  <CustomImage
+    src={`/images/${name}`}
+    alt={alt}
+    width={710}
+    height={560}
+    shadow={true}
+  />
 );
 
 export const LinkImage = React.forwardRef(

@@ -23,13 +23,6 @@
   width: 100%;
   margin: 0 auto 120px;
 
-  // Wrapper element from next
-  & div {
-    border-radius: 3px;
-    background: none;
-    display: block !important;
-  }
-
   @media screen and (max-width: $m-desktop) {
     margin-bottom: 60px;
 

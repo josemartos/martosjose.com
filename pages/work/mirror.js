@@ -1,6 +1,5 @@
 import cn from 'classnames';
-import Image from 'next/image';
-import { BasePage, CaseStudyTag } from 'components';
+import { BasePage, CaseStudyTag, CustomImage } from 'components';
 
 import ComeInAnimation from 'animation/comeIn';
 
@@ -16,7 +15,7 @@ export default function Mirror() {
         <div className={caseStudy.wrapper}>
           <div className={caseStudy.hero}>
             <ComeInAnimation>
-              <Image
+              <CustomImage
                 src={'/images/mirror-hero.jpg'}
                 alt="Mirror Website Mockups"
                 width={2566}

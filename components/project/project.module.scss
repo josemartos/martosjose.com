@@ -30,7 +30,6 @@
 
 .image {
   display: block;
-  max-width: 710px;
 
   & a {
     cursor: pointer;
@@ -40,14 +39,6 @@
     &:hover {
       transform: scale(1.05);
     }
-  }
-
-  // Wrapper element from next
-  & div {
-    background: none;
-    display: block !important;
-    box-shadow: 0 12px 24px 0 rgba(75, 77, 82, 0.1);
-    border-radius: 4px;
   }
 
   @media screen and (max-width: $phablet) {
