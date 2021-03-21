@@ -1,1 +1,2 @@
-export { default as CaseStudyTag } from './caseStudyTag';
+export { default as CaseStudyTag } from './Tag';
+export { default as CaseStudyBlockHeader } from './blockHeader';

@@ -7,5 +7,5 @@ export { default as HeroHeader } from './heroHeader';
 export { Layout, BasePage } from './layout';
 export { default as Maintenance } from './maintenance';
 export { default as ContactForm } from './contactForm';
-export { CaseStudyTag } from './caseStudy';
+export { CaseStudyTag, CaseStudyBlockHeader } from './caseStudy';
 export { default as CustomImage } from './customImage';

@@ -1,5 +1,10 @@
 import cn from 'classnames';
-import { BasePage, CaseStudyTag, CustomImage } from 'components';
+import {
+  BasePage,
+  CustomImage,
+  CaseStudyTag,
+  CaseStudyBlockHeader,
+} from 'components';
 
 import ComeInAnimation from 'animation/comeIn';
 
@@ -13,7 +18,7 @@ export default function Mirror() {
     <BasePage title="Mirror e-commerce platform">
       <section className={pageStyles.section}>
         <div className={caseStudy.wrapper}>
-          <div className={caseStudy.hero}>
+          <header className={caseStudy.hero}>
             <ComeInAnimation>
               <CustomImage
                 src={'/images/mirror-hero.jpg'}
@@ -23,7 +28,7 @@ export default function Mirror() {
                 priority={true}
               />
             </ComeInAnimation>
-          </div>
+          </header>
 
           <div className={cn(caseStudy.introWrapper)}>
             <div
@@ -95,6 +100,21 @@ export default function Mirror() {
             </div>
           </div>
         </div>
+      </section>
+      <section className={pageStyles.section}>
+        <CaseStudyBlockHeader title="Understand">
+          <h3>Secondary research</h3>
+          <ul>
+            <li>History of e-commerce</li>
+            <li>Competitor analysis</li>
+            <li>Market and trends report</li>
+          </ul>
+          <h3>Primary research</h3>
+          <ul>
+            <li>User interviews</li>
+            <li>Observation</li>
+          </ul>
+        </CaseStudyBlockHeader>
       </section>
       <section className={pageStyles.section}>
         <div className={cn(caseStudy.comingSoon, commonStyles.contentWrapper)}>
