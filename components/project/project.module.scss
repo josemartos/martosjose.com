@@ -31,11 +31,15 @@
 .image {
   display: block;
   max-width: 710px;
-  transition: transform 100ms ease-in-out;
-  cursor: pointer;
 
-  &:hover {
-    transform: scale(1.05);
+  & a {
+    cursor: pointer;
+    display: block !important;
+    transition: transform 200ms ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 
   // Wrapper element from next
