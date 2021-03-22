@@ -9,13 +9,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head>
-          <link rel="icon" href="/favicon.ico" />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500&display=swap"
-            rel="stylesheet"
-          ></link>
-        </Head>
+        <Head />
         <body>
           <Main />
           <NextScript />
