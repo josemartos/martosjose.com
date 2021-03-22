@@ -21,7 +21,7 @@ export default function Mirror() {
           <header className={caseStudy.hero}>
             <ComeInAnimation>
               <CustomImage
-                src={'/images/mirror-hero.jpg'}
+                src={'/images/mirror/hero.jpg'}
                 alt="Mirror Website Mockups"
                 width={2566}
                 height={1440}
@@ -115,6 +115,64 @@ export default function Mirror() {
             <li>Observation</li>
           </ul>
         </CaseStudyBlockHeader>
+
+        <div className={caseStudy.segment}>
+          <h3 className={caseStudy.segmentTitle}>Persona</h3>
+          <div
+            className={cn(
+              'flexGrid',
+              commonStyles.contentWrapper,
+              caseStudy.segmentIntro
+            )}
+          >
+            <div className={cn('col--md-2')}></div>
+            <div className={cn('col--md-8')}>
+              <p>
+                The <strong>Persona creation</strong> helped me to summarize the
+                users’ needs, frustrations and motivations.
+              </p>
+            </div>
+            <div className={cn('col--md-2')}></div>
+          </div>
+          <div className={commonStyles.contentWrapper}>
+            <CustomImage
+              src={'/images/mirror/persona.jpg'}
+              alt="Mirror Persona"
+              width={2566}
+              height={1682}
+            />
+          </div>
+        </div>
+
+        <div className={caseStudy.segment}>
+          <h3 className={caseStudy.segmentTitle}>Sitemap</h3>
+          <div
+            className={cn(
+              'flexGrid',
+              commonStyles.contentWrapper,
+              caseStudy.segmentIntro
+            )}
+          >
+            <div className={cn('col--md-2')}></div>
+            <div className={cn('col--md-8')}>
+              <p>
+                The <strong>Sitemap</strong> was key to understand what the main
+                structure of the page will be. The page had to have three main
+                categories: Women, Men and Kids. Then the Checkout Funnel as a
+                main point for the next steps.
+              </p>
+            </div>
+            <div className={cn('col--md-2')}></div>
+          </div>
+          <div className={commonStyles.contentWrapper}>
+            <CustomImage
+              src={'/images/mirror/sitemap.png'}
+              alt="Mirror Sitemap"
+              width={2560}
+              height={1110}
+            />
+          </div>
+        </div>
       </section>
       <section className={pageStyles.section}>
         <div className={cn(caseStudy.comingSoon, commonStyles.contentWrapper)}>

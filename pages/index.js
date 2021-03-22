@@ -49,7 +49,7 @@ export default function Home() {
             title="Mirror"
             type="course project - ux / ui design"
             description="Reworked the branding of a clothing e-commerce platform, and created a responsive web design."
-            image="mirror.jpg"
+            image="mirror/cover.jpg"
             imageAlt="Mirror design"
           />
         </div>
