@@ -531,7 +531,7 @@ export default function Mirror() {
                 </p>
                 <LinkButton
                   target="_blank"
-                  text="See case study"
+                  text="See prototype"
                   href="https://www.figma.com/proto/MQyBcPvmLnTTTkjfj5DjUA/Mirror-Definitive-Prototype?node-id=1%3A2&viewport=360%2C224%2C0.08567900955677032&scaling=min-zoom"
                 />
               </div>
