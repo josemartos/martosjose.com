@@ -4,6 +4,7 @@ import {
   CustomImage,
   CaseStudyTag,
   CaseStudyBlockHeader,
+  LinkButton,
 } from 'components';
 
 import ComeInAnimation from 'animation/comeIn';
@@ -334,7 +335,7 @@ export default function Mirror() {
               </div>
               <div className={cn('col--md-2')}></div>
             </div>
-            <div className={caseStudy.segmentImageHighlight}>
+            <div className={caseStudy.highlightBackground}>
               <div className={commonStyles.contentWrapper}>
                 <CustomImage
                   src={'/images/mirror/wireframes.png'}
@@ -412,9 +413,8 @@ export default function Mirror() {
             </div>
             <div
               className={cn(
-                caseStudy.segmentImageHighlight,
-                caseStudy.segmentImageHighlightBlue,
-                commonStyles.contentWrapper
+                caseStudy.highlightBackground,
+                caseStudy.highlightBackgroundBlue
               )}
             >
               <div className={cn('flexGrid', commonStyles.contentWrapper)}>
@@ -433,9 +433,8 @@ export default function Mirror() {
             </div>
             <div
               className={cn(
-                caseStudy.segmentImageHighlight,
-                caseStudy.segmentImageHighlightPink,
-                commonStyles.contentWrapper
+                caseStudy.highlightBackground,
+                caseStudy.highlightBackgroundPink
               )}
             >
               <div className={cn('flexGrid', commonStyles.contentWrapper)}>
@@ -461,9 +460,8 @@ export default function Mirror() {
             </div>
             <div
               className={cn(
-                caseStudy.segmentImageHighlight,
-                caseStudy.segmentImageHighlightBlue,
-                commonStyles.contentWrapper
+                caseStudy.highlightBackground,
+                caseStudy.highlightBackgroundBlue
               )}
             >
               <div
@@ -501,14 +499,65 @@ export default function Mirror() {
             </div>
           </div>
         </section>
+
+        {/* Testing */}
         <section className={pageStyles.section}>
-          <div
-            className={cn(caseStudy.comingSoon, commonStyles.contentWrapper)}
-          >
-            <p>
-              The full info about this project is{' '}
-              <strong>coming up soon</strong>
-            </p>
+          <CaseStudyBlockHeader title="Testing">
+            <h3>Usability tests</h3>
+          </CaseStudyBlockHeader>
+
+          {/* Testing */}
+          <div className={caseStudy.segment}>
+            <h3 className={caseStudy.segmentTitle}>Usability Tests</h3>
+            <div
+              className={cn(
+                'flexGrid',
+                commonStyles.contentWrapper,
+                caseStudy.segmentIntro
+              )}
+            >
+              <div className={cn('col--md-2')}></div>
+              <div className={cn('col--md-8')}>
+                <p>
+                  With a total of three participants, I conducted usability
+                  tests over different scenarios, to see how they interact with
+                  the UI, while talking out loud over their impressions,
+                  triggered by questions related to the tasks and the different
+                  pages.
+                </p>
+                <p>
+                  These tests were key to discover and realize visual glitches
+                  that otherwise I would have not discovered myself.
+                </p>
+                <LinkButton
+                  target="_blank"
+                  text="See case study"
+                  href="https://www.figma.com/proto/MQyBcPvmLnTTTkjfj5DjUA/Mirror-Definitive-Prototype?node-id=1%3A2&viewport=360%2C224%2C0.08567900955677032&scaling=min-zoom"
+                />
+              </div>
+              <div className={cn('col--md-2')}></div>
+            </div>
+          </div>
+        </section>
+        <section className={pageStyles.section}>
+          <div className={caseStudy.wrappingUp}>
+            <div className={commonStyles.contentWrapper}>
+              <div className={cn('flexGrid', commonStyles.contentWrapper)}>
+                <div className={cn('col--md-2')}></div>
+                <div className={cn('col--md-8')}>
+                  <h3>Takeaways</h3>
+                  <p>
+                    While working on this project I had a great time practising
+                    my UI design skills. I also learned a bunch of new concepts
+                    and the whole UX design process from start to finish.
+                    Finally, I was reassured that user testing and iteration
+                    will always deliver constructive and useful results.
+                  </p>
+                  <p>Thanks a lot for reading!</p>
+                </div>
+                <div className={cn('col--md-2')}></div>
+              </div>
+            </div>
           </div>
         </section>
       </div>

@@ -1,9 +1,5 @@
 @import 'styles/base';
 
-.comingSoon {
-  text-align: center;
-}
-
 .wrapper {
   font-size: rem(20px);
 
@@ -271,7 +267,7 @@
   }
 }
 
-.segmentImageHighlight {
+.highlightBackground {
   background-color: $c-grey200;
   margin-top: 60px;
   padding: 150px 0;
@@ -282,11 +278,11 @@
   }
 }
 
-.segmentImageHighlightBlue {
+.highlightBackgroundBlue {
   background-color: $c-blue-light;
 }
 
-.segmentImageHighlightPink {
+.highlightBackgroundPink {
   background-color: $c-pink-light;
 }
 
@@ -298,4 +294,19 @@
 
 .imagePaddingTop {
   padding-top: 100px;
+}
+
+.wrappingUp {
+  background-color: $c-grey200;
+  padding: 120px 0;
+
+  h3 {
+    font-size: rem(28px);
+    font-weight: 500;
+    margin-bottom: 60px;
+  }
+
+  @media screen and (max-width: $phablet) {
+    padding: 80px 0;
+  }
 }
