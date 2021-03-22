@@ -100,6 +100,8 @@ export default function Mirror() {
             </div>
           </div>
         </section>
+
+        {/* Understand */}
         <section className={pageStyles.section}>
           <CaseStudyBlockHeader title="Understand">
             <h3>Secondary research</h3>
@@ -201,6 +203,8 @@ export default function Mirror() {
             </div>
           </div>
         </section>
+
+        {/* Define */}
         <section className={pageStyles.section}>
           <CaseStudyBlockHeader title="Define">
             <h3>Persona</h3>
@@ -338,6 +342,161 @@ export default function Mirror() {
                   width={2630}
                   height={1897}
                 />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Design */}
+        <section className={pageStyles.section}>
+          <CaseStudyBlockHeader title="Design">
+            <h3>Style Tile</h3>
+            <h3>User Interface</h3>
+          </CaseStudyBlockHeader>
+
+          {/* Style Tile */}
+          <div className={caseStudy.segment}>
+            <h3 className={caseStudy.segmentTitle}>Style Tile</h3>
+            <div
+              className={cn(
+                'flexGrid',
+                commonStyles.contentWrapper,
+                caseStudy.segmentIntro
+              )}
+            >
+              <div className={cn('col--md-2')}></div>
+              <div className={cn('col--md-8')}>
+                <p>
+                  With the idea of a clean and understandable user interface,
+                  and after a mood board brainstorming session, I created the
+                  <strong>Style Tile</strong> to set the upcoming visual design
+                  of the website.
+                </p>
+              </div>
+              <div className={cn('col--md-2')}></div>
+            </div>
+            <div
+              className={cn(
+                caseStudy.segmentImage,
+                commonStyles.contentWrapper
+              )}
+            >
+              <CustomImage
+                src={'/images/mirror/style-tile.jpg'}
+                alt="Mirror Style Tile"
+                width={2562}
+                height={4228}
+              />
+            </div>
+          </div>
+
+          {/* UI Design */}
+          <div className={caseStudy.segment}>
+            <h3 className={caseStudy.segmentTitle}>UI Design</h3>
+            <div
+              className={cn(
+                'flexGrid',
+                commonStyles.contentWrapper,
+                caseStudy.segmentIntro
+              )}
+            >
+              <div className={cn('col--md-2')}></div>
+              <div className={cn('col--md-8')}>
+                <p>
+                  With all the previous elements in mind, I came up with the
+                  following <strong>hi-fi designs</strong>, paying special
+                  attention to the whitespace and the simplicity.
+                </p>
+              </div>
+              <div className={cn('col--md-2')}></div>
+            </div>
+            <div
+              className={cn(
+                caseStudy.segmentImageHighlight,
+                caseStudy.segmentImageHighlightBlue,
+                commonStyles.contentWrapper
+              )}
+            >
+              <div className={cn('flexGrid', commonStyles.contentWrapper)}>
+                <div className={cn('col--md-1')}></div>
+                <div className={cn('col--md-10')}>
+                  <CustomImage
+                    src={'/images/mirror/homepage.jpg'}
+                    alt="Mirror Homepage"
+                    width={2130}
+                    height={2870}
+                    shadow={true}
+                  />
+                </div>
+                <div className={cn('col--md-1')}></div>
+              </div>
+            </div>
+            <div
+              className={cn(
+                caseStudy.segmentImageHighlight,
+                caseStudy.segmentImageHighlightPink,
+                commonStyles.contentWrapper
+              )}
+            >
+              <div className={cn('flexGrid', commonStyles.contentWrapper)}>
+                <div className={cn('col--md-6')}>
+                  <CustomImage
+                    src={'/images/mirror/product.jpg'}
+                    alt="Mirror Product Page"
+                    width={1259}
+                    height={1696}
+                    shadow={true}
+                  />
+                </div>
+                <div className={cn('col--md-6', caseStudy.imagePaddingTop)}>
+                  <CustomImage
+                    src={'/images/mirror/catalog.jpg'}
+                    alt="Mirror Catalog Page"
+                    width={1259}
+                    height={1696}
+                    shadow={true}
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className={cn(
+                caseStudy.segmentImageHighlight,
+                caseStudy.segmentImageHighlightBlue,
+                commonStyles.contentWrapper
+              )}
+            >
+              <div
+                className={cn(
+                  'flexGrid',
+                  commonStyles.contentWrapper,
+                  caseStudy.segmentIntro
+                )}
+              >
+                <div className={cn('col--md-1')}></div>
+                <div className={cn('col--md-10')}>
+                  <CustomImage
+                    src={'/images/mirror/checkout-funnel1.jpg'}
+                    alt="Mirror Checkout Funnel"
+                    width={2130}
+                    height={1554}
+                    shadow={true}
+                  />
+                </div>
+                <div className={cn('col--md-1')}></div>
+              </div>
+              <div className={cn('flexGrid', commonStyles.contentWrapper)}>
+                <div className={cn('col--md-1')}></div>
+                <div className={cn('col--md-10', caseStudy.imagePaddingTop)}>
+                  <CustomImage
+                    src={'/images/mirror/checkout-funnel2.jpg'}
+                    alt="Mirror Checkout Funnel"
+                    width={2128}
+                    height={1443}
+                    shadow={true}
+                  />
+                </div>
+                <div className={cn('col--md-1')}></div>
               </div>
             </div>
           </div>

@@ -209,6 +209,10 @@
 }
 
 .blockIndex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   h3 {
     font-size: rem(22px);
     font-weight: 400;
@@ -278,8 +282,20 @@
   }
 }
 
+.segmentImageHighlightBlue {
+  background-color: $c-blue-light;
+}
+
+.segmentImageHighlightPink {
+  background-color: $c-pink-light;
+}
+
 .userFlowImage {
   @media screen and (max-width: $phablet) {
     margin-bottom: 40px;
   }
+}
+
+.imagePaddingTop {
+  padding-top: 100px;
 }
