@@ -28,7 +28,14 @@ a {
 
 p {
   font-weight: 300;
+}
 
+ul {
+  margin-top: 0;
+}
+
+p,
+ul {
   strong {
     font-weight: 500;
   }

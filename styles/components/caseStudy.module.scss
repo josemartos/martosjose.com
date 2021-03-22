@@ -217,10 +217,9 @@
 
   ul {
     font-size: rem(22px);
-    margin-top: 0;
-    margin-bottom: 30px;
     padding-left: 0;
     list-style: none;
+    margin-bottom: 30px;
     font-weight: 200;
 
     &:last-of-type {
@@ -255,13 +254,21 @@
 }
 
 .segmentIntro {
-  margin-bottom: 100px;
-
-  &.center {
-    text-align: center;
+  ul {
+    font-weight: 300;
   }
+}
+
+.segmentImage {
+  padding-top: 60px;
 
   @media screen and (max-width: $phablet) {
-    margin-bottom: 60px;
+    padding-top: 40px;
+  }
+}
+
+.userFlowImage {
+  @media screen and (max-width: $phablet) {
+    margin-bottom: 40px;
   }
 }
