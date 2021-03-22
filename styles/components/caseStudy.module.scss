@@ -267,6 +267,17 @@
   }
 }
 
+.segmentImageHighlight {
+  background-color: $c-grey200;
+  margin-top: 60px;
+  padding: 150px 0;
+
+  @media screen and (max-width: $phablet) {
+    margin-top: 40px;
+    padding: 100px 0;
+  }
+}
+
 .userFlowImage {
   @media screen and (max-width: $phablet) {
     margin-bottom: 40px;

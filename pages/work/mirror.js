@@ -304,12 +304,40 @@ export default function Mirror() {
                   landing on the home page to the confirmation page, passing
                   through the checkout funnel.
                 </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Wireframes */}
+          <div className={caseStudy.segment}>
+            <h3 className={caseStudy.segmentTitle}>Wireframes</h3>
+            <div
+              className={cn(
+                'flexGrid',
+                commonStyles.contentWrapper,
+                caseStudy.segmentIntro
+              )}
+            >
+              <div className={cn('col--md-2')}></div>
+              <div className={cn('col--md-8')}>
                 <p>
-                  Lorem fistrum amatomaa mamaar sexuarl ahorarr por la gloria de
-                  mi madre la caidita benemeritaar. A wan te voy a borrar el
-                  cerito ese que llega va usté muy cargadoo condemor sexuarl
-                  papaar papaar no puedor.
+                  With the help of the previous steps, I went on to create both
+                  desktop and responsive <strong>wireframes</strong>, to start
+                  transitioning into the first idea of what the design could
+                  look like. It follows a minimal approach, showcasing different
+                  outfits for three main categories: Women, Men and Kids.
                 </p>
+              </div>
+              <div className={cn('col--md-2')}></div>
+            </div>
+            <div className={caseStudy.segmentImageHighlight}>
+              <div className={commonStyles.contentWrapper}>
+                <CustomImage
+                  src={'/images/mirror/wireframes.png'}
+                  alt="Mirror Sitemap"
+                  width={2630}
+                  height={1897}
+                />
               </div>
             </div>
           </div>
