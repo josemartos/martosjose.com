@@ -31,7 +31,8 @@ export default function About() {
             <div className={cn(styles.text, 'col--md-7')}>
               <p>
                 Born and raised in southern Spain, I am a Germany-based{' '}
-                <strong>front-end designer</strong>. My name is Jos&eacute;.
+                <strong>designer</strong> and{' '}
+                <strong>front-end developer</strong>. My name is Jos&eacute;.
               </p>
               <p>
                 The world of digital products can sometimes be disconcerting, so
