@@ -56,10 +56,10 @@
 
 .title {
   font-weight: 500;
-  font-size: rem(48px);
+  font-size: rem(64px);
 
   @media screen and (max-width: $phablet) {
-    font-size: rem(36px);
+    font-size: rem(48px);
   }
 }
 

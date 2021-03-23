@@ -14,7 +14,7 @@ const Footer = () => {
       <div className={commonStyles.contentWrapper}>
         <div className={styles.inner}>
           <h4 className={styles.title}>
-            Get <strong>connected</strong>
+            Let's <strong>connect</strong>
           </h4>
           <div className={styles.icons}>
             <a
