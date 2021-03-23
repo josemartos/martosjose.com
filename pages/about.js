@@ -30,7 +30,7 @@ export default function About() {
             <div className="col--md-1"></div>
             <div className={cn(styles.text, 'col--md-7')}>
               <p>
-                Born and raised in southern Spain, I am a Germany based{' '}
+                Born and raised in southern Spain, I am a Germany-based{' '}
                 <strong>front-end designer</strong>. My name is Jos&eacute;.
               </p>
               <p>
