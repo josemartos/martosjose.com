@@ -425,7 +425,7 @@ export default function Mirror() {
                     alt="Mirror Homepage"
                     width={2130}
                     height={2870}
-                    shadow={true}
+                    shadow={+true}
                   />
                 </div>
                 <div className={cn('col--md-1')}></div>
@@ -444,7 +444,7 @@ export default function Mirror() {
                     alt="Mirror Product Page"
                     width={1259}
                     height={1696}
-                    shadow={true}
+                    shadow={+true}
                   />
                 </div>
                 <div className={cn('col--md-6', caseStudy.imagePaddingTop)}>
@@ -453,7 +453,7 @@ export default function Mirror() {
                     alt="Mirror Catalog Page"
                     width={1259}
                     height={1696}
-                    shadow={true}
+                    shadow={+true}
                   />
                 </div>
               </div>
@@ -478,7 +478,7 @@ export default function Mirror() {
                     alt="Mirror Checkout Funnel"
                     width={2130}
                     height={1554}
-                    shadow={true}
+                    shadow={+true}
                   />
                 </div>
                 <div className={cn('col--md-1')}></div>
@@ -491,7 +491,7 @@ export default function Mirror() {
                     alt="Mirror Checkout Funnel"
                     width={2128}
                     height={1443}
-                    shadow={true}
+                    shadow={+true}
                   />
                 </div>
                 <div className={cn('col--md-1')}></div>

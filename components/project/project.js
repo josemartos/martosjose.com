@@ -16,7 +16,7 @@ const ProjectImage = ({ name, alt }) => (
     alt={alt}
     width={710}
     height={560}
-    shadow={true}
+    shadow={+true}
   />
 );
 
