@@ -74,10 +74,7 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
         <meta property="og:url" content="https://www.martosjose.com/" />
         <meta property="og:type" content="website" />
 
-        <meta
-          property="og:title"
-          content="Glad that you came, I am Jose Martos."
-        />
+        <meta property="og:title" content="Jose Martos." />
         <meta
           property="og:description"
           content="Designer and front-end developer."

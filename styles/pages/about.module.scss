@@ -9,6 +9,8 @@
     color: $c-secondary-light;
     font-size: rem(16px);
     font-weight: 300;
+    padding-top: 5px;
+    display: inline-block;
   }
 
   @media screen and (max-width: $phablet) {

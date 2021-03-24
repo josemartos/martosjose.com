@@ -22,9 +22,9 @@ const HeroHeader = ({ scrollToWork }) => {
               developer.
             </h1>
             <p>
-              Focused on building <strong>beautiful</strong> yet{' '}
-              <strong>usable</strong> and <strong>simple</strong> experiences.
-              Currently based in Munich.
+              Focused on building <strong>beautiful</strong> and{' '}
+              <strong>functional</strong> digital products. Currently based in
+              Munich.
             </p>
           </div>
         </div>
