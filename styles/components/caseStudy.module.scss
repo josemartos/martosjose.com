@@ -56,11 +56,18 @@
 }
 
 .title {
-  font-weight: 500;
-  font-size: rem(64px);
+  h1 {
+    font-weight: 500;
+    font-size: rem(64px);
+    line-height: 5rem;
 
-  @media screen and (max-width: $phablet) {
-    font-size: rem(48px);
+    @media screen and (max-width: $phablet) {
+      font-size: rem(48px);
+    }
+  }
+
+  small {
+    color: $c-secondary-light;
   }
 }
 
@@ -106,20 +113,10 @@
   }
 }
 
-.goalsWrapper {
-  position: relative;
-  padding: 50px 0;
-  z-index: 1;
-
-  h2 {
-    margin-bottom: 40px;
-    font-weight: 500;
-    font-size: rem(28px);
-  }
-
-  @media screen and (max-width: $phablet) {
-    padding: 0;
-  }
+.goalsWrapper h2 {
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: rem(28px);
 }
 
 .blockHeader {

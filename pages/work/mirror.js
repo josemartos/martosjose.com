@@ -40,8 +40,9 @@ export default function Mirror() {
               )}
             >
               <div className={cn('col--md-1')}></div>
-              <div className={cn('col--md-11')}>
-                <h1 className={caseStudy.title}>Mirror</h1>
+              <div className={cn('col--md-11', caseStudy.title)}>
+                <h1>Mirror</h1>
+                <small>Course Project - Website</small>
               </div>
             </div>
             <div className={cn(caseStudy.introContentWrapper)}>
@@ -57,7 +58,7 @@ export default function Mirror() {
                 <div className={cn('col--md-5')}>
                   <p>
                     During the first phase at the Designlab’s UX Academy, I
-                    worked work on the <strong>branding</strong> and{' '}
+                    worked on the <strong>branding</strong> and{' '}
                     <strong>design</strong> of a responsive website for a
                     clothing store, with the goal to expand their online
                     presence.
@@ -71,11 +72,10 @@ export default function Mirror() {
                 </div>
                 <div className={cn('col--md-2')}></div>
                 <div className={cn(caseStudy.tagsWrapper, 'col--md-4')}>
-                  <CaseStudyTag label="Type" text="Course Project - Website" />
                   <CaseStudyTag label="Role" text="UX / UI Design" />
                   <CaseStudyTag
                     label="Skills"
-                    text="Research, Customer Interview, UI Design, Prototype, Testing"
+                    text="Research, Information Architecture, Interaction Design & UI Design, Prototype, Testing"
                   />
                   <CaseStudyTag label="Duration" text="3 Months" />
                 </div>
