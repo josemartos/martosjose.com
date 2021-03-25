@@ -34,7 +34,7 @@ export default function About() {
                 <strong>front-end developer</strong> currently based in Munich.
               </p>
               <p>
-                During the past +10 years I worked as developer for several
+                During the past +10 years I worked as a developer for several
                 companies in various industries. Recently I have expanded my
                 skill set to include UX/UI design, in order to combine my
                 software skills with an ability to research, design and

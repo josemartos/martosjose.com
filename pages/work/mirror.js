@@ -73,13 +73,16 @@ export default function Mirror() {
                 <div className={cn(caseStudy.tagsWrapper, 'col--md-4')}>
                   <CaseStudyTag label="Type" text="Course Project - Website" />
                   <CaseStudyTag label="Role" text="UX / UI Design" />
+                  <CaseStudyTag
+                    label="Skills"
+                    text="Research, Customer Interview, UI Design, Prototype, Testing"
+                  />
                   <CaseStudyTag label="Duration" text="3 Months" />
                 </div>
               </div>
             </div>
           </div>
           <div className={caseStudy.goalsWrapper}>
-            <div className={caseStudy.goalsLayer}></div>
             <div className={cn('flexGrid', commonStyles.contentWrapper)}>
               <div className={cn('col--md-1')}></div>
               <div className={cn('col--md-8')}>
@@ -105,17 +108,21 @@ export default function Mirror() {
         {/* Understand */}
         <section className={pageStyles.section}>
           <CaseStudyBlockHeader title="Understand">
-            <h3>Secondary research</h3>
-            <ul>
-              <li>History of e-commerce</li>
-              <li>Competitor analysis</li>
-              <li>Market and trends report</li>
-            </ul>
-            <h3>Primary research</h3>
-            <ul>
-              <li>User interviews</li>
-              <li>Observation</li>
-            </ul>
+            <div className={caseStudy.indexGroup}>
+              <h3>Secondary research</h3>
+              <ul>
+                <li>History of e-commerce</li>
+                <li>Competitor analysis</li>
+                <li>Market and trends report</li>
+              </ul>
+            </div>
+            <div className={caseStudy.indexGroup}>
+              <h3>Primary research</h3>
+              <ul>
+                <li>User interviews</li>
+                <li>Observation</li>
+              </ul>
+            </div>
           </CaseStudyBlockHeader>
 
           {/* Research */}
@@ -208,16 +215,22 @@ export default function Mirror() {
         {/* Define */}
         <section className={pageStyles.section}>
           <CaseStudyBlockHeader title="Define">
-            <h3>Persona</h3>
-            <h3>Information architecture</h3>
-            <ul>
-              <li>Sitemap</li>
-            </ul>
-            <h3>Interaction Design</h3>
-            <ul>
-              <li>Task and User Flow</li>
-              <li>Wireframes</li>
-            </ul>
+            <div className={caseStudy.indexGroup}>
+              <h3 className={caseStudy.titleAlone}>Persona</h3>
+            </div>
+            <div className={caseStudy.indexGroup}>
+              <h3>Information architecture</h3>
+              <ul>
+                <li>Sitemap</li>
+              </ul>
+            </div>
+            <div className={caseStudy.indexGroup}>
+              <h3>Interaction Design</h3>
+              <ul>
+                <li>Task and User Flow</li>
+                <li>Wireframes</li>
+              </ul>
+            </div>
           </CaseStudyBlockHeader>
 
           {/* Persona */}
@@ -293,22 +306,42 @@ export default function Mirror() {
           {/* User Flow */}
           <div className={caseStudy.segment}>
             <h3 className={caseStudy.segmentTitle}>User Flow</h3>
-            <div className={cn('flexGrid', commonStyles.contentWrapper)}>
-              <div className={cn('col--md-8', caseStudy.userFlowImage)}>
-                <CustomImage
-                  src={'/images/mirror/user-flow.png'}
-                  alt="Mirror User Flow"
-                  width={1694}
-                  height={2722}
-                />
-              </div>
-              <div className={cn('col--md-4', caseStudy.segmentIntro)}>
+
+            <div
+              className={cn(
+                'flexGrid',
+                commonStyles.contentWrapper,
+                caseStudy.segmentIntro
+              )}
+            >
+              <div className={cn('col--md-2')}></div>
+              <div className={cn('col--md-8')}>
                 <p>
                   The <strong>User Flow</strong> helped me to visualize what the
                   happy path of a product purchase would be, from the user
                   landing on the home page to the confirmation page, passing
                   through the checkout funnel.
                 </p>
+              </div>
+              <div className={cn('col--md-2')}></div>
+            </div>
+            <div
+              className={cn(
+                caseStudy.segmentImage,
+                commonStyles.contentWrapper
+              )}
+            >
+              <div className={cn('flexGrid', commonStyles.contentWrapper)}>
+                <div className={cn('col--md-1')}></div>
+                <div className={cn('col--md-10')}>
+                  <CustomImage
+                    src={'/images/mirror/user-flow.png'}
+                    alt="Mirror User Flow"
+                    width={1694}
+                    height={2722}
+                  />
+                </div>
+                <div className={cn('col--md-1')}></div>
               </div>
             </div>
           </div>
@@ -539,7 +572,7 @@ export default function Mirror() {
             </div>
           </div>
         </section>
-        <section className={pageStyles.section}>
+        <section className={cn(pageStyles.section, pageStyles.noPadding)}>
           <div className={caseStudy.wrappingUp}>
             <div className={commonStyles.contentWrapper}>
               <div className={cn('flexGrid', commonStyles.contentWrapper)}>

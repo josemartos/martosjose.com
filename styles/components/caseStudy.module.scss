@@ -22,8 +22,9 @@
   @media screen and (max-width: $m-desktop) {
     margin-bottom: 60px;
 
-    & div {
-      border-radius: 0;
+    // Wrapper element from next
+    div {
+      border-radius: 0 !important;
     }
   }
 }
@@ -121,20 +122,6 @@
   }
 }
 
-.goalsLayer {
-  position: absolute;
-  width: 50%;
-  z-index: 0;
-  left: 0;
-  top: 0;
-  height: 100%;
-  background-color: $c-grey200;
-
-  @media screen and (max-width: $phablet) {
-    display: none;
-  }
-}
-
 .blockHeader {
   min-height: 500px;
   display: flex;
@@ -209,22 +196,26 @@
   flex-direction: column;
   justify-content: center;
 
-  h3 {
-    font-size: rem(22px);
-    font-weight: 400;
-    margin-bottom: 15px;
-  }
-
-  ul {
-    font-size: rem(22px);
-    padding-left: 0;
-    list-style: none;
-    margin-bottom: 30px;
-    font-weight: 200;
+  .indexGroup {
+    margin-bottom: 35px;
 
     &:last-of-type {
       margin-bottom: 0;
     }
+  }
+
+  h3 {
+    font-size: rem(22px);
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    font-size: rem(20px);
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    font-weight: 200;
   }
 
   @media screen and (max-width: $phablet) {

@@ -11,6 +11,10 @@
   flex-direction: column;
   overflow-x: hidden;
 
+  &.noPadding {
+    padding-bottom: 0;
+  }
+
   @media screen and (max-width: $phablet) {
     padding-bottom: 140px;
   }
