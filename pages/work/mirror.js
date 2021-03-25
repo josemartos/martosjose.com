@@ -156,10 +156,11 @@ export default function Mirror() {
               )}
             >
               <CustomImage
-                src={'/images/mirror/competitor-analysis.png'}
+                src={'/images/mirror/competitor-analysis.jpg'}
                 alt="Mirror Competitor Analysis"
                 width={2564}
                 height={708}
+                link={+true}
               />
             </div>
           </div>
@@ -263,6 +264,7 @@ export default function Mirror() {
                 alt="Mirror Persona"
                 width={2566}
                 height={1682}
+                link={+true}
               />
             </div>
           </div>
@@ -299,6 +301,7 @@ export default function Mirror() {
                 alt="Mirror Sitemap"
                 width={2560}
                 height={1110}
+                link={+true}
               />
             </div>
           </div>
@@ -339,6 +342,7 @@ export default function Mirror() {
                     alt="Mirror User Flow"
                     width={1694}
                     height={2722}
+                    link={+true}
                   />
                 </div>
                 <div className={cn('col--md-1')}></div>
@@ -375,6 +379,7 @@ export default function Mirror() {
                   alt="Mirror Sitemap"
                   width={2630}
                   height={1897}
+                  link={+true}
                 />
               </div>
             </div>
@@ -420,6 +425,7 @@ export default function Mirror() {
                 alt="Mirror Style Tile"
                 width={2562}
                 height={4228}
+                link={+true}
               />
             </div>
           </div>
@@ -459,6 +465,7 @@ export default function Mirror() {
                     width={2130}
                     height={2870}
                     shadow={+true}
+                    link={+true}
                   />
                 </div>
                 <div className={cn('col--md-1')}></div>
@@ -478,6 +485,7 @@ export default function Mirror() {
                     width={1259}
                     height={1696}
                     shadow={+true}
+                    link={+true}
                   />
                 </div>
                 <div className={cn('col--md-6', caseStudy.imagePaddingTop)}>
@@ -487,6 +495,7 @@ export default function Mirror() {
                     width={1259}
                     height={1696}
                     shadow={+true}
+                    link={+true}
                   />
                 </div>
               </div>
@@ -512,6 +521,7 @@ export default function Mirror() {
                     width={2130}
                     height={1554}
                     shadow={+true}
+                    link={+true}
                   />
                 </div>
                 <div className={cn('col--md-1')}></div>
@@ -525,6 +535,7 @@ export default function Mirror() {
                     width={2128}
                     height={1443}
                     shadow={+true}
+                    link={+true}
                   />
                 </div>
                 <div className={cn('col--md-1')}></div>

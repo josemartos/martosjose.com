@@ -1,9 +1,20 @@
+@import 'styles/base';
+
 .imageWrapper {
+  text-align: center;
+
   // Wrapper element from next
   & div {
     border-radius: 4px;
     background: none;
     display: block !important;
+  }
+
+  a {
+    display: inline-block;
+    font-size: rem(16px);
+    font-weight: 300;
+    padding-top: 15px;
   }
 }
 
