@@ -459,6 +459,13 @@ export default function Mirror() {
               <div className={cn('flexGrid', commonStyles.contentWrapper)}>
                 <div className={cn('col--md-1')}></div>
                 <div className={cn('col--md-10')}>
+                  <div className={caseStudy.imageExplanation}>
+                    <p>
+                      On the <strong>Homepage</strong> it was important to
+                      highlight outfits, as well as to showcase promotions and
+                      trends in a simple manner, with carousels.
+                    </p>
+                  </div>
                   <CustomImage
                     src={'/images/mirror/homepage.jpg'}
                     alt="Mirror Homepage"
@@ -479,6 +486,14 @@ export default function Mirror() {
             >
               <div className={cn('flexGrid', commonStyles.contentWrapper)}>
                 <div className={cn('col--md-6')}>
+                  <div className={caseStudy.imageExplanation}>
+                    <p>
+                      On the <strong>Product Page</strong> it was important that
+                      the user could find straight away all the information at
+                      first glance.
+                    </p>
+                  </div>
+
                   <CustomImage
                     src={'/images/mirror/product.jpg'}
                     alt="Mirror Product Page"
@@ -489,6 +504,13 @@ export default function Mirror() {
                   />
                 </div>
                 <div className={cn('col--md-6', caseStudy.imagePaddingTop)}>
+                  <div className={caseStudy.imageExplanation}>
+                    <p>
+                      On the <strong>Catalog Page</strong> I paid special
+                      attention to emphasize on the filters and their ease of
+                      use.
+                    </p>
+                  </div>
                   <CustomImage
                     src={'/images/mirror/catalog.jpg'}
                     alt="Mirror Catalog Page"
@@ -515,6 +537,13 @@ export default function Mirror() {
               >
                 <div className={cn('col--md-1')}></div>
                 <div className={cn('col--md-10')}>
+                  <div className={caseStudy.imageExplanation}>
+                    <p>
+                      It was key on the <strong>Checkout Funnel</strong> to find
+                      simple and clean interfaces, adding no more information
+                      than needed.
+                    </p>
+                  </div>
                   <CustomImage
                     src={'/images/mirror/checkout-funnel1.jpg'}
                     alt="Mirror Checkout Funnel"
