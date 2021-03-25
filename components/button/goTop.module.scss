@@ -1,0 +1,33 @@
+.button {
+  position: absolute;
+  z-index: 1000;
+  top: 120%;
+  right: 20px;
+  color: #000;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+  background: none;
+  border-width: 0;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  display: block;
+  visibility: hidden;
+}
+
+.active {
+  position: fixed;
+  visibility: visible;
+  animation: fadeinHalf 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+  bottom: 20px;
+  top: auto;
+
+  &:hover {
+    opacity: 1;
+  }
+}
