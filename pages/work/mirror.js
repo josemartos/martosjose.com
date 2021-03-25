@@ -56,14 +56,14 @@ export default function Mirror() {
                 <div className={cn('col--md-1')}></div>
                 <div className={cn('col--md-5')}>
                   <p>
-                    During the first phase at the Designlab’s UX Academy, I had
-                    to work on the <strong>branding</strong> and{' '}
+                    During the first phase at the Designlab’s UX Academy, I
+                    worked work on the <strong>branding</strong> and{' '}
                     <strong>design</strong> of a responsive website for a
                     clothing store, with the goal to expand their online
                     presence.
                   </p>
                   <p>
-                    I learnt a lot, since I had to dig deeper into clothing
+                    I learnt a lot, since I had to dig deep into clothing
                     e-commerce, conduct customer interviews, create wireframes
                     and UI designs, as well as prototype, test and refine the
                     final iteration.
@@ -171,9 +171,9 @@ export default function Mirror() {
               <div className={cn('col--md-8')}>
                 <p>
                   I went on to <strong>interview three users</strong> to
-                  understand their experience, what the find pleasant and what
-                  frustrating, to translate that later on in the design. The
-                  following are the findings.
+                  understand their experiences of what they found pleasant and
+                  frustrating in order to translate that later on in the design.
+                  The following are the findings.
                 </p>
                 <ul>
                   <li>
