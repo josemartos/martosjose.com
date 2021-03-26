@@ -3,6 +3,7 @@ import React from 'react';
 import EmailIcon from 'public/images/email.svg';
 import LinkedinIcon from 'public/images/linkedin.svg';
 import GithubIcon from 'public/images/github.svg';
+import PicsIcon from 'public/images/500px.svg';
 
 // Styles
 import commonStyles from 'styles/common.module.scss';
@@ -36,6 +37,13 @@ const Footer = () => {
               target="_blank"
             >
               <GithubIcon />
+            </a>
+            <a
+              href="https://500px.com/p/martosjosele"
+              title="Visit my 500px profile"
+              target="_blank"
+            >
+              <PicsIcon />
             </a>
           </div>
           <div className={styles.closing}>
