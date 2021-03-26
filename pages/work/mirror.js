@@ -66,7 +66,7 @@ export default function Mirror() {
                   <p>
                     I learnt a lot, since I had to dig deep into clothing
                     e-commerce, conduct customer interviews, create wireframes
-                    and UI designs, as well as prototype, test and refine the
+                    and UI design, as well as prototype, test and refine the
                     final iteration.
                   </p>
                 </div>
@@ -75,7 +75,7 @@ export default function Mirror() {
                   <CaseStudyTag label="Role" text="UX / UI Design" />
                   <CaseStudyTag
                     label="Skills"
-                    text="Research, Information Architecture, Interaction Design & UI Design, Prototype, Testing"
+                    text="Research, Information Architecture, Interaction & UI Design, Prototype, Testing"
                   />
                   <CaseStudyTag label="Duration" text="3 Months" />
                 </div>
