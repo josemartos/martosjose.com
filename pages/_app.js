@@ -79,10 +79,10 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
           property="og:description"
           content="Designer and front-end developer."
         />
-        <meta property="og:image" content="/android-chrome-512x512.jpg" />
+        <meta property="og:image" content="/android-chrome-512x512.png" />
         <meta
           property="og:image:secure_url"
-          content="/android-chrome-512x512.jpg"
+          content="/android-chrome-512x512.png"
         />
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:width" content="512" />
