@@ -1,6 +1,6 @@
 @import 'styles/base';
 
-.imageWrapper {
+.wrapper {
   text-align: center;
 
   // Wrapper element from next
@@ -18,7 +18,7 @@
   }
 }
 
-.imageShadow {
+.shadow {
   // Wrapper element from next
   & div {
     box-shadow: 0 12px 24px 0 rgba(75, 77, 82, 0.16);

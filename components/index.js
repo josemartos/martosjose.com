@@ -8,4 +8,4 @@ export { Layout, BasePage } from './layout';
 export { default as Maintenance } from './maintenance';
 export { default as ContactForm } from './contactForm';
 export { CaseStudyTag, CaseStudyBlockHeader } from './caseStudy';
-export { default as CustomImage } from './customImage';
+export { default as Image } from './Image';

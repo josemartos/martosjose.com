@@ -4,14 +4,14 @@ import cn from 'classnames';
 import RouterLink from 'next/link';
 
 import ComeInAnimation from 'animation/comeIn';
-import { LinkButton, CustomImage } from 'components';
+import { LinkButton, Image } from 'components';
 
 // Styles
 import commonStyles from 'styles/common.module.scss';
 import styles from './project.module.scss';
 
 const ProjectImage = ({ name, alt }) => (
-  <CustomImage
+  <Image
     src={`/images/${name}`}
     alt={alt}
     width={710}

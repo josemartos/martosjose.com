@@ -1,7 +1,7 @@
 import cn from 'classnames';
 import RouterLink from 'next/link';
 
-import { BasePage, CustomImage } from 'components';
+import { BasePage, Image } from 'components';
 
 // Styles
 import pageStyles from 'styles/page.module.scss';
@@ -18,7 +18,7 @@ export default function About() {
           </h2>
           <div className={cn('flexGrid', styles.container)}>
             <div className={cn(styles.image, 'col--md-4')}>
-              <CustomImage
+              <Image
                 src="/images/jose-pic-dresden.jpg"
                 alt="Jose image - in Dresden with a camera"
                 width={411}

@@ -1,7 +1,7 @@
 import cn from 'classnames';
 import {
   BasePage,
-  CustomImage,
+  Image,
   CaseStudyTag,
   CaseStudyBlockHeader,
   LinkButton,
@@ -21,7 +21,7 @@ export default function Mirror() {
         <section className={pageStyles.section}>
           <header className={caseStudy.hero}>
             <ComeInAnimation>
-              <CustomImage
+              <Image
                 src={'/images/mirror/hero.jpg'}
                 alt="Mirror Website Mockups"
                 width={2566}
@@ -155,7 +155,7 @@ export default function Mirror() {
                 commonStyles.contentWrapper
               )}
             >
-              <CustomImage
+              <Image
                 src={'/images/mirror/competitor-analysis.jpg'}
                 alt="Mirror Competitor Analysis"
                 width={2564}
@@ -259,7 +259,7 @@ export default function Mirror() {
                 commonStyles.contentWrapper
               )}
             >
-              <CustomImage
+              <Image
                 src={'/images/mirror/persona.jpg'}
                 alt="Mirror Persona"
                 width={2566}
@@ -296,7 +296,7 @@ export default function Mirror() {
                 commonStyles.contentWrapper
               )}
             >
-              <CustomImage
+              <Image
                 src={'/images/mirror/sitemap.png'}
                 alt="Mirror Sitemap"
                 width={2560}
@@ -337,7 +337,7 @@ export default function Mirror() {
               <div className={cn('flexGrid', commonStyles.contentWrapper)}>
                 <div className={cn('col--md-1')}></div>
                 <div className={cn('col--md-10')}>
-                  <CustomImage
+                  <Image
                     src={'/images/mirror/user-flow.png'}
                     alt="Mirror User Flow"
                     width={1694}
@@ -374,7 +374,7 @@ export default function Mirror() {
             </div>
             <div className={caseStudy.highlightBackground}>
               <div className={commonStyles.contentWrapper}>
-                <CustomImage
+                <Image
                   src={'/images/mirror/wireframes.png'}
                   alt="Mirror Sitemap"
                   width={2630}
@@ -420,7 +420,7 @@ export default function Mirror() {
                 commonStyles.contentWrapper
               )}
             >
-              <CustomImage
+              <Image
                 src={'/images/mirror/style-tile.jpg'}
                 alt="Mirror Style Tile"
                 width={2562}
@@ -466,7 +466,7 @@ export default function Mirror() {
                       trends in a simple manner, with carousels.
                     </p>
                   </div>
-                  <CustomImage
+                  <Image
                     src={'/images/mirror/homepage.jpg'}
                     alt="Mirror Homepage"
                     width={2130}
@@ -494,7 +494,7 @@ export default function Mirror() {
                     </p>
                   </div>
 
-                  <CustomImage
+                  <Image
                     src={'/images/mirror/product.jpg'}
                     alt="Mirror Product Page"
                     width={1259}
@@ -511,7 +511,7 @@ export default function Mirror() {
                       use.
                     </p>
                   </div>
-                  <CustomImage
+                  <Image
                     src={'/images/mirror/catalog.jpg'}
                     alt="Mirror Catalog Page"
                     width={1259}
@@ -544,7 +544,7 @@ export default function Mirror() {
                       than needed.
                     </p>
                   </div>
-                  <CustomImage
+                  <Image
                     src={'/images/mirror/checkout-funnel1.jpg'}
                     alt="Mirror Checkout Funnel"
                     width={2130}
@@ -558,7 +558,7 @@ export default function Mirror() {
               <div className={cn('flexGrid', commonStyles.contentWrapper)}>
                 <div className={cn('col--md-1')}></div>
                 <div className={cn('col--md-10', caseStudy.imagePaddingTop)}>
-                  <CustomImage
+                  <Image
                     src={'/images/mirror/checkout-funnel2.jpg'}
                     alt="Mirror Checkout Funnel"
                     width={2128}
