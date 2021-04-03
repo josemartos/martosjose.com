@@ -8,7 +8,7 @@ import smoothscroll from 'smoothscroll-polyfill';
 
 // Styles
 import 'styles/global.scss';
-import { Maintenance } from 'components';
+import { Maintenance, GoTopButton } from 'components';
 
 function App({ Component, pageProps, maintenanceMode = 'false' }) {
   const [theme, setTheme] = useState('normal');
@@ -101,6 +101,7 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
         ></link>
       </Head>
       <AppContext.Provider value={contextValue}>
+        <GoTopButton />
         {maintenanceMode === 'true' ? (
           <Maintenance />
         ) : (

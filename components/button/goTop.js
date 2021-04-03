@@ -16,6 +16,12 @@ const GoTopButton = () => {
 
   useEffect(() => {
     window.addEventListener('scroll', () => setPageOffset(window.pageYOffset));
+
+    return () => {
+      window.removeEventListener('scroll', () =>
+        setPageOffset(window.pageYOffset)
+      );
+    };
   }, []);
 
   useEffect(() => {
