@@ -25,26 +25,27 @@ export default function About() {
                 height={540}
                 priority={true}
               />
-              <small>Taken in Dresden, Germany</small>
+              <small>Having fun in Dresden</small>
             </div>
             <div className="col--md-1"></div>
             <div className={cn(styles.text, 'col--md-7')}>
               <p>
-                I am a <strong>designer</strong> and{' '}
+                I am Jos&eacute;, a <strong>designer</strong> and{' '}
                 <strong>front-end developer</strong> currently based in Munich.
               </p>
               <p>
-                During the past +10 years I worked as a developer for several
-                companies in various industries. Recently I have expanded my
-                skill set to include UX/UI design, in order to combine my
-                software skills with an ability to research, design and
-                prototype innovative, human-centered interfaces. This new,
-                unique combination of skills allows me to see the product
-                life-cycle through from conception to final delivery.
+                In my 10-plus years of experience, I've been fortunate enough to
+                work as a developer for several companies in various projects. I
+                have recently expanded my skill set to include UX/UI design, in
+                order to combine my programming skills with an ability to
+                research, design and prototype innovative, human-centered
+                interfaces. This new, unique combination of skills allows me to
+                see the product life-cycle through from conception to final
+                delivery.
               </p>
               <p>
-                In my free time you will find me trekking, traveling, writing,
-                reading, bouldering, taking pictures and learning martial arts.
+                In my free time you will find me trekking, traveling, reading,
+                bouldering, taking pictures and learning martial arts.
               </p>
               <p>
                 Let’s{' '}
