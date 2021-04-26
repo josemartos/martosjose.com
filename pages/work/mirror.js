@@ -407,7 +407,7 @@ export default function Mirror() {
               <div className={cn('col--md-8')}>
                 <p>
                   With the idea of a clean and understandable user interface,
-                  and after a mood board brainstorming session, I created the
+                  and after a mood board brainstorming session, I created the{' '}
                   <strong>Style Tile</strong> to set the upcoming visual design
                   of the website.
                 </p>
