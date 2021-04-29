@@ -45,8 +45,9 @@ export default function About() {
               </p>
               <p>
                 In my free time you will find me trekking, traveling, reading,
-                bouldering, taking pictures and learning martial arts. I am
-                happy to say that have visited{' '}
+                bouldering, taking pictures and learning martial arts. Between
+                2018 and 2019 I spent 4 months traveling across Asia, and I am
+                happy to say that have visited a total of{' '}
                 <a
                   target="_blank"
                   href="https://www.mytravelmap.xyz/u/gg108230143559826306104"
