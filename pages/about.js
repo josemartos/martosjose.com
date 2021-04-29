@@ -46,7 +46,7 @@ export default function About() {
               <p>
                 In my free time you will find me trekking, traveling, reading,
                 bouldering, taking pictures and learning martial arts. I am
-                happy to say that have traveled to{' '}
+                happy to say that have visited{' '}
                 <a
                   target="_blank"
                   href="https://www.mytravelmap.xyz/u/gg108230143559826306104"
