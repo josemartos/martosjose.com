@@ -45,7 +45,16 @@ export default function About() {
               </p>
               <p>
                 In my free time you will find me trekking, traveling, reading,
-                bouldering, taking pictures and learning martial arts.
+                bouldering, taking pictures and learning martial arts. I am
+                happy to say that have traveled to{' '}
+                <a
+                  target="_blank"
+                  href="https://www.mytravelmap.xyz/u/gg108230143559826306104"
+                >
+                  28 countries
+                </a>{' '}
+                so far. Apart from my hometown, Antequera, I have also lived in
+                Málaga, Madrid and Berlin.
               </p>
               <p>
                 Let’s{' '}
