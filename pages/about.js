@@ -35,19 +35,18 @@ export default function About() {
               </p>
               <p>
                 In my 10-plus years of experience, I've been fortunate enough to
-                work as a developer for several companies in various projects. I
-                have recently expanded my skill set to include UX/UI design, in
-                order to combine my programming skills with an ability to
-                research, design and prototype innovative, human-centered
-                interfaces. This new, unique combination of skills allows me to
-                see the product life-cycle through from conception to final
-                delivery.
+                work as a developer on several projects. I have recently
+                expanded my skill set to include UX/UI design, in order to
+                combine my programming skills with an ability to research,
+                design and prototype innovative, human-centered interfaces. This
+                new, unique combination of skills allows me to see the product
+                life-cycle through from conception to final delivery.
               </p>
               <p>
                 In my free time you will find me trekking, traveling, reading,
                 bouldering, taking pictures and learning martial arts. Between
                 2018 and 2019 I spent 4 months traveling across Asia, and I am
-                happy to say that have visited a total of{' '}
+                delighted to say that have visited a total of{' '}
                 <a
                   target="_blank"
                   href="https://www.mytravelmap.xyz/u/gg108230143559826306104"
