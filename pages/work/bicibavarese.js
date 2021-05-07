@@ -589,7 +589,7 @@ export default function BiciBavarese() {
                 <LinkButton
                   target="_blank"
                   text="See prototype"
-                  href="https://www.figma.com/proto/U83UJEyIWUzXmUddA2h0Nl/Bike-Shop-Prototype?page-id=0%3A1&node-id=1%3A191&viewport=948%2C551%2C0.1494501531124115&scaling=min-zoom"
+                  href="https://www.figma.com/proto/U83UJEyIWUzXmUddA2h0Nl/Bici-Bavarese-Prototype?page-id=0%3A1&node-id=1%3A191&viewport=948%2C419%2C0.1494501531124115&scaling=scale-down-width"
                 />
               </div>
               <div className={cn('col--md-2')}></div>
