@@ -382,6 +382,172 @@ export default function BiciBavarese() {
             </div>
           </div>
         </section>
+
+        {/* Design */}
+        <section className={pageStyles.section}>
+          <CaseStudyBlockHeader title="Design">
+            <h3>Style Tile</h3>
+            <h3>User Interface</h3>
+          </CaseStudyBlockHeader>
+
+          {/* Style Tile */}
+          <div className={caseStudy.segment}>
+            <h3 className={caseStudy.segmentTitle}>Style Tile</h3>
+            <div
+              className={cn(
+                'flexGrid',
+                commonStyles.contentWrapper,
+                caseStudy.segmentIntro
+              )}
+            >
+              <div className={cn('col--md-2')}></div>
+              <div className={cn('col--md-8')}>
+                <p>
+                  Here I present the <strong>brand ideas</strong> and mood
+                  board, as well as the <strong>style tile</strong>, that laid
+                  the foundations of the next step: the visual design.
+                </p>
+              </div>
+              <div className={cn('col--md-2')}></div>
+            </div>
+            <div
+              className={cn(
+                caseStudy.segmentImage,
+                commonStyles.contentWrapper
+              )}
+            >
+              <Image
+                src={'/images/bicibavarese/brand-ideas.jpg'}
+                alt="Bici Bavarese Brand Ideas"
+                width={2566}
+                height={1712}
+                link={+true}
+              />
+            </div>
+            <div
+              className={cn(
+                caseStudy.segmentImage,
+                commonStyles.contentWrapper
+              )}
+            >
+              <Image
+                src={'/images/bicibavarese/style-tile.jpg'}
+                alt="Bici Bavarese Style Tile"
+                width={2566}
+                height={1712}
+                link={+true}
+              />
+            </div>
+          </div>
+
+          {/* UI Design */}
+          <div className={caseStudy.segment}>
+            <h3 className={caseStudy.segmentTitle}>UI Design</h3>
+            <div
+              className={cn(
+                'flexGrid',
+                commonStyles.contentWrapper,
+                caseStudy.segmentIntro
+              )}
+            >
+              <div className={cn('col--md-2')}></div>
+              <div className={cn('col--md-8')}>
+                <p>
+                  With all the previous elements in mind, I materialized the
+                  following <strong>hi-fi designs</strong>.
+                </p>
+              </div>
+              <div className={cn('col--md-2')}></div>
+            </div>
+            <div
+              className={cn(
+                caseStudy.highlightBackground,
+                caseStudy.highlightBackgroundBlue
+              )}
+            >
+              <div className={cn('flexGrid', commonStyles.contentWrapper)}>
+                <div className={cn('col--md-1')}></div>
+                <div className={cn('col--md-10')}>
+                  <div className={caseStudy.imageExplanation}>
+                    <p>
+                      On the <strong>Homepage</strong>, instead of having too
+                      much text, it was important to highlight the essence of
+                      Bici Bavarese: the sense of community. Furthermore, to
+                      show the customer what else can be found: bike sales,
+                      workshop, main event, happy customers, etc.
+                    </p>
+                  </div>
+                  <Image
+                    src={'/images/bicibavarese/homepage.jpg'}
+                    alt="Bici Bavarese Homepage"
+                    width={2130}
+                    height={4908}
+                    shadow={+true}
+                    link={+true}
+                  />
+                </div>
+                <div className={cn('col--md-1')}></div>
+              </div>
+            </div>
+            <div
+              className={cn(
+                caseStudy.highlightBackground,
+                caseStudy.highlightBackgroundPink
+              )}
+            >
+              <div className={cn('flexGrid', commonStyles.contentWrapper)}>
+                <div className={cn('col--md-1')}></div>
+                <div className={cn('col--md-10')}>
+                  <div className={caseStudy.imageExplanation}>
+                    <p>
+                      On the <strong>Giro Bavarese</strong> page, I focused on
+                      compressing the information to be cleared out (in the form
+                      of dropdowns), as well as to inmerse the user in the event
+                      (using the video).
+                    </p>
+                  </div>
+                  <Image
+                    src={'/images/bicibavarese/giro-bavarese.jpg'}
+                    alt="Giro Bavarese page"
+                    width={2130}
+                    height={4550}
+                    shadow={+true}
+                    link={+true}
+                  />
+                </div>
+                <div className={cn('col--md-1')}></div>
+              </div>
+            </div>
+            <div
+              className={cn(
+                caseStudy.highlightBackground,
+                caseStudy.highlightBackgroundBlue
+              )}
+            >
+              <div className={cn('flexGrid', commonStyles.contentWrapper)}>
+                <div className={cn('col--md-1')}></div>
+                <div className={cn('col--md-10')}>
+                  <div className={caseStudy.imageExplanation}>
+                    <p>
+                      On the <strong>Our Bike</strong> page, showcasing the bike
+                      and their different parts and configuration was the main
+                      point to focus on.
+                    </p>
+                  </div>
+                  <Image
+                    src={'/images/bicibavarese/our-bike.jpg'}
+                    alt="Our Bike Page"
+                    width={2130}
+                    height={5809}
+                    shadow={+true}
+                    link={+true}
+                  />
+                </div>
+                <div className={cn('col--md-1')}></div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </BasePage>
   );
