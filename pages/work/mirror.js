@@ -611,6 +611,7 @@ export default function Mirror() {
             </div>
           </div>
         </section>
+
         {/* Wrap up */}
         <section className={cn(pageStyles.section, pageStyles.noPadding)}>
           <div className={caseStudy.wrappingUp}>

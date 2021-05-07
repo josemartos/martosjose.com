@@ -70,7 +70,7 @@ export default function BiciBavarese() {
                     and User Interface in order to create a beautiful design
                     that speaks for the bike shop's message. (Disclaimer: The
                     logo design is their original. I also used some of their
-                    pictures from their website and Instagram profile.)
+                    pictures from their website, Instagram and Flickr profile.)
                   </p>
                 </div>
                 <div className={cn('col--md-2')}></div>
@@ -544,6 +544,79 @@ export default function BiciBavarese() {
                   />
                 </div>
                 <div className={cn('col--md-1')}></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Testing */}
+        <section className={pageStyles.section}>
+          <CaseStudyBlockHeader title="Testing">
+            <h3>UI tests</h3>
+          </CaseStudyBlockHeader>
+
+          {/* Testing */}
+          <div className={caseStudy.segment}>
+            <h3 className={caseStudy.segmentTitle}>UI Tests</h3>
+            <div
+              className={cn(
+                'flexGrid',
+                commonStyles.contentWrapper,
+                caseStudy.segmentIntro
+              )}
+            >
+              <div className={cn('col--md-2')}></div>
+              <div className={cn('col--md-8')}>
+                <p>
+                  With a total of three participants, I conducted UI tests over
+                  the three different pages, to see how they interact with the
+                  UI and what they understand from what they see and their
+                  general impressions, triggered by questions on each page.
+                </p>
+                <p>
+                  The tests were very important to iterate over the UI Design,
+                  introducing changes like the "customizable bike", or a more
+                  attractive top part on the homepage.
+                </p>
+                <p>
+                  The prototype is barely clickable, only to navigate between
+                  the different main pages: Homepage, Our Bike Page (Unser Rad)
+                  and the Event Page (Giro Bavarese).
+                </p>
+                <LinkButton
+                  target="_blank"
+                  text="See prototype"
+                  href="https://www.figma.com/proto/U83UJEyIWUzXmUddA2h0Nl/Bike-Shop-Prototype?page-id=0%3A1&node-id=1%3A191&viewport=948%2C551%2C0.1494501531124115&scaling=min-zoom"
+                />
+              </div>
+              <div className={cn('col--md-2')}></div>
+            </div>
+          </div>
+        </section>
+        {/* Wrap up */}
+        <section className={cn(pageStyles.section, pageStyles.noPadding)}>
+          <div className={caseStudy.wrappingUp}>
+            <div className={commonStyles.contentWrapper}>
+              <div className={cn('flexGrid', commonStyles.contentWrapper)}>
+                <div className={cn('col--md-2')}></div>
+                <div className={cn('col--md-8')}>
+                  <h3>Takeaways</h3>
+                  <p>
+                    While working on this project I noticed from the beginning
+                    how the deliverables and the decisions already came up
+                    easier and smoother. I took my skills to the next level, by
+                    taking an existing branding and website, to achieve an
+                    unique touch.
+                  </p>
+                  <p>
+                    I would have like to have worked directly with a real client
+                    and interview real customers, but no one answered my emails.
+                    Nonetheless the experience was very rewarding and I learned
+                    to a great extend.
+                  </p>
+                  <p>Thanks a bunch for reading!</p>
+                </div>
+                <div className={cn('col--md-2')}></div>
               </div>
             </div>
           </div>
