@@ -58,17 +58,19 @@ export default function BiciBavarese() {
                 <div className={cn('col--md-5')}>
                   <p>
                     For the first capstone project at Designlab’s UX Academy, I
-                    worked on the <strong>redesign</strong> of a local bike shop
+                    worked on the <strong>redesign of a local bike shop</strong>
                     based in Munich.
                   </p>
                   <p>
                     I took my skills to the next level, the creation process was
                     smoother, and I learnt a bunch about the bike scene here in
                     the city. I did some research and user interviews to
-                    understand their needs, but I put special emphasis in
-                    understanding the current product, to focus on wireframing
-                    in order to create a beautiful redesign that speaks for the
-                    bike shop's message.
+                    understand their needs, but I placed special emphasis in
+                    understanding the current product, to focus on Wireframing
+                    and User Interface in order to create a beautiful design
+                    that speaks for the bike shop's message. (Disclaimer: The
+                    logo design is their original. I also used some of their
+                    pictures from their website and Instagram profile.)
                   </p>
                 </div>
                 <div className={cn('col--md-2')}></div>
@@ -76,7 +78,7 @@ export default function BiciBavarese() {
                   <CaseStudyTag label="Role" text="UX / UI Design" />
                   <CaseStudyTag
                     label="Skills"
-                    text="Research, Interaction & UI Design, Prototype, Testing"
+                    text="Research, Information Architecture, Interaction & UI Design, Prototype, Testing"
                   />
                   <CaseStudyTag label="Duration" text="1 Month" />
                 </div>
@@ -98,9 +100,9 @@ export default function BiciBavarese() {
                 <p>
                   My goal was to redesign their website keeping their essense,
                   colour palette and other assets. A design that is eye catching
-                  and shows the sense of community. The main goal was to design
-                  three main pages: homepage, event page and their own bike
-                  page.
+                  and shows sense of community. The main target was to design,
+                  taking into account the time constraints, a few main and key
+                  pages.
                 </p>
               </div>
               <div className={cn('col--md-3')}></div>
@@ -143,7 +145,7 @@ export default function BiciBavarese() {
                   I started doing secondary <strong>research</strong>, by
                   reading about <strong>bike shops</strong> in general, to
                   better understand the scope of the project, as well as
-                  conducting <strong>competitor analysis</strong> to understand
+                  conducting <strong>competitor analysis</strong> to acknowledge
                   the current situation locally.
                 </p>
               </div>
@@ -158,8 +160,8 @@ export default function BiciBavarese() {
               <Image
                 src={'/images/bicibavarese/research-ramp-up.png'}
                 alt="Bici Bavarese Research Ramp-up"
-                width={2800}
-                height={1584}
+                width={2566}
+                height={1452}
                 link={+true}
               />
             </div>
@@ -202,6 +204,181 @@ export default function BiciBavarese() {
                 </ul>
               </div>
               <div className={cn('col--md-2')}></div>
+            </div>
+          </div>
+        </section>
+
+        {/* Define */}
+        <section className={pageStyles.section}>
+          <CaseStudyBlockHeader title="Define">
+            <div className={caseStudy.indexGroup}>
+              <h3 className={caseStudy.titleAlone}>Persona</h3>
+            </div>
+            <div className={caseStudy.indexGroup}>
+              <h3>Information architecture</h3>
+              <ul>
+                <li>Sitemap</li>
+              </ul>
+            </div>
+            <div className={caseStudy.indexGroup}>
+              <h3>Interaction Design</h3>
+              <ul>
+                <li>Key User Flows</li>
+                <li>Wireframes</li>
+              </ul>
+            </div>
+          </CaseStudyBlockHeader>
+
+          {/* Persona */}
+          <div className={caseStudy.segment}>
+            <h3 className={caseStudy.segmentTitle}>Persona</h3>
+            <div
+              className={cn(
+                'flexGrid',
+                commonStyles.contentWrapper,
+                caseStudy.segmentIntro
+              )}
+            >
+              <div className={cn('col--md-2')}></div>
+              <div className={cn('col--md-8')}>
+                <p>
+                  Using the information gathered during the User Inverviews, I
+                  created a <strong>Persona</strong> to summarize the their
+                  needs, frustrations and motivations.
+                </p>
+              </div>
+              <div className={cn('col--md-2')}></div>
+            </div>
+            <div
+              className={cn(
+                caseStudy.segmentImage,
+                commonStyles.contentWrapper
+              )}
+            >
+              <Image
+                src={'/images/bicibavarese/persona.png'}
+                alt="Bici Bavarese Persona"
+                width={2566}
+                height={1682}
+                link={+true}
+              />
+            </div>
+          </div>
+
+          {/* Sitemap */}
+          <div className={caseStudy.segment}>
+            <h3 className={caseStudy.segmentTitle}>Sitemap</h3>
+            <div
+              className={cn(
+                'flexGrid',
+                commonStyles.contentWrapper,
+                caseStudy.segmentIntro
+              )}
+            >
+              <div className={cn('col--md-2')}></div>
+              <div className={cn('col--md-8')}>
+                <p>
+                  The <strong>Sitemap</strong> was key to visualize what the
+                  main structure of the page will be. The design will follow
+                  their current structure and pages.
+                </p>
+              </div>
+              <div className={cn('col--md-2')}></div>
+            </div>
+            <div className={cn('flexGrid', commonStyles.contentWrapper)}>
+              <div className={cn('col--md-1')}></div>
+              <div className={cn('col--md-10')}>
+                <div
+                  className={cn(
+                    caseStudy.segmentImage,
+                    commonStyles.contentWrapper
+                  )}
+                >
+                  <Image
+                    src={'/images/bicibavarese/sitemap.png'}
+                    alt="Bici Bavarese Sitemap"
+                    width={2130}
+                    height={2570}
+                    link={+true}
+                  />
+                </div>
+              </div>
+              <div className={cn('col--md-1')}></div>
+            </div>
+          </div>
+
+          {/* User Flow */}
+          <div className={caseStudy.segment}>
+            <h3 className={caseStudy.segmentTitle}>User Flows</h3>
+
+            <div
+              className={cn(
+                'flexGrid',
+                commonStyles.contentWrapper,
+                caseStudy.segmentIntro
+              )}
+            >
+              <div className={cn('col--md-2')}></div>
+              <div className={cn('col--md-8')}>
+                <p>
+                  This time it was important to know and understand the role of
+                  the website between customer and physical bike shop. I came up
+                  with three <strong>key user flows</strong>.
+                </p>
+              </div>
+              <div className={cn('col--md-2')}></div>
+            </div>
+            <div
+              className={cn(
+                caseStudy.segmentImage,
+                commonStyles.contentWrapper
+              )}
+            >
+              <Image
+                src={'/images/bicibavarese/user-flows.png'}
+                alt="Bici Bavarese Key User Flows"
+                width={2566}
+                height={1444}
+                link={+true}
+              />
+            </div>
+          </div>
+
+          {/* Wireframes */}
+          <div className={caseStudy.segment}>
+            <h3 className={caseStudy.segmentTitle}>Wireframes</h3>
+            <div
+              className={cn(
+                'flexGrid',
+                commonStyles.contentWrapper,
+                caseStudy.segmentIntro
+              )}
+            >
+              <div className={cn('col--md-2')}></div>
+              <div className={cn('col--md-8')}>
+                <p>
+                  I created wireframes for the most important pages on this
+                  website: the <strong>homepage</strong>, the page where they
+                  display all the information related to their yearly event,{' '}
+                  <strong>Giro Bavarese</strong>, as well as the page where they
+                  showcase their <strong>own crafted bike</strong>. This way I
+                  will start transitioning into the first idea of what the
+                  design could look like. It follows a minimalistic style, with
+                  some retro touches, and modern at the same time.
+                </p>
+              </div>
+              <div className={cn('col--md-2')}></div>
+            </div>
+            <div className={caseStudy.highlightBackground}>
+              <div className={commonStyles.contentWrapper}>
+                <Image
+                  src={'/images/bicibavarese/wireframes.png'}
+                  alt="Bici Bavarese Wireframes"
+                  width={2622}
+                  height={1896}
+                  link={+true}
+                />
+              </div>
             </div>
           </div>
         </section>

@@ -375,7 +375,7 @@ export default function Mirror() {
               <div className={commonStyles.contentWrapper}>
                 <Image
                   src={'/images/mirror/wireframes.png'}
-                  alt="Mirror Sitemap"
+                  alt="Mirror Wireframes"
                   width={2630}
                   height={1897}
                   link={+true}
