@@ -454,7 +454,9 @@ export default function BiciBavarese() {
               <div className={cn('col--md-8')}>
                 <p>
                   With all the previous elements in mind, I materialized the
-                  following <strong>hi-fi designs</strong>.
+                  following <strong>hi-fi designs</strong>. This is the second
+                  version, based on the users' and the mentor sessions
+                  feedbacks.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -569,9 +571,9 @@ export default function BiciBavarese() {
               <div className={cn('col--md-8')}>
                 <p>
                   With a total of three participants, I conducted UI tests over
-                  the three different pages, to see how they interact with the
-                  UI and what they understand from what they see and their
-                  general impressions, triggered by questions on each page.
+                  the three different pages of the UI Design, to see how they
+                  interact with the interface and what they understand from the
+                  different sections, and what their general impressions are.
                 </p>
                 <p>
                   The tests were very important to iterate over the UI Design,
@@ -581,7 +583,8 @@ export default function BiciBavarese() {
                 <p>
                   The prototype is barely clickable, only to navigate between
                   the different main pages: Homepage, Our Bike Page (Unser Rad)
-                  and the Event Page (Giro Bavarese).
+                  and the Event Page (Giro Bavarese). It's the first version of
+                  the UI Design before the second iteration.
                 </p>
                 <LinkButton
                   target="_blank"
@@ -603,16 +606,16 @@ export default function BiciBavarese() {
                   <h3>Takeaways</h3>
                   <p>
                     While working on this project I noticed from the beginning
-                    how the deliverables and the decisions already came up
-                    easier and smoother. I took my skills to the next level, by
-                    taking an existing branding and website, to achieve an
+                    how the decisions as well as the deliverables came up easier
+                    and smoother already. I took my skills to the next level,
+                    from taking an existing branding and website to achieving an
                     unique touch.
                   </p>
                   <p>
-                    I would have like to have worked directly with a real client
-                    and interview real customers, but no one answered my emails.
-                    Nonetheless the experience was very rewarding and I learned
-                    to a great extend.
+                    I would have liked to work directly with a real client and
+                    interview real customers, but I could not reach any
+                    interested bike shop owner. Nonetheless, the experience was
+                    very rewarding and I learned to a good extend.
                   </p>
                   <p>Thanks a bunch for reading!</p>
                 </div>
