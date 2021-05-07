@@ -16,7 +16,7 @@ import caseStudy from 'styles/components/caseStudy.module.scss';
 
 export default function Mirror() {
   return (
-    <BasePage title="Mirror e-commerce platform">
+    <BasePage title="Mirror | e-commerce platform">
       <div className={caseStudy.wrapper}>
         <section className={pageStyles.section}>
           <header className={caseStudy.hero}>
@@ -120,7 +120,6 @@ export default function Mirror() {
               <h3>Primary research</h3>
               <ul>
                 <li>User interviews</li>
-                <li>Observation</li>
               </ul>
             </div>
           </CaseStudyBlockHeader>
@@ -612,6 +611,7 @@ export default function Mirror() {
             </div>
           </div>
         </section>
+        {/* Wrap up */}
         <section className={cn(pageStyles.section, pageStyles.noPadding)}>
           <div className={caseStudy.wrappingUp}>
             <div className={commonStyles.contentWrapper}>

@@ -36,6 +36,7 @@ const Project = ({
   description,
   image,
   imageAlt,
+  link,
   reverseLayout = false,
   inProgress = false,
 }) => {
@@ -56,7 +57,7 @@ const Project = ({
               {inProgress ? (
                 <ProjectImage name={image} alt={imageAlt} />
               ) : (
-                <RouterLink href="/work/mirror">
+                <RouterLink href={link}>
                   <LinkImage name={image} alt={imageAlt} />
                 </RouterLink>
               )}
@@ -70,7 +71,7 @@ const Project = ({
             {inProgress ? (
               <>Coming soon</>
             ) : (
-              <RouterLink href="/work/mirror">
+              <RouterLink href={link}>
                 <LinkButton text="See case study" />
               </RouterLink>
             )}

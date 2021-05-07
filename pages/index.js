@@ -46,22 +46,23 @@ export default function Home() {
         </div>
         <div className={styles.project}>
           <Project
-            title="Mirror"
-            type="course project - ux / ui design"
-            description="Reworked the branding of a clothing e-commerce platform, and created a responsive web design."
-            image="mirror/cover.jpg"
-            imageAlt="Mirror design"
+            title="Bici Bavarese"
+            type="capstone - ux / ui design"
+            description="Research and redesign of a local bike shop."
+            image="bicibavarese/cover.jpg"
+            imageAlt="Bike store re-design"
+            link="/work/bicibavarese"
           />
         </div>
         <div className={styles.project}>
           <Project
-            title="Bike shop"
-            type="capstone - ux / ui design"
-            description="Working on the research and redesign of a local bike shop"
-            image="bike-shop.jpg"
-            imageAlt="Bike store re-design"
+            title="Mirror"
+            type="course project - ux / ui design"
+            description="Rework the branding of a clothing e-commerce platform, and create a responsive web design."
+            image="mirror/cover.jpg"
+            imageAlt="Mirror design"
+            link="/work/mirror"
             reverseLayout={true}
-            inProgress={true}
           />
         </div>
       </section>
