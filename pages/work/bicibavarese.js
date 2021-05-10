@@ -58,7 +58,7 @@ export default function BiciBavarese() {
                 <div className={cn('col--md-5')}>
                   <p>
                     For the first capstone project at Designlab’s UX Academy, I
-                    worked on the <strong>redesign of a local bike shop</strong>
+                    worked on the <strong>redesign of a local bike shop</strong>{' '}
                     based in Munich.
                   </p>
                   <p>
@@ -68,9 +68,9 @@ export default function BiciBavarese() {
                     understand their needs, but I placed special emphasis in
                     understanding the current product, to focus on Wireframing
                     and User Interface in order to create a beautiful design
-                    that speaks for the bike shop's message. (Disclaimer: The
-                    logo design is their original. I also used some of their
-                    pictures from their website, Instagram and Flickr profile.)
+                    that speaks for the bike shop's spirit. (Disclaimer: I used
+                    their existing logo. I also used some of their pictures from
+                    their website, Instagram and Flickr profile.)
                   </p>
                 </div>
                 <div className={cn('col--md-2')}></div>
@@ -101,8 +101,7 @@ export default function BiciBavarese() {
                   My goal was to redesign their website keeping their essense,
                   colour palette and other assets. A design that is eye catching
                   and shows sense of community. The main target was to design,
-                  taking into account the time constraints, a few main and key
-                  pages.
+                  taking into account the time constraints, a few key pages.
                 </p>
               </div>
               <div className={cn('col--md-3')}></div>
