@@ -243,7 +243,8 @@ export default function BiciBavarese() {
                 <p>
                   Using the information gathered during the User Inverviews, I
                   created a <strong>Persona</strong> to summarize the their
-                  needs, frustrations and motivations.
+                  needs, frustrations and motivations. It was an important
+                  element throughout the next steps of the process.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -320,9 +321,9 @@ export default function BiciBavarese() {
               <div className={cn('col--md-2')}></div>
               <div className={cn('col--md-8')}>
                 <p>
-                  This time it was important to know and understand the role of
-                  the website between customer and physical bike shop. I came up
-                  with three <strong>key user flows</strong>.
+                  These <strong>key user flows</strong> highlight the relation
+                  that has the online experience between customer and
+                  brick-and-mortar shop.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -357,13 +358,14 @@ export default function BiciBavarese() {
               <div className={cn('col--md-8')}>
                 <p>
                   I created wireframes for the most important pages on this
-                  website: the <strong>homepage</strong>, the page where they
-                  display all the information related to their yearly event,{' '}
-                  <strong>Giro Bavarese</strong>, as well as the page where they
-                  showcase their <strong>own crafted bike</strong>. This way I
-                  will start transitioning into the first idea of what the
-                  design could look like. It follows a minimalistic style, with
-                  some retro touches, and modern at the same time.
+                  website: the <strong>Homepage</strong>, the{' '}
+                  <strong>Event Page</strong> where they display all the
+                  information related to their yearly event (Giro Bavarese), as
+                  well as the page where they showcase their{' '}
+                  <strong>own crafted bike</strong>. This way I will start
+                  transitioning into the first idea of what the design could
+                  look like. It follows a minimalistic style, with some retro
+                  and classic touches, combined with a modern style.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -403,8 +405,8 @@ export default function BiciBavarese() {
               <div className={cn('col--md-8')}>
                 <p>
                   Here I present the <strong>brand ideas</strong> and mood
-                  board, as well as the <strong>style tile</strong>, that laid
-                  the foundations of the next step: the visual design.
+                  board, as well as the <strong>style tile</strong>, which laid
+                  the foundations for the next step: the visual design.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -604,11 +606,13 @@ export default function BiciBavarese() {
                 <div className={cn('col--md-8')}>
                   <h3>Takeaways</h3>
                   <p>
-                    While working on this project I noticed from the beginning
-                    how the decisions as well as the deliverables came up easier
-                    and smoother already. I took my skills to the next level,
-                    from taking an existing branding and website to achieving an
+                    I took my skills to the next level with this project, from
+                    taking an existing branding and website to achieving an
                     unique touch.
+                  </p>
+                  <p>
+                    Once again, I reassured that the UI Tests were key to
+                    discover new action points and updates.
                   </p>
                   <p>
                     I would have liked to work directly with a real client and

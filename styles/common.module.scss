@@ -1,12 +1,9 @@
 @import './base/index';
 
 .contentWrapper {
-  max-width: $m-desktop;
-  width: 100%;
-  position: relative;
   margin: 0 auto;
-
-  @media screen and (max-width: $m-desktop) {
-    padding: 0 1.25em;
-  }
+  max-width: $m-desktop;
+  padding: 0 1.25em;
+  position: relative;
+  width: 100%;
 }
