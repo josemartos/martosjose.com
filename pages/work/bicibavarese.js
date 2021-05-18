@@ -59,18 +59,15 @@ export default function BiciBavarese() {
                   <p>
                     For the first capstone project at Designlab’s UX Academy, I
                     worked on the <strong>redesign of a local bike shop</strong>{' '}
-                    based in Munich.
-                  </p>
-                  <p>
-                    I took my skills to the next level, the creation process was
-                    smoother, and I learnt a bunch about the bike scene here in
-                    the city. I did some research and user interviews to
-                    understand their needs, but I placed special emphasis in
-                    understanding the current product, to focus on Wireframing
-                    and User Interface in order to create a beautiful design
-                    that speaks for the bike shop's spirit. (Disclaimer: I used
-                    their existing logo. I also used some of their pictures from
-                    their website, Instagram and Flickr profile.)
+                    based in Munich. I took my skills to the next level and I
+                    learnt a bunch about the bike scene in the city. I did some
+                    research and user interviews to understand their needs, but
+                    I placed special emphasis in understanding the current
+                    product, to focus on Wireframing and UI in order to create a
+                    beautiful design that speaks for the bike shop's spirit.
+                    (Disclaimer: I used their existing logo, as well as some of
+                    their pictures from their web, Instagram and Flickr
+                    profile.)
                   </p>
                 </div>
                 <div className={cn('col--md-2')}></div>
