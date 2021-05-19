@@ -65,6 +65,8 @@ export default function BiciBavarese() {
                     I placed special emphasis in understanding the current
                     product, to focus on Wireframing and UI in order to create a
                     beautiful design that speaks for the bike shop's spirit.
+                  </p>
+                  <p>
                     (Disclaimer: I used their existing logo, as well as some of
                     their pictures from their web, Instagram and Flickr
                     profile.)
