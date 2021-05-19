@@ -67,8 +67,8 @@ export default function BiciBavarese() {
                     beautiful design that speaks for the bike shop's spirit.
                   </p>
                   <p>
-                    (Disclaimer: I used their existing logo, as well as some of
-                    their pictures from their web, Instagram and Flickr
+                    (Disclaimer: I used their existing logo and text, as well as
+                    some of their pictures from their web, Instagram and Flickr
                     profile.)
                   </p>
                 </div>
