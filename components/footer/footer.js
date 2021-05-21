@@ -47,7 +47,7 @@ const Footer = () => {
             </a>
           </div>
           <div className={styles.closing}>
-            Built from the ground up by myself using Next.js &hearts;
+            Built from the ground up by myself using Figma and Next.js &hearts;
           </div>
           <div className={styles.flaticon}>
             Icons from{' '}
