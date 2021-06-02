@@ -362,8 +362,8 @@ export default function Komoot() {
                   The following wireframes show the screens of the new feature,
                   and the ones that have any element related to the new feature.
                   I focused on the main two flows: join and organise an event.
-                  It's inspired in all the design elements of the current app
-                  for a smooth mix.
+                  It's inspired in all the design elements and general
+                  guidelines of the current app, to achive a smooth integration.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
