@@ -271,7 +271,7 @@ export default function Komoot() {
           </div>
 
           {/* Sitemap */}
-          {/* <div className={caseStudy.segment}>
+          <div className={caseStudy.segment}>
             <h3 className={caseStudy.segmentTitle}>Sitemap</h3>
             <div
               className={cn(
@@ -283,37 +283,31 @@ export default function Komoot() {
               <div className={cn('col--md-2')}></div>
               <div className={cn('col--md-8')}>
                 <p>
-                  The <strong>Sitemap</strong> was key to visualize what the
-                  main structure of the page will be. The design will follow
-                  their current structure and pages.
+                  The <strong>Sitemap</strong> helped me to see which features
+                  and screens the current app has, as well as the new screens
+                  that need to be designed.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
             </div>
-            <div className={cn('flexGrid', commonStyles.contentWrapper)}>
-              <div className={cn('col--md-1')}></div>
-              <div className={cn('col--md-10')}>
-                <div
-                  className={cn(
-                    caseStudy.segmentImage,
-                    commonStyles.contentWrapper
-                  )}
-                >
-                  <Image
-                    src={'/images/bicibavarese/sitemap.png'}
-                    alt="Bici Bavarese Sitemap"
-                    width={2130}
-                    height={2570}
-                    link={+true}
-                  />
-                </div>
-              </div>
-              <div className={cn('col--md-1')}></div>
+            <div
+              className={cn(
+                caseStudy.segmentImage,
+                commonStyles.contentWrapper
+              )}
+            >
+              <Image
+                src={'/images/komoot/sitemap.png'}
+                alt="Komoot Sitemap"
+                width={2566}
+                height={2706}
+                link={+true}
+              />
             </div>
-          </div> */}
+          </div>
 
           {/* User Flow */}
-          {/* <div className={caseStudy.segment}>
+          <div className={caseStudy.segment}>
             <h3 className={caseStudy.segmentTitle}>User Flows</h3>
 
             <div
@@ -326,9 +320,12 @@ export default function Komoot() {
               <div className={cn('col--md-2')}></div>
               <div className={cn('col--md-8')}>
                 <p>
-                  These <strong>key user flows</strong> highlight the relation
-                  that has the online experience between customer and
-                  brick-and-mortar shop.
+                  These <strong>key user flows</strong> show the main user happy
+                  paths for the new feature: join and organise an event, as well
+                  as the "nice to have" messaging feature. Highly important to
+                  figure out if there's anything I missed and needs to be
+                  considered (e.g. onboarding for the prototype or sharing an
+                  event after creating it).
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -340,14 +337,14 @@ export default function Komoot() {
               )}
             >
               <Image
-                src={'/images/bicibavarese/user-flows.png'}
-                alt="Bici Bavarese Key User Flows"
+                src={'/images/komoot/user-flows.png'}
+                alt="Komoot Key User Flows"
                 width={2566}
-                height={1444}
+                height={1284}
                 link={+true}
               />
             </div>
-          </div> */}
+          </div>
 
           {/* Wireframes */}
           {/* <div className={caseStudy.segment}>
