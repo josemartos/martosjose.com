@@ -347,7 +347,7 @@ export default function Komoot() {
           </div>
 
           {/* Wireframes */}
-          {/* <div className={caseStudy.segment}>
+          <div className={caseStudy.segment}>
             <h3 className={caseStudy.segmentTitle}>Wireframes</h3>
             <div
               className={cn(
@@ -359,31 +359,27 @@ export default function Komoot() {
               <div className={cn('col--md-2')}></div>
               <div className={cn('col--md-8')}>
                 <p>
-                  I created wireframes for the most important pages on this
-                  website: the <strong>Homepage</strong>, the{' '}
-                  <strong>Event Page</strong> where they display all the
-                  information related to their yearly event (Giro Bavarese), as
-                  well as the page where they showcase their{' '}
-                  <strong>own crafted bike</strong>. This way I will start
-                  transitioning into the first idea of what the design could
-                  look like. It follows a minimalistic style, with some retro
-                  and classic touches, combined with a modern style.
+                  The following wireframes show the screens of the new feature,
+                  and the ones that have any element related to the new feature.
+                  I focused on the main two flows: join and organise an event.
+                  It's inspired in all the design elements of the current app
+                  for a smooth mix.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
             </div>
-            <div className={caseStudy.highlightBackground}>
+            {/* <div className={caseStudy.highlightBackground}>
               <div className={commonStyles.contentWrapper}>
                 <Image
-                  src={'/images/bicibavarese/wireframes.png'}
-                  alt="Bici Bavarese Wireframes"
+                  src={'/images/komoot/wireframes.png'}
+                  alt="Komoot Wireframes"
                   width={2622}
                   height={1896}
                   link={+true}
                 />
               </div>
-            </div>
-          </div> */}
+            </div> */}
+          </div>
         </section>
       </div>
     </BasePage>
