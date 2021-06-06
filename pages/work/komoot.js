@@ -359,26 +359,26 @@ export default function Komoot() {
               <div className={cn('col--md-2')}></div>
               <div className={cn('col--md-8')}>
                 <p>
-                  The following wireframes show the screens of the new feature,
-                  and the ones that have any element related to the new feature.
-                  I focused on the main two flows: join and organise an event.
-                  It's inspired in all the design elements and general
-                  guidelines of the current app, to achive a smooth integration.
+                  The following wireframes show some of the screens for the main
+                  two flows of the new feature:{' '}
+                  <strong>join and create an event</strong>. It makes use of the
+                  design elements and general guidelines of the current app, to
+                  achive a smooth integration.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
             </div>
-            {/* <div className={caseStudy.highlightBackground}>
+            <div className={caseStudy.highlightBackground}>
               <div className={commonStyles.contentWrapper}>
                 <Image
                   src={'/images/komoot/wireframes.png'}
                   alt="Komoot Wireframes"
-                  width={2622}
-                  height={1896}
+                  width={2616}
+                  height={4644}
                   link={+true}
                 />
               </div>
-            </div> */}
+            </div>
           </div>
         </section>
       </div>

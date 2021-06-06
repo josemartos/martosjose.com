@@ -2,12 +2,12 @@ import { useState, useRef } from 'react';
 import Head from 'next/head';
 import { useEffect } from 'react';
 
-import AppContext from 'context/appContext';
-
 import smoothscroll from 'smoothscroll-polyfill';
 
 // Styles
 import 'styles/global.scss';
+
+import AppContext from 'context/appContext';
 import { Maintenance, GoTopButton } from 'components';
 
 function App({ Component, pageProps, maintenanceMode = 'false' }) {
