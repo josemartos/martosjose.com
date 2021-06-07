@@ -59,11 +59,10 @@ export default function Komoot() {
                 <div className={cn('col--md-5')}>
                   <p>
                     Being an avid hiker myself, I decided to design for one of
-                    the apps I use myself: Komoot. Hence, for the second
+                    the apps I currently use: Komoot. Hence, for the second
                     capstone project at Designlab’s UX Academy, I worked on{' '}
-                    <strong>expanding the social capabilities</strong> of the
-                    app. I could dig deep into the app, its current
-                    functionalities, and parts where could be improved. I did
+                    <strong>expanding its social capabilities</strong>. I could
+                    explore the app and its current functionalities. I did
                     market research, sent out some surveys to know more from the
                     users, as well as tested and prototyped the idea, always
                     respecting the current style guide and general guidelines.
@@ -88,10 +87,9 @@ export default function Komoot() {
                 <h2>Goals</h2>
                 <p>
                   Komoot is a well-known outdoor activities app, and the goal of
-                  this project was to <strong>add a new feature</strong>,
-                  keeping consistency with the current design and
-                  implementation: from colours and typography, to imagery,
-                  icons, etc.
+                  this project was to <strong>add a new feature</strong>, being
+                  consistent with the current implementation: from colours and
+                  typography, to imagery, icons, etc.
                 </p>
               </div>
               <div className={cn('col--md-3')}></div>
@@ -132,7 +130,7 @@ export default function Komoot() {
                   First of all, I wanted to know more about the current
                   competitors, the app itself, so I did some secondary research
                   to gather insights and make my mind what to ask later in the
-                  survey as well.
+                  survey.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -167,14 +165,22 @@ export default function Komoot() {
               <div className={cn('col--md-8')}>
                 <p>
                   I sent out a <strong>Survey</strong> that was answered by 8
-                  participants, in order to acknowledge the current usage, and
-                  if they would be interested in socialising more within the
-                  app. I tried to reach the company to get some users, but had
-                  no luck, so the Survey was general, targeting more apps of the
-                  like, which could give a broader spectrum of responses.
+                  participants, in order to understand how users make use of the
+                  app and if they’re missing some capabilities and features,
+                  what they love and what they would change, as well as if they
+                  would be interested in socialising more within the app.
+                </p>
+                <p>
+                  I tried to reach the company to have the chance to talk with
+                  some users, but had no luck, so the Survey targeted apps of
+                  the like, which gave a broader spectrum of responses, with the
+                  same questions in mind.
+                </p>
+                <p>
+                  I separated in three: needs, frustrations and motivations.
                 </p>
                 <p className={caseStudy.listTitle}>
-                  Here's the user <strong>needs</strong>:
+                  <strong>Needs</strong>:
                 </p>
                 <ul>
                   <li>
@@ -188,7 +194,7 @@ export default function Komoot() {
                 </ul>
 
                 <p className={caseStudy.listTitle}>
-                  Followed by <strong>frustrations</strong>:
+                  <strong>Frustrations</strong>:
                 </p>
                 <ul>
                   <li>Limited options to socialize</li>
@@ -196,13 +202,12 @@ export default function Komoot() {
                 </ul>
 
                 <p className={caseStudy.listTitle}>
-                  Below is the main <strong>motivation</strong>:
+                  <strong>Motivations</strong>:
                 </p>
                 <ul>
                   <li>
-                    Some found limited options to socialize, and most of the
-                    participants would be willing to socialize more (e.g. join /
-                    organise meetups, challenge friends)
+                    Most of the participants would be willing to socialize more
+                    (e.g. join / organise meetups, challenge friends)
                   </li>
                 </ul>
               </div>
@@ -246,11 +251,10 @@ export default function Komoot() {
               <div className={cn('col--md-8')}>
                 <p>
                   Using the information gathered during the User Survey, I
-                  created a <strong>Persona</strong> to summarize the their
-                  wants, needs and frustrations. Lukas Berger, a newcomer to the
-                  city of Innsbruck was the perfect example to be willing to
-                  socialize by doing what he enjoys the most: being outside in
-                  the nature.
+                  created a <strong>Persona</strong> to summarize the findings.
+                  Lukas Berger, a newcomer to the city of Innsbruck was the
+                  perfect example to someone who's willing to socialize by doing
+                  what he enjoys the most: being outside in the nature.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -284,10 +288,9 @@ export default function Komoot() {
               <div className={cn('col--md-2')}></div>
               <div className={cn('col--md-8')}>
                 <p>
-                  The <strong>Sitemap</strong> helped me to see which features
-                  and screens the current app has, as well as the new screens
-                  that need to be designed. The green boxes represent the new
-                  feature.
+                  The <strong>Sitemap</strong> helped me to organise the current
+                  set of screens, as well as new ones that need to be designed
+                  to implement the new feature (represented in green).
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -322,11 +325,11 @@ export default function Komoot() {
               <div className={cn('col--md-2')}></div>
               <div className={cn('col--md-8')}>
                 <p>
-                  These <strong>key user flows</strong> show the main user happy
-                  paths for the new feature: join and organise an event, as well
-                  as the "nice to have" messaging feature. Very important to
-                  notice that I would need a welcome page for the prototype, as
-                  well as a sharing functionality after the event creation.
+                  These <strong>key user flows</strong> show the two main paths:
+                  join and organise an event, combined with a third one
+                  messaging feature. Helped me to visualise and notice that I
+                  would need a welcome page (added on the prototype), as well as
+                  a sharing functionality after the event creation.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -360,11 +363,17 @@ export default function Komoot() {
               <div className={cn('col--md-2')}></div>
               <div className={cn('col--md-8')}>
                 <p>
-                  The following wireframes show some of the screens for the main
-                  two flows of the new feature:{' '}
-                  <strong>join and create an event</strong>. It makes use of the
-                  design elements and general guidelines of the current app, to
-                  achive a smooth integration.
+                  The following wireframes show some of the screens for the{' '}
+                  <strong>join and create an event</strong> features. To achive
+                  a smooth integration, it makes use of the{' '}
+                  <a
+                    href="https://newsroom.komoot.com/media_kits/"
+                    title="Komoot Media Kits"
+                    target="_blank"
+                  >
+                    current design elements and general guidelines
+                  </a>
+                  .
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -449,7 +458,7 @@ export default function Komoot() {
                   positive, and the success rate in the tasks was high.
                 </p>
                 <p>
-                  Only the create event button was not so clear for one of the
+                  Only the "create event button| was not so clear for one of the
                   participants, the rest resulted to be easy to follow.
                 </p>
                 <LinkButton
@@ -472,14 +481,14 @@ export default function Komoot() {
                 <div className={cn('col--md-8')}>
                   <h3>Takeaways</h3>
                   <p>
-                    If I could have access to the userbase of the app, I would
-                    have conducted much better quality interviews and tests, but
-                    I could not reach out the company.
+                    If I could have had access to the userbase of the app, I
+                    would have conducted better interviews / surveys and user
+                    tests.
                   </p>
                   <p>
                     To design with an already existing style guide is a nice way
-                    to learn with already existing constraints and to learn how
-                    to adapt to settled guidelines.
+                    to learn how to adapt with existing constraints and
+                    guidelines.
                   </p>
                   <p>Thanks for reading!</p>
                 </div>
