@@ -40,14 +40,14 @@ const Carousel = () => {
         }}
         breakpoints={{
           768: {
-            slidesPerView: 3,
-            spaceBetween: 40,
+            slidesPerView: 2,
+            spaceBetween: 50,
           },
         }}
       >
         <SwiperSlide>
           <Image
-            src={'/images/komoot/ui-design1.jpg'}
+            src={'/images/komoot/ui-design1.png'}
             alt="Komoot UI Design Screens"
             width={625}
             height={1272}
@@ -55,7 +55,7 @@ const Carousel = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src={'/images/komoot/ui-design2.jpg'}
+            src={'/images/komoot/ui-design2.png'}
             alt="Komoot UI Design Screens"
             width={625}
             height={1272}
@@ -63,7 +63,7 @@ const Carousel = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src={'/images/komoot/ui-design3.jpg'}
+            src={'/images/komoot/ui-design3.png'}
             alt="Komoot UI Design Screens"
             width={625}
             height={1272}
@@ -71,7 +71,7 @@ const Carousel = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src={'/images/komoot/ui-design4.jpg'}
+            src={'/images/komoot/ui-design4.png'}
             alt="Komoot UI Design Screens"
             width={625}
             height={1272}
@@ -79,7 +79,7 @@ const Carousel = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src={'/images/komoot/ui-design5.jpg'}
+            src={'/images/komoot/ui-design5.png'}
             alt="Komoot UI Design Screens"
             width={625}
             height={1272}
@@ -87,7 +87,7 @@ const Carousel = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src={'/images/komoot/ui-design6.jpg'}
+            src={'/images/komoot/ui-design6.png'}
             alt="Komoot UI Design Screens"
             width={625}
             height={1272}
@@ -95,7 +95,7 @@ const Carousel = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src={'/images/komoot/ui-design7.jpg'}
+            src={'/images/komoot/ui-design7.png'}
             alt="Komoot UI Design Screens"
             width={625}
             height={1272}
@@ -103,7 +103,7 @@ const Carousel = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src={'/images/komoot/ui-design8.jpg'}
+            src={'/images/komoot/ui-design8.png'}
             alt="Komoot UI Design Screens"
             width={625}
             height={1272}
@@ -111,7 +111,7 @@ const Carousel = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src={'/images/komoot/ui-design9.jpg'}
+            src={'/images/komoot/ui-design9.png'}
             alt="Komoot UI Design Screens"
             width={625}
             height={1272}
@@ -119,7 +119,7 @@ const Carousel = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src={'/images/komoot/ui-design10.jpg'}
+            src={'/images/komoot/ui-design10.png'}
             alt="Komoot UI Design Screens"
             width={625}
             height={1272}
