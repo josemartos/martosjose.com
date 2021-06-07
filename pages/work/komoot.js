@@ -4,6 +4,7 @@ import {
   Image,
   CaseStudyTag,
   CaseStudyBlockHeader,
+  Carousel,
   LinkButton,
 } from 'components';
 
@@ -377,6 +378,48 @@ export default function Komoot() {
                   height={4644}
                   link={+true}
                 />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Design */}
+        <section className={pageStyles.section}>
+          <CaseStudyBlockHeader title="Design">
+            <h3>User Interface</h3>
+          </CaseStudyBlockHeader>
+
+          {/* UI Design */}
+          <div className={caseStudy.segment}>
+            <h3 className={caseStudy.segmentTitle}>UI Design</h3>
+            <div
+              className={cn(
+                'flexGrid',
+                commonStyles.contentWrapper,
+                caseStudy.segmentIntro
+              )}
+            >
+              <div className={cn('col--md-2')}></div>
+              <div className={cn('col--md-8')}>
+                <p>
+                  {' '}
+                  Tightly based on the wireframes, I created high-fidelity
+                  screens. The following are the final version after the UI
+                  tests, taken from the polished prototype linked in the below
+                  section. All the colours and design elements are taken from
+                  the existing Komoot app.
+                </p>
+              </div>
+              <div className={cn('col--md-2')}></div>
+            </div>
+            <div
+              className={cn(
+                caseStudy.highlightBackground,
+                caseStudy.highlightBackgroundBlue
+              )}
+            >
+              <div className={cn(commonStyles.contentWrapper)}>
+                <Carousel />
               </div>
             </div>
           </div>

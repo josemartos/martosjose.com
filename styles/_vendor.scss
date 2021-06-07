@@ -10,11 +10,22 @@
 
 .swiper-slide {
   text-align: center;
-  width: 242px;
+  width: auto;
   height: auto;
 
   /* Center slide text vertically */
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.swiper-slide img {
+  width: 312px;
+  height: auto;
+}
+
+.swiper-button-disabled {
+  border-color: $c-grey300 !important;
+  cursor: none;
+  pointer-events: none;
 }

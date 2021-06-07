@@ -9,3 +9,4 @@ export { default as Maintenance } from './maintenance';
 export { default as ContactForm } from './contactForm';
 export { CaseStudyTag, CaseStudyBlockHeader } from './caseStudy';
 export { default as Image } from './Image';
+export { default as Carousel } from './Carousel';
