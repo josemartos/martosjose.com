@@ -15,7 +15,7 @@
     margin-bottom: 20px;
   }
 
-  ul {
+  ul:not(:last-child) {
     margin-bottom: 30px;
   }
 }

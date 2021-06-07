@@ -11,9 +11,8 @@ import pageStyles from 'styles/page.module.scss';
 import styles from 'styles/pages/index.module.scss';
 
 export default function Home() {
-  const { workSectionRef, scrollToWork, workMenu, setWorkMenu } = useContext(
-    AppContext
-  );
+  const { workSectionRef, scrollToWork, workMenu, setWorkMenu } =
+    useContext(AppContext);
 
   useEffect(() => {
     if (!workMenu) return;
@@ -46,12 +45,28 @@ export default function Home() {
         </div>
         <div className={styles.project}>
           <Project
+            title="Komoot"
+            type="capstone - ux / ui design"
+            description="Research and add a feature to an existing app."
+            image={{
+              url: 'komoot/cover.png',
+              alt: 'Komoot - Social feature',
+            }}
+            link="/work/komoot"
+          />
+        </div>
+        <div className={styles.project}>
+          <Project
             title="Bici Bavarese"
             type="capstone - ux / ui design"
             description="Research and redesign of a local bike shop."
-            image="bicibavarese/cover.jpg"
-            imageAlt="Bike store re-design"
+            image={{
+              url: 'bicibavarese/cover.jpg',
+              alt: 'Bike store re-design',
+              shadow: true,
+            }}
             link="/work/bicibavarese"
+            reverseLayout={true}
           />
         </div>
         <div className={styles.project}>
@@ -59,10 +74,12 @@ export default function Home() {
             title="Mirror"
             type="course project - ux / ui design"
             description="Rework the branding of a clothing e-commerce platform, and create a responsive web design."
-            image="mirror/cover.jpg"
-            imageAlt="Mirror design"
+            image={{
+              url: 'mirror/cover.jpg',
+              alt: 'Mirror design',
+              shadow: true,
+            }}
             link="/work/mirror"
-            reverseLayout={true}
           />
         </div>
       </section>

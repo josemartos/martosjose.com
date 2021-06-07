@@ -286,7 +286,8 @@ export default function Komoot() {
                 <p>
                   The <strong>Sitemap</strong> helped me to see which features
                   and screens the current app has, as well as the new screens
-                  that need to be designed.
+                  that need to be designed. The green boxes represent the new
+                  feature.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -323,10 +324,9 @@ export default function Komoot() {
                 <p>
                   These <strong>key user flows</strong> show the main user happy
                   paths for the new feature: join and organise an event, as well
-                  as the "nice to have" messaging feature. Highly important to
-                  figure out if there's anything I missed and needs to be
-                  considered (e.g. onboarding for the prototype or sharing an
-                  event after creating it).
+                  as the "nice to have" messaging feature. Very important to
+                  notice that I would need a welcome page for the prototype, as
+                  well as a sharing functionality after the event creation.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>

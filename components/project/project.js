@@ -10,32 +10,29 @@ import { LinkButton, Image } from 'components';
 import commonStyles from 'styles/common.module.scss';
 import styles from './project.module.scss';
 
-const ProjectImage = ({ name, alt }) => (
+const ProjectImage = ({ image }) => (
   <Image
-    src={`/images/${name}`}
-    alt={alt}
-    width={710}
-    height={560}
-    shadow={+true}
+    src={`/images/${image.url}`}
+    alt={image.alt}
+    width={image.width || 710}
+    height={image.height || 560}
+    shadow={+(image.shadow || false)}
   />
 );
 
-export const LinkImage = React.forwardRef(
-  ({ href, onClick, name, alt }, ref) => {
-    return (
-      <a href={href} ref={ref} onClick={onClick} title={alt}>
-        <ProjectImage name={name} alt={alt} />
-      </a>
-    );
-  }
-);
+export const LinkImage = React.forwardRef(({ href, onClick, image }, ref) => {
+  return (
+    <a href={href} ref={ref} onClick={onClick} title={image.alt}>
+      <ProjectImage image={image} />
+    </a>
+  );
+});
 
 const Project = ({
   title,
   type,
   description,
   image,
-  imageAlt,
   link,
   reverseLayout = false,
   inProgress = false,
@@ -55,10 +52,10 @@ const Project = ({
           <div className={cn(styles.image, 'col--md-7')}>
             <ComeInAnimation>
               {inProgress ? (
-                <ProjectImage name={image} alt={imageAlt} />
+                <ProjectImage image={image} />
               ) : (
                 <RouterLink href={link}>
-                  <LinkImage name={image} alt={imageAlt} />
+                  <LinkImage image={image} />
                 </RouterLink>
               )}
             </ComeInAnimation>
