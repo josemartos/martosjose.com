@@ -424,6 +424,70 @@ export default function Komoot() {
             </div>
           </div>
         </section>
+
+        {/* Testing */}
+        <section className={pageStyles.section}>
+          <CaseStudyBlockHeader title="Testing">
+            <h3>UI tests</h3>
+          </CaseStudyBlockHeader>
+
+          {/* Testing */}
+          <div className={caseStudy.segment}>
+            <h3 className={caseStudy.segmentTitle}>UI Tests</h3>
+            <div
+              className={cn(
+                'flexGrid',
+                commonStyles.contentWrapper,
+                caseStudy.segmentIntro
+              )}
+            >
+              <div className={cn('col--md-2')}></div>
+              <div className={cn('col--md-8')}>
+                <p>
+                  Nine participants did a Maze UI Test with two main tasks: join
+                  and create an event. Overall the responses were throughout
+                  positive, and the success rate in the tasks was high.
+                </p>
+                <p>
+                  Only the create event button was not so clear for one of the
+                  participants, the rest resulted to be easy to follow.
+                </p>
+                <LinkButton
+                  target="_blank"
+                  text="See prototype"
+                  href="https://www.figma.com/proto/lLKG54W0VMlqIZIy5TctPq/Komoot-Prototype?page-id=0%3A1&node-id=102%3A3&viewport=-1287%2C321%2C0.32177332043647766&scaling=scale-down"
+                />
+              </div>
+              <div className={cn('col--md-2')}></div>
+            </div>
+          </div>
+        </section>
+
+        {/* Wrap up */}
+        <section className={cn(pageStyles.section, pageStyles.noPadding)}>
+          <div className={caseStudy.wrappingUp}>
+            <div className={commonStyles.contentWrapper}>
+              <div className={cn('flexGrid', commonStyles.contentWrapper)}>
+                <div className={cn('col--md-2')}></div>
+                <div className={cn('col--md-8')}>
+                  <h3>Takeaways</h3>
+                  <p>
+                    If I could have access to the userbase of the app, I would
+                    have conducted much better quality interviews and tests, but
+                    I could not reach out the company.
+                  </p>
+                  <p>
+                    To design with an already existing style guide is a nice way
+                    to learn with already existing constraints and to learn how
+                    to adapt to settled guidelines.
+                  </p>
+                  <p>Thanks for reading!</p>
+                </div>
+                <div className={cn('col--md-2')}></div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </BasePage>
   );

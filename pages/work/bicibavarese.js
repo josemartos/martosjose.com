@@ -596,6 +596,7 @@ export default function BiciBavarese() {
             </div>
           </div>
         </section>
+
         {/* Wrap up */}
         <section className={cn(pageStyles.section, pageStyles.noPadding)}>
           <div className={caseStudy.wrappingUp}>
