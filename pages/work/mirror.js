@@ -24,8 +24,8 @@ export default function Mirror() {
               <Image
                 src={'/images/mirror/hero.jpg'}
                 alt="Mirror Website Mockups"
-                width={2566}
-                height={1440}
+                width={1283}
+                height={720}
                 priority={true}
               />
             </ComeInAnimation>
@@ -157,8 +157,8 @@ export default function Mirror() {
               <Image
                 src={'/images/mirror/competitor-analysis.jpg'}
                 alt="Mirror Competitor Analysis"
-                width={2564}
-                height={708}
+                width={1282}
+                height={354}
                 link={+true}
               />
             </div>
@@ -261,8 +261,8 @@ export default function Mirror() {
               <Image
                 src={'/images/mirror/persona.jpg'}
                 alt="Mirror Persona"
-                width={2566}
-                height={1682}
+                width={1283}
+                height={841}
                 link={+true}
               />
             </div>
@@ -298,8 +298,8 @@ export default function Mirror() {
               <Image
                 src={'/images/mirror/sitemap.png'}
                 alt="Mirror Sitemap"
-                width={2560}
-                height={1110}
+                width={1280}
+                height={555}
                 link={+true}
               />
             </div>
@@ -339,8 +339,8 @@ export default function Mirror() {
                   <Image
                     src={'/images/mirror/user-flow.png'}
                     alt="Mirror User Flow"
-                    width={1694}
-                    height={2722}
+                    width={847}
+                    height={1361}
                     link={+true}
                   />
                 </div>
@@ -376,8 +376,8 @@ export default function Mirror() {
                 <Image
                   src={'/images/mirror/wireframes.png'}
                   alt="Mirror Wireframes"
-                  width={2630}
-                  height={1897}
+                  width={1315}
+                  height={948}
                   link={+true}
                 />
               </div>
@@ -422,8 +422,8 @@ export default function Mirror() {
               <Image
                 src={'/images/mirror/style-tile.jpg'}
                 alt="Mirror Style Tile"
-                width={2562}
-                height={4228}
+                width={1281}
+                height={2114}
                 link={+true}
               />
             </div>
@@ -468,8 +468,8 @@ export default function Mirror() {
                   <Image
                     src={'/images/mirror/homepage.jpg'}
                     alt="Mirror Homepage"
-                    width={2130}
-                    height={2870}
+                    width={1065}
+                    height={2435}
                     shadow={+true}
                     link={+true}
                   />
@@ -496,8 +496,8 @@ export default function Mirror() {
                   <Image
                     src={'/images/mirror/product.jpg'}
                     alt="Mirror Product Page"
-                    width={1259}
-                    height={1696}
+                    width={630}
+                    height={848}
                     shadow={+true}
                     link={+true}
                   />
@@ -546,8 +546,8 @@ export default function Mirror() {
                   <Image
                     src={'/images/mirror/checkout-funnel1.jpg'}
                     alt="Mirror Checkout Funnel"
-                    width={2130}
-                    height={1554}
+                    width={1065}
+                    height={777}
                     shadow={+true}
                     link={+true}
                   />
