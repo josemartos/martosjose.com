@@ -24,8 +24,8 @@ export default function BiciBavarese() {
               <Image
                 src={'/images/bicibavarese/hero.jpg'}
                 alt="Bici Bavarese Website Mockups"
-                width={2566}
-                height={1440}
+                width={1280}
+                height={720}
                 priority={true}
               />
             </ComeInAnimation>
@@ -158,8 +158,8 @@ export default function BiciBavarese() {
               <Image
                 src={'/images/bicibavarese/research-ramp-up.png'}
                 alt="Bici Bavarese Research Ramp-up"
-                width={2566}
-                height={1452}
+                width={1283}
+                height={726}
                 link={+true}
               />
             </div>
@@ -257,8 +257,8 @@ export default function BiciBavarese() {
               <Image
                 src={'/images/bicibavarese/persona.png'}
                 alt="Bici Bavarese Persona"
-                width={2566}
-                height={1682}
+                width={1283}
+                height={841}
                 link={+true}
               />
             </div>
@@ -296,8 +296,8 @@ export default function BiciBavarese() {
                   <Image
                     src={'/images/bicibavarese/sitemap.png'}
                     alt="Bici Bavarese Sitemap"
-                    width={2130}
-                    height={2570}
+                    width={1065}
+                    height={1285}
                     link={+true}
                   />
                 </div>
@@ -336,8 +336,8 @@ export default function BiciBavarese() {
               <Image
                 src={'/images/bicibavarese/user-flows.png'}
                 alt="Bici Bavarese Key User Flows"
-                width={2566}
-                height={1444}
+                width={1283}
+                height={722}
                 link={+true}
               />
             </div>
@@ -374,8 +374,8 @@ export default function BiciBavarese() {
                 <Image
                   src={'/images/bicibavarese/wireframes.png'}
                   alt="Bici Bavarese Wireframes"
-                  width={2622}
-                  height={1896}
+                  width={1283}
+                  height={920}
                   link={+true}
                 />
               </div>
@@ -419,8 +419,8 @@ export default function BiciBavarese() {
               <Image
                 src={'/images/bicibavarese/brand-ideas.jpg'}
                 alt="Bici Bavarese Brand Ideas"
-                width={2566}
-                height={1712}
+                width={1283}
+                height={856}
                 link={+true}
               />
             </div>
@@ -433,8 +433,8 @@ export default function BiciBavarese() {
               <Image
                 src={'/images/bicibavarese/style-tile.jpg'}
                 alt="Bici Bavarese Style Tile"
-                width={2566}
-                height={1712}
+                width={1283}
+                height={856}
                 link={+true}
               />
             </div>
@@ -482,8 +482,8 @@ export default function BiciBavarese() {
                   <Image
                     src={'/images/bicibavarese/homepage.jpg'}
                     alt="Bici Bavarese Homepage"
-                    width={2130}
-                    height={4908}
+                    width={1065}
+                    height={2454}
                     shadow={+true}
                     link={+true}
                   />
@@ -511,8 +511,8 @@ export default function BiciBavarese() {
                   <Image
                     src={'/images/bicibavarese/giro-bavarese.jpg'}
                     alt="Giro Bavarese page"
-                    width={2130}
-                    height={4550}
+                    width={1065}
+                    height={2275}
                     shadow={+true}
                     link={+true}
                   />
@@ -539,8 +539,8 @@ export default function BiciBavarese() {
                   <Image
                     src={'/images/bicibavarese/our-bike.jpg'}
                     alt="Our Bike Page"
-                    width={2130}
-                    height={5809}
+                    width={1065}
+                    height={2904}
                     shadow={+true}
                     link={+true}
                   />
