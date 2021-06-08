@@ -25,8 +25,8 @@ export default function Komoot() {
               <Image
                 src={'/images/komoot/hero.jpg'}
                 alt="Komoot App Mockups"
-                width={2566}
-                height={1440}
+                width={1280}
+                height={720}
                 priority={true}
               />
             </ComeInAnimation>
@@ -144,8 +144,8 @@ export default function Komoot() {
               <Image
                 src={'/images/komoot/research-ramp-up.png'}
                 alt="Komoot Research Ramp-up"
-                width={2566}
-                height={1452}
+                width={1283}
+                height={762}
                 link={+true}
               />
             </div>
@@ -268,8 +268,8 @@ export default function Komoot() {
               <Image
                 src={'/images/komoot/persona.png'}
                 alt="Komoot Persona"
-                width={2566}
-                height={1710}
+                width={1283}
+                height={855}
                 link={+true}
               />
             </div>
@@ -304,8 +304,8 @@ export default function Komoot() {
               <Image
                 src={'/images/komoot/sitemap.png'}
                 alt="Komoot Sitemap"
-                width={2566}
-                height={2706}
+                width={1283}
+                height={1353}
                 link={+true}
               />
             </div>
@@ -343,8 +343,8 @@ export default function Komoot() {
               <Image
                 src={'/images/komoot/user-flows.png'}
                 alt="Komoot Key User Flows"
-                width={2566}
-                height={1284}
+                width={1283}
+                height={642}
                 link={+true}
               />
             </div>
@@ -383,8 +383,8 @@ export default function Komoot() {
                 <Image
                   src={'/images/komoot/wireframes.png'}
                   alt="Komoot Wireframes"
-                  width={2616}
-                  height={4644}
+                  width={1283}
+                  height={2297}
                   link={+true}
                 />
               </div>

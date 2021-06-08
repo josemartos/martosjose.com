@@ -49,80 +49,80 @@ const Carousel = () => {
           <Image
             src={'/images/komoot/ui-design1.png'}
             alt="Komoot UI Design Screens"
-            width={625}
-            height={1272}
+            width={411}
+            height={840}
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src={'/images/komoot/ui-design2.png'}
             alt="Komoot UI Design Screens"
-            width={625}
-            height={1272}
+            width={411}
+            height={840}
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src={'/images/komoot/ui-design3.png'}
             alt="Komoot UI Design Screens"
-            width={625}
-            height={1272}
+            width={411}
+            height={840}
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src={'/images/komoot/ui-design4.png'}
             alt="Komoot UI Design Screens"
-            width={625}
-            height={1272}
+            width={411}
+            height={840}
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src={'/images/komoot/ui-design5.png'}
             alt="Komoot UI Design Screens"
-            width={625}
-            height={1272}
+            width={411}
+            height={840}
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src={'/images/komoot/ui-design6.png'}
             alt="Komoot UI Design Screens"
-            width={625}
-            height={1272}
+            width={411}
+            height={840}
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src={'/images/komoot/ui-design7.png'}
             alt="Komoot UI Design Screens"
-            width={625}
-            height={1272}
+            width={411}
+            height={840}
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src={'/images/komoot/ui-design8.png'}
             alt="Komoot UI Design Screens"
-            width={625}
-            height={1272}
+            width={411}
+            height={840}
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src={'/images/komoot/ui-design9.png'}
             alt="Komoot UI Design Screens"
-            width={625}
-            height={1272}
+            width={411}
+            height={840}
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src={'/images/komoot/ui-design10.png'}
             alt="Komoot UI Design Screens"
-            width={625}
-            height={1272}
+            width={411}
+            height={840}
           />
         </SwiperSlide>
       </Swiper>

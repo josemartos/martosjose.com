@@ -26,9 +26,17 @@
 .carouselArrowLeft {
   left: -10px;
   transform: rotate(-45deg);
+
+  @media screen and (max-width: $phablet) {
+    left: -15px;
+  }
 }
 
 .carouselArrowRight {
   right: -10px;
   transform: rotate(135deg);
+
+  @media screen and (max-width: $phablet) {
+    right: -15px;
+  }
 }
