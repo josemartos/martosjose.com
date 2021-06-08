@@ -4,14 +4,16 @@ import cn from 'classnames';
 import styles from './image.module.scss';
 
 const Image = (props) => {
+  const { shadow, link } = props;
+
   return (
     <div
       className={cn(styles.wrapper, {
-        [styles.shadow]: props.shadow,
+        [styles.shadow]: shadow,
       })}
     >
       <NextImage {...props} />
-      {props.link && (
+      {link && (
         <a href={props.src} target="_blank">
           (View large version)
         </a>
