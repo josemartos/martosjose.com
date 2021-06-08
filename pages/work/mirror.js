@@ -334,8 +334,8 @@ export default function Mirror() {
               )}
             >
               <div className={cn('flexGrid', commonStyles.contentWrapper)}>
-                <div className={cn('col--md-1')}></div>
-                <div className={cn('col--md-10')}>
+                <div className={cn('col--md-2')}></div>
+                <div className={cn('col--md-8')}>
                   <Image
                     src={'/images/mirror/user-flow.png'}
                     alt="Mirror User Flow"
@@ -344,7 +344,7 @@ export default function Mirror() {
                     link={+true}
                   />
                 </div>
-                <div className={cn('col--md-1')}></div>
+                <div className={cn('col--md-2')}></div>
               </div>
             </div>
           </div>
@@ -469,7 +469,7 @@ export default function Mirror() {
                     src={'/images/mirror/homepage.jpg'}
                     alt="Mirror Homepage"
                     width={1065}
-                    height={2435}
+                    height={1435}
                     shadow={+true}
                     link={+true}
                   />
