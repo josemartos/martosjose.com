@@ -51,7 +51,6 @@ const Carousel = () => {
             alt="Komoot UI Design Screens"
             width={625}
             height={1272}
-            priority={true}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -60,7 +59,6 @@ const Carousel = () => {
             alt="Komoot UI Design Screens"
             width={625}
             height={1272}
-            priority={true}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -69,7 +67,6 @@ const Carousel = () => {
             alt="Komoot UI Design Screens"
             width={625}
             height={1272}
-            priority={true}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -78,7 +75,6 @@ const Carousel = () => {
             alt="Komoot UI Design Screens"
             width={625}
             height={1272}
-            priority={true}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -87,7 +83,6 @@ const Carousel = () => {
             alt="Komoot UI Design Screens"
             width={625}
             height={1272}
-            priority={true}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -96,7 +91,6 @@ const Carousel = () => {
             alt="Komoot UI Design Screens"
             width={625}
             height={1272}
-            priority={true}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -105,7 +99,6 @@ const Carousel = () => {
             alt="Komoot UI Design Screens"
             width={625}
             height={1272}
-            priority={true}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -114,7 +107,6 @@ const Carousel = () => {
             alt="Komoot UI Design Screens"
             width={625}
             height={1272}
-            priority={true}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -123,7 +115,6 @@ const Carousel = () => {
             alt="Komoot UI Design Screens"
             width={625}
             height={1272}
-            priority={true}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -132,7 +123,6 @@ const Carousel = () => {
             alt="Komoot UI Design Screens"
             width={625}
             height={1272}
-            priority={true}
           />
         </SwiperSlide>
       </Swiper>
