@@ -70,7 +70,7 @@ export default function Komoot() {
                 </div>
                 <div className={cn('col--md-2')}></div>
                 <div className={cn(caseStudy.tagsWrapper, 'col--md-4')}>
-                  <CaseStudyTag label="Role" text="UX / UI Design" />
+                  <CaseStudyTag label="Role" text="UX / UI Designer" />
                   <CaseStudyTag
                     label="Skills"
                     text="Research, Information Architecture, Interaction & UI Design, Prototype, Testing"
@@ -454,12 +454,10 @@ export default function Komoot() {
               <div className={cn('col--md-8')}>
                 <p>
                   Nine participants did a Maze UI Test with two main tasks: join
-                  and create an event. Overall the responses were throughout
-                  positive, and the success rate in the tasks was high.
-                </p>
-                <p>
-                  Only the "create event button| was not so clear for one of the
-                  participants, the rest resulted to be easy to follow.
+                  and create an event. Overall the responses were positive
+                  throughout, the success rate was high, and there were only
+                  small usability issues to address, such as the size of the CTA
+                  button.
                 </p>
                 <LinkButton
                   target="_blank"
@@ -484,6 +482,11 @@ export default function Komoot() {
                     If I could have had access to the userbase of the app, I
                     would have conducted better interviews / surveys and user
                     tests.
+                  </p>
+                  <p>
+                    If I could go back, I would have asked more thorough
+                    questions in the Usability Test, to try and get richer
+                    insights.
                   </p>
                   <p>
                     To design with an already existing style guide is a nice way

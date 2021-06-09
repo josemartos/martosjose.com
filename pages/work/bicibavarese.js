@@ -74,7 +74,7 @@ export default function BiciBavarese() {
                 </div>
                 <div className={cn('col--md-2')}></div>
                 <div className={cn(caseStudy.tagsWrapper, 'col--md-4')}>
-                  <CaseStudyTag label="Role" text="UX / UI Design" />
+                  <CaseStudyTag label="Role" text="UX / UI Designer" />
                   <CaseStudyTag
                     label="Skills"
                     text="Research, Information Architecture, Interaction & UI Design, Prototype, Testing"
