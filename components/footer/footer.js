@@ -28,6 +28,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/josemmartos/"
               title="Visit my Linkedin profile"
               target="_blank"
+              rel="noreferrer"
             >
               <LinkedinIcon />
             </a>
@@ -35,6 +36,7 @@ const Footer = () => {
               href="https://github.com/josemartos"
               title="Visit my Github profile"
               target="_blank"
+              rel="noreferrer"
             >
               <GithubIcon />
             </a>
@@ -42,6 +44,7 @@ const Footer = () => {
               href="https://500px.com/p/martosjosele"
               title="Visit my 500px profile"
               target="_blank"
+              rel="noreferrer"
             >
               <PicsIcon />
             </a>
@@ -55,6 +58,7 @@ const Footer = () => {
               href="https://www.flaticon.com/"
               title="Visit flaticon"
               target="_blank"
+              rel="noreferrer"
             >
               www.flaticon.com
             </a>

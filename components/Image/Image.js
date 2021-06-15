@@ -14,7 +14,7 @@ const Image = (props) => {
     >
       <NextImage {...props} />
       {link && (
-        <a href={props.src} target="_blank">
+        <a href={props.src} target="_blank" rel="noreferrer">
           (View large version)
         </a>
       )}

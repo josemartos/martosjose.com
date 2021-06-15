@@ -51,6 +51,7 @@ export default function About() {
                 <a
                   target="_blank"
                   href="https://www.mytravelmap.xyz/u/gg108230143559826306104"
+                  rel="noreferrer"
                 >
                   28 countries
                 </a>{' '}

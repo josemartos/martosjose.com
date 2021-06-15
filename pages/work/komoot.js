@@ -370,6 +370,7 @@ export default function Komoot() {
                     href="https://newsroom.komoot.com/media_kits/"
                     title="Komoot Media Kits"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     current design elements and general guidelines
                   </a>
