@@ -12,6 +12,7 @@
     "build": "next build",
     "start": "next start",
     "export": "npm run build && next export",
+    "lint": "next lint",
     "format": "prettier --write \"./**/*.(js|scss)\""
   },
   "dependencies": {
@@ -26,10 +27,10 @@
     "swiper": "^6.7.0"
   },
   "devDependencies": {
-    "eslint": "^7.28.0",
+    "eslint": "^7.29.0",
     "eslint-config-next": "^11.0.0",
     "prettier": "^2.3.1",
-    "sass": "^1.35.0"
+    "sass": "^1.35.1"
   },
   "browserslist": [
     "> 1%",
