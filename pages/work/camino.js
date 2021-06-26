@@ -63,7 +63,7 @@ export default function Camino() {
                     allows users to find the right therapist. Specially
                     interesting were the user and subject-matter expert
                     interviews, to reafirm that the systems to find therapy help
-                    in Germany is at the moment outdated and old-fashioned, in
+                    in Germany is outdated and old-fashioned at the moment, in
                     need of new solutions. This has been my first{' '}
                     <strong>end-to-end design for an mobile app</strong>, where
                     all my design skills and learnings have come together.
@@ -240,6 +240,134 @@ export default function Camino() {
                 </ul>
               </div>
               <div className={cn('col--md-2')}></div>
+            </div>
+          </div>
+        </section>
+
+        {/* Define */}
+        <section className={pageStyles.section}>
+          <CaseStudyBlockHeader title="Define">
+            <div className={caseStudy.indexGroup}>
+              <h3 className={caseStudy.titleAlone}>Persona</h3>
+            </div>
+            <div className={caseStudy.indexGroup}>
+              <h3>Information architecture</h3>
+              <ul>
+                <li>Sitemap</li>
+              </ul>
+            </div>
+            <div className={caseStudy.indexGroup}>
+              <h3>Interaction Design</h3>
+              <ul>
+                <li>Wireframes</li>
+              </ul>
+            </div>
+          </CaseStudyBlockHeader>
+
+          {/* Persona */}
+          <div className={caseStudy.segment}>
+            <h3 className={caseStudy.segmentTitle}>Persona</h3>
+            <div
+              className={cn(
+                'flexGrid',
+                commonStyles.contentWrapper,
+                caseStudy.segmentIntro
+              )}
+            >
+              <div className={cn('col--md-2')}></div>
+              <div className={cn('col--md-8')}>
+                <p>
+                  I summarised all the information from the User Interviews in
+                  the below <strong>Persona</strong>. Giulia Moretti, an expat
+                  living in one of the more bustling cities in the world:
+                  Berlin. She discovered there she needed to dig deeper into her
+                  mind, but found ot the process to find someone was a bit too
+                  much.
+                </p>
+              </div>
+              <div className={cn('col--md-2')}></div>
+            </div>
+            <div
+              className={cn(
+                caseStudy.segmentImage,
+                commonStyles.contentWrapper
+              )}
+            >
+              <Image
+                src={'/images/camino/persona.png'}
+                alt="Camino Persona"
+                width={1283}
+                height={854}
+                link={+true}
+              />
+            </div>
+          </div>
+
+          {/* Sitemap */}
+          <div className={caseStudy.segment}>
+            <h3 className={caseStudy.segmentTitle}>Sitemap</h3>
+            <div
+              className={cn(
+                'flexGrid',
+                commonStyles.contentWrapper,
+                caseStudy.segmentIntro
+              )}
+            >
+              <div className={cn('col--md-2')}></div>
+              <div className={cn('col--md-8')}>
+                <p>
+                  The <strong>Sitemap</strong> represents the set of screens and
+                  features the first iteration of the MVP app will have.
+                </p>
+              </div>
+              <div className={cn('col--md-2')}></div>
+            </div>
+            <div
+              className={cn(
+                caseStudy.segmentImage,
+                commonStyles.contentWrapper
+              )}
+            >
+              <Image
+                src={'/images/camino/sitemap.png'}
+                alt="Camino Sitemap"
+                width={1283}
+                height={1248}
+                link={+true}
+              />
+            </div>
+          </div>
+
+          {/* Wireframes */}
+          <div className={caseStudy.segment}>
+            <h3 className={caseStudy.segmentTitle}>Wireframes</h3>
+            <div
+              className={cn(
+                'flexGrid',
+                commonStyles.contentWrapper,
+                caseStudy.segmentIntro
+              )}
+            >
+              <div className={cn('col--md-2')}></div>
+              <div className={cn('col--md-8')}>
+                <p>
+                  The following wireframes show some of the key screens and
+                  features, which include <strong>Get matched</strong> and{' '}
+                  <strong>Discover</strong>.
+                </p>
+              </div>
+              <div className={cn('col--md-2')}></div>
+            </div>
+            <div className={caseStudy.highlightBackground}>
+              <div className={commonStyles.contentWrapper}>
+                <Image
+                  src={'/images/camino/wireframes.png'}
+                  alt="Camino Wireframes"
+                  width={1283}
+                  height={2297}
+                  link={+true}
+                />
+              </div>
             </div>
           </div>
         </section>
