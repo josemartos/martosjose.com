@@ -17,7 +17,7 @@ import caseStudy from 'styles/components/caseStudy.module.scss';
 
 export default function Komoot() {
   return (
-    <BasePage title="Komoot | Outdoor activities app">
+    <BasePage title="Komoot | Outdoor activities App">
       <div className={caseStudy.wrapper}>
         <section className={pageStyles.section}>
           <header className={caseStudy.hero}>
@@ -43,7 +43,7 @@ export default function Komoot() {
               <div className={cn('col--md-1')}></div>
               <div className={cn('col--md-11', caseStudy.title)}>
                 <h1>Komoot</h1>
-                <small>Capstone - Social feature</small>
+                <small>Capstone - Social feature - Jun 2021</small>
               </div>
             </div>
             <div className={cn(caseStudy.introContentWrapper)}>

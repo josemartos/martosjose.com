@@ -42,7 +42,7 @@ export default function BiciBavarese() {
               <div className={cn('col--md-1')}></div>
               <div className={cn('col--md-11', caseStudy.title)}>
                 <h1>Bici Bavarese</h1>
-                <small>Capstone - Website redesign</small>
+                <small>Capstone - Website redesign - May 2021</small>
               </div>
             </div>
             <div className={cn(caseStudy.introContentWrapper)}>
