@@ -15,6 +15,14 @@ import commonStyles from 'styles/common.module.scss';
 import pageStyles from 'styles/page.module.scss';
 import caseStudy from 'styles/components/caseStudy.module.scss';
 
+// Images
+import HeroImage from 'public/images/komoot/hero.jpg';
+import ResearchRampUpImage from 'public/images/komoot/research-ramp-up.png';
+import PersonaImage from 'public/images/komoot/persona.png';
+import SitemapImage from 'public/images/komoot/sitemap.png';
+import UserFlowsImage from 'public/images/komoot/user-flows.png';
+import WireframesImage from 'public/images/komoot/wireframes.png';
+
 export default function Komoot() {
   return (
     <BasePage title="Komoot | Outdoor activities App">
@@ -23,7 +31,7 @@ export default function Komoot() {
           <header className={caseStudy.hero}>
             <ComeInAnimation>
               <Image
-                src={'/images/komoot/hero.jpg'}
+                src={HeroImage}
                 alt="Komoot App Mockups"
                 width={1280}
                 height={720}
@@ -142,7 +150,7 @@ export default function Komoot() {
               )}
             >
               <Image
-                src={'/images/komoot/research-ramp-up.png'}
+                src={ResearchRampUpImage}
                 alt="Komoot Research Ramp-up"
                 width={1283}
                 height={762}
@@ -266,7 +274,7 @@ export default function Komoot() {
               )}
             >
               <Image
-                src={'/images/komoot/persona.png'}
+                src={PersonaImage}
                 alt="Komoot Persona"
                 width={1283}
                 height={855}
@@ -302,7 +310,7 @@ export default function Komoot() {
               )}
             >
               <Image
-                src={'/images/komoot/sitemap.png'}
+                src={SitemapImage}
                 alt="Komoot Sitemap"
                 width={1283}
                 height={1353}
@@ -341,7 +349,7 @@ export default function Komoot() {
               )}
             >
               <Image
-                src={'/images/komoot/user-flows.png'}
+                src={UserFlowsImage}
                 alt="Komoot Key User Flows"
                 width={1283}
                 height={642}
@@ -382,7 +390,7 @@ export default function Komoot() {
             <div className={caseStudy.highlightBackground}>
               <div className={commonStyles.contentWrapper}>
                 <Image
-                  src={'/images/komoot/wireframes.png'}
+                  src={WireframesImage}
                   alt="Komoot Wireframes"
                   width={1283}
                   height={2297}

@@ -15,6 +15,16 @@ import commonStyles from 'styles/common.module.scss';
 import pageStyles from 'styles/page.module.scss';
 import caseStudy from 'styles/components/caseStudy.module.scss';
 
+// Images
+import HeroImage from 'public/images/camino/hero.jpg';
+import ResearchRampUpImage from 'public/images/camino/research-ramp-up.png';
+import PersonaImage from 'public/images/camino/persona.png';
+import SitemapImage from 'public/images/camino/sitemap.png';
+import WireframesImage from 'public/images/camino/wireframes.png';
+import MoodBoardImage from 'public/images/camino/mood-board.jpg';
+import LogoImage from 'public/images/camino/logo.jpg';
+import StyleTileImage from 'public/images/camino/style-tile.jpg';
+
 export default function Camino() {
   return (
     <BasePage title="Camino | Therapist matching App">
@@ -23,7 +33,7 @@ export default function Camino() {
           <header className={caseStudy.hero}>
             <ComeInAnimation>
               <Image
-                src={'/images/camino/hero.jpg'}
+                src={HeroImage}
                 alt="Camino App Mockups"
                 width={1280}
                 height={720}
@@ -141,7 +151,7 @@ export default function Camino() {
               )}
             >
               <Image
-                src={'/images/camino/research-ramp-up.png'}
+                src={ResearchRampUpImage}
                 alt="Camino Research Ramp-up"
                 width={1283}
                 height={638}
@@ -294,7 +304,7 @@ export default function Camino() {
               )}
             >
               <Image
-                src={'/images/camino/persona.png'}
+                src={PersonaImage}
                 alt="Camino Persona"
                 width={1283}
                 height={854}
@@ -329,7 +339,7 @@ export default function Camino() {
               )}
             >
               <Image
-                src={'/images/camino/sitemap.png'}
+                src={SitemapImage}
                 alt="Camino Sitemap"
                 width={1283}
                 height={1248}
@@ -361,7 +371,7 @@ export default function Camino() {
             <div className={caseStudy.highlightBackground}>
               <div className={commonStyles.contentWrapper}>
                 <Image
-                  src={'/images/camino/wireframes.png'}
+                  src={WireframesImage}
                   alt="Camino Wireframes"
                   width={1283}
                   height={2297}
@@ -417,7 +427,7 @@ export default function Camino() {
               )}
             >
               <Image
-                src={'/images/camino/mood-board.jpg'}
+                src={MoodBoardImage}
                 alt="Camino Mood Board"
                 width={1283}
                 height={855}
@@ -431,7 +441,7 @@ export default function Camino() {
               )}
             >
               <Image
-                src={'/images/camino/logo.jpg'}
+                src={LogoImage}
                 alt="Camino Logo"
                 width={1283}
                 height={855}
@@ -445,7 +455,7 @@ export default function Camino() {
               )}
             >
               <Image
-                src={'/images/camino/style-tile.jpg'}
+                src={StyleTileImage}
                 alt="Camino Style Tile"
                 width={1283}
                 height={855}

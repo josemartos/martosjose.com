@@ -14,6 +14,20 @@ import commonStyles from 'styles/common.module.scss';
 import pageStyles from 'styles/page.module.scss';
 import caseStudy from 'styles/components/caseStudy.module.scss';
 
+// Images
+import HeroImage from 'public/images/mirror/hero.jpg';
+import CompetitorAnalysisImage from 'public/images/mirror/competitor-analysis.jpg';
+import PersonaImage from 'public/images/mirror/persona.jpg';
+import SitemapImage from 'public/images/mirror/sitemap.png';
+import UserFlowsImage from 'public/images/mirror/user-flow.png';
+import WireframesImage from 'public/images/mirror/wireframes.png';
+import StyleTileImage from 'public/images/mirror/style-tile.jpg';
+import HomepageImage from 'public/images/mirror/homepage.jpg';
+import ProductPageImage from 'public/images/mirror/product-page.jpg';
+import CatalogPageImage from 'public/images/mirror/catalog-page.jpg';
+import CheckoutFunnel1Image from 'public/images/mirror/checkout-funnel1.jpg';
+import CheckoutFunnel2Image from 'public/images/mirror/checkout-funnel2.jpg';
+
 export default function Mirror() {
   return (
     <BasePage title="Mirror | e-commerce platform">
@@ -22,7 +36,7 @@ export default function Mirror() {
           <header className={caseStudy.hero}>
             <ComeInAnimation>
               <Image
-                src={'/images/mirror/hero.jpg'}
+                src={HeroImage}
                 alt="Mirror Website Mockups"
                 width={1283}
                 height={720}
@@ -155,7 +169,7 @@ export default function Mirror() {
               )}
             >
               <Image
-                src={'/images/mirror/competitor-analysis.jpg'}
+                src={CompetitorAnalysisImage}
                 alt="Mirror Competitor Analysis"
                 width={1282}
                 height={354}
@@ -259,7 +273,7 @@ export default function Mirror() {
               )}
             >
               <Image
-                src={'/images/mirror/persona.jpg'}
+                src={PersonaImage}
                 alt="Mirror Persona"
                 width={1283}
                 height={841}
@@ -296,7 +310,7 @@ export default function Mirror() {
               )}
             >
               <Image
-                src={'/images/mirror/sitemap.png'}
+                src={SitemapImage}
                 alt="Mirror Sitemap"
                 width={1280}
                 height={555}
@@ -337,7 +351,7 @@ export default function Mirror() {
                 <div className={cn('col--md-2')}></div>
                 <div className={cn('col--md-8')}>
                   <Image
-                    src={'/images/mirror/user-flow.png'}
+                    src={UserFlowsImage}
                     alt="Mirror User Flow"
                     width={847}
                     height={1361}
@@ -374,7 +388,7 @@ export default function Mirror() {
             <div className={caseStudy.highlightBackground}>
               <div className={commonStyles.contentWrapper}>
                 <Image
-                  src={'/images/mirror/wireframes.png'}
+                  src={WireframesImage}
                   alt="Mirror Wireframes"
                   width={1315}
                   height={948}
@@ -423,7 +437,7 @@ export default function Mirror() {
               )}
             >
               <Image
-                src={'/images/mirror/style-tile.jpg'}
+                src={StyleTileImage}
                 alt="Mirror Style Tile"
                 width={1281}
                 height={2114}
@@ -469,7 +483,7 @@ export default function Mirror() {
                     </p>
                   </div>
                   <Image
-                    src={'/images/mirror/homepage.jpg'}
+                    src={HomepageImage}
                     alt="Mirror Homepage"
                     width={1065}
                     height={1435}
@@ -497,7 +511,7 @@ export default function Mirror() {
                   </div>
 
                   <Image
-                    src={'/images/mirror/product.jpg'}
+                    src={ProductPageImage}
                     alt="Mirror Product Page"
                     width={630}
                     height={848}
@@ -514,7 +528,7 @@ export default function Mirror() {
                     </p>
                   </div>
                   <Image
-                    src={'/images/mirror/catalog.jpg'}
+                    src={CatalogPageImage}
                     alt="Mirror Catalog Page"
                     width={1259}
                     height={1696}
@@ -547,7 +561,7 @@ export default function Mirror() {
                     </p>
                   </div>
                   <Image
-                    src={'/images/mirror/checkout-funnel1.jpg'}
+                    src={CheckoutFunnel1Image}
                     alt="Mirror Checkout Funnel"
                     width={1065}
                     height={777}
@@ -561,7 +575,7 @@ export default function Mirror() {
                 <div className={cn('col--md-1')}></div>
                 <div className={cn('col--md-10', caseStudy.imagePaddingTop)}>
                   <Image
-                    src={'/images/mirror/checkout-funnel2.jpg'}
+                    src={CheckoutFunnel2Image}
                     alt="Mirror Checkout Funnel"
                     width={2128}
                     height={1443}

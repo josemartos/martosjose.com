@@ -14,6 +14,19 @@ import commonStyles from 'styles/common.module.scss';
 import pageStyles from 'styles/page.module.scss';
 import caseStudy from 'styles/components/caseStudy.module.scss';
 
+// Images
+import HeroImage from 'public/images/bicibavarese/hero.jpg';
+import ResearchRampUpImage from 'public/images/bicibavarese/research-ramp-up.png';
+import PersonaImage from 'public/images/bicibavarese/persona.png';
+import SitemapImage from 'public/images/bicibavarese/sitemap.png';
+import UserFlowsImage from 'public/images/bicibavarese/user-flows.png';
+import WireframesImage from 'public/images/bicibavarese/wireframes.png';
+import MoodBoardImage from 'public/images/bicibavarese/mood-board.jpg';
+import StyleTileImage from 'public/images/bicibavarese/style-tile.jpg';
+import HomepageImage from 'public/images/bicibavarese/homepage.jpg';
+import GiroBavareseImage from 'public/images/bicibavarese/giro-bavarese.jpg';
+import OurBikeImage from 'public/images/bicibavarese/our-bike.jpg';
+
 export default function BiciBavarese() {
   return (
     <BasePage title="Bici Bavarese | Bike Shop">
@@ -22,7 +35,7 @@ export default function BiciBavarese() {
           <header className={caseStudy.hero}>
             <ComeInAnimation>
               <Image
-                src={'/images/bicibavarese/hero.jpg'}
+                src={HeroImage}
                 alt="Bici Bavarese Website Mockups"
                 width={1280}
                 height={720}
@@ -156,7 +169,7 @@ export default function BiciBavarese() {
               )}
             >
               <Image
-                src={'/images/bicibavarese/research-ramp-up.png'}
+                src={ResearchRampUpImage}
                 alt="Bici Bavarese Research Ramp-up"
                 width={1283}
                 height={726}
@@ -255,7 +268,7 @@ export default function BiciBavarese() {
               )}
             >
               <Image
-                src={'/images/bicibavarese/persona.png'}
+                src={PersonaImage}
                 alt="Bici Bavarese Persona"
                 width={1283}
                 height={841}
@@ -294,7 +307,7 @@ export default function BiciBavarese() {
                   )}
                 >
                   <Image
-                    src={'/images/bicibavarese/sitemap.png'}
+                    src={SitemapImage}
                     alt="Bici Bavarese Sitemap"
                     width={1065}
                     height={1285}
@@ -334,7 +347,7 @@ export default function BiciBavarese() {
               )}
             >
               <Image
-                src={'/images/bicibavarese/user-flows.png'}
+                src={UserFlowsImage}
                 alt="Bici Bavarese Key User Flows"
                 width={1283}
                 height={722}
@@ -372,7 +385,7 @@ export default function BiciBavarese() {
             <div className={caseStudy.highlightBackground}>
               <div className={commonStyles.contentWrapper}>
                 <Image
-                  src={'/images/bicibavarese/wireframes.png'}
+                  src={WireframesImage}
                   alt="Bici Bavarese Wireframes"
                   width={1283}
                   height={920}
@@ -422,7 +435,7 @@ export default function BiciBavarese() {
               )}
             >
               <Image
-                src={'/images/bicibavarese/mood-board.jpg'}
+                src={MoodBoardImage}
                 alt="Bici Bavarese Mood Board"
                 width={1283}
                 height={856}
@@ -436,7 +449,7 @@ export default function BiciBavarese() {
               )}
             >
               <Image
-                src={'/images/bicibavarese/style-tile.jpg'}
+                src={StyleTileImage}
                 alt="Bici Bavarese Style Tile"
                 width={1283}
                 height={856}
@@ -485,7 +498,7 @@ export default function BiciBavarese() {
                     </p>
                   </div>
                   <Image
-                    src={'/images/bicibavarese/homepage.jpg'}
+                    src={HomepageImage}
                     alt="Bici Bavarese Homepage"
                     width={1065}
                     height={2454}
@@ -514,7 +527,7 @@ export default function BiciBavarese() {
                     </p>
                   </div>
                   <Image
-                    src={'/images/bicibavarese/giro-bavarese.jpg'}
+                    src={GiroBavareseImage}
                     alt="Giro Bavarese page"
                     width={1065}
                     height={2275}
@@ -542,7 +555,7 @@ export default function BiciBavarese() {
                     </p>
                   </div>
                   <Image
-                    src={'/images/bicibavarese/our-bike.jpg'}
+                    src={OurBikeImage}
                     alt="Our Bike Page"
                     width={1065}
                     height={2904}

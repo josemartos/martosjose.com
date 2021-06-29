@@ -10,6 +10,11 @@ import commonStyles from 'styles/common.module.scss';
 import pageStyles from 'styles/page.module.scss';
 import styles from 'styles/pages/index.module.scss';
 
+// Images
+import KomootCoverImage from 'public/images/komoot/cover.png';
+import BiciBavareseCoverImage from 'public/images/bicibavarese/cover.jpg';
+import MirrorCoverImage from 'public/images/mirror/cover.jpg';
+
 export default function Home() {
   const { workSectionRef, scrollToWork, workMenu, setWorkMenu } =
     useContext(AppContext);
@@ -49,7 +54,7 @@ export default function Home() {
             type="capstone - ux / ui design"
             description="Research and add a feature to an existing app."
             image={{
-              url: 'komoot/cover.png',
+              url: KomootCoverImage,
               alt: 'Komoot - Social feature',
             }}
             link="/work/komoot"
@@ -61,7 +66,7 @@ export default function Home() {
             type="capstone - ux / ui design"
             description="Research and redesign of a local bike shop."
             image={{
-              url: 'bicibavarese/cover.jpg',
+              url: BiciBavareseCoverImage,
               alt: 'Bike store re-design',
               shadow: true,
             }}
@@ -75,7 +80,7 @@ export default function Home() {
             type="course project - ux / ui design"
             description="Rework the branding of a clothing e-commerce platform, and create a responsive web design."
             image={{
-              url: 'mirror/cover.jpg',
+              url: MirrorCoverImage,
               alt: 'Mirror design',
               shadow: true,
             }}

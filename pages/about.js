@@ -8,6 +8,9 @@ import pageStyles from 'styles/page.module.scss';
 import commonStyles from 'styles/common.module.scss';
 import styles from 'styles/pages/about.module.scss';
 
+// Images
+import JoseDresdenImage from 'public/images/jose-pic-dresden.jpg';
+
 export default function About() {
   return (
     <BasePage title="About">
@@ -19,7 +22,7 @@ export default function About() {
           <div className={cn('flexGrid', styles.container)}>
             <div className={cn(styles.image, 'col--md-4')}>
               <Image
-                src="/images/jose-pic-dresden.jpg"
+                src={JoseDresdenImage}
                 alt="Jose image - in Dresden with a camera"
                 width={411}
                 height={540}

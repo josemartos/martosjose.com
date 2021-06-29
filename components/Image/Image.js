@@ -12,7 +12,7 @@ const Image = (props) => {
         [styles.shadow]: shadow,
       })}
     >
-      <NextImage {...props} />
+      <NextImage placeholder="blur" {...props} />
       {link && (
         <a href={props.src} target="_blank" rel="noreferrer">
           (View large version)
