@@ -388,7 +388,10 @@ export default function Mirror() {
         {/* Design */}
         <section className={pageStyles.section}>
           <CaseStudyBlockHeader title="Design">
-            <h3>Style Tile</h3>
+            <h3>Brand</h3>
+            <ul>
+              <li>Style Tile</li>
+            </ul>
             <h3>User Interface</h3>
           </CaseStudyBlockHeader>
 

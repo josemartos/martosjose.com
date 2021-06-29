@@ -386,13 +386,17 @@ export default function BiciBavarese() {
         {/* Design */}
         <section className={pageStyles.section}>
           <CaseStudyBlockHeader title="Design">
-            <h3>Style Tile</h3>
+            <h3>Brand</h3>
+            <ul>
+              <li>Mood Board</li>
+              <li>Style Tile</li>
+            </ul>
             <h3>User Interface</h3>
           </CaseStudyBlockHeader>
 
-          {/* Style Tile */}
+          {/* Mood Board & Style Tile */}
           <div className={caseStudy.segment}>
-            <h3 className={caseStudy.segmentTitle}>Style Tile</h3>
+            <h3 className={caseStudy.segmentTitle}>Brand</h3>
             <div
               className={cn(
                 'flexGrid',
@@ -403,9 +407,10 @@ export default function BiciBavarese() {
               <div className={cn('col--md-2')}></div>
               <div className={cn('col--md-8')}>
                 <p>
-                  Here I present the <strong>brand ideas</strong> and mood
-                  board, as well as the <strong>style tile</strong>, which laid
-                  the foundations for the next step: the visual design.
+                  Here I present the brand ideas, with the creation of the{' '}
+                  <strong>mood board</strong>, as well as the{' '}
+                  <strong>style tile</strong>, which laid the foundations for
+                  the next step: the visual design.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -417,8 +422,8 @@ export default function BiciBavarese() {
               )}
             >
               <Image
-                src={'/images/bicibavarese/brand-ideas.jpg'}
-                alt="Bici Bavarese Brand Ideas"
+                src={'/images/bicibavarese/mood-board.jpg'}
+                alt="Bici Bavarese Mood Board"
                 width={1283}
                 height={856}
                 link={+true}

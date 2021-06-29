@@ -281,8 +281,8 @@ export default function Camino() {
                   the below <strong>Persona</strong>. Giulia Moretti, an expat
                   living in one of the more bustling cities in the world:
                   Berlin. She discovered there she needed to dig deeper into her
-                  mind, but found ot the process to find someone was a bit too
-                  much.
+                  mind, but found out that the process to find some external
+                  professional help was a bit too much.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -368,6 +368,89 @@ export default function Camino() {
                   link={+true}
                 />
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Design */}
+        <section className={pageStyles.section}>
+          <CaseStudyBlockHeader title="Design">
+            <h3>Brand</h3>
+            <ul>
+              <li>Mood Board</li>
+              <li>Logo</li>
+              <li>Style Tile</li>
+            </ul>
+            <h3>User Interface</h3>
+          </CaseStudyBlockHeader>
+
+          {/* Mood Board & Style Tile */}
+          <div className={caseStudy.segment}>
+            <h3 className={caseStudy.segmentTitle}>Brand</h3>
+            <div
+              className={cn(
+                'flexGrid',
+                commonStyles.contentWrapper,
+                caseStudy.segmentIntro
+              )}
+            >
+              <div className={cn('col--md-2')}></div>
+              <div className={cn('col--md-8')}>
+                <p>
+                  For the app's name, I decided to use the Spanish word{' '}
+                  <strong>Camino</strong>, which means way.
+                </p>
+                <p>
+                  After a brainstorming session to set the mood, I worked on the{' '}
+                  <strong>logo</strong>, inspired by the app's name. It's a way
+                  in a seed (what can be a growing seed), which symbolises the
+                  growth. I chose a handwritten typography, which represents the
+                  way we write (and rewrite) our own story.
+                </p>
+              </div>
+              <div className={cn('col--md-2')}></div>
+            </div>
+            <div
+              className={cn(
+                caseStudy.segmentImage,
+                commonStyles.contentWrapper
+              )}
+            >
+              <Image
+                src={'/images/camino/mood-board.jpg'}
+                alt="Camino Mood Board"
+                width={1283}
+                height={855}
+                link={+true}
+              />
+            </div>
+            <div
+              className={cn(
+                caseStudy.segmentImage,
+                commonStyles.contentWrapper
+              )}
+            >
+              <Image
+                src={'/images/camino/logo.jpg'}
+                alt="Camino Logo"
+                width={1283}
+                height={855}
+                link={+true}
+              />
+            </div>
+            <div
+              className={cn(
+                caseStudy.segmentImage,
+                commonStyles.contentWrapper
+              )}
+            >
+              <Image
+                src={'/images/camino/style-tile.jpg'}
+                alt="Camino Style Tile"
+                width={1283}
+                height={855}
+                link={+true}
+              />
             </div>
           </div>
         </section>
