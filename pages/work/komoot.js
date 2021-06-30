@@ -7,6 +7,7 @@ import {
   Carousel,
   LinkButton,
 } from 'components';
+import { SwiperSlide } from 'swiper/react';
 
 import ComeInAnimation from 'animation/comeIn';
 
@@ -22,6 +23,16 @@ import PersonaImage from 'public/images/komoot/persona.png';
 import SitemapImage from 'public/images/komoot/sitemap.png';
 import UserFlowsImage from 'public/images/komoot/user-flows.png';
 import WireframesImage from 'public/images/komoot/wireframes.png';
+import UIDesign1Image from 'public/images/komoot/ui-design1.png';
+import UIDesign2Image from 'public/images/komoot/ui-design2.png';
+import UIDesign3Image from 'public/images/komoot/ui-design3.png';
+import UIDesign4Image from 'public/images/komoot/ui-design4.png';
+import UIDesign5Image from 'public/images/komoot/ui-design5.png';
+import UIDesign6Image from 'public/images/komoot/ui-design6.png';
+import UIDesign7Image from 'public/images/komoot/ui-design7.png';
+import UIDesign8Image from 'public/images/komoot/ui-design8.png';
+import UIDesign9Image from 'public/images/komoot/ui-design9.png';
+import UIDesign10Image from 'public/images/komoot/ui-design10.png';
 
 export default function Komoot() {
   return (
@@ -437,7 +448,98 @@ export default function Komoot() {
               )}
             >
               <div className={cn(commonStyles.contentWrapper)}>
-                <Carousel />
+                <Carousel>
+                  <SwiperSlide>
+                    <Image
+                      src={UIDesign1Image}
+                      alt="Komoot UI Design Screens"
+                      width={411}
+                      height={840}
+                      priority={true}
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      src={UIDesign2Image}
+                      alt="Komoot UI Design Screens"
+                      width={411}
+                      height={840}
+                      priority={true}
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      src={UIDesign3Image}
+                      alt="Komoot UI Design Screens"
+                      width={411}
+                      height={840}
+                      priority={true}
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      src={UIDesign4Image}
+                      alt="Komoot UI Design Screens"
+                      width={411}
+                      height={840}
+                      priority={true}
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      src={UIDesign5Image}
+                      alt="Komoot UI Design Screens"
+                      width={411}
+                      height={840}
+                      priority={true}
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      src={UIDesign6Image}
+                      alt="Komoot UI Design Screens"
+                      width={411}
+                      height={840}
+                      priority={true}
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      src={UIDesign7Image}
+                      alt="Komoot UI Design Screens"
+                      width={411}
+                      height={840}
+                      priority={true}
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      src={UIDesign8Image}
+                      alt="Komoot UI Design Screens"
+                      width={411}
+                      height={840}
+                      priority={true}
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      src={UIDesign9Image}
+                      alt="Komoot UI Design Screens"
+                      width={411}
+                      height={840}
+                      priority={true}
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      src={UIDesign10Image}
+                      alt="Komoot UI Design Screens"
+                      width={411}
+                      height={840}
+                      priority={true}
+                    />
+                  </SwiperSlide>
+                </Carousel>
               </div>
             </div>
           </div>

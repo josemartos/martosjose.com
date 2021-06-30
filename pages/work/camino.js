@@ -4,9 +4,10 @@ import {
   Image,
   CaseStudyTag,
   CaseStudyBlockHeader,
-  // Carousel,
+  Carousel,
   // LinkButton,
 } from 'components';
+import { SwiperSlide } from 'swiper/react';
 
 import ComeInAnimation from 'animation/comeIn';
 
@@ -24,6 +25,7 @@ import WireframesImage from 'public/images/camino/wireframes.png';
 import MoodBoardImage from 'public/images/camino/mood-board.jpg';
 import LogoImage from 'public/images/camino/logo.jpg';
 import StyleTileImage from 'public/images/camino/style-tile.jpg';
+import UIDesign1Image from 'public/images/camino/ui-design1.png';
 
 export default function Camino() {
   return (
@@ -461,6 +463,60 @@ export default function Camino() {
                 height={855}
                 link={+true}
               />
+            </div>
+          </div>
+
+          {/* UI Design */}
+          <div className={caseStudy.segment}>
+            <h3 className={caseStudy.segmentTitle}>UI Design</h3>
+            <div
+              className={cn(
+                'flexGrid',
+                commonStyles.contentWrapper,
+                caseStudy.segmentIntro
+              )}
+            >
+              <div className={cn('col--md-2')}></div>
+              <div className={cn('col--md-8')}>
+                <p>
+                  {' '}
+                  Tightly based on the wireframes, I created high-fidelity
+                  screens. The following are the final version after the UI
+                  tests, taken from the polished prototype linked in the below
+                  section. All the colours and design elements are taken from
+                  the existing Komoot app.
+                </p>
+              </div>
+              <div className={cn('col--md-2')}></div>
+            </div>
+            <div
+              className={cn(
+                caseStudy.highlightBackground,
+                caseStudy.highlightBackgroundBlue
+              )}
+            >
+              <div className={cn(commonStyles.contentWrapper)}>
+                <Carousel>
+                  <SwiperSlide>
+                    <Image
+                      src={UIDesign1Image}
+                      alt="Camino UI Design Screens"
+                      width={421}
+                      height={858}
+                      priority={true}
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      src={UIDesign1Image}
+                      alt="Camino UI Design Screens"
+                      width={421}
+                      height={858}
+                      priority={true}
+                    />
+                  </SwiperSlide>
+                </Carousel>
+              </div>
             </div>
           </div>
         </section>
