@@ -170,6 +170,7 @@ export default function BiciBavarese() {
             >
               <Image
                 src={ResearchRampUpImage}
+                url="/bicibavarese/research-ramp-up.png"
                 alt="Bici Bavarese Research Ramp-up"
                 width={1283}
                 height={726}
@@ -269,6 +270,7 @@ export default function BiciBavarese() {
             >
               <Image
                 src={PersonaImage}
+                url="/bicibavarese/persona.png"
                 alt="Bici Bavarese Persona"
                 width={1283}
                 height={841}
@@ -308,6 +310,7 @@ export default function BiciBavarese() {
                 >
                   <Image
                     src={SitemapImage}
+                    url="/bicibavarese/sitemap.png"
                     alt="Bici Bavarese Sitemap"
                     width={1065}
                     height={1285}
@@ -348,6 +351,7 @@ export default function BiciBavarese() {
             >
               <Image
                 src={UserFlowsImage}
+                url="/bicibavarese/user-flows.png"
                 alt="Bici Bavarese Key User Flows"
                 width={1283}
                 height={722}
@@ -386,6 +390,7 @@ export default function BiciBavarese() {
               <div className={commonStyles.contentWrapper}>
                 <Image
                   src={WireframesImage}
+                  url="/bicibavarese/wireframes.png"
                   alt="Bici Bavarese Wireframes"
                   width={1283}
                   height={920}
@@ -436,6 +441,7 @@ export default function BiciBavarese() {
             >
               <Image
                 src={MoodBoardImage}
+                url="/bicibavarese/mood-board.jpg"
                 alt="Bici Bavarese Mood Board"
                 width={1283}
                 height={856}
@@ -450,6 +456,7 @@ export default function BiciBavarese() {
             >
               <Image
                 src={StyleTileImage}
+                url="/bicibavarese/style-tile.jpg"
                 alt="Bici Bavarese Style Tile"
                 width={1283}
                 height={856}
@@ -499,6 +506,7 @@ export default function BiciBavarese() {
                   </div>
                   <Image
                     src={HomepageImage}
+                    url="/bicibavarese/homepage.jpg"
                     alt="Bici Bavarese Homepage"
                     width={1065}
                     height={2454}
@@ -528,6 +536,7 @@ export default function BiciBavarese() {
                   </div>
                   <Image
                     src={GiroBavareseImage}
+                    url="/bicibavarese/giro-bavarese.jpg"
                     alt="Giro Bavarese page"
                     width={1065}
                     height={2275}
@@ -556,6 +565,7 @@ export default function BiciBavarese() {
                   </div>
                   <Image
                     src={OurBikeImage}
+                    url="/bicibavarese/our-bike.jpg"
                     alt="Our Bike Page"
                     width={1065}
                     height={2904}

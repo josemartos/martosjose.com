@@ -154,6 +154,7 @@ export default function Camino() {
             >
               <Image
                 src={ResearchRampUpImage}
+                url="/camino/research-ramp-up.png"
                 alt="Camino Research Ramp-up"
                 width={1283}
                 height={638}
@@ -307,6 +308,7 @@ export default function Camino() {
             >
               <Image
                 src={PersonaImage}
+                url="/camino/persona.png"
                 alt="Camino Persona"
                 width={1283}
                 height={854}
@@ -342,6 +344,7 @@ export default function Camino() {
             >
               <Image
                 src={SitemapImage}
+                url="/camino/sitemap.png"
                 alt="Camino Sitemap"
                 width={1283}
                 height={1248}
@@ -374,6 +377,7 @@ export default function Camino() {
               <div className={commonStyles.contentWrapper}>
                 <Image
                   src={WireframesImage}
+                  url="/camino/wireframes.png"
                   alt="Camino Wireframes"
                   width={1283}
                   height={2297}
@@ -430,6 +434,7 @@ export default function Camino() {
             >
               <Image
                 src={MoodBoardImage}
+                url="/camino/mood-board.jpg"
                 alt="Camino Mood Board"
                 width={1283}
                 height={855}
@@ -444,6 +449,7 @@ export default function Camino() {
             >
               <Image
                 src={LogoImage}
+                url="/camino/logo.jpg"
                 alt="Camino Logo"
                 width={1283}
                 height={855}
@@ -458,6 +464,7 @@ export default function Camino() {
             >
               <Image
                 src={StyleTileImage}
+                url="/camino/style-tile.jpg"
                 alt="Camino Style Tile"
                 width={1283}
                 height={855}

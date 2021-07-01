@@ -12,7 +12,7 @@ import styles from './project.module.scss';
 
 const ProjectImage = ({ image }) => (
   <Image
-    src={image.url}
+    src={image.src}
     alt={image.alt}
     width={image.width || 710}
     height={image.height || 560}

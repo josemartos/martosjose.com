@@ -54,7 +54,7 @@ export default function Home() {
             type="capstone - ux / ui design"
             description="Research and add a feature to an existing app."
             image={{
-              url: KomootCoverImage,
+              src: KomootCoverImage,
               alt: 'Komoot - Social feature',
             }}
             link="/work/komoot"
@@ -66,7 +66,7 @@ export default function Home() {
             type="capstone - ux / ui design"
             description="Research and redesign of a local bike shop."
             image={{
-              url: BiciBavareseCoverImage,
+              src: BiciBavareseCoverImage,
               alt: 'Bike store re-design',
               shadow: true,
             }}
@@ -80,7 +80,7 @@ export default function Home() {
             type="course project - ux / ui design"
             description="Rework the branding of a clothing e-commerce platform, and create a responsive web design."
             image={{
-              url: MirrorCoverImage,
+              src: MirrorCoverImage,
               alt: 'Mirror design',
               shadow: true,
             }}

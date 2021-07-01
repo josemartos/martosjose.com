@@ -170,6 +170,7 @@ export default function Mirror() {
             >
               <Image
                 src={CompetitorAnalysisImage}
+                url="/mirror/competitor-analysis.jpg"
                 alt="Mirror Competitor Analysis"
                 width={1282}
                 height={354}
@@ -274,6 +275,7 @@ export default function Mirror() {
             >
               <Image
                 src={PersonaImage}
+                url="/mirror/persona.jpg"
                 alt="Mirror Persona"
                 width={1283}
                 height={841}
@@ -311,6 +313,7 @@ export default function Mirror() {
             >
               <Image
                 src={SitemapImage}
+                url="/mirror/sitemap.png"
                 alt="Mirror Sitemap"
                 width={1280}
                 height={555}
@@ -352,6 +355,7 @@ export default function Mirror() {
                 <div className={cn('col--md-8')}>
                   <Image
                     src={UserFlowsImage}
+                    url="/mirror/user-flow.png"
                     alt="Mirror User Flow"
                     width={847}
                     height={1361}
@@ -389,6 +393,7 @@ export default function Mirror() {
               <div className={commonStyles.contentWrapper}>
                 <Image
                   src={WireframesImage}
+                  url="/mirror/wireframes.png"
                   alt="Mirror Wireframes"
                   width={1315}
                   height={948}
@@ -438,6 +443,7 @@ export default function Mirror() {
             >
               <Image
                 src={StyleTileImage}
+                url="/mirror/style-tile.jpg"
                 alt="Mirror Style Tile"
                 width={1281}
                 height={2114}
@@ -484,6 +490,7 @@ export default function Mirror() {
                   </div>
                   <Image
                     src={HomepageImage}
+                    url="/mirror/homepage.jpg"
                     alt="Mirror Homepage"
                     width={1065}
                     height={1435}
@@ -512,6 +519,7 @@ export default function Mirror() {
 
                   <Image
                     src={ProductPageImage}
+                    url="/mirror/product-page.jpg"
                     alt="Mirror Product Page"
                     width={630}
                     height={848}
@@ -529,6 +537,7 @@ export default function Mirror() {
                   </div>
                   <Image
                     src={CatalogPageImage}
+                    url="/mirror/catalog-page.jpg"
                     alt="Mirror Catalog Page"
                     width={1259}
                     height={1696}
@@ -562,6 +571,7 @@ export default function Mirror() {
                   </div>
                   <Image
                     src={CheckoutFunnel1Image}
+                    url="/checkout-funnel1.jpg"
                     alt="Mirror Checkout Funnel"
                     width={1065}
                     height={777}
@@ -576,6 +586,7 @@ export default function Mirror() {
                 <div className={cn('col--md-10', caseStudy.imagePaddingTop)}>
                   <Image
                     src={CheckoutFunnel2Image}
+                    url="/checkout-funnel2.jpg"
                     alt="Mirror Checkout Funnel"
                     width={2128}
                     height={1443}

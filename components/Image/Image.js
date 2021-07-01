@@ -13,8 +13,8 @@ const Image = (props) => {
       })}
     >
       <NextImage placeholder="blur" {...props} />
-      {link && (
-        <a href={props.src} target="_blank" rel="noreferrer">
+      {link && props.url && (
+        <a href={`/images${props.url}`} target="_blank" rel="noreferrer">
           (View large version)
         </a>
       )}

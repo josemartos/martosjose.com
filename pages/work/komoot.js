@@ -162,6 +162,7 @@ export default function Komoot() {
             >
               <Image
                 src={ResearchRampUpImage}
+                url="/komoot/research-ramp-up.png"
                 alt="Komoot Research Ramp-up"
                 width={1283}
                 height={762}
@@ -286,6 +287,7 @@ export default function Komoot() {
             >
               <Image
                 src={PersonaImage}
+                url="/komoot/persona.png"
                 alt="Komoot Persona"
                 width={1283}
                 height={855}
@@ -322,6 +324,7 @@ export default function Komoot() {
             >
               <Image
                 src={SitemapImage}
+                url="/komoot/sitemap.png"
                 alt="Komoot Sitemap"
                 width={1283}
                 height={1353}
@@ -361,6 +364,7 @@ export default function Komoot() {
             >
               <Image
                 src={UserFlowsImage}
+                url="/komoot/user-flows.png"
                 alt="Komoot Key User Flows"
                 width={1283}
                 height={642}
@@ -402,6 +406,7 @@ export default function Komoot() {
               <div className={commonStyles.contentWrapper}>
                 <Image
                   src={WireframesImage}
+                  url="/komoot/wireframes.png"
                   alt="Komoot Wireframes"
                   width={1283}
                   height={2297}
