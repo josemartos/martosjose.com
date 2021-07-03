@@ -47,6 +47,7 @@ export default function Komoot() {
                 width={1280}
                 height={720}
                 priority={true}
+                quality={90}
               />
             </ComeInAnimation>
           </header>

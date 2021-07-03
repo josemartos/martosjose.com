@@ -17,7 +17,7 @@ import pageStyles from 'styles/page.module.scss';
 import caseStudy from 'styles/components/caseStudy.module.scss';
 
 // Images
-import HeroImage from 'public/images/camino/hero.jpg';
+import HeroImage from 'public/images/camino/hero.png';
 import ResearchRampUpImage from 'public/images/camino/research-ramp-up.png';
 import PersonaImage from 'public/images/camino/persona.png';
 import SitemapImage from 'public/images/camino/sitemap.png';
@@ -50,9 +50,10 @@ export default function Camino() {
               <Image
                 src={HeroImage}
                 alt="Camino App Mockups"
-                width={1280}
+                width={1281}
                 height={720}
                 priority={true}
+                quality={90}
               />
             </ComeInAnimation>
           </header>
