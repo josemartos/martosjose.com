@@ -11,8 +11,9 @@ import pageStyles from 'styles/page.module.scss';
 import styles from 'styles/pages/index.module.scss';
 
 // Images
-import KomootCoverImage from 'public/images/komoot/cover.png';
+import CaminoCoverImage from 'public/images/camino/cover.png';
 import BiciBavareseCoverImage from 'public/images/bicibavarese/cover.jpg';
+import KomootCoverImage from 'public/images/komoot/cover.png';
 import MirrorCoverImage from 'public/images/mirror/cover.jpg';
 
 export default function Home() {
@@ -50,14 +51,14 @@ export default function Home() {
         </div>
         <div className={styles.project}>
           <Project
-            title="Komoot"
+            title="Camino"
             type="capstone - ux / ui design"
-            description="Research and add a feature to an existing app."
+            description="End-to-end design for an mobile MVP app."
             image={{
-              src: KomootCoverImage,
-              alt: 'Komoot - Social feature',
+              src: CaminoCoverImage,
+              alt: 'Camino - MVP App',
             }}
-            link="/work/komoot"
+            link="/work/camino"
           />
         </div>
         <div className={styles.project}>
@@ -76,6 +77,18 @@ export default function Home() {
         </div>
         <div className={styles.project}>
           <Project
+            title="Komoot"
+            type="capstone - ux / ui design"
+            description="Add a feature to an existing app."
+            image={{
+              src: KomootCoverImage,
+              alt: 'Komoot - Social feature',
+            }}
+            link="/work/komoot"
+          />
+        </div>
+        <div className={styles.project}>
+          <Project
             title="Mirror"
             type="course project - ux / ui design"
             description="Rework the branding of a clothing e-commerce platform, and create a responsive web design."
@@ -85,6 +98,7 @@ export default function Home() {
               shadow: true,
             }}
             link="/work/mirror"
+            reverseLayout={true}
           />
         </div>
       </section>
