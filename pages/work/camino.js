@@ -316,10 +316,11 @@ export default function Camino() {
                 <p>
                   I summarised all the information from the User Interviews in
                   the below <strong>Persona</strong>. Giulia Moretti, an expat
-                  living in one of the more bustling cities in the world:
-                  Berlin. She discovered there she needed to dig deeper into her
-                  thoughts and emotions, but found out that the process to find
-                  some external professional help was a little bit too much.
+                  living in one of the most bustling cities in the world:
+                  Berlin. She discovered there, after a while, she needed to dig
+                  deeper into her thoughts and emotions, but she found out that
+                  the process to find some external professional help was a
+                  little bit too much.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
