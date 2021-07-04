@@ -52,17 +52,6 @@ const Footer = () => {
           <div className={styles.closing}>
             Built from the ground up by myself using Figma and Next.js &hearts;
           </div>
-          <div className={styles.flaticon}>
-            Icons from{' '}
-            <a
-              href="https://www.flaticon.com/"
-              title="Visit flaticon"
-              target="_blank"
-              rel="noreferrer"
-            >
-              www.flaticon.com
-            </a>
-          </div>
         </div>
       </div>
     </footer>
