@@ -92,6 +92,7 @@ export default function Mirror() {
                     label="Skills"
                     text="Research, Information Architecture, Interaction & UI Design, Prototype, Testing"
                   />
+                  <CaseStudyTag label="Tools" text="Figma, Lucidchart" />
                   <CaseStudyTag label="Duration" text="3 Months" />
                 </div>
               </div>

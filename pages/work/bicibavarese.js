@@ -93,6 +93,7 @@ export default function BiciBavarese() {
                     label="Skills"
                     text="Research, Information Architecture, Interaction & UI Design, Prototype, Testing"
                   />
+                  <CaseStudyTag label="Tools" text="Figma, Whimsical" />
                   <CaseStudyTag label="Duration" text="1 Month" />
                 </div>
               </div>

@@ -95,6 +95,7 @@ export default function Komoot() {
                     label="Skills"
                     text="Research, Information Architecture, Interaction & UI Design, Prototype, Testing"
                   />
+                  <CaseStudyTag label="Tools" text="Figma, Whimsical, Maze" />
                   <CaseStudyTag label="Duration" text="1 Month" />
                 </div>
               </div>
