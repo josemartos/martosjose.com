@@ -13,7 +13,7 @@ export default function BasePage({ children, title }) {
     return function cleanup() {
       setTheme('normal');
     };
-  }, []);
+  }, [setTheme]);
 
   return (
     <Layout>

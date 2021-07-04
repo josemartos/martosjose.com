@@ -24,13 +24,13 @@ export default function Home() {
     if (!workMenu) return;
 
     scrollToWork();
-  }, [workMenu]);
+  }, [workMenu, scrollToWork]);
 
   useEffect(() => {
     return function () {
       return setWorkMenu(false);
     };
-  }, []);
+  }, [setWorkMenu]);
 
   return (
     <Layout>

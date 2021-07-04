@@ -461,7 +461,6 @@ export default function Komoot() {
                       alt="Komoot UI Design Screens"
                       width={411}
                       height={840}
-                      priority={true}
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -470,7 +469,6 @@ export default function Komoot() {
                       alt="Komoot UI Design Screens"
                       width={411}
                       height={840}
-                      priority={true}
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -479,7 +477,6 @@ export default function Komoot() {
                       alt="Komoot UI Design Screens"
                       width={411}
                       height={840}
-                      priority={true}
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -488,7 +485,6 @@ export default function Komoot() {
                       alt="Komoot UI Design Screens"
                       width={411}
                       height={840}
-                      priority={true}
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -497,7 +493,6 @@ export default function Komoot() {
                       alt="Komoot UI Design Screens"
                       width={411}
                       height={840}
-                      priority={true}
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -506,7 +501,6 @@ export default function Komoot() {
                       alt="Komoot UI Design Screens"
                       width={411}
                       height={840}
-                      priority={true}
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -515,7 +509,6 @@ export default function Komoot() {
                       alt="Komoot UI Design Screens"
                       width={411}
                       height={840}
-                      priority={true}
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -524,7 +517,6 @@ export default function Komoot() {
                       alt="Komoot UI Design Screens"
                       width={411}
                       height={840}
-                      priority={true}
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -533,7 +525,6 @@ export default function Komoot() {
                       alt="Komoot UI Design Screens"
                       width={411}
                       height={840}
-                      priority={true}
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -542,7 +533,6 @@ export default function Komoot() {
                       alt="Komoot UI Design Screens"
                       width={411}
                       height={840}
-                      priority={true}
                     />
                   </SwiperSlide>
                 </Carousel>

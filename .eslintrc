@@ -1,8 +1,17 @@
 {
-  "extends": "next",
+  "extends": ["next", "prettier", "plugin:jsx-a11y/recommended"],
+  "plugins": ["jsx-a11y"],
   "rules": {
     "react/no-unescaped-entities": "off",
     "react/display-name": "off",
-    "@next/next/no-page-custom-font": "off"
+    "@next/next/no-page-custom-font": "off",
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": ["Link"],
+        "specialLink": ["hrefLeft", "hrefRight"],
+        "aspects": ["invalidHref", "preferButton"]
+      }
+    ]
   }
 }

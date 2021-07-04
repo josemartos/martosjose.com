@@ -30,7 +30,7 @@ const GoTopButton = () => {
     } else if (showScroll && pageOffset <= 1500) {
       setShowScroll(false);
     }
-  }, [pageOffset]);
+  }, [pageOffset, showScroll]);
 
   return (
     <button
