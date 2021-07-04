@@ -12,7 +12,7 @@ const ContactForm = () => {
   if (state.succeeded) {
     return (
       <div className={styles.feedback}>
-        <p>Thanks! I've got your message</p>
+        <p>Thanks! I've got your message.</p>
       </div>
     );
   }
