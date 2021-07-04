@@ -375,7 +375,7 @@ export default function Camino() {
                 url="/camino/sitemap.png"
                 alt="Camino Sitemap"
                 width={1283}
-                height={1248}
+                height={1073}
                 link={+true}
               />
             </div>
