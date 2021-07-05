@@ -10,7 +10,10 @@ import 'styles/global.scss';
 import AppContext from 'context/appContext';
 import { Maintenance, GoTopButton } from 'components';
 
+const Noop = ({ children }) => <>{children}</>;
+
 function App({ Component, pageProps, maintenanceMode = 'false' }) {
+  const ComponentProvider = Component.provider || Noop;
   const [theme, setTheme] = useState('normal');
   const [workMenu, setWorkMenu] = useState(false);
   const workSectionRef = useRef(null);
@@ -101,7 +104,9 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
         {maintenanceMode === 'true' ? (
           <Maintenance />
         ) : (
-          <Component {...pageProps} />
+          <ComponentProvider>
+            <Component {...pageProps} />
+          </ComponentProvider>
         )}
       </AppContext.Provider>
     </>

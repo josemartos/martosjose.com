@@ -7,6 +7,15 @@ export { default as HeroHeader } from './heroHeader';
 export { Layout, BasePage } from './layout';
 export { default as Maintenance } from './maintenance';
 export { default as ContactForm } from './contactForm';
-export { CaseStudyTag, CaseStudyBlockHeader } from './caseStudy';
+export {
+  CaseStudyTag,
+  CaseStudyBlockHeader,
+  CaseStudyNavbar,
+  CaseStudyWrapper,
+  UnderstandSection,
+  DefineSection,
+  DesignSection,
+  TestingSection,
+} from './caseStudy';
 export { default as Image } from './Image';
 export { default as Carousel } from './carousel';

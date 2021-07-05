@@ -4,10 +4,9 @@ import cn from 'classnames';
 import styles from './comeIn.module.scss';
 
 const ComeInAnimation = ({ children, position = '' }) => {
-  const { ref, inView, entry } = useInView({
+  const { ref, inView } = useInView({
     root: null,
-    rootMargin: '0px',
-    threshold: 0.3,
+    threshold: 0.2,
     triggerOnce: true,
   });
 
