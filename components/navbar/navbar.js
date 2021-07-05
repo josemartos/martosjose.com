@@ -40,12 +40,6 @@ const Navbar = () => {
       <RouterLink href="/about" passHref>
         <NavbarLink text="about" />
       </RouterLink>
-      {/* <RouterLink href="/resume" passHref>
-        <NavbarLink text="resume" />
-      </RouterLink> 
-      <RouterLink href="/photos" passHref>
-        <NavbarLink text="photos" />
-      </RouterLink>*/}
       <RouterLink href="/contact" passHref>
         <NavbarLink text="contact" />
       </RouterLink>

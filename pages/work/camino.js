@@ -517,6 +517,7 @@ const Camino = () => {
                     alt="Camino UI Design Screens"
                     width={421}
                     height={858}
+                    priority={true}
                   />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -525,6 +526,7 @@ const Camino = () => {
                     alt="Camino UI Design Screens"
                     width={421}
                     height={858}
+                    priority={true}
                   />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -533,6 +535,7 @@ const Camino = () => {
                     alt="Camino UI Design Screens"
                     width={421}
                     height={858}
+                    priority={true}
                   />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -541,6 +544,7 @@ const Camino = () => {
                     alt="Camino UI Design Screens"
                     width={421}
                     height={858}
+                    priority={true}
                   />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -549,6 +553,7 @@ const Camino = () => {
                     alt="Camino UI Design Screens"
                     width={421}
                     height={858}
+                    priority={true}
                   />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -557,6 +562,7 @@ const Camino = () => {
                     alt="Camino UI Design Screens"
                     width={421}
                     height={858}
+                    priority={true}
                   />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -565,6 +571,7 @@ const Camino = () => {
                     alt="Camino UI Design Screens"
                     width={421}
                     height={858}
+                    priority={true}
                   />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -573,6 +580,7 @@ const Camino = () => {
                     alt="Camino UI Design Screens"
                     width={421}
                     height={858}
+                    priority={true}
                   />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -581,6 +589,7 @@ const Camino = () => {
                     alt="Camino UI Design Screens"
                     width={421}
                     height={858}
+                    priority={true}
                   />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -589,6 +598,7 @@ const Camino = () => {
                     alt="Camino UI Design Screens"
                     width={421}
                     height={858}
+                    priority={true}
                   />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -597,6 +607,7 @@ const Camino = () => {
                     alt="Camino UI Design Screens"
                     width={421}
                     height={858}
+                    priority={true}
                   />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -605,6 +616,7 @@ const Camino = () => {
                     alt="Camino UI Design Screens"
                     width={421}
                     height={858}
+                    priority={true}
                   />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -613,6 +625,7 @@ const Camino = () => {
                     alt="Camino UI Design Screens"
                     width={421}
                     height={858}
+                    priority={true}
                   />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -621,6 +634,7 @@ const Camino = () => {
                     alt="Camino UI Design Screens"
                     width={421}
                     height={858}
+                    priority={true}
                   />
                 </SwiperSlide>
               </Carousel>
