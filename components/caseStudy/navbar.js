@@ -27,7 +27,7 @@ const Navbar = () => {
           })}
           onClick={scrollTo(understandSectionRef)}
         >
-          1. Understand
+          Understand
         </button>
         <button
           className={cn(caseStudy.navbarItem, {
@@ -35,7 +35,7 @@ const Navbar = () => {
           })}
           onClick={scrollTo(defineSectionRef)}
         >
-          2. Define
+          Define
         </button>
         <button
           className={cn(caseStudy.navbarItem, {
@@ -43,7 +43,7 @@ const Navbar = () => {
           })}
           onClick={scrollTo(designSectionRef)}
         >
-          3. Design
+          Design
         </button>
         <button
           className={cn(caseStudy.navbarItem, {
@@ -51,7 +51,7 @@ const Navbar = () => {
           })}
           onClick={scrollTo(testingSectionRef)}
         >
-          4. Testing
+          Testing
         </button>
       </div>
     </div>
