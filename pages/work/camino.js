@@ -93,7 +93,7 @@ const Camino = () => {
                   allows users to find the right therapist. Specially
                   interesting were the user and subject-matter expert
                   interviews, to reafirm that the systems to find therapy help
-                  in Germany are outdated and old-fashioned, in need of new
+                  in Germany are outdated, old-fashioned, and in need of new
                   solutions. This has been my first{' '}
                   <strong>end-to-end design for an mobile app</strong>, where
                   all my design skills and learnings have come together.
@@ -162,10 +162,11 @@ const Camino = () => {
                 and the current offering.
               </p>
               <p>
-                To be completely honest, this was an idea my girlfriend and I
-                were talking about for some time. Checking out the market with
-                so many alternatives was a bit discouraging. However, that means
-                that the idea has some traction. Almost no idea is ever
+                This was an idea my girlfriend and I were talking about for some
+                time. With a wide array of products in the market, it was
+                challenging to find a gap that hasn't already been filled.
+                Competition however, is never a bad thing and if anything
+                provides some product validation. Almost no idea is ever
                 completely novel and one can always improve on their offering.
               </p>
               <p>
@@ -319,7 +320,7 @@ const Camino = () => {
                 in one of the most bustling cities in the world: Berlin. She
                 discovered there, after a while, she needed to dig deeper into
                 her thoughts and emotions, but she found out that the process to
-                find some external professional help was a little bit too much.
+                find some external professional help was overwhelming.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -352,8 +353,7 @@ const Camino = () => {
             <div className={cn('col--md-8')}>
               <p>
                 The <strong>Sitemap</strong> represents the set of screens and
-                features the first iteration of the MVP app will have, reflected
-                on the following section: the wireframes.
+                features the first iteration of the MVP app will have.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -421,7 +421,7 @@ const Camino = () => {
 
         {/* Mood Board & Style Tile */}
         <div className={caseStudy.segment}>
-          <h3 className={caseStudy.segmentTitle}>Brand</h3>
+          <h3 className={caseStudy.segmentTitle}>Moodboard & Logo</h3>
           <div
             className={cn(
               'flexGrid',
@@ -436,9 +436,9 @@ const Camino = () => {
                 <strong>Camino</strong>, which means way.
               </p>
               <p>
-                After a brainstorming session to set the mood, I worked on the{' '}
-                <strong>logo</strong>, inspired by the app's name. It's a way in
-                a seed (what can be a growing seed), which symbolises the
+                After a brainstorming session generating a moodboard, I worked
+                on the <strong>logo</strong>, inspired by the app's name. It's a
+                path within a seed, which is a growing seed which symbolises
                 growth. I chose a handwritten typography, which represents the
                 way we write (and rewrite) our own story.
               </p>
@@ -469,6 +469,27 @@ const Camino = () => {
               link={+true}
             />
           </div>
+        </div>
+
+        <div className={caseStudy.segment}>
+          <h3 className={caseStudy.segmentTitle}>Style Tile</h3>
+          <div
+            className={cn(
+              'flexGrid',
+              commonStyles.contentWrapper,
+              caseStudy.segmentIntro
+            )}
+          >
+            <div className={cn('col--md-2')}></div>
+            <div className={cn('col--md-8')}>
+              <p>
+                After coming up with the logo I gathered the set of styles and
+                aesthetic choices to set the vibe for the app, including fonts,
+                colours and components.
+              </p>
+            </div>
+            <div className={cn('col--md-2')}></div>
+          </div>
           <div
             className={cn(caseStudy.segmentImage, commonStyles.contentWrapper)}
           >
@@ -497,8 +518,8 @@ const Camino = () => {
             <div className={cn('col--md-8')}>
               <p>
                 With a fresh, modern, warm and welcoming UI design, the
-                following screens are a polished version after the UI tests and
-                the user's feedback (more about that in the next section).
+                following screens are the polished version after the UI tests
+                and the user's feedback (more about that in the next section).
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -679,10 +700,9 @@ const Camino = () => {
                 </li>
               </ul>
               <p>
-                Some minor issues had to be addressed. Font sizes in general, it
-                was too small on some parts of the app. Some wordings were
-                improved (e.g. "Your way to a better self" sounded a bit
-                judgmental).
+                Some minor issues had to be addressed. Font sizes in general was
+                too small on some parts of the app. Some wording was improved
+                (e.g. "Your way to a better self" sounded a bit judgmental).
               </p>
               <LinkButton
                 target="_blank"
@@ -704,9 +724,10 @@ const Camino = () => {
               <div className={cn('col--md-8')}>
                 <h3>Takeaways</h3>
                 <p>
-                  This time I learnt from my mistakes, and I created a Maze test
-                  much more complete, asking thorough questions in order to get
-                  more insightful data.
+                  I took some learnings from my previous project and I created a
+                  Maze test much more complete, asking thorough questions in
+                  order to get more insightful data, resulting in a well thought
+                  set of blocks.
                 </p>
                 <p>
                   As a next step I would iterate more on the list of questions
