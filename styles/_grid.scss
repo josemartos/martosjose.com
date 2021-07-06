@@ -11,6 +11,10 @@ $grid-columns: 12;
 
 .flexGrid.reverse {
   flex-direction: row-reverse;
+
+  @media screen and (max-width: $phablet) {
+    flex-direction: row;
+  }
 }
 
 //flex item definition
