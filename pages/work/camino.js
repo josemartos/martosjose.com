@@ -738,7 +738,7 @@ const Camino = () => {
                 </p>
                 <p>
                   The experience in general was very enriching. I felt that all
-                  the design skills I have adquired in the last 10 months came
+                  the design skills I have acquired in the last 10 months came
                   all together to create what I consider my most complete work
                   to date.
                 </p>
