@@ -352,8 +352,13 @@ const Camino = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                The <strong>Sitemap</strong> represents the set of screens and
-                features the first iteration of the MVP app will have.
+                The Sitemaprepresents the set of screens and features the first
+                iteration of the MVP app will have. There will be three main
+                screens:{' '}
+                <strong>Get Matched, Therapist list and Dashboard</strong>. Both
+                the Get Matched and Therapist list will lead to the{' '}
+                <strong>Therapist Profile</strong>, where it's possible to book
+                an appointment or message the professional.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -387,7 +392,10 @@ const Camino = () => {
               <p>
                 These wireframes show some of the key screens and features,
                 which include <strong>Get matched</strong> and{' '}
-                <strong>Discover</strong>.
+                <strong>Therapist list</strong>. I did a couple of iterations,
+                including the Dashboard after a patient has been matched with a
+                therapist during the second iteration (where the user can see
+                the next appointment and the last messages).
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
