@@ -28,6 +28,7 @@ const Carousel = ({ children }) => {
       <Swiper
         slidesPerView={1}
         grabCursor={true}
+        centeredSlides={true}
         pagination={{
           dynamicBullets: true,
         }}
