@@ -4,7 +4,7 @@
 
 ## Description
 
-Personal portfolio. See [live](https://www.martosjose.com)
+Welcome to my personal website, where I showcase my latest work. See it [live](https://www.martosjose.com)
 
 ## Setup
 
