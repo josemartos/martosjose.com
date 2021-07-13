@@ -352,13 +352,13 @@ const Camino = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                The Sitemaprepresents the set of screens and features the first
+                The Sitemap represents the set of screens and features the first
                 iteration of the MVP app will have. There will be three main
-                screens:{' '}
-                <strong>Get Matched, Therapist list and Dashboard</strong>. Both
-                the Get Matched and Therapist list will lead to the{' '}
+                screens: <strong>Get Matched</strong>,{' '}
+                <strong>Therapist list</strong> and <strong>Dashboard</strong>.
+                Both the Get Matched and Therapist list will lead to the{' '}
                 <strong>Therapist Profile</strong>, where it's possible to book
-                an appointment or message the professional.
+                an appointment or send a message.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -392,10 +392,10 @@ const Camino = () => {
               <p>
                 These wireframes show some of the key screens and features,
                 which include <strong>Get matched</strong> and{' '}
-                <strong>Therapist list</strong>. I did a couple of iterations,
-                including the Dashboard after a patient has been matched with a
-                therapist during the second iteration (where the user can see
-                the next appointment and the last messages).
+                <strong>Therapist list</strong>. After a couple of iterations
+                and refinements, I included the Dashboard screen, where the
+                patient can see the next appointment and the last messages after
+                being matched with a therapist.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -708,9 +708,10 @@ const Camino = () => {
                 </li>
               </ul>
               <p>
-                Some minor issues had to be addressed. Font sizes in general was
-                too small on some parts of the app. Some wording was improved
-                (e.g. "Your way to a better self" sounded a bit judgmental).
+                Some minor issues had to be addressed. Font sizes in general
+                were too small on some parts of the app. Some wording was
+                improved (e.g. "Your way to a better self" sounded a bit
+                judgmental).
               </p>
               <LinkButton
                 target="_blank"
