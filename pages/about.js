@@ -62,7 +62,15 @@ export default function About() {
                 Málaga, Madrid and Berlin.
               </p>
               <p>
-                Let’s{' '}
+                For further information you can have a look at my{' '}
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/18SNJj2Vun0AFZlCz4qfIeTBpT2u7fxlW/view"
+                  rel="noreferrer"
+                >
+                  resume
+                </a>
+                , or else, let’s{' '}
                 <RouterLink href="/contact">
                   <a title="Go to contact">chat</a>
                 </RouterLink>{' '}
