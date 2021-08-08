@@ -43,10 +43,7 @@ const Navbar = () => {
       <RouterLink href="/about" passHref>
         <NavbarLink text="about" />
       </RouterLink>
-      <RouterLink
-        href="https://drive.google.com/file/d/18SNJj2Vun0AFZlCz4qfIeTBpT2u7fxlW/view"
-        passHref
-      >
+      <RouterLink href="/pdf/CV_JoseMartos_2021.pdf" passHref>
         <NavbarLink text="cv" target="_blank" />
       </RouterLink>
       <RouterLink href="/contact" passHref>

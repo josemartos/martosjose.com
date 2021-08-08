@@ -65,7 +65,7 @@ export default function About() {
                 For further information you can have a look at my{' '}
                 <a
                   target="_blank"
-                  href="https://drive.google.com/file/d/18SNJj2Vun0AFZlCz4qfIeTBpT2u7fxlW/view"
+                  href="/pdf/CV_JoseMartos_2021.pdf"
                   rel="noreferrer"
                 >
                   resume
