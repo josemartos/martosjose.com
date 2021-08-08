@@ -1,0 +1,13 @@
+@import 'styles/base';
+
+.wrapper {
+  font-size: rem(20px);
+
+  p {
+    margin-bottom: 35px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

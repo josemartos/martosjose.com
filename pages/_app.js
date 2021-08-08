@@ -8,7 +8,7 @@ import smoothscroll from 'smoothscroll-polyfill';
 import 'styles/global.scss';
 
 import AppContext from 'context/appContext';
-import { Maintenance, GoTopButton } from 'components';
+import { Maintenance, GoTopButton, GDPRBanner } from 'components';
 
 const Noop = ({ children }) => <>{children}</>;
 
@@ -104,9 +104,12 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
         {maintenanceMode === 'true' ? (
           <Maintenance />
         ) : (
-          <ComponentProvider>
-            <Component {...pageProps} />
-          </ComponentProvider>
+          <>
+            <ComponentProvider>
+              <Component {...pageProps} />
+            </ComponentProvider>
+            <GDPRBanner />
+          </>
         )}
       </AppContext.Provider>
     </>

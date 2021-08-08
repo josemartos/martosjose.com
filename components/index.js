@@ -19,3 +19,4 @@ export {
 } from './caseStudy';
 export { default as Image } from './Image';
 export { default as Carousel } from './carousel';
+export { default as GDPRBanner } from './gdprBanner';
