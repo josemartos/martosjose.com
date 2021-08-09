@@ -47,7 +47,7 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
         />
         <meta
           name="keywords"
-          content="personal portfolio, ux design, ui design, front-end development"
+          content="portfolio, ux design, ui design, front-end development"
         />
         <meta name="author" content="Jose Martos" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -82,19 +82,13 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
           property="og:description"
           content="Designer and front-end developer."
         />
-        <meta property="og:image" content="/android-chrome-512x512.png" />
-        <meta
-          property="og:image:secure_url"
-          content="/android-chrome-512x512.png"
-        />
+        <meta property="og:image" content="/images/social.jpg" />
+        <meta property="og:image:secure_url" content="/images/social.jpg" />
         <meta property="og:image:type" content="image/jpeg" />
-        <meta property="og:image:width" content="512" />
-        <meta property="og:image:height" content="512" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="627" />
         <meta property="og:locale" content="en" />
-        <meta
-          property="og:site_name"
-          content="Jose Martos - Personal Portfolio"
-        />
+        <meta property="og:site_name" content="Jose Martos - Portfolio" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

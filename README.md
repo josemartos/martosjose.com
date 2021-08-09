@@ -1,10 +1,10 @@
-# Personal portfolio
+# Portfolio
 
 > Powered by Next.js
 
 ## Description
 
-Welcome to my personal website, where I showcase my latest work. See it [live](https://www.martosjose.com)
+Welcome to my website, where I showcase my latest work. See it [live](https://www.martosjose.com)
 
 ## Setup
 

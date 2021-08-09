@@ -18,7 +18,7 @@ export default function BasePage({ children, title }) {
   return (
     <Layout>
       <Head>
-        <title>{title} - Jose Martos - Personal Portfolio</title>
+        <title>{title} - Jose Martos - Portfolio</title>
       </Head>
       {children}
     </Layout>
