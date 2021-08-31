@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import cn from 'classnames';
+import { getCookieValue } from 'utils';
 
 import GoTopIcon from 'public/images/go-top-button.svg';
 
@@ -8,6 +9,7 @@ import styles from './goTop.module.scss';
 
 const GoTopButton = () => {
   const [showScroll, setShowScroll] = useState(false);
+  const [hasGdprBanner, setHasGdprBanner] = useState(false);
   const [pageOffset, setPageOffset] = useState(0);
 
   const scrollTop = () => {
@@ -25,6 +27,10 @@ const GoTopButton = () => {
   }, []);
 
   useEffect(() => {
+    const gdprBannerCookie = getCookieValue('gdprBanner');
+
+    setHasGdprBanner(!gdprBannerCookie);
+
     if (!showScroll && pageOffset > 1500) {
       setShowScroll(true);
     } else if (showScroll && pageOffset <= 1500) {
@@ -34,7 +40,10 @@ const GoTopButton = () => {
 
   return (
     <button
-      className={cn(styles.button, { [styles.active]: showScroll })}
+      className={cn(styles.button, {
+        [styles.active]: showScroll,
+        [styles.hasGdprBanner]: hasGdprBanner,
+      })}
       title="Go to top"
       onClick={scrollTop}
     >
