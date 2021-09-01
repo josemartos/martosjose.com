@@ -43,7 +43,7 @@ const Navbar = () => {
       <RouterLink href="/about" passHref>
         <NavbarLink text="about" />
       </RouterLink>
-      <RouterLink href="/CV_JoseMartos.pdf" passHref>
+      <RouterLink href="/CVJoseMartos.pdf" passHref>
         <NavbarLink text="cv" target="_blank" />
       </RouterLink>
       <RouterLink href="/contact" passHref>

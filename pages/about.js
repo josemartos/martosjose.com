@@ -63,7 +63,7 @@ export default function About() {
               </p>
               <p>
                 For further information you can have a look at my{' '}
-                <a target="_blank" href="/CV_JoseMartos.pdf" rel="noreferrer">
+                <a target="_blank" href="/CVJoseMartos.pdf" rel="noreferrer">
                   resume
                 </a>
                 , or else, let’s{' '}
