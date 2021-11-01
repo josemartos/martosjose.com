@@ -83,8 +83,8 @@ const Mirror = () => {
                 </p>
                 <p>
                   I learnt a lot, since I had to dig deep into clothing
-                  e-commerce, conduct customer interviews, create wireframes and
-                  UI design, as well as prototype, test and refine the final
+                  e-commerce, conduct user interviews, create wireframes and UI
+                  design, as well as prototype, test and refine the final
                   iteration.
                 </p>
               </div>
@@ -157,8 +157,7 @@ const Mirror = () => {
             <div className={cn('col--md-8')}>
               <p>
                 I started doing secondary <strong>research</strong>, by reading
-                about the
-                <strong>history and background of e-commerce</strong> to better
+                about the <strong>history of e-commerce</strong> to better
                 understand the scope of the project, conducting{' '}
                 <strong>competitor analysis</strong> to understand the current
                 situation, as well as to acknowledge what makes online shoppers

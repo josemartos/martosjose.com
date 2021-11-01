@@ -77,12 +77,12 @@ const BiciBavarese = () => {
                 <p>
                   For the first capstone project at Designlab’s UX Academy, I
                   worked on the <strong>redesign of a local bike shop</strong>{' '}
-                  based in Munich. I took my skills to the next level and I
-                  learnt a bunch about the bike scene in the city. I did some
-                  research and user interviews to understand their needs, but I
-                  placed special emphasis in understanding the current product,
-                  to focus on Wireframing and UI in order to create a beautiful
-                  design that speaks for the bike shop's spirit.
+                  based in Munich, so I learnt a bunch about the bike scene in
+                  the city. I did some research and user interviews to
+                  understand their needs, but I placed special emphasis in
+                  understanding the current product, to focus on Wireframing and
+                  UI in order to create a beautiful design that speaks for the
+                  bike shop's spirit.
                 </p>
                 <p>
                   (Disclaimer: I used their existing logo and text, as well as
@@ -118,8 +118,8 @@ const BiciBavarese = () => {
               <p>
                 My goal was to redesign their website keeping their essense,
                 colour palette and other assets. A design that is eye catching
-                and shows sense of community. The main target was to design,
-                taking into account the time constraints, a few key pages.
+                and shows sense of community. The main target was to design a
+                few key pages, taking into account the time constraints.
               </p>
             </div>
             <div className={cn('col--md-3')}></div>
