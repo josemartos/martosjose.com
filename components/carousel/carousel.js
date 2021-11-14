@@ -1,9 +1,6 @@
 import cn from 'classnames';
-import SwiperCore, { Pagination, Navigation } from 'swiper/core';
+import { Navigation, Pagination } from 'swiper';
 import { Swiper } from 'swiper/react';
-
-// Install Swiper modules
-SwiperCore.use([Pagination, Navigation]);
 
 // Styles
 import styles from './carousel.module.scss';
@@ -26,6 +23,7 @@ const Carousel = ({ children }) => {
         )}
       ></button>
       <Swiper
+        modules={[Navigation, Pagination]}
         slidesPerView={1}
         grabCursor={true}
         centeredSlides={true}
