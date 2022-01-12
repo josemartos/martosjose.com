@@ -23,8 +23,7 @@ const HeroHeader = ({ scrollToWork }) => {
             </h1>
             <p>
               Focused on building <strong>beautiful</strong> and{' '}
-              <strong>functional</strong> digital products. Currently based in
-              Munich.
+              <strong>functional</strong> digital products.
             </p>
           </div>
         </div>
