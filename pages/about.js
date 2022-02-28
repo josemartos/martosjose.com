@@ -33,8 +33,17 @@ export default function About() {
             <div className="col--md-1"></div>
             <div className={cn(styles.text, 'col--md-7')}>
               <p>
-                I am Jos&eacute;, a <strong>designer</strong> and{' '}
-                <strong>front-end developer</strong> currently based in Munich.
+                I am Jos&eacute;, a <strong>product designer</strong> and{' '}
+                <strong>front-end developer</strong> based in Munich, currently
+                working at{' '}
+                <a
+                  target="_blank"
+                  href="https://www.zooplus.de"
+                  rel="noreferrer"
+                >
+                  zooplus
+                </a>
+                .
               </p>
               <p>
                 In my 10-plus years of experience, I've been fortunate enough to

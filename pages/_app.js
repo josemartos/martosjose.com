@@ -43,7 +43,7 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
         <meta charSet="UTF-8" />
         <meta
           name="description"
-          content="Jose Martos - Designer and front-end developer"
+          content="Jose Martos - Product designer and front-end developer"
         />
         <meta
           name="keywords"
@@ -80,7 +80,7 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
         <meta property="og:title" content="Jose Martos." />
         <meta
           property="og:description"
-          content="Designer and front-end developer."
+          content="Product designer and front-end developer."
         />
         <meta property="og:image" content="/images/social.jpg" />
         <meta property="og:image:secure_url" content="/images/social.jpg" />

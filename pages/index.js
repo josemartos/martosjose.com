@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Jose Martos - Designer and front-end developer</title>
+        <title>Jose Martos - Product designer and front-end developer</title>
       </Head>
       <section className={styles.homeHeader}>
         <HeroHeader scrollToWork={scrollToWork} />
