@@ -33,8 +33,8 @@ export default function About() {
             <div className="col--md-1"></div>
             <div className={cn(styles.text, 'col--md-7')}>
               <p>
-                I am Jos&eacute;, based in Munich and currently working as a
-                Product Designer at{' '}
+                I am Jos&eacute;, based in Munich and currently working as a{' '}
+                <strong>Product Designer</strong> at{' '}
                 <a
                   target="_blank"
                   href="https://www.zooplus.de"
@@ -46,12 +46,13 @@ export default function About() {
               </p>
               <p>
                 In my 10-plus years of experience, I've been fortunate enough to
-                work as a front-end developer on several projects. I expanded my
-                skill set to include UX/UI design, in order to combine my
-                programming skills with an ability to research, design and
-                prototype innovative, human-centered interfaces. This unique
-                combination of skills allows me to see the product life-cycle
-                through from conception to final delivery.
+                work as a <strong>Front-end Developer</strong> on several
+                projects. I expanded my skill set to include UX/UI design, in
+                order to combine my programming skills with an ability to
+                research, design and prototype innovative, human-centered
+                interfaces. This unique combination of skills allows me to see
+                the product life-cycle through from conception to final
+                delivery.
               </p>
               <p>
                 In my free time you will find me trekking, biking, cooking,

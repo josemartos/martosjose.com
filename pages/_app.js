@@ -43,11 +43,11 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
         <meta charSet="UTF-8" />
         <meta
           name="description"
-          content="Jose Martos - Product designer and front-end developer"
+          content="Jose Martos - Product Designer and Front-end Developer"
         />
         <meta
           name="keywords"
-          content="portfolio, ux design, ui design, front-end development"
+          content="portfolio, ux design, ui design, product design, front-end development"
         />
         <meta name="author" content="Jose Martos" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -80,7 +80,7 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
         <meta property="og:title" content="Jose Martos." />
         <meta
           property="og:description"
-          content="Product designer and front-end developer."
+          content="Product Designer and Front-end Developer."
         />
         <meta property="og:image" content="/images/social.jpg" />
         <meta property="og:image:secure_url" content="/images/social.jpg" />
