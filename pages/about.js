@@ -33,9 +33,8 @@ export default function About() {
             <div className="col--md-1"></div>
             <div className={cn(styles.text, 'col--md-7')}>
               <p>
-                I am Jos&eacute;, a <strong>product designer</strong> and{' '}
-                <strong>front-end developer</strong> based in Munich, currently
-                working at{' '}
+                I am Jos&eacute;, based in Munich and currently working as a
+                Product Designer at{' '}
                 <a
                   target="_blank"
                   href="https://www.zooplus.de"
@@ -47,19 +46,18 @@ export default function About() {
               </p>
               <p>
                 In my 10-plus years of experience, I've been fortunate enough to
-                work as a developer on several projects. I have recently
-                expanded my skill set to include UX/UI design, in order to
-                combine my programming skills with an ability to research,
-                design and prototype innovative, human-centered interfaces. This
-                new, unique combination of skills allows me to see the product
-                life-cycle through from conception to final delivery.
+                work as a front-end developer on several projects. I expanded my
+                skill set to include UX/UI design, in order to combine my
+                programming skills with an ability to research, design and
+                prototype innovative, human-centered interfaces. This unique
+                combination of skills allows me to see the product life-cycle
+                through from conception to final delivery.
               </p>
               <p>
-                In my free time you will find me trekking, biking, traveling,
-                cooking, reading, bouldering, taking pictures and learning
-                martial arts. Between 2018 and 2019 I spent 4 months traveling
-                across Asia, and I am delighted to say that have visited a total
-                of{' '}
+                In my free time you will find me trekking, biking, cooking,
+                reading, bouldering, taking pictures and learning martial arts.
+                Between 2018 and 2019 I spent 4 months traveling across Asia,
+                and I am delighted to say that have visited a total of{' '}
                 <a
                   target="_blank"
                   href="https://www.mytravelmap.xyz/u/gg108230143559826306104"
@@ -75,7 +73,7 @@ export default function About() {
                 <a target="_blank" href="/CVJoseMartos.pdf" rel="noreferrer">
                   resume
                 </a>
-                , or else, let’s{' '}
+                , or else, let's{' '}
                 <RouterLink href="/contact">
                   <a title="Go to contact">chat</a>
                 </RouterLink>{' '}

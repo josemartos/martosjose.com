@@ -82,14 +82,15 @@ const Komoot = () => {
               <div className={cn('col--md-1')}></div>
               <div className={cn('col--md-5')}>
                 <p>
-                  Being an avid hiker myself, I decided to design for one of the
-                  apps I currently use: Komoot. Hence, for the second capstone
-                  project at Designlab’s UX Academy, I worked on{' '}
-                  <strong>expanding its social capabilities</strong>. I could
-                  explore the app and its current functionalities. I did market
-                  research, sent out some surveys to know more from the users,
-                  as well as tested and prototyped the idea, always respecting
-                  the current style guide and general guidelines.
+                  Being an avid hiker myself, I decided to analyse and
+                  investigate possible enhancements for one of the apps I
+                  currently use: Komoot. This way, for the second capstone
+                  project at Designlab's UX Academy, I worked on{' '}
+                  <strong>expanding the app's social capabilities</strong>. I
+                  could explore its current functionalities, do market research,
+                  send out some surveys to know more from the users, as well as
+                  test and prototype the idea, always respecting the current
+                  style guide and components.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -154,8 +155,7 @@ const Komoot = () => {
               <p>
                 First of all, I wanted to know more about the current
                 competitors, the app itself, so I did some secondary research to
-                gather insights and make my mind what to ask later in the
-                survey.
+                gather insights and make my mind what to ask later in a survey.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -189,17 +189,20 @@ const Komoot = () => {
               <p>
                 I sent out a <strong>Survey</strong> that was answered by 8
                 participants, in order to understand how users make use of the
-                app and if they’re missing some capabilities and features, what
+                app and if they're missing some capabilities and features, what
                 they love and what they would change, as well as if they would
                 be interested in socialising more within the app.
               </p>
               <p>
                 I tried to reach the company to have the chance to talk with
                 some users, but had no luck, so the Survey targeted apps of the
-                like, which gave a broader spectrum of responses, with the same
-                questions in mind.
+                like, which gave a broader spectrum of responses, using the same
+                questions.
               </p>
-              <p>I separated in three: needs, frustrations and motivations.</p>
+              <p>
+                I summarised and split the responses in three: needs,
+                frustrations and motivations.
+              </p>
               <p className={caseStudy.listTitle}>
                 <strong>Needs</strong>:
               </p>
@@ -208,18 +211,18 @@ const Komoot = () => {
                   Stay active (Hiking, running, and trail running being the most
                   practised).
                 </li>
-                <li>Clear navigation and stats</li>
-                <li>User-uploaded photos</li>
-                <li>Trail condition and weather updates</li>
-                <li>Track workouts and activities</li>
+                <li>Clear navigation and stats.</li>
+                <li>User-uploaded photos.</li>
+                <li>Trail condition and weather updates.</li>
+                <li>Track workouts and activities.</li>
               </ul>
 
               <p className={caseStudy.listTitle}>
                 <strong>Frustrations</strong>:
               </p>
               <ul>
-                <li>Limited options to socialize</li>
-                <li>Difficult to follow alternate paths</li>
+                <li>Limited options to socialize.</li>
+                <li>Difficult to follow alternate paths.</li>
               </ul>
 
               <p className={caseStudy.listTitle}>
@@ -228,7 +231,7 @@ const Komoot = () => {
               <ul>
                 <li>
                   Most of the participants would be willing to socialize more
-                  (e.g. join / organise meetups, challenge friends)
+                  (e.g. join / organise meetups, challenge friends).
                 </li>
               </ul>
             </div>
@@ -272,10 +275,10 @@ const Komoot = () => {
             <div className={cn('col--md-8')}>
               <p>
                 Using the information gathered during the User Survey, I created
-                a <strong>Persona</strong> to summarize the findings. Lukas
-                Berger, a newcomer to the city of Innsbruck was the perfect
+                a <strong>Persona</strong> that represents the findings: Lukas
+                Berger, a newcomer to the city of Innsbruck that was the perfect
                 example to someone who's willing to socialize by doing what he
-                enjoys the most: being outside in the nature.
+                enjoys the most, being outside in the nature.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -342,10 +345,10 @@ const Komoot = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                These <strong>key user flows</strong> show the two main paths:
-                join and organise an event, combined with a third one messaging
-                feature. Helped me to visualise and notice that I would need a
-                welcome page (added on the prototype), as well as a sharing
+                These <strong>key user flows</strong> show the main paths: join
+                and organise an event, combined with an extra third messaging
+                feature. It helped me to visualise and notice that I would need
+                a welcome page (added on the prototype), as well as a sharing
                 functionality after the event creation.
               </p>
             </div>
@@ -430,10 +433,10 @@ const Komoot = () => {
               <p>
                 {' '}
                 Tightly based on the wireframes, I created high-fidelity
-                screens. The following are the final version after the UI tests,
-                taken from the polished prototype linked in the below section.
-                All the colours and design elements are taken from the existing
-                Komoot app.
+                screens. The following are the final version after the Maze UI
+                tests, taken from the polished prototype linked in the below
+                section. All the colours and design elements are taken from the
+                existing Komoot app.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -587,11 +590,12 @@ const Komoot = () => {
                 <h3>Takeaways</h3>
                 <p>
                   If I could have had access to the userbase of the app, I would
-                  have conducted better interviews / surveys and user tests.
+                  have conducted more profound interviews / surveys and
+                  usability tests.
                 </p>
                 <p>
-                  If I could go back, I would have asked more thorough questions
-                  in the Usability Test, to try and get richer insights.
+                  I realised I could have asked more thorough questions in the
+                  Usability Test, to try and get richer insights.
                 </p>
                 <p>
                   To design with an already existing style guide is a nice way

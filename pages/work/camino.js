@@ -88,15 +88,11 @@ const Camino = () => {
               <div className={cn('col--md-1')}></div>
               <div className={cn('col--md-5')}>
                 <p>
-                  For the last capstone project at Designlab’s UX Academy, I
-                  opted to focus on mental health, creating a MVP App that
-                  allows users to find the right therapist. Specially
-                  interesting were the user and subject-matter expert
+                  For this beautiful project I focused on mental health.
+                  Specially interesting were the user and subject-matter expert
                   interviews, to reafirm that the systems to find therapy help
                   in Germany are outdated, old-fashioned, and in need of new
-                  solutions. This has been my first{' '}
-                  <strong>end-to-end design for an mobile app</strong>, where
-                  all my design skills and learnings have come together.
+                  solutions.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -118,8 +114,9 @@ const Camino = () => {
             <div className={cn('col--md-8')}>
               <h2>Goal</h2>
               <p>
-                Create an MVP app that matches therapists with patients, paying
-                special attention to research. Include brand and identity.
+                Create an MVP app that matches a patient with the right
+                therapist, paying special attention to research, and including
+                brand and identity.
               </p>
             </div>
             <div className={cn('col--md-3')}></div>
@@ -272,8 +269,8 @@ const Camino = () => {
                 </li>
                 <li>
                   All participants would like to have an easier system to find a
-                  therapist, more modern, structured, so to have a better
-                  feeling when choosing someone.
+                  therapist, more modern, structured, to have a better feeling
+                  before choosing someone.
                 </li>
               </ul>
             </div>
@@ -317,10 +314,11 @@ const Camino = () => {
               <p>
                 I summarised all the information from the User Interviews in the
                 below <strong>Persona</strong>. Giulia Moretti, an expat living
-                in one of the most bustling cities in the world: Berlin. She
-                discovered there, after a while, she needed to dig deeper into
-                her thoughts and emotions, but she found out that the process to
-                find some external professional help was overwhelming.
+                in one of the most bustling cities in the world, Berlin, where
+                after a while she realised she needed to understand and read
+                better her thoughts and emotions. However, she found out that
+                the process to find some external professional help was
+                overwhelming.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -692,7 +690,7 @@ const Camino = () => {
             <div className={cn('col--md-8')}>
               <p>
                 A total of 16 participants participated in the Maze UI test. The
-                responses were mainly quite positive.
+                responses were mainly very positive.
               </p>
               <ul>
                 <li>
@@ -746,10 +744,9 @@ const Camino = () => {
                   popular option nowadays.
                 </p>
                 <p>
-                  The experience in general was very enriching. I felt that all
-                  the design skills I have acquired in the last 10 months came
-                  all together to create what I consider my most complete work
-                  to date.
+                  The experience in general was very enriching. I felt that my
+                  design skills came all together to create what I consider my
+                  most complete work to date.
                 </p>
                 <p>That was it, thanks for reading this far!</p>
               </div>

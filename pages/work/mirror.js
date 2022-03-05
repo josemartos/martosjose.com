@@ -76,16 +76,15 @@ const Mirror = () => {
               <div className={cn('col--md-1')}></div>
               <div className={cn('col--md-5')}>
                 <p>
-                  During the first phase at the Designlab’s UX Academy, I worked
-                  on the <strong>branding</strong> and <strong>design</strong>{' '}
-                  of a responsive website for a clothing store, with the goal to
+                  During the first phase at Designlab's UX Academy, I worked on
+                  the <strong>branding</strong> and <strong>design</strong> of a
+                  responsive website for a clothing store, with the goal to
                   expand their online presence.
                 </p>
                 <p>
-                  I learnt a lot, since I had to dig deep into clothing
-                  e-commerce, conduct user interviews, create wireframes and UI
-                  design, as well as prototype, test and refine the final
-                  iteration.
+                  I conducted research about e-commerce, including user
+                  interviews, created low and high quality wireframesn, to later
+                  prototype, test, iterate and refine.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -110,13 +109,13 @@ const Mirror = () => {
                 Design a logo for the company that is modern and neutral enough
                 to attract all types of people and styles. Create a{' '}
                 <strong>brand</strong> and a <strong>palette color</strong>.
-                Brand message: Neutral, Modern and fresh, Clean and clear.
+                Brand message: neutral, modern, fresh, clean and clear.
               </p>
               <p>
                 Design a <strong>responsive e-commerce website</strong> that is
                 easy to use and allows customers to browse through all products.
                 Show products for all female, male, kids, casual, business,
-                sport, party, formal, color, size and more.
+                sport, party, formal, color, size, etc.
               </p>
             </div>
             <div className={cn('col--md-3')}></div>
@@ -160,8 +159,8 @@ const Mirror = () => {
                 about the <strong>history of e-commerce</strong> to better
                 understand the scope of the project, conducting{' '}
                 <strong>competitor analysis</strong> to understand the current
-                situation, as well as to acknowledge what makes online shoppers
-                prefer online shopping.
+                landscape, as well as to acknowledge what makes shoppers prefer
+                online shopping.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -201,25 +200,25 @@ const Mirror = () => {
               <ul>
                 <li>
                   <strong>Size</strong> finding is tricky, this needs to be
-                  clearly defined on the page
+                  clearly defined on the page.
                 </li>
                 <li>
                   Related to the first point, <strong>returns</strong> tend to
-                  be considered a hassle
+                  be considered a hassle.
                 </li>
                 <li>
                   There are too many <strong>choices</strong>, hence quality
-                  over quantity is preferred
+                  over quantity is preferred.
                 </li>
                 <li>
                   The physical <strong>stores</strong> experience is still very
-                  present in the consumer’s needs
+                  present in the consumer's needs.
                 </li>
                 <li>
-                  Payment <strong>security</strong> can still be a concern
+                  Payment <strong>security</strong> can still be a concern.
                 </li>
                 <li>
-                  <strong>Reviews</strong> are an important source of trust
+                  <strong>Reviews</strong> are an important source of trust.
                 </li>
               </ul>
             </div>
@@ -263,7 +262,7 @@ const Mirror = () => {
             <div className={cn('col--md-8')}>
               <p>
                 The <strong>Persona creation</strong> helped me to summarize the
-                users’ needs, frustrations and motivations.
+                users' needs, frustrations and motivations.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -296,9 +295,9 @@ const Mirror = () => {
             <div className={cn('col--md-8')}>
               <p>
                 The <strong>Sitemap</strong> was key to understand what the main
-                structure of the page will be. The page had to have three main
-                categories: Women, Men and Kids. Then the Checkout Funnel as a
-                main point for the next steps.
+                structure of the page will be. I decided to split the main
+                categories into three: Women, Men and Kids. Then the Checkout
+                Funnel as a main point for the next steps.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -376,7 +375,7 @@ const Mirror = () => {
                 desktop and responsive <strong>wireframes</strong>, to start
                 transitioning into the first idea of what the design could look
                 like. It follows a minimal approach, showcasing different
-                outfits for three main categories: Women, Men and Kids.
+                outfits for the three principal categories.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -456,7 +455,9 @@ const Mirror = () => {
               <p>
                 With all the previous elements in mind, I came up with the
                 following <strong>hi-fi designs</strong>, paying special
-                attention to the whitespace and the simplicity.
+                attention to two elements: whitespace and simplicity. The former
+                helps with readability, the latter focus on only using the
+                necessary elements.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -613,8 +614,12 @@ const Mirror = () => {
                 questions related to the tasks and the different pages.
               </p>
               <p>
-                These tests were key to discover and realize visual glitches
-                that otherwise I would have not discovered myself.
+                These tests were{' '}
+                <strong>
+                  key to discover and realize visual glitches that otherwise I
+                  would have not discovered myself
+                </strong>
+                .
               </p>
               <LinkButton
                 target="_blank"
@@ -636,11 +641,11 @@ const Mirror = () => {
               <div className={cn('col--md-8')}>
                 <h3>Takeaways</h3>
                 <p>
-                  While working on this project I had a great time practising my
-                  UI design skills. I also learned a bunch of new concepts and
-                  the whole UX design process from start to finish. Finally, I
-                  was reassured that user testing and iteration will always
-                  deliver constructive and useful results.
+                  While working on this project I had a great time using and
+                  growing my UI design skills. I also learned a bunch of new
+                  concepts and the whole UX design process from start to finish.
+                  Finally, I was reassured that user testing and iteration will
+                  always deliver constructive and useful results.
                 </p>
                 <p>Thanks a lot for reading!</p>
               </div>

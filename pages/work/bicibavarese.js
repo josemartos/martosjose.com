@@ -75,7 +75,7 @@ const BiciBavarese = () => {
               <div className={cn('col--md-1')}></div>
               <div className={cn('col--md-5')}>
                 <p>
-                  For the first capstone project at Designlab’s UX Academy, I
+                  For the first capstone project at Designlab's UX Academy, I
                   worked on the <strong>redesign of a local bike shop</strong>{' '}
                   based in Munich, so I learnt a bunch about the bike scene in
                   the city. I did some research and user interviews to
@@ -113,13 +113,14 @@ const BiciBavarese = () => {
                 in general. Bici Bavarese is focused on selling bikes and
                 reparations, but it's also an important entity when it comes to
                 old timer racing bikes; they organise a yearly event to gather
-                bike fans and enjoy the nearby stunning nature.
+                bike fans and enjoy the stunning nature nearby.
               </p>
               <p>
                 My goal was to redesign their website keeping their essense,
                 colour palette and other assets. A design that is eye catching
                 and shows sense of community. The main target was to design a
-                few key pages, taking into account the time constraints.
+                few key pages, taking into account the time constraints (one
+                month).
               </p>
             </div>
             <div className={cn('col--md-3')}></div>
@@ -160,10 +161,10 @@ const BiciBavarese = () => {
             <div className={cn('col--md-8')}>
               <p>
                 I started doing secondary <strong>research</strong>, by reading
-                about <strong>bike shops</strong> in general, to better
-                understand the scope of the project, as well as conducting{' '}
-                <strong>competitor analysis</strong> to acknowledge the current
-                situation locally.
+                about <strong>bike shops</strong> in general, to understand the
+                scope of the project, as well as conducting{' '}
+                <strong>competitor analysis</strong> to acknowledge the local
+                scene.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -211,7 +212,7 @@ const BiciBavarese = () => {
                   welcomed idea.
                 </li>
                 <li>
-                  Navigation to be straightforward is key. Well organised
+                  Navigation to be straightforward is key, well organised
                   filters is key on catalogue pages.
                 </li>
                 <li>An outdated design feels untrusty.</li>
@@ -258,8 +259,8 @@ const BiciBavarese = () => {
               <p>
                 Using the information gathered during the User Inverviews, I
                 created a <strong>Persona</strong> to summarize the their needs,
-                frustrations and motivations. It was an important element
-                throughout the next steps of the process.
+                frustrations and motivations. It was an important element for
+                the next steps in the process.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -291,9 +292,16 @@ const BiciBavarese = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                The <strong>Sitemap</strong> was key to visualize what the main
-                structure of the page will be. The design will follow their
-                current structure and pages.
+                The <strong>Sitemap</strong> helped me visualize what the main
+                structure of the page will be, taking into account the{' '}
+                <a
+                  target="_blank"
+                  href="https://bicibavarese.de/"
+                  rel="noreferrer"
+                >
+                  current one
+                </a>
+                .
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -336,8 +344,8 @@ const BiciBavarese = () => {
             <div className={cn('col--md-8')}>
               <p>
                 These <strong>key user flows</strong> highlight the relation
-                that has the online experience between customer and
-                brick-and-mortar shop.
+                that the online experience between customer and brick-and-mortar
+                shop has.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -374,10 +382,9 @@ const BiciBavarese = () => {
                 <strong>Event Page</strong> where they display all the
                 information related to their yearly event (Giro Bavarese), as
                 well as the page where they showcase their{' '}
-                <strong>own crafted bike</strong>. This way I will start
-                transitioning into the first idea of what the design could look
-                like. It follows a minimalistic style, with some retro and
-                classic touches, combined with a modern style.
+                <strong>own crafted bike</strong>, to get a first idea of what
+                the design could look like. It follows a minimalistic and modern
+                style, combined with some retro and classic touches.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -423,8 +430,8 @@ const BiciBavarese = () => {
               <p>
                 Here I present the brand ideas, with the creation of the{' '}
                 <strong>mood board</strong>, as well as the{' '}
-                <strong>style tile</strong>, which laid the foundations for the
-                next step: the visual design.
+                <strong>style tile</strong>, which laid the seeds for the next
+                step: the visual design.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -469,8 +476,8 @@ const BiciBavarese = () => {
             <div className={cn('col--md-8')}>
               <p>
                 With all the previous elements in mind, I materialized the
-                following <strong>hi-fi designs</strong>. This is the second
-                version, based on the users' and the mentor sessions feedbacks.
+                following <strong>hi-fi designs</strong>, a refined version
+                based on the feedback of the interviewed potential users.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -623,9 +630,8 @@ const BiciBavarese = () => {
               <div className={cn('col--md-8')}>
                 <h3>Takeaways</h3>
                 <p>
-                  I took my skills to the next level with this project, from
-                  taking an existing branding and website to achieving an unique
-                  touch.
+                  I took my skills to a next level with this project, achieving
+                  an unique touch from an existing website and its own branding.
                 </p>
                 <p>
                   Once again, I reassured that the UI Tests were key to discover
@@ -635,7 +641,7 @@ const BiciBavarese = () => {
                   I would have liked to work directly with a real client and
                   interview real customers, but I could not reach any interested
                   bike shop owner. Nonetheless, the experience was very
-                  rewarding and I learned to a good extend.
+                  rewarding.
                 </p>
                 <p>Thanks a bunch for reading!</p>
               </div>
