@@ -33,8 +33,8 @@ export default function About() {
             <div className="col--md-1"></div>
             <div className={cn(styles.text, 'col--md-7')}>
               <p>
-                I am Jos&eacute;, a <strong>Product Designer</strong> based in
-                Munich and currently working at{' '}
+                I am Jos&eacute;, working as a <strong>Product Designer</strong>{' '}
+                at{' '}
                 <a
                   target="_blank"
                   href="https://www.zooplus.de"
@@ -67,7 +67,7 @@ export default function About() {
                   29 countries
                 </a>{' '}
                 so far. Apart from my hometown, Antequera, I have also lived in
-                Málaga, Madrid and Berlin.
+                Málaga, Madrid, Berlin and Munich, where I am currently based.
               </p>
               <p>
                 For further information you can have a look at my{' '}
