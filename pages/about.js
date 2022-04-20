@@ -46,7 +46,7 @@ export default function About() {
               </p>
               <p>
                 In my 10-plus years of experience, I've been fortunate enough to
-                work as a <strong>developer</strong> on several projects. I then
+                work as a <strong>developer</strong> on several projects. I
                 expanded my skill set to include UX/UI design, in order to
                 combine my programming skills with an ability to research,
                 design and prototype innovative, human-centered interfaces. This
