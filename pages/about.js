@@ -63,7 +63,7 @@ export default function About() {
                   href="https://www.mytravelmap.xyz/u/gg108230143559826306104"
                   rel="noreferrer"
                 >
-                  29 countries
+                  31 countries
                 </a>{' '}
                 so far. Apart from my hometown, Antequera, I have also lived in
                 Málaga, Madrid and Berlin.
