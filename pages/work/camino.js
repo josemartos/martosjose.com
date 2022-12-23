@@ -88,11 +88,10 @@ const Camino = () => {
               <div className={cn('col--md-1')}></div>
               <div className={cn('col--md-5')}>
                 <p>
-                  For this beautiful project I focused on mental health.
-                  Specially interesting were the user and subject-matter expert
-                  interviews, to reafirm that the systems to find therapy help
-                  in Germany are outdated, old-fashioned, and in need of new
-                  solutions.
+                  In this project I focused on the subject mental health.
+                  Specially interesting were the user and expert interviews, to
+                  reafirm that the ways to find therapy help in Germany are
+                  outdated and in need of new solutions.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -115,8 +114,8 @@ const Camino = () => {
               <h2>Goal</h2>
               <p>
                 Create an MVP app that matches a patient with the right
-                therapist, paying special attention to research, and including
-                brand and identity.
+                therapist, paying special attention to research. Include brand
+                and identity.
               </p>
             </div>
             <div className={cn('col--md-3')}></div>
@@ -155,8 +154,8 @@ const Camino = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                Firstly, I wanted to dig deep into the topic at hand, the scope
-                and the current offering.
+                Firstly, I wanted to dig deep into the topic at hand, the scope,
+                and the current state.
               </p>
               <p>
                 This was an idea my girlfriend and I were talking about for some
@@ -313,7 +312,7 @@ const Camino = () => {
             <div className={cn('col--md-8')}>
               <p>
                 I summarised all the information from the User Interviews in the
-                below <strong>Persona</strong>. Giulia Moretti, an expat living
+                below <strong>Persona</strong>: Giulia Moretti, an expat living
                 in one of the most bustling cities in the world, Berlin, where
                 after a while she realised she needed to understand and read
                 better her thoughts and emotions. However, she found out that

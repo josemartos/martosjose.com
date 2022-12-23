@@ -29,7 +29,7 @@ const ContactForm = () => {
           required
         />
         <ValidationError prefix="Name" field="name" errors={state.errors} />
-        <label htmlFor="email">Your email</label>
+        <label htmlFor="email">Email</label>
         <input
           id="email"
           type="email"

@@ -53,7 +53,7 @@ export default function Home() {
           <Project
             title="Camino"
             type="capstone - ux / ui design"
-            description="End-to-end design for an mobile MVP app."
+            description="End-to-end design for a mobile MVP app."
             image={{
               src: CaminoCoverImage,
               alt: 'Camino - MVP App',

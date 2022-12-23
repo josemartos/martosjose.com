@@ -630,20 +630,20 @@ const BiciBavarese = () => {
               <div className={cn('col--md-8')}>
                 <h3>Takeaways</h3>
                 <p>
-                  I took my skills to a next level with this project, achieving
-                  an unique touch from an existing website and its own branding.
+                  In this project I go to refresh and redesign the existing
+                  website, keeping some of their elements, but adding an unique
+                  look and feel on top of it.
                 </p>
                 <p>
                   Once again, I reassured that the UI Tests were key to discover
                   new action points and updates.
                 </p>
                 <p>
-                  I would have liked to work directly with a real client and
-                  interview real customers, but I could not reach any interested
-                  bike shop owner. Nonetheless, the experience was very
-                  rewarding.
+                  I would have liked to work directly with the shop owners and
+                  interview real customers, but I could not reach them.
+                  Nonetheless, the experience was very rewarding.
                 </p>
-                <p>Thanks a bunch for reading!</p>
+                <p>Thanks for reading!</p>
               </div>
               <div className={cn('col--md-2')}></div>
             </div>

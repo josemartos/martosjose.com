@@ -83,7 +83,7 @@ const Mirror = () => {
                 </p>
                 <p>
                   I conducted research about e-commerce, including user
-                  interviews, created low and high quality wireframesn, to later
+                  interviews, created low and high fidelity wireframes, to later
                   prototype, test, iterate and refine.
                 </p>
               </div>
@@ -642,10 +642,11 @@ const Mirror = () => {
                 <h3>Takeaways</h3>
                 <p>
                   While working on this project I had a great time using and
-                  growing my UI design skills. I also learned a bunch of new
-                  concepts and the whole UX design process from start to finish.
-                  Finally, I was reassured that user testing and iteration will
-                  always deliver constructive and useful results.
+                  growing my UI design skills. I also learned plenty of new
+                  concepts and could regain the confidence with designing a
+                  website from start to finish. Finally, I was reassured that
+                  user testing and iteration will always deliver constructive
+                  and useful results.
                 </p>
                 <p>Thanks a lot for reading!</p>
               </div>
