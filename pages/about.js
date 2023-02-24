@@ -45,14 +45,13 @@ export default function About() {
                 .
               </p>
               <p>
-                In my 10-plus years of experience, I've been fortunate enough to
-                work as a <strong>developer</strong> on several projects. In
-                2020, I decided to expand my skill set to include UX/UI design,
-                in order to combine my programming skills with an ability to
-                research, design and prototype innovative, human-centered
-                interfaces. This unique combination of skills allows me to see
-                the product life-cycle through from conception to final
-                delivery.
+                After having the fortune to work as a <strong>developer</strong>
+                on several projects for more than 10 years, in 2020 I decided to
+                expand my skill set to include UX/UI design, in order to combine
+                my programming skills with an ability to research, design and
+                prototype innovative, human-centered interfaces. This unique
+                combination of skills allows me to see the product life-cycle
+                through from conception to final delivery.
               </p>
               <p>
                 In my free time you will find me trekking, biking, cooking,
