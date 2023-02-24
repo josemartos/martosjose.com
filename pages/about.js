@@ -45,7 +45,7 @@ export default function About() {
                 .
               </p>
               <p>
-                After having the fortune to work as a <strong>developer</strong>
+                After having the fortune to work as a <strong>developer</strong>{' '}
                 on several projects for more than 10 years, in 2020 I decided to
                 expand my skill set to include UX/UI design, in order to combine
                 my programming skills with an ability to research, design and
