@@ -69,6 +69,10 @@ export default function About() {
                 Málaga, Madrid and Berlin.
               </p>
               <p>
+                Since March 2023 I am the proud father of a curious, active and
+                smiling human being named Mila &hearts;
+              </p>
+              <p>
                 For further information you can have a look at my{' '}
                 <a target="_blank" href="/CVJoseMartos.pdf" rel="noreferrer">
                   resume
