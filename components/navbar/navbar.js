@@ -37,16 +37,16 @@ const Navbar = () => {
 
   return (
     <div className={cn({ [styles.white]: theme === 'white' })}>
-      <RouterLink href="/" passHref scroll={false}>
+      <RouterLink href="/" passHref legacyBehavior scroll={false}>
         <NavbarLink text="work" onClick={() => setWorkMenu(true)} />
       </RouterLink>
-      <RouterLink href="/about" passHref>
+      <RouterLink href="/about" passHref legacyBehavior>
         <NavbarLink text="about" />
       </RouterLink>
-      <RouterLink href="/CVJoseMartos.pdf" passHref>
+      <RouterLink href="/CVJoseMartos.pdf" passHref legacyBehavior>
         <NavbarLink text="cv" target="_blank" />
       </RouterLink>
-      <RouterLink href="/contact" passHref>
+      <RouterLink href="/contact" passHref legacyBehavior>
         <NavbarLink text="contact" />
       </RouterLink>
     </div>

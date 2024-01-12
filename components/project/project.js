@@ -54,7 +54,7 @@ const Project = ({
               {inProgress ? (
                 <ProjectImage image={image} />
               ) : (
-                <RouterLink href={link}>
+                <RouterLink href={link} legacyBehavior>
                   <LinkImage image={image} />
                 </RouterLink>
               )}
@@ -68,7 +68,7 @@ const Project = ({
             {inProgress ? (
               <>Coming soon</>
             ) : (
-              <RouterLink href={link}>
+              <RouterLink href={link} legacyBehavior>
                 <LinkButton text="See case study" />
               </RouterLink>
             )}

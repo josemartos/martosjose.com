@@ -74,7 +74,7 @@ export default function About() {
                   resume
                 </a>
                 , or else, let's{' '}
-                <RouterLink href="/contact">
+                <RouterLink href="/contact" legacyBehavior>
                   <a title="Go to contact">chat</a>
                 </RouterLink>{' '}
                 about how we can work together.
