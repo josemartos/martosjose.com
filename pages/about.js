@@ -56,8 +56,8 @@ export default function About() {
               <p>
                 In my free time you will find me reading, hiking, cooking,
                 biking, bouldering, taking pictures or learning martial arts.
-                Between 2018 and 2019 I spent 4 months traveling across Asia,
-                and I am delighted to say that have visited a total of{' '}
+                Between 2018 and 2019 I spent 4 months solo backpacking across
+                Asia, and I am delighted to say that have visited a total of{' '}
                 <a
                   target="_blank"
                   href="https://www.mytravelmap.xyz/u/gg108230143559826306104"
