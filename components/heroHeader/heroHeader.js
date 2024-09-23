@@ -18,12 +18,12 @@ const HeroHeader = ({ scrollToWork }) => {
           <div>
             <p>Glad you're here, I am Jos&eacute; Martos.</p>
             <h1>
-              Product <strong>Designer</strong> and Front-end{' '}
-              <strong>Developer</strong>.
+              Product <strong>Designer</strong> with Front-end{' '}
+              <strong>Dev</strong> expertise.
             </h1>
             <p>
-              Focused on building <strong>beautiful</strong> and{' '}
-              <strong>functional</strong> digital products.
+              Focused on crafting <strong>beautiful</strong> and{' '}
+              <strong>effective</strong> digital solutions.
             </p>
           </div>
         </div>
