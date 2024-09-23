@@ -41,7 +41,7 @@ import UIDesign10Image from 'public/images/komoot/ui-design10.png';
 
 const Komoot = () => {
   return (
-    <CaseStudyWrapper title="Komoot | Outdoor activities App">
+    <CaseStudyWrapper title="Komoot | Outdoor Activities App">
       <section className={pageStyles.section}>
         <header className={caseStudy.hero}>
           <ComeInAnimation>
@@ -67,7 +67,7 @@ const Komoot = () => {
             <div className={cn('col--md-1')}></div>
             <div className={cn('col--md-11', caseStudy.title)}>
               <h1>Komoot</h1>
-              <small>Capstone - Social feature - Jun 2021</small>
+              <small>Capstone - Social Feature - Jun 2021</small>
             </div>
           </div>
           <div className={cn(caseStudy.introContentWrapper)}>
@@ -82,15 +82,14 @@ const Komoot = () => {
               <div className={cn('col--md-1')}></div>
               <div className={cn('col--md-5')}>
                 <p>
-                  Being an avid hiker myself, I decided to analyse and
-                  investigate possible enhancements for one of the apps I
-                  currently use: Komoot. This way, for the second capstone
-                  project at Designlab's UX Academy, I worked on{' '}
-                  <strong>expanding the app's social capabilities</strong>. I
-                  could explore its current functionalities, do market research,
-                  send out some surveys to know more from the users, as well as
-                  test and prototype the idea, always respecting the current
-                  style guide and components.
+                  As an avid hiker, I chose to analyze and explore possible
+                  enhancements for one of my favorite apps, Komoot. For my
+                  second capstone project at Designlab's UX Academy, I worked on{' '}
+                  <strong>expanding the app's social capabilities</strong>. This
+                  allowed me to explore its current functionalities, conduct
+                  market research, distribute user surveys, and prototype the
+                  new feature while adhering to the existing style guide and
+                  components.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -98,7 +97,7 @@ const Komoot = () => {
                 <CaseStudyTag label="Role" text="UX / UI Designer" />
                 <CaseStudyTag
                   label="Skills"
-                  text="Research, Information Architecture, Interaction & UI Design, Prototype, Testing"
+                  text="Research, Information Architecture, Interaction & UI Design, Prototyping, Testing"
                 />
                 <CaseStudyTag label="Tools" text="Figma, Whimsical, Maze" />
                 <CaseStudyTag label="Duration" text="1 Month" />
@@ -112,10 +111,10 @@ const Komoot = () => {
             <div className={cn('col--md-8')}>
               <h2>Goals</h2>
               <p>
-                Komoot is a well-known outdoor activities app, and the goal of
-                this project was to <strong>add a new feature</strong>, being
-                consistent with the current implementation: from colours and
-                typography, to imagery, icons, etc.
+                Komoot is a leading outdoor activities app. The goal of this
+                project was to <strong>introduce a new social feature</strong>{' '}
+                while ensuring consistency with the app's existing design,
+                including colors, typography, imagery, and icons.
               </p>
             </div>
             <div className={cn('col--md-3')}></div>
@@ -135,7 +134,7 @@ const Komoot = () => {
           <div className={caseStudy.indexGroup}>
             <h3>Primary research</h3>
             <ul>
-              <li>User Survey</li>
+              <li>User survey</li>
             </ul>
           </div>
         </CaseStudyBlockHeader>
@@ -153,9 +152,10 @@ const Komoot = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                First of all, I wanted to know more about the current
-                competitors, the app itself, so I did some secondary research to
-                gather insights and make my mind what to ask later in a survey.
+                I began by conducting secondary research to better understand
+                the current landscape of competitors and Komoot itself. This
+                helped me shape the survey questions for later stages of the
+                project.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -187,42 +187,41 @@ const Komoot = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                I sent out a <strong>Survey</strong> that was answered by 8
-                participants, in order to understand how users make use of the
-                app and if they're missing some capabilities and features, what
-                they love and what they would change, as well as if they would
-                be interested in socialising more within the app.
+                I distributed a <strong>survey</strong> to 8 participants to
+                better understand how users currently use Komoot and what
+                additional features they would like to see. The survey explored
+                user preferences, frustrations, and whether they would be
+                interested in more social interaction within the app.
               </p>
               <p>
-                I tried to reach the company to have the chance to talk with
-                some users, but had no luck, so the Survey targeted apps of the
-                like, which gave a broader spectrum of responses, using the same
-                questions.
+                Although I was unable to interview actual Komoot users, the
+                survey was distributed to users of similar apps, providing
+                valuable feedback on desired social features.
               </p>
               <p>
-                I summarised and split the responses in three: needs,
-                frustrations and motivations.
+                I organized the responses into three categories: needs,
+                frustrations, and motivations.
               </p>
               <p className={caseStudy.listTitle}>
                 <strong>Needs</strong>:
               </p>
               <ul>
                 <li>
-                  Stay active (Hiking, running, and trail running being the most
-                  practised).
+                  Staying active (hiking, running, and trail running were the
+                  most popular activities).
                 </li>
-                <li>Clear navigation and stats.</li>
+                <li>Clear navigation and statistics.</li>
                 <li>User-uploaded photos.</li>
                 <li>Trail condition and weather updates.</li>
-                <li>Track workouts and activities.</li>
+                <li>Tracking workouts and activities.</li>
               </ul>
 
               <p className={caseStudy.listTitle}>
                 <strong>Frustrations</strong>:
               </p>
               <ul>
-                <li>Limited options to socialize.</li>
-                <li>Difficult to follow alternate paths.</li>
+                <li>Limited socializing options.</li>
+                <li>Difficulty following alternate routes.</li>
               </ul>
 
               <p className={caseStudy.listTitle}>
@@ -230,8 +229,8 @@ const Komoot = () => {
               </p>
               <ul>
                 <li>
-                  Most of the participants would be willing to socialize more
-                  (e.g. join / organise meetups, challenge friends).
+                  Most participants were interested in more social features,
+                  such as joining or organizing meetups and challenging friends.
                 </li>
               </ul>
             </div>
@@ -274,11 +273,11 @@ const Komoot = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                Using the information gathered during the User Survey, I created
-                a <strong>Persona</strong> that represents the findings: Lukas
-                Berger, a newcomer to the city of Innsbruck that was the perfect
-                example to someone who's willing to socialize by doing what he
-                enjoys the most, being outside in the nature.
+                Using the data gathered from the user survey, I created a{' '}
+                <strong>Persona</strong>: Lukas Berger, a newcomer to Innsbruck
+                who enjoys socializing through outdoor activities like hiking.
+                Lukas represented the typical user who is willing to engage
+                socially while exploring the outdoors.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -310,9 +309,9 @@ const Komoot = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                The <strong>Sitemap</strong> helped me to organise the current
-                set of screens, as well as new ones that need to be designed to
-                implement the new feature (represented in green).
+                The <strong>Sitemap</strong> allowed me to organize the app's
+                existing screens and plan the addition of new ones (highlighted
+                in green) needed for the social feature.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -345,11 +344,10 @@ const Komoot = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                These <strong>key user flows</strong> show the main paths: join
-                and organise an event, combined with an extra third messaging
-                feature. It helped me to visualise and notice that I would need
-                a welcome page (added on the prototype), as well as a sharing
-                functionality after the event creation.
+                These <strong>key user flows</strong> outline the processes for
+                joining and organizing an event, as well as a messaging feature.
+                The flows highlighted the need for a welcome page (added in the
+                prototype) and a sharing function after event creation.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -381,16 +379,16 @@ const Komoot = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                The following wireframes show some of the screens for the{' '}
-                <strong>join and create an event</strong> features. To achive a
-                smooth integration, it makes use of the{' '}
+                These wireframes illustrate the screens for the{' '}
+                <strong>join and create an event</strong> feature. I focused on
+                achieving a seamless integration by using Komoot's{' '}
                 <a
                   href="https://newsroom.komoot.com/media_kits/"
                   title="Komoot Media Kits"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  current design elements and general guidelines
+                  existing design elements and guidelines
                 </a>
                 .
               </p>
@@ -431,12 +429,10 @@ const Komoot = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                {' '}
-                Tightly based on the wireframes, I created high-fidelity
-                screens. The following are the final version after the Maze UI
-                tests, taken from the polished prototype linked in the below
-                section. All the colours and design elements are taken from the
-                existing Komoot app.
+                Based on the wireframes, I created high-fidelity screens. The
+                following are the final versions, after user testing via Maze.
+                All colors and design elements are consistent with Komoot's
+                existing design language.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -548,12 +544,12 @@ const Komoot = () => {
       {/* Testing */}
       <TestingSection>
         <CaseStudyBlockHeader title="Testing">
-          <h3>UI tests</h3>
+          <h3>User Testing</h3>
         </CaseStudyBlockHeader>
 
         {/* Testing */}
         <div className={caseStudy.segment}>
-          <h3 className={caseStudy.segmentTitle}>UI Tests</h3>
+          <h3 className={caseStudy.segmentTitle}>User Testing</h3>
           <div
             className={cn(
               'flexGrid',
@@ -564,10 +560,10 @@ const Komoot = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                Nine participants did a Maze UI Test with two main tasks: join
-                and create an event. Overall the responses were positive
-                throughout, the success rate was high, and there were only small
-                usability issues to address, such as the size of the CTA button.
+                Nine participants completed a Maze User Tests with two primary
+                tasks: joining and creating an event. The responses were mostly
+                positive, with a high success rate and minor usability issues,
+                such as adjusting the size of the CTA button.
               </p>
               <LinkButton
                 target="_blank"
@@ -589,18 +585,17 @@ const Komoot = () => {
               <div className={cn('col--md-8')}>
                 <h3>Takeaways</h3>
                 <p>
-                  If I could have had access to the userbase of the app, I would
-                  have conducted more profound interviews / surveys and
-                  usability tests.
+                  If I had access to Komoot's user base, I would have conducted
+                  more in-depth interviews and usability tests.
                 </p>
                 <p>
-                  I realised I could have asked more thorough questions in the
-                  Usability Test, to try and get richer insights.
+                  I also realized that more detailed questions in the Usability
+                  Test could have led to richer insights.
                 </p>
                 <p>
-                  To design with an already existing style guide is a nice way
-                  to learn how to adapt with existing constraints and
-                  guidelines.
+                  Designing within an established style guide was a valuable
+                  experience, teaching me how to adapt to existing constraints
+                  while maintaining creativity.
                 </p>
                 <p>Thanks for reading!</p>
               </div>

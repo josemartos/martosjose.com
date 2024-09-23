@@ -60,7 +60,7 @@ const BiciBavarese = () => {
             <div className={cn('col--md-1')}></div>
             <div className={cn('col--md-11', caseStudy.title)}>
               <h1>Bici Bavarese</h1>
-              <small>Capstone - Website redesign - May 2021</small>
+              <small>Capstone - Website Redesign - May 2021</small>
             </div>
           </div>
           <div className={cn(caseStudy.introContentWrapper)}>
@@ -75,19 +75,18 @@ const BiciBavarese = () => {
               <div className={cn('col--md-1')}></div>
               <div className={cn('col--md-5')}>
                 <p>
-                  For the first capstone project at Designlab's UX Academy, I
+                  For my first capstone project at Designlab's UX Academy, I
                   worked on the <strong>redesign of a local bike shop</strong>{' '}
-                  based in Munich, so I learnt a bunch about the bike scene in
-                  the city. I did some research and user interviews to
-                  understand their needs, but I placed special emphasis in
-                  understanding the current product, to focus on Wireframing and
-                  UI in order to create a beautiful design that speaks for the
-                  bike shop's spirit.
+                  based in Munich. This gave me a chance to learn a lot about
+                  the local bike scene. I conducted research and user interviews
+                  to understand customer needs and placed a strong emphasis on
+                  understanding the existing product. My primary focus was on
+                  wireframing and UI design, creating a design that visually
+                  captured the shop's spirit.
                 </p>
                 <p>
-                  (Disclaimer: I used their existing logo and text, as well as
-                  some of their pictures from their web, Instagram and Flickr
-                  profile.)
+                  (Disclaimer: I used their existing logo, text, and some images
+                  from their website, Instagram, and Flickr profiles.)
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -95,7 +94,7 @@ const BiciBavarese = () => {
                 <CaseStudyTag label="Role" text="UX / UI Designer" />
                 <CaseStudyTag
                   label="Skills"
-                  text="Research, Information Architecture, Interaction & UI Design, Prototype, Testing"
+                  text="Research, Information Architecture, Interaction & UI Design, Prototyping, Testing"
                 />
                 <CaseStudyTag label="Tools" text="Figma, Whimsical" />
                 <CaseStudyTag label="Duration" text="1 Month" />
@@ -109,18 +108,18 @@ const BiciBavarese = () => {
             <div className={cn('col--md-8')}>
               <h2>Goals</h2>
               <p>
-                Research the current local market, as well as the bike industry
-                in general. Bici Bavarese is focused on selling bikes and
-                reparations, but it's also an important entity when it comes to
-                old timer racing bikes; they organise a yearly event to gather
-                bike fans and enjoy the stunning nature nearby.
+                My goal was to research the local market, focusing on the bike
+                industry and Bici Bavarese's dual focus on bike sales and
+                repairs. The shop is also known for its annual old-timer racing
+                bike event, which gathers enthusiasts to enjoy the beautiful
+                surrounding nature.
               </p>
               <p>
-                My goal was to redesign their website keeping their essense,
-                colour palette and other assets. A design that is eye catching
-                and shows sense of community. The main target was to design a
-                few key pages, taking into account the time constraints (one
-                month).
+                The objective was to redesign their website while preserving
+                their brand essence, color palette, and key assets. I aimed to
+                create an eye-catching design that communicates a sense of
+                community. Given the time constraints (one month), the focus was
+                on key pages.
               </p>
             </div>
             <div className={cn('col--md-3')}></div>
@@ -160,11 +159,11 @@ const BiciBavarese = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                I started doing secondary <strong>research</strong>, by reading
-                about <strong>bike shops</strong> in general, to understand the
-                scope of the project, as well as conducting{' '}
-                <strong>competitor analysis</strong> to acknowledge the local
-                scene.
+                I started by conducting secondary <strong>research</strong> to
+                understand the general scope of <strong>bike shops</strong> and
+                the current local market, followed by a{' '}
+                <strong>competitor analysis</strong> to further contextualize
+                the project.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -196,26 +195,25 @@ const BiciBavarese = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                I <strong>interviewed three users</strong> to understand what
-                are their experiences with bike shops and their online presence,
-                as well as their relation with their bikes. The following are
-                the findings.
+                I <strong>interviewed three users</strong> to gather insights
+                into their experiences with bike shops, both physical and
+                online, and their relationship with their bikes. Below are the
+                key findings:
               </p>
               <ul>
+                <li>Clear pricing information is essential.</li>
+                <li>Physically inspecting the bike is crucial.</li>
                 <li>
-                  Transparent pricing information of the products and services.
-                </li>
-                <li>Check the bike physically is important.</li>
-                <li>To easy make appointments online is a nice have.</li>
-                <li>
-                  The possibility to connect with other fellow riders is a
-                  welcomed idea.
+                  Online appointment scheduling is a nice-to-have feature.
                 </li>
                 <li>
-                  Navigation to be straightforward is key, well organised
-                  filters is key on catalogue pages.
+                  The ability to connect with other riders is a welcome idea.
                 </li>
-                <li>An outdated design feels untrusty.</li>
+                <li>
+                  Straightforward navigation and well-organized filters on
+                  catalog pages are vital.
+                </li>
+                <li>An outdated design creates distrust.</li>
               </ul>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -230,7 +228,7 @@ const BiciBavarese = () => {
             <h3 className={caseStudy.titleAlone}>Persona</h3>
           </div>
           <div className={caseStudy.indexGroup}>
-            <h3>Information architecture</h3>
+            <h3>Information Architecture</h3>
             <ul>
               <li>Sitemap</li>
             </ul>
@@ -257,10 +255,10 @@ const BiciBavarese = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                Using the information gathered during the User Inverviews, I
-                created a <strong>Persona</strong> to summarize the their needs,
-                frustrations and motivations. It was an important element for
-                the next steps in the process.
+                Using insights from the user interviews, I created a{' '}
+                <strong>Persona</strong> to capture the main user needs,
+                frustrations, and motivations. This was a crucial element in the
+                design process.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -292,14 +290,14 @@ const BiciBavarese = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                The <strong>Sitemap</strong> helped me visualize what the main
-                structure of the page will be, taking into account the{' '}
+                The <strong>Sitemap</strong> helped me visualize the core
+                structure of the website, considering the{' '}
                 <a
                   target="_blank"
                   href="https://bicibavarese.de/"
                   rel="noreferrer"
                 >
-                  current one
+                  current website
                 </a>
                 .
               </p>
@@ -332,7 +330,6 @@ const BiciBavarese = () => {
         {/* User Flow */}
         <div className={caseStudy.segment}>
           <h3 className={caseStudy.segmentTitle}>User Flows</h3>
-
           <div
             className={cn(
               'flexGrid',
@@ -343,9 +340,8 @@ const BiciBavarese = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                These <strong>key user flows</strong> highlight the relation
-                that the online experience between customer and brick-and-mortar
-                shop has.
+                These <strong>key user flows</strong> illustrate the connection
+                between the online experience and the physical bike shop.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -377,14 +373,12 @@ const BiciBavarese = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                I created wireframes for the most important pages on this
-                website: the <strong>Homepage</strong>, the{' '}
-                <strong>Event Page</strong> where they display all the
-                information related to their yearly event (Giro Bavarese), as
-                well as the page where they showcase their{' '}
-                <strong>own crafted bike</strong>, to get a first idea of what
-                the design could look like. It follows a minimalistic and modern
-                style, combined with some retro and classic touches.
+                I created wireframes for the key pages of the website: the{' '}
+                <strong>Homepage</strong>, the <strong>Event Page</strong> for
+                the yearly Giro Bavarese event, and the{' '}
+                <strong>Our Bike</strong> page showcasing their custom-built
+                bikes. The wireframes follow a minimalist, modern design with
+                classic touches.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -428,10 +422,9 @@ const BiciBavarese = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                Here I present the brand ideas, with the creation of the{' '}
-                <strong>mood board</strong>, as well as the{' '}
-                <strong>style tile</strong>, which laid the seeds for the next
-                step: the visual design.
+                I developed the brand concept by creating a{' '}
+                <strong>mood board</strong> and a <strong>style tile</strong>,
+                laying the groundwork for the visual design.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -475,9 +468,9 @@ const BiciBavarese = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                With all the previous elements in mind, I materialized the
-                following <strong>hi-fi designs</strong>, a refined version
-                based on the feedback of the interviewed potential users.
+                With all elements in place, I created the following{' '}
+                <strong>hi-fi designs</strong>, refining them based on feedback
+                from user interviews.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -493,11 +486,10 @@ const BiciBavarese = () => {
               <div className={cn('col--md-10')}>
                 <div className={caseStudy.imageExplanation}>
                   <p>
-                    On the <strong>Homepage</strong>, instead of having too much
-                    text, it was important to highlight the essence of Bici
-                    Bavarese: the sense of community. Furthermore, to show the
-                    customer what else can be found: bike sales, workshop, main
-                    event, happy customers, etc.
+                    On the <strong>Homepage</strong>, I prioritized showcasing
+                    the shop's community spirit. It was important to highlight
+                    the various services Bici Bavarese offers, from bike sales
+                    and repairs to events and customer satisfaction.
                   </p>
                 </div>
                 <Image
@@ -525,15 +517,14 @@ const BiciBavarese = () => {
                 <div className={caseStudy.imageExplanation}>
                   <p>
                     On the <strong>Giro Bavarese</strong> page, I focused on
-                    compressing the information to be cleared out (in the form
-                    of dropdowns), as well as to inmerse the user in the event
-                    (using the video).
+                    organizing information clearly with dropdown menus and using
+                    video to immerse users in the event experience.
                   </p>
                 </div>
                 <Image
                   src={GiroBavareseImage}
                   url="/bicibavarese/giro-bavarese.jpg"
-                  alt="Giro Bavarese page"
+                  alt="Giro Bavarese Page"
                   width={1065}
                   height={2275}
                   shadow={+true}
@@ -554,9 +545,8 @@ const BiciBavarese = () => {
               <div className={cn('col--md-10')}>
                 <div className={caseStudy.imageExplanation}>
                   <p>
-                    On the <strong>Our Bike</strong> page, showcasing the bike
-                    and their different parts and configuration was the main
-                    point to focus on.
+                    The <strong>Our Bike</strong> page focuses on showcasing the
+                    custom bike and its various parts and configurations.
                   </p>
                 </div>
                 <Image
@@ -578,12 +568,12 @@ const BiciBavarese = () => {
       {/* Testing */}
       <TestingSection>
         <CaseStudyBlockHeader title="Testing">
-          <h3>UI tests</h3>
+          <h3>User Testing</h3>
         </CaseStudyBlockHeader>
 
         {/* Testing */}
         <div className={caseStudy.segment}>
-          <h3 className={caseStudy.segmentTitle}>UI Tests</h3>
+          <h3 className={caseStudy.segmentTitle}>User Testing</h3>
           <div
             className={cn(
               'flexGrid',
@@ -594,21 +584,20 @@ const BiciBavarese = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                With a total of three participants, I conducted UI tests over
-                the three different pages of the UI Design, to see how they
-                interact with the interface and what they understand from the
-                different sections, and what their general impressions are.
+                I conducted user tests with three participants to understand how
+                they interacted with the interface, what they took away from
+                different sections, and their overall impressions.
               </p>
               <p>
-                The tests were very important to iterate over the UI Design,
-                introducing changes like the "customizable bike", or a more
-                attractive top part on the homepage.
+                These tests were crucial for iterating on the design, leading to
+                changes such as introducing a "customizable bike" feature and
+                making the homepage more engaging.
               </p>
               <p>
-                The prototype is barely clickable, only to navigate between the
-                different main pages: Homepage, Our Bike Page (Unser Rad) and
-                the Event Page (Giro Bavarese). It's the first version of the UI
-                Design before the second iteration.
+                The prototype is only semi-functional, allowing navigation
+                between the Homepage, Our Bike page (Unser Rad), and the Event
+                page (Giro Bavarese). This represents the first version of the
+                UI design.
               </p>
               <LinkButton
                 target="_blank"
@@ -630,18 +619,18 @@ const BiciBavarese = () => {
               <div className={cn('col--md-8')}>
                 <h3>Takeaways</h3>
                 <p>
-                  In this project I go to refresh and redesign the existing
-                  website, keeping some of their elements, but adding an unique
-                  look and feel on top of it.
+                  In this project, I had the opportunity to refresh and redesign
+                  an existing website, maintaining key elements while adding a
+                  unique look and feel to enhance the brand's presence.
                 </p>
                 <p>
-                  Once again, I reassured that the UI Tests were key to discover
-                  new action points and updates.
+                  Once again, I was reminded of how essential User Testing is
+                  for uncovering key improvements and updates.
                 </p>
                 <p>
-                  I would have liked to work directly with the shop owners and
-                  interview real customers, but I could not reach them.
-                  Nonetheless, the experience was very rewarding.
+                  Although I wasn't able to work directly with the shop owners
+                  or interview their real customers, the project was a rewarding
+                  experience overall.
                 </p>
                 <p>Thanks for reading!</p>
               </div>

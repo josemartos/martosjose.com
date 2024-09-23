@@ -76,15 +76,15 @@ const Mirror = () => {
               <div className={cn('col--md-1')}></div>
               <div className={cn('col--md-5')}>
                 <p>
-                  During the first phase at Designlab's UX Academy, I worked on
-                  the <strong>branding</strong> and <strong>design</strong> of a
-                  responsive website for a clothing store, with the goal to
-                  expand their online presence.
+                  As part of the initial phase at Designlab's UX Academy, I
+                  worked on the <strong>branding</strong> and{' '}
+                  <strong>design</strong> of a responsive website for a clothing
+                  store, aimed at expanding their online presence.
                 </p>
                 <p>
-                  I conducted research about e-commerce, including user
-                  interviews, created low and high fidelity wireframes, to later
-                  prototype, test, iterate and refine.
+                  I conducted research on e-commerce, including user interviews,
+                  developed low- and high-fidelity wireframes, then prototyped,
+                  tested, iterated, and refined the design.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -106,16 +106,16 @@ const Mirror = () => {
             <div className={cn('col--md-8')}>
               <h2>Goals</h2>
               <p>
-                Design a logo for the company that is modern and neutral enough
-                to attract all types of people and styles. Create a{' '}
-                <strong>brand</strong> and a <strong>palette color</strong>.
-                Brand message: neutral, modern, fresh, clean and clear.
+                Design a logo that is modern and neutral enough to appeal to a
+                wide variety of styles. Create a <strong>brand</strong> and{' '}
+                <strong>color palette</strong> with a message that is neutral,
+                modern, fresh, clean, and clear.
               </p>
               <p>
                 Design a <strong>responsive e-commerce website</strong> that is
-                easy to use and allows customers to browse through all products.
-                Show products for all female, male, kids, casual, business,
-                sport, party, formal, color, size, etc.
+                easy to navigate, allowing customers to browse a wide selection
+                of products, organized by categories such as gender, style,
+                color, and size.
               </p>
             </div>
             <div className={cn('col--md-3')}></div>
@@ -155,12 +155,11 @@ const Mirror = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                I started doing secondary <strong>research</strong>, by reading
-                about the <strong>history of e-commerce</strong> to better
-                understand the scope of the project, conducting{' '}
-                <strong>competitor analysis</strong> to understand the current
-                landscape, as well as to acknowledge what makes shoppers prefer
-                online shopping.
+                I started by conducting secondary <strong>research</strong>,
+                reading about the <strong>history of e-commerce</strong> to
+                understand the broader context. I then performed a{' '}
+                <strong>competitor analysis</strong> to understand the landscape
+                and key factors that influence online shopping.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -192,33 +191,28 @@ const Mirror = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                I went on to <strong>interview three users</strong> to
-                understand their experiences of what they found pleasant and
-                frustrating in order to translate that later on in the design.
-                The following are the findings.
+                I conducted <strong>user interviews</strong> with three
+                participants to understand their experiences with online
+                shopping. Here are the key findings:
               </p>
               <ul>
                 <li>
-                  <strong>Size</strong> finding is tricky, this needs to be
-                  clearly defined on the page.
+                  <strong>Size</strong> information must be clearly visible.
                 </li>
                 <li>
-                  Related to the first point, <strong>returns</strong> tend to
-                  be considered a hassle.
+                  <strong>Returns</strong> are often considered a hassle.
                 </li>
                 <li>
-                  There are too many <strong>choices</strong>, hence quality
-                  over quantity is preferred.
+                  Users prefer <strong>quality over quantity</strong>.
                 </li>
                 <li>
-                  The physical <strong>stores</strong> experience is still very
-                  present in the consumer's needs.
+                  The in-store shopping experience is still highly valued.
                 </li>
                 <li>
-                  Payment <strong>security</strong> can still be a concern.
+                  <strong>Payment security</strong> is a common concern.
                 </li>
                 <li>
-                  <strong>Reviews</strong> are an important source of trust.
+                  <strong>Reviews</strong> are crucial for building trust.
                 </li>
               </ul>
             </div>
@@ -234,7 +228,7 @@ const Mirror = () => {
             <h3 className={caseStudy.titleAlone}>Persona</h3>
           </div>
           <div className={caseStudy.indexGroup}>
-            <h3>Information architecture</h3>
+            <h3>Information Architecture</h3>
             <ul>
               <li>Sitemap</li>
             </ul>
@@ -261,8 +255,9 @@ const Mirror = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                The <strong>Persona creation</strong> helped me to summarize the
-                users' needs, frustrations and motivations.
+                Creating a <strong>Persona</strong> helped me summarize the
+                users' needs, frustrations, and motivations, which were
+                instrumental in shaping the design.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -294,10 +289,9 @@ const Mirror = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                The <strong>Sitemap</strong> was key to understand what the main
-                structure of the page will be. I decided to split the main
-                categories into three: Women, Men and Kids. Then the Checkout
-                Funnel as a main point for the next steps.
+                The <strong>Sitemap</strong> was essential for organizing the
+                website’s structure. I divided the main categories into Women,
+                Men, and Kids, with a primary focus on the checkout process.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -330,10 +324,9 @@ const Mirror = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                The <strong>User Flow</strong> helped me to visualize what the
-                happy path of a product purchase would be, from the user landing
-                on the home page to the confirmation page, passing through the
-                checkout funnel.
+                The <strong>User Flow</strong> outlined the steps a customer
+                would take to make a purchase, from landing on the home page to
+                order confirmation.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -371,11 +364,9 @@ const Mirror = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                With the help of the previous steps, I went on to create both
-                desktop and responsive <strong>wireframes</strong>, to start
-                transitioning into the first idea of what the design could look
-                like. It follows a minimal approach, showcasing different
-                outfits for the three principal categories.
+                The wireframes for both desktop and responsive views provided
+                the initial vision for the site design, with a minimalist
+                approach that showcased the key product categories.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -418,10 +409,9 @@ const Mirror = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                With the idea of a clean and understandable user interface, and
-                after a mood board brainstorming session, I created the{' '}
-                <strong>Style Tile</strong> to set the upcoming visual design of
-                the website.
+                After a mood board brainstorming session, I developed a{' '}
+                <strong>Style Tile</strong> that served as the foundation for
+                the visual design, focusing on a clean, user-friendly interface.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -453,11 +443,9 @@ const Mirror = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                With all the previous elements in mind, I came up with the
-                following <strong>hi-fi designs</strong>, paying special
-                attention to two elements: whitespace and simplicity. The former
-                helps with readability, the latter focus on only using the
-                necessary elements.
+                The following <strong>high-fidelity designs</strong> emphasize
+                simplicity and effective use of whitespace, focusing on
+                showcasing products in a clean, modern layout.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -473,9 +461,9 @@ const Mirror = () => {
               <div className={cn('col--md-10')}>
                 <div className={caseStudy.imageExplanation}>
                   <p>
-                    On the <strong>Homepage</strong> it was important to
-                    highlight outfits, as well as to showcase promotions and
-                    trends in a simple manner, with carousels.
+                    The <strong>Homepage</strong> highlights outfits,
+                    promotions, and trends in a simple yet engaging way, using
+                    carousels to showcase products.
                   </p>
                 </div>
                 <Image
@@ -501,12 +489,10 @@ const Mirror = () => {
               <div className={cn('col--md-6')}>
                 <div className={caseStudy.imageExplanation}>
                   <p>
-                    On the <strong>Product Page</strong> it was important that
-                    the user could find straight away all the information at
-                    first glance.
+                    On the <strong>Product Page</strong>, users can find all the
+                    necessary information at a glance.
                   </p>
                 </div>
-
                 <Image
                   src={ProductPageImage}
                   url="/mirror/product-page.jpg"
@@ -520,8 +506,8 @@ const Mirror = () => {
               <div className={cn('col--md-6', caseStudy.imagePaddingTop)}>
                 <div className={caseStudy.imageExplanation}>
                   <p>
-                    On the <strong>Catalog Page</strong> I paid special
-                    attention to emphasize on the filters and their ease of use.
+                    The <strong>Catalog Page</strong> emphasizes ease of use,
+                    with filters that are clear and accessible.
                   </p>
                 </div>
                 <Image
@@ -553,9 +539,9 @@ const Mirror = () => {
               <div className={cn('col--md-10')}>
                 <div className={caseStudy.imageExplanation}>
                   <p>
-                    It was key on the <strong>Checkout Funnel</strong> to find
-                    simple and clean interfaces, adding no more information than
-                    needed.
+                    The <strong>Checkout Funnel</strong> was designed with
+                    simplicity in mind, ensuring that users encounter only the
+                    necessary information.
                   </p>
                 </div>
                 <Image
@@ -592,7 +578,7 @@ const Mirror = () => {
       {/* Testing */}
       <TestingSection>
         <CaseStudyBlockHeader title="Testing">
-          <h3>Usability tests</h3>
+          <h3>Usability Tests</h3>
         </CaseStudyBlockHeader>
 
         {/* Testing */}
@@ -608,18 +594,10 @@ const Mirror = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                With a total of three participants, I conducted usability tests
-                over different scenarios, to see how they interact with the UI,
-                while talking out loud over their impressions, triggered by
-                questions related to the tasks and the different pages.
-              </p>
-              <p>
-                These tests were{' '}
-                <strong>
-                  key to discover and realize visual glitches that otherwise I
-                  would have not discovered myself
-                </strong>
-                .
+                I conducted usability tests with three participants, asking them
+                to complete various tasks while voicing their thoughts. This
+                helped to identify and correct visual glitches that would have
+                otherwise gone unnoticed.
               </p>
               <LinkButton
                 target="_blank"
@@ -641,14 +619,11 @@ const Mirror = () => {
               <div className={cn('col--md-8')}>
                 <h3>Takeaways</h3>
                 <p>
-                  While working on this project I had a great time using and
-                  growing my UI design skills. I also learned plenty of new
-                  concepts and could regain the confidence with designing a
-                  website from start to finish. Finally, I was reassured that
-                  user testing and iteration will always deliver constructive
-                  and useful results.
+                  Working on this project allowed me to further hone my UI
+                  design skills, and reaffirm the importance of user testing and
+                  iteration.
                 </p>
-                <p>Thanks a lot for reading!</p>
+                <p>Thanks for reading!</p>
               </div>
               <div className={cn('col--md-2')}></div>
             </div>

@@ -47,7 +47,7 @@ import UIDesign14Image from 'public/images/camino/ui-design14.png';
 
 const Camino = () => {
   return (
-    <CaseStudyWrapper title="Camino | Therapist matching App">
+    <CaseStudyWrapper title="Camino | Therapist Matching App">
       <section className={pageStyles.section}>
         <header className={caseStudy.hero}>
           <ComeInAnimation>
@@ -88,10 +88,10 @@ const Camino = () => {
               <div className={cn('col--md-1')}></div>
               <div className={cn('col--md-5')}>
                 <p>
-                  In this project I focused on the subject mental health.
-                  Specially interesting were the user and expert interviews, to
-                  reafirm that the ways to find therapy help in Germany are
-                  outdated and in need of new solutions.
+                  In this project, I delved into the topic of mental health.
+                  Conducting user and expert interviews was particularly
+                  insightful, reaffirming that the process of finding therapy in
+                  Germany is outdated and ripe for new, innovative solutions.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -99,7 +99,7 @@ const Camino = () => {
                 <CaseStudyTag label="Role" text="UX / UI Designer" />
                 <CaseStudyTag
                   label="Skills"
-                  text="Research, Information Architecture, Interaction & UI Design, Prototype, Testing"
+                  text="Research, Information Architecture, Interaction & UI Design, Prototyping, Testing"
                 />
                 <CaseStudyTag label="Tools" text="Figma, Whimsical, Maze" />
                 <CaseStudyTag label="Duration" text="1 Month" />
@@ -107,15 +107,16 @@ const Camino = () => {
             </div>
           </div>
         </div>
+
         <div className={caseStudy.goalsWrapper}>
           <div className={cn('flexGrid', commonStyles.contentWrapper)}>
             <div className={cn('col--md-1')}></div>
             <div className={cn('col--md-8')}>
               <h2>Goal</h2>
               <p>
-                Create an MVP app that matches a patient with the right
-                therapist, paying special attention to research. Include brand
-                and identity.
+                Design an MVP app to efficiently match patients with the right
+                therapist, emphasizing thorough research and incorporating
+                branding and identity elements.
               </p>
             </div>
             <div className={cn('col--md-3')}></div>
@@ -154,20 +155,19 @@ const Camino = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                Firstly, I wanted to dig deep into the topic at hand, the scope,
-                and the current state.
+                My initial focus was to deeply understand the scope of the
+                problem and the current state of the market.
               </p>
               <p>
-                This was an idea my girlfriend and I were talking about for some
-                time. With a wide array of products in the market, it was
-                challenging to find a gap that hasn't already been filled.
-                Competition however, is never a bad thing and if anything
-                provides some product validation. Almost no idea is ever
-                completely novel and one can always improve on their offering.
+                This idea stemmed from conversations with my girlfriend. With so
+                many existing solutions out there, it was challenging to find a
+                truly unfilled niche. However, competition isn't a negative
+                thing—it often validates the need for a solution. No idea is
+                completely original, and there's always room for improvement.
               </p>
               <p>
-                On the below image we can see three main products and their
-                features.
+                Below, you can see a comparison of three primary competitors and
+                their features.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -199,41 +199,40 @@ const Camino = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                I conducted a total of 4 interviews, separated into users and
-                subject-matter experts, to see different standpoints. Users
-                reflected how complicated and time-consuming is finding a
-                therapist at the moment. Experts were interested in the idea,
-                happy to provide me with their own view of the process.
+                I conducted four interviews, divided between users and
+                subject-matter experts, to gain multiple perspectives. Users
+                highlighted how difficult and time-consuming it is to find a
+                therapist, while experts were enthusiastic about the idea,
+                sharing their professional views on the process.
               </p>
               <p>
-                Below we can find the summary of needs, frustrations and
+                Below is a summary of the key needs, frustrations, and
                 motivations.
               </p>
+
               <p className={caseStudy.listTitle}>
                 <strong>Needs</strong>:
               </p>
               <ul>
                 <li>
-                  All participants see recommendations as a key factor when
+                  Recommendations are a key factor for all participants when
                   choosing a therapist.
                 </li>
-                <li>All participants prefer in person therapy.</li>
+                <li>All participants prefer in-person therapy.</li>
                 <li>
-                  3 out of 4 participants would consider contact between therapy
-                  sessions using chat, email or phone calls.
+                  3 out of 4 participants would consider using chat, email, or
+                  phone for communication between sessions.
                 </li>
                 <li>
-                  All participants would like to count on a good set of filters
-                  to match their criteria and find the right therapist quicker
-                  and reliably.
+                  A strong filtering system is crucial to quickly and reliably
+                  find a suitable therapist.
                 </li>
                 <li>
-                  All participants would give priority to the therapists that
-                  are covered by insurance.
+                  All participants prioritize therapists covered by insurance.
                 </li>
                 <li>
-                  A short life story can be relevant for some participants (e.g.
-                  someone who is well traveled would understand expats better).
+                  Some participants see personal background stories as relevant
+                  (e.g., a therapist familiar with expat experiences).
                 </li>
               </ul>
 
@@ -242,15 +241,13 @@ const Camino = () => {
               </p>
               <ul>
                 <li>
-                  All participants find the process of getting a therapist
-                  tedious.
+                  All participants find the current process of finding a
+                  therapist tedious.
                 </li>
+                <li>Therapists desire more control over their schedules.</li>
                 <li>
-                  Therapists would like to be more in control of their schedule.
-                </li>
-                <li>
-                  All participants find the current resources (at least here in
-                  Germany, or what they know about) to be old fashioned.
+                  The existing resources, especially in Germany, feel outdated
+                  to participants.
                 </li>
               </ul>
 
@@ -259,17 +256,16 @@ const Camino = () => {
               </p>
               <ul>
                 <li>
-                  2 out of 4 participants think online sessions are a good
-                  complement to in person therapy.
+                  2 out of 4 participants believe online sessions are a good
+                  complement to in-person therapy.
                 </li>
                 <li>
-                  Therapists would like to be listed on an app / website to be
-                  reached and find more clients.
+                  Therapists are eager to be listed on an app/website to reach
+                  more clients.
                 </li>
                 <li>
-                  All participants would like to have an easier system to find a
-                  therapist, more modern, structured, to have a better feeling
-                  before choosing someone.
+                  All participants want a more modern and structured system for
+                  finding a therapist, allowing for better pre-selection.
                 </li>
               </ul>
             </div>
@@ -311,13 +307,11 @@ const Camino = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                I summarised all the information from the User Interviews in the
-                below <strong>Persona</strong>: Giulia Moretti, an expat living
-                in one of the most bustling cities in the world, Berlin, where
-                after a while she realised she needed to understand and read
-                better her thoughts and emotions. However, she found out that
-                the process to find some external professional help was
-                overwhelming.
+                I synthesized the user interview findings into the Persona of
+                Giulia Moretti, an expat living in Berlin. Over time, she
+                realized she needed external professional help to navigate her
+                thoughts and emotions, but the process of finding a therapist
+                was overwhelming.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -349,13 +343,13 @@ const Camino = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                The Sitemap represents the set of screens and features the first
-                iteration of the MVP app will have. There will be three main
-                screens: <strong>Get Matched</strong>,{' '}
-                <strong>Therapist list</strong> and <strong>Dashboard</strong>.
-                Both the Get Matched and Therapist list will lead to the{' '}
-                <strong>Therapist Profile</strong>, where it's possible to book
-                an appointment or send a message.
+                The Sitemap outlines the key screens and features for the MVP.
+                The app includes three main screens:{' '}
+                <strong>Get Matched</strong>, <strong>Therapist List</strong>,
+                and <strong>Dashboard</strong>. Both the Get Matched and
+                Therapist List pages lead to the{' '}
+                <strong>Therapist Profile</strong>, where users can book
+                appointments or send messages.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -387,12 +381,12 @@ const Camino = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                These wireframes show some of the key screens and features,
-                which include <strong>Get matched</strong> and{' '}
-                <strong>Therapist list</strong>. After a couple of iterations
-                and refinements, I included the Dashboard screen, where the
-                patient can see the next appointment and the last messages after
-                being matched with a therapist.
+                These wireframes highlight the key features of the app,
+                including <strong>Get Matched</strong> and{' '}
+                <strong>Therapist List</strong>. After iterating on these
+                screens, I also included a Dashboard where users can view their
+                next appointment and recent messages after matching with a
+                therapist.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -437,15 +431,14 @@ const Camino = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                For the app's name, I decided to use the Spanish word{' '}
-                <strong>Camino</strong>, which means way.
+                I chose the name <strong>Camino</strong> for the app, which
+                means "way" in Spanish.
               </p>
               <p>
-                After a brainstorming session generating a moodboard, I worked
-                on the <strong>logo</strong>, inspired by the app's name. It's a
-                path within a seed, which is a growing seed which symbolises
-                growth. I chose a handwritten typography, which represents the
-                way we write (and rewrite) our own story.
+                Inspired by the name, I developed a <strong>logo</strong>{' '}
+                symbolizing a path within a growing seed—representing personal
+                growth. The handwritten typography reflects the idea that we
+                write (and rewrite) our own stories.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -488,9 +481,9 @@ const Camino = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                After coming up with the logo I gathered the set of styles and
-                aesthetic choices to set the vibe for the app, including fonts,
-                colours and components.
+                After finalizing the logo, I compiled a style tile that sets the
+                visual direction for the app, including font choices, color
+                palettes, and UI components.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -522,9 +515,9 @@ const Camino = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                With a fresh, modern, warm and welcoming UI design, the
-                following screens are the polished version after the UI tests
-                and the user's feedback (more about that in the next section).
+                The final UI design was crafted to be modern, warm, and
+                inviting. After several rounds of testing and user feedback, the
+                following screens represent the polished, final version.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -672,12 +665,12 @@ const Camino = () => {
       {/* Testing */}
       <TestingSection>
         <CaseStudyBlockHeader title="Testing">
-          <h3>UI tests</h3>
+          <h3>User Testing</h3>
         </CaseStudyBlockHeader>
 
         {/* Testing */}
         <div className={caseStudy.segment}>
-          <h3 className={caseStudy.segmentTitle}>UI Tests</h3>
+          <h3 className={caseStudy.segmentTitle}>User Testing</h3>
           <div
             className={cn(
               'flexGrid',
@@ -688,27 +681,25 @@ const Camino = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                A total of 16 participants participated in the Maze UI test. The
-                responses were mainly very positive.
+                A total of 16 participants took part in the Maze User Tests,
+                with overwhelmingly positive responses.
               </p>
               <ul>
                 <li>
-                  The understanding of the app was awesome! ("Camino. The
-                  meaning is the path of self discovery or overcoming an
-                  obstacle").
+                  Participants quickly grasped the app's concept ("Camino. It
+                  symbolizes the path of self-discovery or overcoming
+                  challenges.").
                 </li>
-                <li>Overall, the success rate of the test was great.</li>
+                <li>Overall, the success rate of the test was high.</li>
                 <li>
-                  The design was well received by most of the participants
-                  ("Truly easy to use and read. Simple, elegant. Makes a
-                  difficult process more accessible for everyone.").
+                  The design was well received ("Simple, elegant, and
+                  user-friendly. Makes a difficult process more approachable.").
                 </li>
               </ul>
               <p>
-                Some minor issues had to be addressed. Font sizes in general
-                were too small on some parts of the app. Some wording was
-                improved (e.g. "Your way to a better self" sounded a bit
-                judgmental).
+                A few minor adjustments were needed, such as increasing font
+                sizes in some areas and refining certain phrases (e.g., "Your
+                way to a better self" was perceived as slightly judgmental).
               </p>
               <LinkButton
                 target="_blank"
@@ -730,24 +721,24 @@ const Camino = () => {
               <div className={cn('col--md-8')}>
                 <h3>Takeaways</h3>
                 <p>
-                  I took some learnings from my previous project and I created a
-                  Maze test much more complete, asking thorough questions in
-                  order to get more insightful data, resulting in a well thought
-                  set of blocks.
+                  I applied the learnings from my previous project to create a
+                  more comprehensive Maze test, asking detailed questions to
+                  obtain deeper insights. This resulted in a well-thought-out
+                  set of design blocks.
                 </p>
                 <p>
-                  As a next step I would iterate more on the list of questions
-                  to the Get Matched feature, by conducting more user and
-                  subject-matter expert interviews. I would also include some
-                  examples of a dark mode design, requested by one user and a
-                  popular option nowadays.
+                  As a next step, I would further iterate on the "Get Matched"
+                  feature by conducting additional interviews with users and
+                  subject-matter experts. I would also explore implementing a
+                  dark mode, which was requested by a user and is increasingly
+                  popular.
                 </p>
                 <p>
-                  The experience in general was very enriching. I felt that my
-                  design skills came all together to create what I consider my
-                  most complete work to date.
+                  Overall, this experience was incredibly enriching. I felt that
+                  all my design skills came together to create what I consider
+                  to be my most complete project to date.
                 </p>
-                <p>That was it, thanks for reading this far!</p>
+                <p>Thanks for reading!</p>
               </div>
               <div className={cn('col--md-2')}></div>
             </div>
