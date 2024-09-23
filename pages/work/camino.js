@@ -73,7 +73,7 @@ const Camino = () => {
             <div className={cn('col--md-1')}></div>
             <div className={cn('col--md-11', caseStudy.title)}>
               <h1>Camino</h1>
-              <small>Capstone - MVP App - Jul 2021</small>
+              <small>MVP App - Jul 2021</small>
             </div>
           </div>
           <div className={cn(caseStudy.introContentWrapper)}>

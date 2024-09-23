@@ -60,7 +60,7 @@ const BiciBavarese = () => {
             <div className={cn('col--md-1')}></div>
             <div className={cn('col--md-11', caseStudy.title)}>
               <h1>Bici Bavarese</h1>
-              <small>Capstone - Website Redesign - May 2021</small>
+              <small>Website Redesign - May 2021</small>
             </div>
           </div>
           <div className={cn(caseStudy.introContentWrapper)}>
@@ -75,11 +75,11 @@ const BiciBavarese = () => {
               <div className={cn('col--md-1')}></div>
               <div className={cn('col--md-5')}>
                 <p>
-                  For my first capstone project at Designlab's UX Academy, I
-                  worked on the <strong>redesign of a local bike shop</strong>{' '}
-                  based in Munich. This gave me a chance to learn a lot about
-                  the local bike scene. I conducted research and user interviews
-                  to understand customer needs and placed a strong emphasis on
+                  For my first project at Designlab's UX Academy, I worked on
+                  the <strong>redesign of a local bike shop</strong> based in
+                  Munich. This gave me a chance to learn a lot about the local
+                  bike scene. I conducted research and user interviews to
+                  understand customer needs and placed a strong emphasis on
                   understanding the existing product. My primary focus was on
                   wireframing and UI design, creating a design that visually
                   captured the shop's spirit.

@@ -46,14 +46,13 @@ export default function Home() {
       >
         <div className={commonStyles.contentWrapper}>
           <h2 className={cn(pageStyles.sectionTitle, styles.sectionTitle)}>
-            Recent <strong>work</strong>
+            Selected <strong>work</strong>
           </h2>
         </div>
         <div className={styles.project}>
           <Project
             title="Camino"
-            type="capstone - ux / ui design"
-            description="End-to-end design for a mobile MVP app."
+            description="Designed a comprehensive mobile MVP app from concept through prototyping."
             image={{
               src: CaminoCoverImage,
               alt: 'Camino - MVP App',
@@ -64,8 +63,7 @@ export default function Home() {
         <div className={styles.project}>
           <Project
             title="Bici Bavarese"
-            type="capstone - ux / ui design"
-            description="Research and redesign of a local bike shop."
+            description="Researched and redesigned the digital experience for a local bike shop."
             image={{
               src: BiciBavareseCoverImage,
               alt: 'Bike store re-design',
@@ -78,8 +76,7 @@ export default function Home() {
         <div className={styles.project}>
           <Project
             title="Komoot"
-            type="capstone - ux / ui design"
-            description="Add a feature to an existing app."
+            description="Enhanced an existing app by adding a new social feature."
             image={{
               src: KomootCoverImage,
               alt: 'Komoot - Social feature',
@@ -90,8 +87,7 @@ export default function Home() {
         <div className={styles.project}>
           <Project
             title="Mirror"
-            type="course project - ux / ui design"
-            description="Rework the branding of a clothing e-commerce platform, and create a responsive web design."
+            description="Rebranded a clothing e-commerce platform."
             image={{
               src: MirrorCoverImage,
               alt: 'Mirror design',

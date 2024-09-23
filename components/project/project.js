@@ -63,7 +63,6 @@ const Project = ({
           <div className="col--md-1"></div>
           <div className={cn(styles.text, 'col--md-3')}>
             <h3>{title}</h3>
-            <small>{type}</small>
             <p>{description}</p>
             {inProgress ? (
               <>Coming soon</>

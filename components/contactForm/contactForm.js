@@ -42,7 +42,7 @@ const ContactForm = () => {
         <textarea
           id="message"
           name="message"
-          placeholder="What can I help you with?"
+          placeholder="Tell me about your project"
           rows="5"
           required
         />

@@ -53,19 +53,12 @@
     font-weight: 500;
     font-size: rem(36px);
     line-height: rem(36px);
-  }
-
-  small {
-    color: $c-secondary-light;
-    display: inline-block;
-    font-size: rem(16px);
-    font-weight: 200;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
   }
 
   p {
     font-weight: 300;
-    margin-bottom: 20px;
+    margin-bottom: 32px;
   }
 
   @media screen and (max-width: $phablet) {

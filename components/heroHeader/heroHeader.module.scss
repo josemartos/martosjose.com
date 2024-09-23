@@ -93,11 +93,14 @@
 
   h1 {
     font-size: rem(48px);
-    margin-bottom: 30px;
+    margin-bottom: 24px;
+    font-weight: 300;
+    max-width: 900px;
+    line-height: 150%;
 
     & > strong {
-      color: $c-primary;
       font-weight: 500;
+      color: $c-primary;
     }
 
     @media screen and (max-width: $phablet) {
@@ -106,9 +109,7 @@
   }
 
   h1,
-  p:first-child,
-  p:last-child {
-    font-weight: 200;
+  p {
     // TODO: Think of a cool animation here
     animation: fadein 400ms;
 
@@ -117,22 +118,9 @@
     }
   }
 
-  p:first-child {
-    font-size: rem(36px);
-    margin-bottom: 5px;
-
-    @media screen and (max-width: $phablet) {
-      font-size: rem(28px);
-      margin-bottom: 30px;
-    }
-  }
-
-  p:last-child {
+  p {
+    font-weight: 200;
     font-size: rem(24px);
-
-    & > strong {
-      font-weight: 500;
-    }
 
     @media screen and (max-width: $phablet) {
       display: none;

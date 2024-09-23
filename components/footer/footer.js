@@ -15,7 +15,7 @@ const Footer = () => {
       <div className={commonStyles.contentWrapper}>
         <div className={styles.inner}>
           <h4 className={styles.title}>
-            Let's <strong>connect</strong>
+            Stay <strong>connected</strong>
           </h4>
           <div className={styles.icons}>
             <a
@@ -50,7 +50,7 @@ const Footer = () => {
             </a>
           </div>
           <div className={styles.closing}>
-            Built from the ground up by myself using Figma and Next.js &hearts;
+            Crafted with care using Figma and Next.js
           </div>
         </div>
       </div>

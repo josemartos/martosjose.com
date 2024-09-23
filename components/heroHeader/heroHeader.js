@@ -16,14 +16,13 @@ const HeroHeader = ({ scrollToWork }) => {
             <BracketIcon />
           </div>
           <div>
-            <p>Glad you're here, I am Jos&eacute; Martos.</p>
             <h1>
-              Product <strong>Designer</strong> with Front-end{' '}
-              <strong>Dev</strong> expertise.
+              Glad you're here, I am Jos&eacute; Martos, Product{' '}
+              <strong>Designer</strong> with Front-end <strong>Dev</strong>{' '}
+              expertise.
             </h1>
             <p>
-              Focused on crafting <strong>beautiful</strong> and{' '}
-              <strong>effective</strong> digital solutions.
+              Focused on crafting beautiful and effective digital solutions.
             </p>
           </div>
         </div>

@@ -2,10 +2,14 @@
 
 .wrapper {
   text-align: center;
+  border-radius: 4px;
+
+  img {
+    border-radius: 4px;
+  }
 
   // Wrapper element from next
   & div {
-    border-radius: 4px;
     background: none;
     display: block !important;
   }

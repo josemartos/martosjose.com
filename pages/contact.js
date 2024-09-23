@@ -11,7 +11,7 @@ export default function Contact() {
       <section className={pageStyles.section}>
         <div className={commonStyles.contentWrapper}>
           <h2 className={pageStyles.sectionTitle}>
-            Shall <strong>we</strong>?
+            How can I <strong>help</strong>?
           </h2>
 
           <ContactForm />

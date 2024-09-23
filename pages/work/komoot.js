@@ -67,7 +67,7 @@ const Komoot = () => {
             <div className={cn('col--md-1')}></div>
             <div className={cn('col--md-11', caseStudy.title)}>
               <h1>Komoot</h1>
-              <small>Capstone - Social Feature - Jun 2021</small>
+              <small>Social Feature - Jun 2021</small>
             </div>
           </div>
           <div className={cn(caseStudy.introContentWrapper)}>
@@ -84,7 +84,7 @@ const Komoot = () => {
                 <p>
                   As an avid hiker, I chose to analyze and explore possible
                   enhancements for one of my favorite apps, Komoot. For my
-                  second capstone project at Designlab's UX Academy, I worked on{' '}
+                  second project at Designlab's UX Academy, I worked on{' '}
                   <strong>expanding the app's social capabilities</strong>. This
                   allowed me to explore its current functionalities, conduct
                   market research, distribute user surveys, and prototype the

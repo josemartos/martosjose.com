@@ -61,7 +61,7 @@ const Mirror = () => {
             <div className={cn('col--md-1')}></div>
             <div className={cn('col--md-11', caseStudy.title)}>
               <h1>Mirror</h1>
-              <small>Course Project - Website - Feb 2021</small>
+              <small>Website Rebranding - Feb 2021</small>
             </div>
           </div>
           <div className={cn(caseStudy.introContentWrapper)}>
