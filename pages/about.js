@@ -55,8 +55,8 @@ export default function About() {
               </p>
               <p>
                 In my free time, I enjoy reading, hiking, cooking, biking,
-                bouldering, photography, and practicing martial arts. In 2018
-                and 2019, I embarked on a four-month solo backpacking adventure
+                exploring, photography, and practicing martial arts. In 2018 and
+                2019, I embarked on a four-month solo backpacking adventure
                 across Asia. I'm proud to say I've visited a total of{' '}
                 <a
                   target="_blank"
