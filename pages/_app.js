@@ -1,6 +1,7 @@
 import { useState, useRef } from 'react';
 import Head from 'next/head';
 import { useEffect } from 'react';
+import { useRouter } from 'next/router';
 
 import smoothscroll from 'smoothscroll-polyfill';
 
@@ -17,11 +18,15 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
   const [theme, setTheme] = useState('normal');
   const [workMenu, setWorkMenu] = useState(false);
   const workSectionRef = useRef(null);
+  const router = useRouter();
 
   const scrollToWork = () => {
     workSectionRef.current.scrollIntoView({ behavior: 'smooth' });
     setWorkMenu(false);
   };
+  // Check if the pathname matches `/` (home) or starts with `/work`
+  const shouldShowGoTopButton =
+    router.pathname === '/' || router.pathname.startsWith('/work');
 
   // window object available
   useEffect(() => {
@@ -47,7 +52,7 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
         />
         <meta
           name="keywords"
-          content="portfolio, ux design, ui design, product design, front-end development"
+          content="portfolio, ux design, ui design, product design, ux research, front-end dev"
         />
         <meta name="author" content="Jose Martos" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -94,7 +99,7 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <AppContext.Provider value={contextValue}>
-        <GoTopButton />
+        {shouldShowGoTopButton && <GoTopButton />}
         {maintenanceMode === 'true' ? (
           <Maintenance />
         ) : (
