@@ -17,12 +17,10 @@ const HeroHeader = ({ scrollToWork }) => {
           </div>
           <div>
             <h1>
-              Glad you're here, I am Jos&eacute; Martos,{' '}
-              <strong>Product Designer</strong> with Front-end expertise.
+              Hi, I'm Jos&eacute; Martos, <strong>Product Designer</strong> with
+              technical roots.
             </h1>
-            <p>
-              Focused on crafting beautiful and effective digital solutions.
-            </p>
+            <p>Crafting thoughtful and meaningful digital experiences.</p>
           </div>
         </div>
         <div className={styles.scroll}>
