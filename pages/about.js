@@ -46,7 +46,7 @@ export default function About() {
               </p>
               <p>
                 After spending over 11 years as a developer on various projects,
-                I expanded my skill set in 2020 to include UX/UI design,
+                I expanded my skill set in 2021 to include UX/UI design,
                 blending technical expertise with a passion for crafting
                 user-centered digital solutions.
               </p>
