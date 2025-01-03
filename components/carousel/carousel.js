@@ -1,5 +1,5 @@
 import cn from 'classnames';
-import { Navigation, Pagination } from 'swiper';
+import { Navigation, Pagination } from 'swiper/modules';
 import { Swiper } from 'swiper/react';
 
 // Styles
