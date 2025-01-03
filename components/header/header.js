@@ -20,10 +20,8 @@ const Header = () => {
     >
       <div className={commonStyles.contentWrapper}>
         <div className={styles.inner}>
-          <RouterLink href="/" legacyBehavior>
-            <a className={styles.logo} title="Go to homepage" legacyBehavior>
-              <LogoIcon />
-            </a>
+          <RouterLink href="/" className={styles.logo} title="Go to homepage">
+            <LogoIcon />
           </RouterLink>
           <Navbar />
         </div>

@@ -18,8 +18,8 @@ const GDPRBanner = () => {
     >
       This website uses cookies to analyze and enhance the user experience. By
       continuing, you agree to{' '}
-      <RouterLink href="/cookies-policy" legacyBehavior>
-        <a title="See cookies policy">their use</a>
+      <RouterLink href="/cookies-policy" title="See cookies policy">
+        their use
       </RouterLink>
       .
     </CookieConsent>

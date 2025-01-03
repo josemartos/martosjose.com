@@ -12,7 +12,6 @@
         "specialLink": ["hrefLeft", "hrefRight"],
         "aspects": ["invalidHref", "preferButton"]
       }
-    ],
-    "react/no-unknown-property": ["error", { "ignore": ["legacyBehavior"] }]
+    ]
   }
 }

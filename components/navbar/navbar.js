@@ -11,23 +11,24 @@ import RouterLink from 'next/link';
 import styles from './navbar.module.scss';
 
 const NavbarLink = React.forwardRef(
-  ({ href, onClick, text, target = '_self' }, ref) => {
+  ({ href, onClick, text, target = '_self', scroll = true }, ref) => {
     const router = useRouter();
 
     const onPage = () =>
       router.pathname === href || router.pathname.includes(text);
 
     return (
-      <a
+      <RouterLink
         href={href}
         ref={ref}
         target={target}
         onClick={onClick}
         className={cn(styles.item, { [styles.itemActive]: onPage() })}
         title={`Go to ${text}`}
+        scroll={scroll}
       >
         {text}
-      </a>
+      </RouterLink>
     );
   }
 );
@@ -37,18 +38,20 @@ const Navbar = () => {
 
   return (
     <div className={cn({ [styles.white]: theme === 'white' })}>
-      <RouterLink href="/" passHref legacyBehavior scroll={false}>
-        <NavbarLink text="work" onClick={() => setWorkMenu(true)} />
-      </RouterLink>
-      <RouterLink href="/about" passHref legacyBehavior>
-        <NavbarLink text="about" />
-      </RouterLink>
-      <RouterLink href="/CVJoseMartos.pdf" passHref legacyBehavior>
-        <NavbarLink text="cv" target="_blank" />
-      </RouterLink>
-      <RouterLink href="/contact" passHref legacyBehavior>
-        <NavbarLink text="contact" />
-      </RouterLink>
+      <NavbarLink
+        href="/"
+        text="work"
+        onClick={() => setWorkMenu(true)}
+        scroll={false}
+      />
+      <NavbarLink href="/about" text="about" />
+      <NavbarLink
+        href="/CVJoseMartos.pdf"
+        text="cv"
+        target="_blank"
+        rel="noreferrer"
+      />
+      <NavbarLink href="/contact" text="contact" />
     </div>
   );
 };

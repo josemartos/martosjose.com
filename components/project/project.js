@@ -35,7 +35,6 @@ const Project = ({
   image,
   link,
   reverseLayout = false,
-  inProgress = false,
 }) => {
   return (
     <div className={styles.wrapper}>
@@ -51,26 +50,16 @@ const Project = ({
           <div className="col--md-1"></div>
           <div className={cn(styles.image, 'col--md-7')}>
             <ComeInAnimation>
-              {inProgress ? (
+              <RouterLink href={link}>
                 <ProjectImage image={image} />
-              ) : (
-                <RouterLink href={link} legacyBehavior>
-                  <LinkImage image={image} />
-                </RouterLink>
-              )}
+              </RouterLink>
             </ComeInAnimation>
           </div>
           <div className="col--md-1"></div>
           <div className={cn(styles.text, 'col--md-3')}>
             <h3>{title}</h3>
             <p>{description}</p>
-            {inProgress ? (
-              <>Coming soon</>
-            ) : (
-              <RouterLink href={link} legacyBehavior>
-                <LinkButton text="See case study" />
-              </RouterLink>
-            )}
+            <LinkButton text="See case study" href={link} />
           </div>
         </div>
       </div>

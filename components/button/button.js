@@ -1,6 +1,8 @@
 import React from 'react';
 import cn from 'classnames';
 
+import RouterLink from 'next/link';
+
 // Styles
 import styles from './button.module.scss';
 
@@ -17,7 +19,7 @@ export const Button = (props) => {
 export const LinkButton = React.forwardRef(
   ({ href, onClick, text, target = '_self' }, ref) => {
     return (
-      <a
+      <RouterLink
         href={href}
         ref={ref}
         onClick={onClick}
@@ -26,7 +28,7 @@ export const LinkButton = React.forwardRef(
         target={target}
       >
         {text}
-      </a>
+      </RouterLink>
     );
   }
 );
