@@ -30,7 +30,7 @@ const NavbarLink = React.forwardRef(
         {text}
       </RouterLink>
     );
-  }
+  },
 );
 
 const Navbar = () => {

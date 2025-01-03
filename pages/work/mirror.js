@@ -55,7 +55,7 @@ const Mirror = () => {
             className={cn(
               'flexGrid',
               caseStudy.titleWrapper,
-              commonStyles.contentWrapper
+              commonStyles.contentWrapper,
             )}
           >
             <div className={cn('col--md-1')}></div>
@@ -70,7 +70,7 @@ const Mirror = () => {
               className={cn(
                 'flexGrid',
                 caseStudy.introContent,
-                commonStyles.contentWrapper
+                commonStyles.contentWrapper,
               )}
             >
               <div className={cn('col--md-1')}></div>
@@ -149,7 +149,7 @@ const Mirror = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>
@@ -185,7 +185,7 @@ const Mirror = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>
@@ -249,7 +249,7 @@ const Mirror = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>
@@ -283,7 +283,7 @@ const Mirror = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>
@@ -318,7 +318,7 @@ const Mirror = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>
@@ -358,7 +358,7 @@ const Mirror = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>
@@ -403,7 +403,7 @@ const Mirror = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>
@@ -437,7 +437,7 @@ const Mirror = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>
@@ -453,7 +453,7 @@ const Mirror = () => {
           <div
             className={cn(
               caseStudy.highlightBackground,
-              caseStudy.highlightBackgroundBlue
+              caseStudy.highlightBackgroundBlue,
             )}
           >
             <div className={cn('flexGrid', commonStyles.contentWrapper)}>
@@ -482,7 +482,7 @@ const Mirror = () => {
           <div
             className={cn(
               caseStudy.highlightBackground,
-              caseStudy.highlightBackgroundPink
+              caseStudy.highlightBackgroundPink,
             )}
           >
             <div className={cn('flexGrid', commonStyles.contentWrapper)}>
@@ -525,14 +525,14 @@ const Mirror = () => {
           <div
             className={cn(
               caseStudy.highlightBackground,
-              caseStudy.highlightBackgroundBlue
+              caseStudy.highlightBackgroundBlue,
             )}
           >
             <div
               className={cn(
                 'flexGrid',
                 commonStyles.contentWrapper,
-                caseStudy.segmentIntro
+                caseStudy.segmentIntro,
               )}
             >
               <div className={cn('col--md-1')}></div>
@@ -588,7 +588,7 @@ const Mirror = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>

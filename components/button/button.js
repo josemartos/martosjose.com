@@ -30,5 +30,5 @@ export const LinkButton = React.forwardRef(
         {text}
       </RouterLink>
     );
-  }
+  },
 );

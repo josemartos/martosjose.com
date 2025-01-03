@@ -22,7 +22,9 @@
   position: fixed;
   visibility: visible;
   animation: fadeinHalf 0.3s;
-  transition: opacity 0.4s, bottom 0.2s;
+  transition:
+    opacity 0.4s,
+    bottom 0.2s;
   opacity: 0.7;
   bottom: 20px;
   top: auto;

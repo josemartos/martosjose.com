@@ -54,7 +54,7 @@ const BiciBavarese = () => {
             className={cn(
               'flexGrid',
               caseStudy.titleWrapper,
-              commonStyles.contentWrapper
+              commonStyles.contentWrapper,
             )}
           >
             <div className={cn('col--md-1')}></div>
@@ -69,7 +69,7 @@ const BiciBavarese = () => {
               className={cn(
                 'flexGrid',
                 caseStudy.introContent,
-                commonStyles.contentWrapper
+                commonStyles.contentWrapper,
               )}
             >
               <div className={cn('col--md-1')}></div>
@@ -153,7 +153,7 @@ const BiciBavarese = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>
@@ -189,7 +189,7 @@ const BiciBavarese = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>
@@ -249,7 +249,7 @@ const BiciBavarese = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>
@@ -284,7 +284,7 @@ const BiciBavarese = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>
@@ -310,7 +310,7 @@ const BiciBavarese = () => {
               <div
                 className={cn(
                   caseStudy.segmentImage,
-                  commonStyles.contentWrapper
+                  commonStyles.contentWrapper,
                 )}
               >
                 <Image
@@ -334,7 +334,7 @@ const BiciBavarese = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>
@@ -367,7 +367,7 @@ const BiciBavarese = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>
@@ -416,7 +416,7 @@ const BiciBavarese = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>
@@ -462,7 +462,7 @@ const BiciBavarese = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>
@@ -478,7 +478,7 @@ const BiciBavarese = () => {
           <div
             className={cn(
               caseStudy.highlightBackground,
-              caseStudy.highlightBackgroundBlue
+              caseStudy.highlightBackgroundBlue,
             )}
           >
             <div className={cn('flexGrid', commonStyles.contentWrapper)}>
@@ -508,7 +508,7 @@ const BiciBavarese = () => {
           <div
             className={cn(
               caseStudy.highlightBackground,
-              caseStudy.highlightBackgroundPink
+              caseStudy.highlightBackgroundPink,
             )}
           >
             <div className={cn('flexGrid', commonStyles.contentWrapper)}>
@@ -537,7 +537,7 @@ const BiciBavarese = () => {
           <div
             className={cn(
               caseStudy.highlightBackground,
-              caseStudy.highlightBackgroundBlue
+              caseStudy.highlightBackgroundBlue,
             )}
           >
             <div className={cn('flexGrid', commonStyles.contentWrapper)}>
@@ -578,7 +578,7 @@ const BiciBavarese = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>

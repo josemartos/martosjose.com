@@ -5,7 +5,9 @@
   margin-left: 40px;
   font-weight: 300;
   position: relative;
-  transition: color 300ms, margin-left 200ms;
+  transition:
+    color 300ms,
+    margin-left 200ms;
   animation: fadein 400ms;
   font-size: rem(18px);
 

@@ -341,7 +341,9 @@
     flex: 1;
     font-weight: 200;
     position: relative;
-    transition: background-color 300ms, margin-left 200ms;
+    transition:
+      background-color 300ms,
+      margin-left 200ms;
     animation: fadein 400ms;
     border: none;
     background-color: #fff;

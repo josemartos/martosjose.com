@@ -12,14 +12,14 @@ const Carousel = ({ children }) => {
         className={cn(
           'carouselPrev',
           styles.carouselArrow,
-          styles.carouselArrowLeft
+          styles.carouselArrowLeft,
         )}
       ></button>
       <button
         className={cn(
           'carouselNext',
           styles.carouselArrow,
-          styles.carouselArrowRight
+          styles.carouselArrowRight,
         )}
       ></button>
       <Swiper

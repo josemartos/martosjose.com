@@ -61,7 +61,7 @@ const Komoot = () => {
             className={cn(
               'flexGrid',
               caseStudy.titleWrapper,
-              commonStyles.contentWrapper
+              commonStyles.contentWrapper,
             )}
           >
             <div className={cn('col--md-1')}></div>
@@ -76,7 +76,7 @@ const Komoot = () => {
               className={cn(
                 'flexGrid',
                 caseStudy.introContent,
-                commonStyles.contentWrapper
+                commonStyles.contentWrapper,
               )}
             >
               <div className={cn('col--md-1')}></div>
@@ -146,7 +146,7 @@ const Komoot = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>
@@ -181,7 +181,7 @@ const Komoot = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>
@@ -267,7 +267,7 @@ const Komoot = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>
@@ -303,7 +303,7 @@ const Komoot = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>
@@ -338,7 +338,7 @@ const Komoot = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>
@@ -373,7 +373,7 @@ const Komoot = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>
@@ -423,7 +423,7 @@ const Komoot = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>
@@ -440,7 +440,7 @@ const Komoot = () => {
           <div
             className={cn(
               caseStudy.highlightBackground,
-              caseStudy.highlightBackgroundBlue
+              caseStudy.highlightBackgroundBlue,
             )}
           >
             <div className={cn(commonStyles.contentWrapper)}>
@@ -554,7 +554,7 @@ const Komoot = () => {
             className={cn(
               'flexGrid',
               commonStyles.contentWrapper,
-              caseStudy.segmentIntro
+              caseStudy.segmentIntro,
             )}
           >
             <div className={cn('col--md-2')}></div>

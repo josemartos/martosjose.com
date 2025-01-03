@@ -21,7 +21,7 @@ const GoTopButton = () => {
 
     return () => {
       window.removeEventListener('scroll', () =>
-        setPageOffset(window.pageYOffset)
+        setPageOffset(window.pageYOffset),
       );
     };
   }, []);
