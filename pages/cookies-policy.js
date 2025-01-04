@@ -3,7 +3,7 @@ import { BasePage } from 'components';
 
 // Styles
 import layoutStyles from 'styles/modules/layout.module.scss';
-import styles from 'styles/pages/cookies.module.scss';
+import styles from 'styles/modules/cookies.module.scss';
 
 export default function CookiesPolicy() {
   return (

@@ -7,7 +7,7 @@ import AppContext from 'context/appContext';
 
 // Styles
 import layoutStyles from 'styles/modules/layout.module.scss';
-import styles from 'styles/pages/index.module.scss';
+import homeStyles from 'styles/modules/home.module.scss';
 
 // Images
 import CaminoCoverImage from 'public/images/camino/cover.png';
@@ -36,19 +36,21 @@ export default function Home() {
       <Head>
         <title>Jose Martos - Product Designer with technical roots</title>
       </Head>
-      <section className={styles.homeHeader}>
+      <section className={homeStyles.homeHeader}>
         <HeroHeader scrollToWork={scrollToWork} />
       </section>
       <section
         ref={workSectionRef}
-        className={cn(layoutStyles.section, styles.section)}
+        className={cn(layoutStyles.section, homeStyles.section)}
       >
         <div className={layoutStyles.contentWrapper}>
-          <h2 className={cn(layoutStyles.sectionTitle, styles.sectionTitle)}>
+          <h2
+            className={cn(layoutStyles.sectionTitle, homeStyles.sectionTitle)}
+          >
             Selected <strong>work</strong>
           </h2>
         </div>
-        <div className={styles.project}>
+        <div className={homeStyles.project}>
           <Project
             title="Camino"
             description="Designed a comprehensive mobile MVP app from concept through prototyping."
@@ -59,7 +61,7 @@ export default function Home() {
             link="/work/camino"
           />
         </div>
-        <div className={styles.project}>
+        <div className={homeStyles.project}>
           <Project
             title="Bici Bavarese"
             description="Researched and redesigned the digital experience for a local bike shop."
@@ -72,7 +74,7 @@ export default function Home() {
             reverseLayout={true}
           />
         </div>
-        <div className={styles.project}>
+        <div className={homeStyles.project}>
           <Project
             title="Komoot"
             description="Enhanced an existing app by adding a new social feature."
@@ -83,7 +85,7 @@ export default function Home() {
             link="/work/komoot"
           />
         </div>
-        <div className={styles.project}>
+        <div className={homeStyles.project}>
           <Project
             title="Mirror"
             description="Rebranded a clothing e-commerce platform."

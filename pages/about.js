@@ -5,7 +5,7 @@ import { BasePage, Image } from 'components';
 
 // Styles
 import layoutStyles from 'styles/modules/layout.module.scss';
-import styles from 'styles/pages/about.module.scss';
+import styles from 'styles/modules/about.module.scss';
 
 // Images
 import JoseDresdenImage from 'public/images/jose-pic-dresden.jpg';
