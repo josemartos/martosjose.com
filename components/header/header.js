@@ -8,7 +8,7 @@ import LogoIcon from 'public/images/logo.svg';
 import { Navbar } from 'components';
 
 // Styles
-import layoutStyles from 'styles/components/layout.module.scss';
+import layoutStyles from 'styles/modules/layout.module.scss';
 import styles from './header.module.scss';
 
 const Header = () => {

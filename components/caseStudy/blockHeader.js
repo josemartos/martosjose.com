@@ -1,8 +1,8 @@
 import cn from 'classnames';
 
 // Styles
-import layoutStyles from 'styles/components/layout.module.scss';
-import caseStudy from 'styles/components/caseStudy.module.scss';
+import layoutStyles from 'styles/modules/layout.module.scss';
+import caseStudy from 'styles/modules/caseStudy.module.scss';
 
 const BlockHeader = ({ title, children }) => {
   return (

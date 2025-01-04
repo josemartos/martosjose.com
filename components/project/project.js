@@ -7,7 +7,7 @@ import ComeInAnimation from 'animation/comeIn';
 import { LinkButton, Image } from 'components';
 
 // Styles
-import layoutStyles from 'styles/components/layout.module.scss';
+import layoutStyles from 'styles/modules/layout.module.scss';
 import styles from './project.module.scss';
 
 const ProjectImage = ({ image }) => (

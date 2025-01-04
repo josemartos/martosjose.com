@@ -1,7 +1,7 @@
 import cn from 'classnames';
 
 // Styles
-import layoutStyles from 'styles/components/layout.module.scss';
+import layoutStyles from 'styles/modules/layout.module.scss';
 import styles from './heroHeader.module.scss';
 
 import BracketIcon from 'public/images/bracket.svg';

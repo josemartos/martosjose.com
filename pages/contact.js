@@ -2,7 +2,7 @@ import cn from 'classnames';
 import { BasePage, ContactForm } from 'components';
 
 // Styles
-import layoutStyles from 'styles/components/layout.module.scss';
+import layoutStyles from 'styles/modules/layout.module.scss';
 
 export default function Contact() {
   return (

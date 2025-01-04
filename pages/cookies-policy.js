@@ -2,7 +2,7 @@ import cn from 'classnames';
 import { BasePage } from 'components';
 
 // Styles
-import layoutStyles from 'styles/components/layout.module.scss';
+import layoutStyles from 'styles/modules/layout.module.scss';
 import styles from 'styles/pages/cookies.module.scss';
 
 export default function CookiesPolicy() {

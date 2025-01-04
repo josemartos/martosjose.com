@@ -6,7 +6,7 @@ import GithubIcon from 'public/images/github.svg';
 import PicsIcon from 'public/images/500px.svg';
 
 // Styles
-import layoutStyles from 'styles/components/layout.module.scss';
+import layoutStyles from 'styles/modules/layout.module.scss';
 import styles from './footer.module.scss';
 
 const Footer = () => {

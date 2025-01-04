@@ -6,7 +6,7 @@ import { Layout, HeroHeader, Project } from 'components';
 import AppContext from 'context/appContext';
 
 // Styles
-import layoutStyles from 'styles/components/layout.module.scss';
+import layoutStyles from 'styles/modules/layout.module.scss';
 import styles from 'styles/pages/index.module.scss';
 
 // Images

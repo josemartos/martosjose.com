@@ -1,7 +1,7 @@
 import { BasePage, CaseStudyNavbar } from 'components';
 
 // Styles
-import caseStudy from 'styles/components/caseStudy.module.scss';
+import caseStudy from 'styles/modules/caseStudy.module.scss';
 
 const Wrapper = ({ children, title }) => {
   return (

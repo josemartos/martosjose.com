@@ -3,7 +3,7 @@ import { InView } from 'react-intersection-observer';
 import { useCaseStudy } from 'context/caseStudyContext';
 
 // Styles
-import layoutStyles from 'styles/components/layout.module.scss';
+import layoutStyles from 'styles/modules/layout.module.scss';
 
 const sections = ['understand', 'define', 'design', 'testing'];
 
