@@ -13,7 +13,6 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          <script src="/scripts/analytics.js" async></script>
         </body>
       </Html>
     );

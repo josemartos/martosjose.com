@@ -2,6 +2,7 @@ import { useState, useRef } from 'react';
 import Head from 'next/head';
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
+import { GoogleAnalytics } from 'lib/googleAnalytics';
 
 import smoothscroll from 'smoothscroll-polyfill';
 
@@ -44,6 +45,7 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
 
   return (
     <>
+      <GoogleAnalytics />
       <Head>
         <meta charSet="UTF-8" />
         <meta
