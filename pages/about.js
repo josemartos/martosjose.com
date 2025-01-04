@@ -4,8 +4,7 @@ import RouterLink from 'next/link';
 import { BasePage, Image } from 'components';
 
 // Styles
-import pageStyles from 'styles/page.module.scss';
-import commonStyles from 'styles/common.module.scss';
+import layoutStyles from 'styles/components/layout.module.scss';
 import styles from 'styles/pages/about.module.scss';
 
 // Images
@@ -14,9 +13,9 @@ import JoseDresdenImage from 'public/images/jose-pic-dresden.jpg';
 export default function About() {
   return (
     <BasePage title="About">
-      <section className={pageStyles.section}>
-        <div className={commonStyles.contentWrapper}>
-          <h2 className={pageStyles.sectionTitle}>
+      <section className={layoutStyles.section}>
+        <div className={layoutStyles.contentWrapper}>
+          <h2 className={layoutStyles.sectionTitle}>
             A bit about <strong>me</strong>
           </h2>
           <div className={cn('flexGrid', styles.container)}>

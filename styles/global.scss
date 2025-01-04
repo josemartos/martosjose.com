@@ -1,8 +1,11 @@
-@import 'reset';
-@import 'base';
-@import 'grid';
-@import 'vendor';
+@use 'utils';
+@use 'base';
+@use 'layout/grid';
+@use 'vendor/swiper';
+@use 'styles/utils/functions' as functions;
+@use 'styles/base/variables' as vars;
 
+// Global styles
 html {
   scroll-behavior: smooth;
 }
@@ -19,11 +22,11 @@ body {
   margin: 0;
   font-family: 'Jost', sans-serif;
   line-height: 1.6;
-  font-size: rem(18px);
+  font-size: functions.rem(18px);
 }
 
 a {
-  color: $c-primary;
+  color: vars.$c-primary;
   text-decoration: none;
 }
 

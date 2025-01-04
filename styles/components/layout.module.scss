@@ -1,4 +1,5 @@
-@import 'styles/base';
+@use 'styles/base/variables' as vars;
+@use 'styles/utils/functions' as functions;
 
 .section {
   display: flex;
@@ -6,7 +7,7 @@
   max-height: 100%;
   width: 100%;
   padding-bottom: 200px;
-  color: $c-secondary;
+  color: vars.$c-secondary;
   background-color: #fff;
   flex-direction: column;
   overflow-x: hidden;
@@ -15,21 +16,21 @@
     padding-bottom: 0;
   }
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     padding-bottom: 140px;
   }
 
   &:first-of-type {
     padding-top: 60px;
 
-    @media screen and (max-width: $phablet) {
+    @media screen and (max-width: vars.$phablet) {
       padding-top: 40px;
     }
   }
 }
 
 .sectionTitle {
-  font-size: rem(32px);
+  font-size: functions.rem(32px);
   font-weight: 300;
   margin-bottom: 60px;
 
@@ -43,7 +44,7 @@
 
     &::after {
       content: '';
-      color: $c-primary;
+      color: vars.$c-primary;
       position: absolute;
       width: 100%;
       height: 4px;
@@ -55,11 +56,19 @@
     }
   }
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     margin-bottom: 80px;
   }
 
-  @media screen and (max-width: $phone) {
+  @media screen and (max-width: vars.$phone) {
     text-align: center;
   }
+}
+
+.contentWrapper {
+  margin: 0 auto;
+  max-width: vars.$m-desktop;
+  padding: 0 1.25em;
+  position: relative;
+  width: 100%;
 }

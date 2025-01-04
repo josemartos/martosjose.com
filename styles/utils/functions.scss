@@ -1,0 +1,15 @@
+@use 'sass:math';
+@use 'styles/base/variables' as vars;
+
+// it calculates em/rem to px - use: functions.rem(16px) or functions.rem(16)
+@function rem($pixels, $context: vars.$browser-context) {
+  @if (math.is-unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+
+  @if (math.is-unitless($context)) {
+    $context: $context * 1px;
+  }
+
+  @return math.div($pixels, $context) * 1rem;
+}

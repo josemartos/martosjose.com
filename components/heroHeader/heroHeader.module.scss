@@ -1,4 +1,5 @@
-@import 'styles/base';
+@use 'styles/base/variables' as vars;
+@use 'styles/utils/functions' as functions;
 
 .wrapper {
   display: flex;
@@ -8,7 +9,7 @@
   position: relative;
   padding: 60px 0;
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     align-items: center;
     padding: 60px 0 20px;
   }
@@ -17,7 +18,7 @@
 .bracket {
   margin-right: 50px;
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     display: none;
   }
 }
@@ -32,7 +33,7 @@
 
   .line {
     transform-origin: 100% 0;
-    background-color: $c-primary;
+    background-color: vars.$c-primary;
     border-radius: 2px;
     height: 200px;
     width: 2px;
@@ -41,11 +42,11 @@
 
   .button {
     font-weight: 300;
-    font-size: rem(24px);
+    font-size: functions.rem(24px);
     color: #fff;
     margin-bottom: 15px;
     transform: rotate(90deg);
-    color: $c-secondary-light;
+    color: vars.$c-secondary-light;
     transition: color 300ms;
     border: none;
     background: none;
@@ -64,7 +65,7 @@
     display: none;
   }
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     position: inherit;
     height: auto;
     right: auto;
@@ -88,11 +89,11 @@
 
 .content {
   align-items: center;
-  margin-top: (-$header-height);
+  margin-top: -(vars.$header-height);
   display: flex;
 
   h1 {
-    font-size: rem(48px);
+    font-size: functions.rem(48px);
     margin-bottom: 24px;
     font-weight: 300;
     max-width: 792px;
@@ -100,11 +101,11 @@
 
     & > strong {
       font-weight: 500;
-      color: $c-primary;
+      color: vars.$c-primary;
     }
 
-    @media screen and (max-width: $phablet) {
-      font-size: rem(36px);
+    @media screen and (max-width: vars.$phablet) {
+      font-size: functions.rem(36px);
     }
   }
 
@@ -113,21 +114,21 @@
     // TODO: Think of a cool animation here
     animation: fadein 400ms;
 
-    @media screen and (max-width: $phablet) {
+    @media screen and (max-width: vars.$phablet) {
       text-align: center;
     }
   }
 
   p {
     font-weight: 200;
-    font-size: rem(24px);
+    font-size: functions.rem(24px);
 
-    @media screen and (max-width: $phablet) {
+    @media screen and (max-width: vars.$phablet) {
       display: none;
     }
   }
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     margin-top: 0;
     margin-bottom: 20px;
     padding: 0 1em;

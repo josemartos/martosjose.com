@@ -15,8 +15,7 @@ import ComeInAnimation from 'animation/comeIn';
 import { CaseStudyProvider } from 'context/caseStudyContext';
 
 // Styles
-import commonStyles from 'styles/common.module.scss';
-import pageStyles from 'styles/page.module.scss';
+import layoutStyles from 'styles/components/layout.module.scss';
 import caseStudy from 'styles/components/caseStudy.module.scss';
 
 // Images
@@ -36,7 +35,7 @@ import CheckoutFunnel2Image from 'public/images/mirror/checkout-funnel2.jpg';
 const Mirror = () => {
   return (
     <CaseStudyWrapper title="Mirror | e-commerce platform">
-      <section className={pageStyles.section}>
+      <section className={layoutStyles.section}>
         <header className={caseStudy.hero}>
           <ComeInAnimation>
             <Image
@@ -55,7 +54,7 @@ const Mirror = () => {
             className={cn(
               'flexGrid',
               caseStudy.titleWrapper,
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
             )}
           >
             <div className={cn('col--md-1')}></div>
@@ -70,7 +69,7 @@ const Mirror = () => {
               className={cn(
                 'flexGrid',
                 caseStudy.introContent,
-                commonStyles.contentWrapper,
+                layoutStyles.contentWrapper,
               )}
             >
               <div className={cn('col--md-1')}></div>
@@ -101,7 +100,7 @@ const Mirror = () => {
           </div>
         </div>
         <div className={caseStudy.goalsWrapper}>
-          <div className={cn('flexGrid', commonStyles.contentWrapper)}>
+          <div className={cn('flexGrid', layoutStyles.contentWrapper)}>
             <div className={cn('col--md-1')}></div>
             <div className={cn('col--md-8')}>
               <h2>Goals</h2>
@@ -148,7 +147,7 @@ const Mirror = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -165,7 +164,7 @@ const Mirror = () => {
             <div className={cn('col--md-2')}></div>
           </div>
           <div
-            className={cn(caseStudy.segmentImage, commonStyles.contentWrapper)}
+            className={cn(caseStudy.segmentImage, layoutStyles.contentWrapper)}
           >
             <Image
               src={CompetitorAnalysisImage}
@@ -184,7 +183,7 @@ const Mirror = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -248,7 +247,7 @@ const Mirror = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -263,7 +262,7 @@ const Mirror = () => {
             <div className={cn('col--md-2')}></div>
           </div>
           <div
-            className={cn(caseStudy.segmentImage, commonStyles.contentWrapper)}
+            className={cn(caseStudy.segmentImage, layoutStyles.contentWrapper)}
           >
             <Image
               src={PersonaImage}
@@ -282,7 +281,7 @@ const Mirror = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -297,7 +296,7 @@ const Mirror = () => {
             <div className={cn('col--md-2')}></div>
           </div>
           <div
-            className={cn(caseStudy.segmentImage, commonStyles.contentWrapper)}
+            className={cn(caseStudy.segmentImage, layoutStyles.contentWrapper)}
           >
             <Image
               src={SitemapImage}
@@ -317,7 +316,7 @@ const Mirror = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -332,9 +331,9 @@ const Mirror = () => {
             <div className={cn('col--md-2')}></div>
           </div>
           <div
-            className={cn(caseStudy.segmentImage, commonStyles.contentWrapper)}
+            className={cn(caseStudy.segmentImage, layoutStyles.contentWrapper)}
           >
-            <div className={cn('flexGrid', commonStyles.contentWrapper)}>
+            <div className={cn('flexGrid', layoutStyles.contentWrapper)}>
               <div className={cn('col--md-2')}></div>
               <div className={cn('col--md-8')}>
                 <Image
@@ -357,7 +356,7 @@ const Mirror = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -372,7 +371,7 @@ const Mirror = () => {
             <div className={cn('col--md-2')}></div>
           </div>
           <div className={caseStudy.highlightBackground}>
-            <div className={commonStyles.contentWrapper}>
+            <div className={layoutStyles.contentWrapper}>
               <Image
                 src={WireframesImage}
                 url="/mirror/wireframes.png"
@@ -402,7 +401,7 @@ const Mirror = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -417,7 +416,7 @@ const Mirror = () => {
             <div className={cn('col--md-2')}></div>
           </div>
           <div
-            className={cn(caseStudy.segmentImage, commonStyles.contentWrapper)}
+            className={cn(caseStudy.segmentImage, layoutStyles.contentWrapper)}
           >
             <Image
               src={StyleTileImage}
@@ -436,7 +435,7 @@ const Mirror = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -456,7 +455,7 @@ const Mirror = () => {
               caseStudy.highlightBackgroundBlue,
             )}
           >
-            <div className={cn('flexGrid', commonStyles.contentWrapper)}>
+            <div className={cn('flexGrid', layoutStyles.contentWrapper)}>
               <div className={cn('col--md-1')}></div>
               <div className={cn('col--md-10')}>
                 <div className={caseStudy.imageExplanation}>
@@ -485,7 +484,7 @@ const Mirror = () => {
               caseStudy.highlightBackgroundPink,
             )}
           >
-            <div className={cn('flexGrid', commonStyles.contentWrapper)}>
+            <div className={cn('flexGrid', layoutStyles.contentWrapper)}>
               <div className={cn('col--md-6')}>
                 <div className={caseStudy.imageExplanation}>
                   <p>
@@ -531,7 +530,7 @@ const Mirror = () => {
             <div
               className={cn(
                 'flexGrid',
-                commonStyles.contentWrapper,
+                layoutStyles.contentWrapper,
                 caseStudy.segmentIntro,
               )}
             >
@@ -556,7 +555,7 @@ const Mirror = () => {
               </div>
               <div className={cn('col--md-1')}></div>
             </div>
-            <div className={cn('flexGrid', commonStyles.contentWrapper)}>
+            <div className={cn('flexGrid', layoutStyles.contentWrapper)}>
               <div className={cn('col--md-1')}></div>
               <div className={cn('col--md-10', caseStudy.imagePaddingTop)}>
                 <Image
@@ -587,7 +586,7 @@ const Mirror = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -611,10 +610,10 @@ const Mirror = () => {
       </TestingSection>
 
       {/* Wrap up */}
-      <section className={cn(pageStyles.section, pageStyles.noPadding)}>
+      <section className={cn(layoutStyles.section, layoutStyles.noPadding)}>
         <div className={caseStudy.wrappingUp}>
-          <div className={commonStyles.contentWrapper}>
-            <div className={cn('flexGrid', commonStyles.contentWrapper)}>
+          <div className={layoutStyles.contentWrapper}>
+            <div className={cn('flexGrid', layoutStyles.contentWrapper)}>
               <div className={cn('col--md-2')}></div>
               <div className={cn('col--md-8')}>
                 <h3>Takeaways</h3>

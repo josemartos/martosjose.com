@@ -1,4 +1,5 @@
-@import 'styles/base';
+@use 'styles/base/variables' as vars;
+@use 'styles/utils/functions' as functions;
 
 .container {
   display: flex;
@@ -6,20 +7,20 @@
 
 .image {
   small {
-    color: $c-secondary-light;
-    font-size: rem(16px);
+    color: vars.$c-secondary-light;
+    font-size: functions.rem(16px);
     font-weight: 300;
     padding-top: 5px;
     display: inline-block;
   }
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     margin-bottom: 40px;
   }
 }
 
 .text {
-  font-size: rem(20px);
+  font-size: functions.rem(20px);
   font-weight: 300;
 
   p {
@@ -27,6 +28,6 @@
   }
 
   a {
-    color: $c-primary;
+    color: vars.$c-primary;
   }
 }

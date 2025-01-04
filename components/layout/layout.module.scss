@@ -1,7 +1,7 @@
-@import 'styles/base';
+@use 'styles/base/variables' as vars;
 
 .container {
-  background-color: $c-secondary;
+  background-color: vars.$c-secondary;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

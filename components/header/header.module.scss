@@ -1,14 +1,14 @@
-@import 'styles/base';
+@use 'styles/base/variables' as vars;
 
 .header {
-  background-color: $c-secondary;
+  background-color: vars.$c-secondary;
   color: #fff;
   display: flex;
   align-items: center;
-  height: $header-height;
+  height: vars.$header-height;
 
-  @media screen and (max-width: $phablet) {
-    height: $header-height-sm;
+  @media screen and (max-width: vars.$phablet) {
+    height: vars.$header-height-sm;
   }
 }
 
@@ -26,7 +26,7 @@
   background-color: #fff;
 
   .logo svg {
-    fill: $c-secondary;
+    fill: vars.$c-secondary;
   }
 }
 

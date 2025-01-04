@@ -1,7 +1,8 @@
-@import 'styles/base';
+@use 'styles/base/variables' as vars;
+@use 'styles/utils/functions' as functions;
 
 .wrapper {
-  font-size: rem(20px);
+  font-size: functions.rem(20px);
 
   p {
     margin-bottom: 35px;

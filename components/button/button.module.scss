@@ -1,10 +1,12 @@
-@import 'styles/base';
+@use 'sass:color';
+@use 'styles/base/variables' as vars;
+@use 'styles/utils/functions' as functions;
 
 .button {
   background: none;
   border: none;
   color: #fff;
-  font-size: rem(16px);
+  font-size: functions.rem(16px);
   padding: 12px 32px;
   border-radius: 4px;
   transition:
@@ -20,11 +22,11 @@
 
   &:hover,
   &:focus {
-    background-color: darken($c-primary, 5%);
+    background-color: color.adjust(vars.$c-primary, $lightness: -5%);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   }
 }
 
 .primary {
-  background-color: $c-primary;
+  background-color: vars.$c-primary;
 }

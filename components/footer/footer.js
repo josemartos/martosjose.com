@@ -6,13 +6,13 @@ import GithubIcon from 'public/images/github.svg';
 import PicsIcon from 'public/images/500px.svg';
 
 // Styles
-import commonStyles from 'styles/common.module.scss';
+import layoutStyles from 'styles/components/layout.module.scss';
 import styles from './footer.module.scss';
 
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <div className={commonStyles.contentWrapper}>
+      <div className={layoutStyles.contentWrapper}>
         <div className={styles.inner}>
           <h4 className={styles.title}>
             Stay <strong>connected</strong>

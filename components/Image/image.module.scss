@@ -1,4 +1,5 @@
-@import 'styles/base';
+@use 'styles/base/variables' as vars;
+@use 'styles/utils/functions' as functions;
 
 .wrapper {
   text-align: center;
@@ -16,7 +17,7 @@
 
   a {
     display: inline-block;
-    font-size: rem(16px);
+    font-size: functions.rem(16px);
     font-weight: 300;
     padding-top: 15px;
   }

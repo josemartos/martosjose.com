@@ -1,7 +1,8 @@
-@import 'styles/base';
+@use 'styles/base/variables' as vars;
+@use 'styles/utils/functions' as functions;
 
 .item {
-  color: $c-secondary-light;
+  color: vars.$c-secondary-light;
   margin-left: 40px;
   font-weight: 300;
   position: relative;
@@ -9,7 +10,7 @@
     color 300ms,
     margin-left 200ms;
   animation: fadein 400ms;
-  font-size: rem(18px);
+  font-size: functions.rem(18px);
 
   &:hover {
     color: #fff;
@@ -19,7 +20,7 @@
     margin-left: 0;
   }
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     margin-left: 25px;
   }
 }
@@ -30,7 +31,7 @@
   &::after {
     animation: slideBorder 300ms;
     content: '';
-    color: $c-primary;
+    color: vars.$c-primary;
     position: absolute;
     width: 100%;
     height: 4px;
@@ -46,6 +47,6 @@
 .white {
   .item:hover,
   .itemActive {
-    color: $c-secondary;
+    color: vars.$c-secondary;
   }
 }

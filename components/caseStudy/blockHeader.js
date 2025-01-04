@@ -1,7 +1,7 @@
 import cn from 'classnames';
 
 // Styles
-import commonStyles from 'styles/common.module.scss';
+import layoutStyles from 'styles/components/layout.module.scss';
 import caseStudy from 'styles/components/caseStudy.module.scss';
 
 const BlockHeader = ({ title, children }) => {
@@ -9,7 +9,7 @@ const BlockHeader = ({ title, children }) => {
     <header className={caseStudy.blockHeader}>
       <div className={caseStudy.bgLeft}></div>
       <div className={caseStudy.bgRight}></div>
-      <div className={commonStyles.contentWrapper}>
+      <div className={layoutStyles.contentWrapper}>
         <div className={'flexGrid'}>
           <div className={'col--md-1'}></div>
           <div className={cn('col--md-1', caseStudy.scrollLineWrapper)}>

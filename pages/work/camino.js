@@ -17,8 +17,7 @@ import ComeInAnimation from 'animation/comeIn';
 import { CaseStudyProvider } from 'context/caseStudyContext';
 
 // Styles
-import commonStyles from 'styles/common.module.scss';
-import pageStyles from 'styles/page.module.scss';
+import layoutStyles from 'styles/components/layout.module.scss';
 import caseStudy from 'styles/components/caseStudy.module.scss';
 
 // Images
@@ -48,7 +47,7 @@ import UIDesign14Image from 'public/images/camino/ui-design14.png';
 const Camino = () => {
   return (
     <CaseStudyWrapper title="Camino | Therapist Matching App">
-      <section className={pageStyles.section}>
+      <section className={layoutStyles.section}>
         <header className={caseStudy.hero}>
           <ComeInAnimation>
             <Image
@@ -67,7 +66,7 @@ const Camino = () => {
             className={cn(
               'flexGrid',
               caseStudy.titleWrapper,
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
             )}
           >
             <div className={cn('col--md-1')}></div>
@@ -82,7 +81,7 @@ const Camino = () => {
               className={cn(
                 'flexGrid',
                 caseStudy.introContent,
-                commonStyles.contentWrapper,
+                layoutStyles.contentWrapper,
               )}
             >
               <div className={cn('col--md-1')}></div>
@@ -109,7 +108,7 @@ const Camino = () => {
         </div>
 
         <div className={caseStudy.goalsWrapper}>
-          <div className={cn('flexGrid', commonStyles.contentWrapper)}>
+          <div className={cn('flexGrid', layoutStyles.contentWrapper)}>
             <div className={cn('col--md-1')}></div>
             <div className={cn('col--md-8')}>
               <h2>Goal</h2>
@@ -148,7 +147,7 @@ const Camino = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -173,7 +172,7 @@ const Camino = () => {
             <div className={cn('col--md-2')}></div>
           </div>
           <div
-            className={cn(caseStudy.segmentImage, commonStyles.contentWrapper)}
+            className={cn(caseStudy.segmentImage, layoutStyles.contentWrapper)}
           >
             <Image
               src={ResearchRampUpImage}
@@ -192,7 +191,7 @@ const Camino = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -300,7 +299,7 @@ const Camino = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -317,7 +316,7 @@ const Camino = () => {
             <div className={cn('col--md-2')}></div>
           </div>
           <div
-            className={cn(caseStudy.segmentImage, commonStyles.contentWrapper)}
+            className={cn(caseStudy.segmentImage, layoutStyles.contentWrapper)}
           >
             <Image
               src={PersonaImage}
@@ -336,7 +335,7 @@ const Camino = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -355,7 +354,7 @@ const Camino = () => {
             <div className={cn('col--md-2')}></div>
           </div>
           <div
-            className={cn(caseStudy.segmentImage, commonStyles.contentWrapper)}
+            className={cn(caseStudy.segmentImage, layoutStyles.contentWrapper)}
           >
             <Image
               src={SitemapImage}
@@ -374,7 +373,7 @@ const Camino = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -392,7 +391,7 @@ const Camino = () => {
             <div className={cn('col--md-2')}></div>
           </div>
           <div className={caseStudy.highlightBackground}>
-            <div className={commonStyles.contentWrapper}>
+            <div className={layoutStyles.contentWrapper}>
               <Image
                 src={WireframesImage}
                 url="/camino/wireframes.png"
@@ -424,7 +423,7 @@ const Camino = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -444,7 +443,7 @@ const Camino = () => {
             <div className={cn('col--md-2')}></div>
           </div>
           <div
-            className={cn(caseStudy.segmentImage, commonStyles.contentWrapper)}
+            className={cn(caseStudy.segmentImage, layoutStyles.contentWrapper)}
           >
             <Image
               src={MoodBoardImage}
@@ -456,7 +455,7 @@ const Camino = () => {
             />
           </div>
           <div
-            className={cn(caseStudy.segmentImage, commonStyles.contentWrapper)}
+            className={cn(caseStudy.segmentImage, layoutStyles.contentWrapper)}
           >
             <Image
               src={LogoImage}
@@ -474,7 +473,7 @@ const Camino = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -489,7 +488,7 @@ const Camino = () => {
             <div className={cn('col--md-2')}></div>
           </div>
           <div
-            className={cn(caseStudy.segmentImage, commonStyles.contentWrapper)}
+            className={cn(caseStudy.segmentImage, layoutStyles.contentWrapper)}
           >
             <Image
               src={StyleTileImage}
@@ -508,7 +507,7 @@ const Camino = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -528,7 +527,7 @@ const Camino = () => {
               caseStudy.highlightBackgroundBlue,
             )}
           >
-            <div className={cn(commonStyles.contentWrapper)}>
+            <div className={cn(layoutStyles.contentWrapper)}>
               <Carousel>
                 <SwiperSlide>
                   <Image
@@ -674,7 +673,7 @@ const Camino = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -713,10 +712,10 @@ const Camino = () => {
       </TestingSection>
 
       {/* Wrap up */}
-      <section className={cn(pageStyles.section, pageStyles.noPadding)}>
+      <section className={cn(layoutStyles.section, layoutStyles.noPadding)}>
         <div className={caseStudy.wrappingUp}>
-          <div className={commonStyles.contentWrapper}>
-            <div className={cn('flexGrid', commonStyles.contentWrapper)}>
+          <div className={layoutStyles.contentWrapper}>
+            <div className={cn('flexGrid', layoutStyles.contentWrapper)}>
               <div className={cn('col--md-2')}></div>
               <div className={cn('col--md-8')}>
                 <h3>Takeaways</h3>

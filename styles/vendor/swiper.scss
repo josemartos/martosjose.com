@@ -1,6 +1,7 @@
-@import 'swiper/scss';
-@import 'swiper/scss/navigation';
-@import 'swiper/scss/pagination';
+@use 'styles/base/variables' as vars;
+@use 'swiper/scss';
+@use 'swiper/scss/navigation';
+@use 'swiper/scss/pagination';
 
 .swiper {
   width: 100%;
@@ -25,7 +26,7 @@
 }
 
 .swiper-button-disabled {
-  border-color: $c-grey300 !important;
+  border-color: vars.$c-grey300 !important;
   cursor: none;
   pointer-events: none;
 }

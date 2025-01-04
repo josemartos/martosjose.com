@@ -1,7 +1,7 @@
 import cn from 'classnames';
 
 // Styles
-import commonStyles from 'styles/common.module.scss';
+import layoutStyles from 'styles/components/layout.module.scss';
 import styles from './heroHeader.module.scss';
 
 import BracketIcon from 'public/images/bracket.svg';
@@ -9,7 +9,7 @@ import ArrowHeader from 'public/images/arrow-header.svg';
 
 const HeroHeader = ({ scrollToWork }) => {
   return (
-    <div className={commonStyles.contentWrapper}>
+    <div className={layoutStyles.contentWrapper}>
       <div className={styles.wrapper}>
         <div className={styles.content}>
           <div className={styles.bracket}>

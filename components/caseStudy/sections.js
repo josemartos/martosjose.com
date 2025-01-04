@@ -3,7 +3,7 @@ import { InView } from 'react-intersection-observer';
 import { useCaseStudy } from 'context/caseStudyContext';
 
 // Styles
-import pageStyles from 'styles/page.module.scss';
+import layoutStyles from 'styles/components/layout.module.scss';
 
 const sections = ['understand', 'define', 'design', 'testing'];
 
@@ -74,7 +74,7 @@ export const UnderstandSection = ({ children }) => {
   const { understandSectionRef } = useCaseStudy();
 
   return (
-    <section className={pageStyles.section} ref={understandSectionRef}>
+    <section className={layoutStyles.section} ref={understandSectionRef}>
       <IntersectionWrapper section="understand">{children}</IntersectionWrapper>
     </section>
   );
@@ -84,7 +84,7 @@ export const DefineSection = ({ children }) => {
   const { defineSectionRef } = useCaseStudy();
 
   return (
-    <section className={pageStyles.section} ref={defineSectionRef}>
+    <section className={layoutStyles.section} ref={defineSectionRef}>
       <IntersectionWrapper section="define">{children}</IntersectionWrapper>
     </section>
   );
@@ -94,7 +94,7 @@ export const DesignSection = ({ children }) => {
   const { designSectionRef } = useCaseStudy();
 
   return (
-    <section className={pageStyles.section} ref={designSectionRef}>
+    <section className={layoutStyles.section} ref={designSectionRef}>
       <IntersectionWrapper section="design">{children}</IntersectionWrapper>
     </section>
   );
@@ -104,7 +104,7 @@ export const TestingSection = ({ children }) => {
   const { testingSectionRef } = useCaseStudy();
 
   return (
-    <section className={pageStyles.section} ref={testingSectionRef}>
+    <section className={layoutStyles.section} ref={testingSectionRef}>
       <IntersectionWrapper section="testing">{children}</IntersectionWrapper>
     </section>
   );

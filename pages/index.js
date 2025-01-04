@@ -6,8 +6,7 @@ import { Layout, HeroHeader, Project } from 'components';
 import AppContext from 'context/appContext';
 
 // Styles
-import commonStyles from 'styles/common.module.scss';
-import pageStyles from 'styles/page.module.scss';
+import layoutStyles from 'styles/components/layout.module.scss';
 import styles from 'styles/pages/index.module.scss';
 
 // Images
@@ -42,10 +41,10 @@ export default function Home() {
       </section>
       <section
         ref={workSectionRef}
-        className={cn(pageStyles.section, styles.section)}
+        className={cn(layoutStyles.section, styles.section)}
       >
-        <div className={commonStyles.contentWrapper}>
-          <h2 className={cn(pageStyles.sectionTitle, styles.sectionTitle)}>
+        <div className={layoutStyles.contentWrapper}>
+          <h2 className={cn(layoutStyles.sectionTitle, styles.sectionTitle)}>
             Selected <strong>work</strong>
           </h2>
         </div>

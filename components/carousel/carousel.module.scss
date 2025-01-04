@@ -1,4 +1,4 @@
-@import 'styles/base';
+@use 'styles/base/variables' as vars;
 
 .carouselWrapper {
   position: relative;
@@ -20,10 +20,10 @@
   display: block;
   width: 20px;
   height: 20px;
-  border-top: 3px solid $c-secondary;
-  border-left: 3px solid $c-secondary;
+  border-top: 3px solid vars.$c-secondary;
+  border-left: 3px solid vars.$c-secondary;
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     width: 15px;
     height: 15px;
   }

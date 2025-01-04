@@ -8,7 +8,7 @@ import LogoIcon from 'public/images/logo.svg';
 import { Navbar } from 'components';
 
 // Styles
-import commonStyles from 'styles/common.module.scss';
+import layoutStyles from 'styles/components/layout.module.scss';
 import styles from './header.module.scss';
 
 const Header = () => {
@@ -18,7 +18,7 @@ const Header = () => {
     <header
       className={cn(styles.header, { [styles.white]: theme === 'white' })}
     >
-      <div className={commonStyles.contentWrapper}>
+      <div className={layoutStyles.contentWrapper}>
         <div className={styles.inner}>
           <RouterLink href="/" className={styles.logo} title="Go to homepage">
             <LogoIcon />

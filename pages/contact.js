@@ -2,15 +2,14 @@ import cn from 'classnames';
 import { BasePage, ContactForm } from 'components';
 
 // Styles
-import pageStyles from 'styles/page.module.scss';
-import commonStyles from 'styles/common.module.scss';
+import layoutStyles from 'styles/components/layout.module.scss';
 
 export default function Contact() {
   return (
     <BasePage title="Contact">
-      <section className={pageStyles.section}>
-        <div className={commonStyles.contentWrapper}>
-          <h2 className={pageStyles.sectionTitle}>
+      <section className={layoutStyles.section}>
+        <div className={layoutStyles.contentWrapper}>
+          <h2 className={layoutStyles.sectionTitle}>
             How can I <strong>help</strong>?
           </h2>
 

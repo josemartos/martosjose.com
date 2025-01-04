@@ -1,4 +1,5 @@
 @use 'sass:math';
+@use 'styles/base/variables' as vars;
 
 $grid-gap: 25px;
 $grid-columns: 12;
@@ -12,7 +13,7 @@ $grid-columns: 12;
 .flexGrid.reverse {
   flex-direction: row-reverse;
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     flex-direction: row;
   }
 }
@@ -33,7 +34,7 @@ $grid-columns: 12;
 //round flex items' width - IE
 @function round-width($i) {
   $width: math.div(100 * $i * 100, $grid-columns);
-  $roundWidth: math.div(floor($width), 100);
+  $roundWidth: math.div(math.floor($width), 100);
   @return #{$roundWidth + '%'};
 }
 
@@ -47,7 +48,7 @@ $grid-columns: 12;
   }
 }
 
-@media only screen and (min-width: $phablet) {
+@media only screen and (min-width: vars.$phablet) {
   @for $i from 1 through $grid-columns {
     .col--md-#{$i} {
       @include col;

@@ -2,16 +2,15 @@ import cn from 'classnames';
 import { BasePage } from 'components';
 
 // Styles
-import pageStyles from 'styles/page.module.scss';
-import commonStyles from 'styles/common.module.scss';
+import layoutStyles from 'styles/components/layout.module.scss';
 import styles from 'styles/pages/cookies.module.scss';
 
 export default function CookiesPolicy() {
   return (
     <BasePage title="CookiesPolicy">
-      <section className={pageStyles.section}>
-        <div className={cn(styles.wrapper, commonStyles.contentWrapper)}>
-          <h2 className={pageStyles.sectionTitle}>
+      <section className={layoutStyles.section}>
+        <div className={cn(styles.wrapper, layoutStyles.contentWrapper)}>
+          <h2 className={layoutStyles.sectionTitle}>
             <strong>Cookies</strong> policy
           </h2>
           <p>

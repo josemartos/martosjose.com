@@ -1,4 +1,5 @@
-@import 'styles/base';
+@use 'styles/base/variables' as vars;
+@use 'styles/utils/functions' as functions;
 
 .footer {
   color: #fff;
@@ -15,12 +16,12 @@
 }
 
 .title {
-  font-size: rem(32px);
+  font-size: functions.rem(32px);
   font-weight: 300;
   margin-bottom: 25px;
 
   strong {
-    color: $c-primary;
+    color: vars.$c-primary;
     display: inline-block;
     font-weight: 500;
   }
@@ -46,7 +47,7 @@
 .closing {
   display: flex;
   align-items: center;
-  font-size: rem(18px);
+  font-size: functions.rem(18px);
   font-weight: 300;
   margin-bottom: 20px;
 
@@ -54,7 +55,7 @@
     margin-left: 12px;
   }
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     text-align: center;
   }
 }

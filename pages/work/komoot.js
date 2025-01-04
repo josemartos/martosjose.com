@@ -17,8 +17,7 @@ import ComeInAnimation from 'animation/comeIn';
 import { CaseStudyProvider } from 'context/caseStudyContext';
 
 // Styles
-import commonStyles from 'styles/common.module.scss';
-import pageStyles from 'styles/page.module.scss';
+import layoutStyles from 'styles/components/layout.module.scss';
 import caseStudy from 'styles/components/caseStudy.module.scss';
 
 // Images
@@ -42,7 +41,7 @@ import UIDesign10Image from 'public/images/komoot/ui-design10.png';
 const Komoot = () => {
   return (
     <CaseStudyWrapper title="Komoot | Outdoor Activities App">
-      <section className={pageStyles.section}>
+      <section className={layoutStyles.section}>
         <header className={caseStudy.hero}>
           <ComeInAnimation>
             <Image
@@ -61,7 +60,7 @@ const Komoot = () => {
             className={cn(
               'flexGrid',
               caseStudy.titleWrapper,
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
             )}
           >
             <div className={cn('col--md-1')}></div>
@@ -76,7 +75,7 @@ const Komoot = () => {
               className={cn(
                 'flexGrid',
                 caseStudy.introContent,
-                commonStyles.contentWrapper,
+                layoutStyles.contentWrapper,
               )}
             >
               <div className={cn('col--md-1')}></div>
@@ -106,7 +105,7 @@ const Komoot = () => {
           </div>
         </div>
         <div className={caseStudy.goalsWrapper}>
-          <div className={cn('flexGrid', commonStyles.contentWrapper)}>
+          <div className={cn('flexGrid', layoutStyles.contentWrapper)}>
             <div className={cn('col--md-1')}></div>
             <div className={cn('col--md-8')}>
               <h2>Goals</h2>
@@ -145,7 +144,7 @@ const Komoot = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -161,7 +160,7 @@ const Komoot = () => {
             <div className={cn('col--md-2')}></div>
           </div>
           <div
-            className={cn(caseStudy.segmentImage, commonStyles.contentWrapper)}
+            className={cn(caseStudy.segmentImage, layoutStyles.contentWrapper)}
           >
             <Image
               src={ResearchRampUpImage}
@@ -180,7 +179,7 @@ const Komoot = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -266,7 +265,7 @@ const Komoot = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -283,7 +282,7 @@ const Komoot = () => {
             <div className={cn('col--md-2')}></div>
           </div>
           <div
-            className={cn(caseStudy.segmentImage, commonStyles.contentWrapper)}
+            className={cn(caseStudy.segmentImage, layoutStyles.contentWrapper)}
           >
             <Image
               src={PersonaImage}
@@ -302,7 +301,7 @@ const Komoot = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -317,7 +316,7 @@ const Komoot = () => {
             <div className={cn('col--md-2')}></div>
           </div>
           <div
-            className={cn(caseStudy.segmentImage, commonStyles.contentWrapper)}
+            className={cn(caseStudy.segmentImage, layoutStyles.contentWrapper)}
           >
             <Image
               src={SitemapImage}
@@ -337,7 +336,7 @@ const Komoot = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -353,7 +352,7 @@ const Komoot = () => {
             <div className={cn('col--md-2')}></div>
           </div>
           <div
-            className={cn(caseStudy.segmentImage, commonStyles.contentWrapper)}
+            className={cn(caseStudy.segmentImage, layoutStyles.contentWrapper)}
           >
             <Image
               src={UserFlowsImage}
@@ -372,7 +371,7 @@ const Komoot = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -396,7 +395,7 @@ const Komoot = () => {
             <div className={cn('col--md-2')}></div>
           </div>
           <div className={caseStudy.highlightBackground}>
-            <div className={commonStyles.contentWrapper}>
+            <div className={layoutStyles.contentWrapper}>
               <Image
                 src={WireframesImage}
                 url="/komoot/wireframes.png"
@@ -422,7 +421,7 @@ const Komoot = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -443,7 +442,7 @@ const Komoot = () => {
               caseStudy.highlightBackgroundBlue,
             )}
           >
-            <div className={cn(commonStyles.contentWrapper)}>
+            <div className={cn(layoutStyles.contentWrapper)}>
               <Carousel>
                 <SwiperSlide>
                   <Image
@@ -553,7 +552,7 @@ const Komoot = () => {
           <div
             className={cn(
               'flexGrid',
-              commonStyles.contentWrapper,
+              layoutStyles.contentWrapper,
               caseStudy.segmentIntro,
             )}
           >
@@ -577,10 +576,10 @@ const Komoot = () => {
       </TestingSection>
 
       {/* Wrap up */}
-      <section className={cn(pageStyles.section, pageStyles.noPadding)}>
+      <section className={cn(layoutStyles.section, layoutStyles.noPadding)}>
         <div className={caseStudy.wrappingUp}>
-          <div className={commonStyles.contentWrapper}>
-            <div className={cn('flexGrid', commonStyles.contentWrapper)}>
+          <div className={layoutStyles.contentWrapper}>
+            <div className={cn('flexGrid', layoutStyles.contentWrapper)}>
               <div className={cn('col--md-2')}></div>
               <div className={cn('col--md-8')}>
                 <h3>Takeaways</h3>

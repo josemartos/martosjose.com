@@ -1,7 +1,8 @@
-@import 'styles/base';
+@use 'styles/base/variables' as vars;
+@use 'styles/utils/functions' as functions;
 
 .wrapper {
-  font-size: rem(20px);
+  font-size: functions.rem(20px);
 
   p {
     margin-bottom: 35px;
@@ -23,11 +24,11 @@
 .hero {
   position: relative;
   z-index: 2;
-  max-width: $m-desktop;
+  max-width: vars.$m-desktop;
   width: 100%;
   margin: 0 auto 120px;
 
-  @media screen and (max-width: $m-desktop) {
+  @media screen and (max-width: vars.$m-desktop) {
     margin-bottom: 60px;
 
     // Wrapper element from next
@@ -40,7 +41,7 @@
 .introWrapper {
   margin-bottom: 200px;
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     margin-bottom: 100px;
   }
 }
@@ -58,7 +59,7 @@
 .titleWrapper {
   margin-bottom: 40px;
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     margin-bottom: 25px;
   }
 }
@@ -66,21 +67,21 @@
 .title {
   h1 {
     font-weight: 500;
-    font-size: rem(64px);
+    font-size: functions.rem(64px);
     line-height: 5rem;
 
-    @media screen and (max-width: $phablet) {
-      font-size: rem(48px);
+    @media screen and (max-width: vars.$phablet) {
+      font-size: functions.rem(48px);
     }
   }
 
   small {
-    color: $c-secondary-light;
+    color: vars.$c-secondary-light;
   }
 }
 
 .tagsWrapper {
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     padding-top: 35px;
   }
 }
@@ -89,18 +90,18 @@
   margin-bottom: 25px;
 
   small {
-    font-size: rem(16px);
+    font-size: functions.rem(16px);
     text-transform: uppercase;
-    color: $c-secondary;
+    color: vars.$c-secondary;
     margin-bottom: 10px;
   }
 
   p {
-    color: $c-secondary-light;
-    font-size: rem(20px);
+    color: vars.$c-secondary-light;
+    font-size: functions.rem(20px);
   }
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     margin-bottom: 15px;
   }
 }
@@ -109,14 +110,14 @@
   width: 1200px;
   height: 1200px;
   border-radius: 50%;
-  background-color: $c-grey200;
+  background-color: vars.$c-grey200;
   position: absolute;
   left: 55%;
   top: 50%;
   transform: translateY(-50%);
   z-index: 0;
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     display: none;
   }
 }
@@ -124,7 +125,7 @@
 .goalsWrapper h2 {
   margin-bottom: 40px;
   font-weight: 500;
-  font-size: rem(36px);
+  font-size: functions.rem(36px);
 }
 
 .blockHeader {
@@ -141,12 +142,12 @@
   }
 
   .scrollLine {
-    background-color: $c-primary;
+    background-color: vars.$c-primary;
     border-radius: 2px;
     height: 200px;
     width: 2px;
 
-    @media screen and (max-width: $phablet) {
+    @media screen and (max-width: vars.$phablet) {
       display: none;
     }
   }
@@ -156,10 +157,10 @@
     left: 0;
     width: 55%;
     height: 100%;
-    background-color: $c-secondary;
+    background-color: vars.$c-secondary;
     z-index: 0;
 
-    @media screen and (max-width: $phablet) {
+    @media screen and (max-width: vars.$phablet) {
       width: 100%;
     }
   }
@@ -169,10 +170,10 @@
     right: 0;
     width: 45%;
     height: 100%;
-    background-color: $c-grey200;
+    background-color: vars.$c-grey200;
     z-index: 0;
 
-    @media screen and (max-width: $phablet) {
+    @media screen and (max-width: vars.$phablet) {
       display: none;
     }
   }
@@ -185,11 +186,11 @@
 
   h2 {
     color: #fff;
-    font-size: rem(48px);
+    font-size: functions.rem(48px);
     font-weight: 500;
     width: 100%;
 
-    @media screen and (max-width: $phablet) {
+    @media screen and (max-width: vars.$phablet) {
       text-align: center;
       margin-bottom: 40px;
     }
@@ -210,20 +211,20 @@
   }
 
   h3 {
-    font-size: rem(24px);
+    font-size: functions.rem(24px);
     font-weight: 400;
     margin-bottom: 10px;
   }
 
   ul {
-    font-size: rem(20px);
+    font-size: functions.rem(20px);
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
     font-weight: 200;
   }
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     width: 100%;
     text-align: center;
     color: #fff;
@@ -233,18 +234,18 @@
 .segment {
   padding-top: 150px;
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     padding-top: 90px;
   }
 }
 
 .segmentTitle {
-  font-size: rem(36px);
+  font-size: functions.rem(36px);
   text-align: center;
   font-weight: 400;
   margin-bottom: 60px;
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     margin-bottom: 40px;
   }
 }
@@ -258,32 +259,32 @@
 .segmentImage {
   padding-top: 60px;
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     padding-top: 40px;
   }
 }
 
 .highlightBackground {
-  background-color: $c-grey200;
+  background-color: vars.$c-grey200;
   margin-top: 60px;
   padding: 150px 0;
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     margin-top: 40px;
     padding: 100px 0;
   }
 }
 
 .highlightBackgroundBlue {
-  background-color: $c-blue-light;
+  background-color: vars.$c-blue-light;
 }
 
 .highlightBackgroundPink {
-  background-color: $c-pink-light;
+  background-color: vars.$c-pink-light;
 }
 
 .userFlowImage {
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     margin-bottom: 40px;
   }
 }
@@ -293,16 +294,16 @@
 }
 
 .wrappingUp {
-  background-color: $c-grey200;
+  background-color: vars.$c-grey200;
   padding: 120px 0;
 
   h3 {
-    font-size: rem(32px);
+    font-size: functions.rem(32px);
     font-weight: 500;
     margin-bottom: 60px;
   }
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     padding: 80px 0;
   }
 }
@@ -329,15 +330,15 @@
   display: none;
 
   .navbarWrapper {
-    max-width: $m-desktop;
+    max-width: vars.$m-desktop;
     width: 100%;
     display: flex;
     justify-content: center;
   }
 
   .navbarItem {
-    color: $c-secondary;
-    font-size: rem(18px);
+    color: vars.$c-secondary;
+    font-size: functions.rem(18px);
     flex: 1;
     font-weight: 200;
     position: relative;
@@ -351,17 +352,17 @@
     padding: 5px 0;
 
     &:hover {
-      background-color: $c-grey200-hover;
+      background-color: vars.$c-grey200-hover;
     }
   }
 
   .navbarItemActive {
-    color: $c-primary;
+    color: vars.$c-primary;
     font-weight: 500;
-    background-color: $c-grey200;
+    background-color: vars.$c-grey200;
   }
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     display: none !important;
   }
 }

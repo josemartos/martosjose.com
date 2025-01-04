@@ -1,4 +1,5 @@
-@import 'styles/base';
+@use 'styles/base/variables' as vars;
+@use 'styles/utils/functions' as functions;
 
 .wrapper {
   position: relative;
@@ -11,7 +12,7 @@
   left: 0;
   top: 0;
   height: 90%;
-  background-color: $c-grey200;
+  background-color: vars.$c-grey200;
   margin-top: -35px;
 
   &.reverse {
@@ -19,7 +20,7 @@
     right: 0;
   }
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     display: none;
   }
 }
@@ -41,18 +42,18 @@
     }
   }
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     margin-bottom: 40px;
   }
 }
 
 .text {
-  font-size: rem(18px);
+  font-size: functions.rem(18px);
 
   h3 {
     font-weight: 500;
-    font-size: rem(36px);
-    line-height: rem(36px);
+    font-size: functions.rem(36px);
+    line-height: functions.rem(36px);
     margin-bottom: 16px;
   }
 
@@ -61,11 +62,11 @@
     margin-bottom: 32px;
   }
 
-  @media screen and (max-width: $phablet) {
+  @media screen and (max-width: vars.$phablet) {
     width: 100%;
   }
 
-  @media screen and (max-width: $phone) {
+  @media screen and (max-width: vars.$phone) {
     text-align: center;
   }
 }

@@ -1,4 +1,5 @@
-@import 'styles/base';
+@use 'styles/base/variables' as vars;
+@use 'styles/utils/functions' as functions;
 
 .container {
   max-width: 500px;
@@ -26,13 +27,13 @@
 
   input,
   textarea {
-    font-size: rem(16px);
-    border: 1px solid $c-grey300;
+    font-size: functions.rem(16px);
+    border: 1px solid vars.$c-grey300;
     border-radius: 3px;
     padding: 8px 15px;
 
     &::placeholder {
-      color: $c-secondary;
+      color: vars.$c-secondary;
       opacity: 0.4;
     }
   }
