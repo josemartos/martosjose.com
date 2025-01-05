@@ -1,5 +1,6 @@
 @use 'styles/base/variables' as vars;
 @use 'styles/utils/functions' as functions;
+@use 'styles/base/animations';
 
 .item {
   color: vars.$c-secondary-light;
