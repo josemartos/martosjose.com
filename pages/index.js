@@ -74,30 +74,6 @@ export default function Home() {
             reverseLayout={true}
           />
         </div>
-        <div className={homeStyles.project}>
-          <Project
-            title="Komoot"
-            description="Enhanced an existing app by adding a new social feature."
-            image={{
-              src: KomootCoverImage,
-              alt: 'Komoot - Social feature',
-            }}
-            link="/work/komoot"
-          />
-        </div>
-        <div className={homeStyles.project}>
-          <Project
-            title="Mirror"
-            description="Rebranded a clothing e-commerce platform."
-            image={{
-              src: MirrorCoverImage,
-              alt: 'Mirror design',
-              shadow: true,
-            }}
-            link="/work/mirror"
-            reverseLayout={true}
-          />
-        </div>
       </section>
     </Layout>
   );
