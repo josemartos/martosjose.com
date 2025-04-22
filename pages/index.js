@@ -12,8 +12,6 @@ import homeStyles from 'styles/modules/home.module.scss';
 // Images
 import CaminoCoverImage from 'public/images/camino/cover.png';
 import BiciBavareseCoverImage from 'public/images/bicibavarese/cover.jpg';
-import KomootCoverImage from 'public/images/komoot/cover.png';
-import MirrorCoverImage from 'public/images/mirror/cover.jpg';
 
 export default function Home() {
   const { workSectionRef, scrollToWork, workMenu, setWorkMenu } =
