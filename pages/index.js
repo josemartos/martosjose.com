@@ -61,17 +61,7 @@ export default function Home() {
             reverseLayout={true}
           />
         </div>
-        <div className={homeStyles.project}>
-          <Project
-            title="Camino"
-            description="Designed a comprehensive mobile MVP app from concept through prototyping."
-            image={{
-              src: CaminoCoverImage,
-              alt: 'Camino - MVP App',
-            }}
-            link="/work/camino"
-          />
-        </div>
+
         <div className={homeStyles.project}>
           <Project
             title="Bici Bavarese"
@@ -82,6 +72,17 @@ export default function Home() {
               shadow: true,
             }}
             link="/work/bicibavarese"
+          />
+        </div>
+        <div className={homeStyles.project}>
+          <Project
+            title="Camino"
+            description="Designed a comprehensive mobile MVP app from concept through prototyping."
+            image={{
+              src: CaminoCoverImage,
+              alt: 'Camino - MVP App',
+            }}
+            link="/work/camino"
             reverseLayout={true}
           />
         </div>
