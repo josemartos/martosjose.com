@@ -130,24 +130,14 @@ const BiciBavarese = () => {
       <UnderstandSection>
         <CaseStudyBlockHeader title="Understand">
           <div className={caseStudy.indexGroup}>
-            <h3>Secondary research</h3>
-            <ul>
-              <li>Bike shops</li>
-              <li>Current local scene</li>
-              <li>Competitor analysis</li>
-            </ul>
-          </div>
-          <div className={caseStudy.indexGroup}>
-            <h3>Primary research</h3>
-            <ul>
-              <li>User interviews</li>
-            </ul>
+            <h3>Competitor Analysis</h3>
+            <h3>User Interviews</h3>
           </div>
         </CaseStudyBlockHeader>
 
         {/* Research */}
         <div className={caseStudy.segment}>
-          <h3 className={caseStudy.segmentTitle}>Research</h3>
+          <h3 className={caseStudy.segmentTitle}>Competitor analysis</h3>
           <div
             className={cn(
               'flexGrid',
@@ -224,20 +214,10 @@ const BiciBavarese = () => {
       <DefineSection>
         <CaseStudyBlockHeader title="Define">
           <div className={caseStudy.indexGroup}>
-            <h3 className={caseStudy.titleAlone}>Persona</h3>
-          </div>
-          <div className={caseStudy.indexGroup}>
-            <h3>Information Architecture</h3>
-            <ul>
-              <li>Sitemap</li>
-            </ul>
-          </div>
-          <div className={caseStudy.indexGroup}>
-            <h3>Interaction Design</h3>
-            <ul>
-              <li>Key User Flows</li>
-              <li>Wireframes</li>
-            </ul>
+            <h3>Persona</h3>
+            <h3>Sitemap</h3>
+            <h3>User Flows</h3>
+            <h3>Wireframes</h3>
           </div>
         </CaseStudyBlockHeader>
 
@@ -401,11 +381,7 @@ const BiciBavarese = () => {
       <DesignSection>
         <CaseStudyBlockHeader title="Design">
           <h3>Brand</h3>
-          <ul>
-            <li>Mood Board</li>
-            <li>Style Tile</li>
-          </ul>
-          <h3>User Interface</h3>
+          <h3>UI Design</h3>
         </CaseStudyBlockHeader>
 
         {/* Mood Board & Style Tile */}

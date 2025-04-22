@@ -10,6 +10,7 @@ import layoutStyles from 'styles/modules/layout.module.scss';
 import homeStyles from 'styles/modules/home.module.scss';
 
 // Images
+import NewBitibaCoverImage from 'public/images/newbitiba/cover.png';
 import CaminoCoverImage from 'public/images/camino/cover.png';
 import BiciBavareseCoverImage from 'public/images/bicibavarese/cover.jpg';
 
@@ -47,6 +48,18 @@ export default function Home() {
           >
             Selected <strong>work</strong>
           </h2>
+        </div>
+        <div className={homeStyles.project}>
+          <Project
+            title="New Bitiba"
+            description="Revamping the shopping experience for a budget-friendly e-commerce platform."
+            image={{
+              src: NewBitibaCoverImage,
+              alt: 'New Bitiba - Web App',
+            }}
+            link="/work/newbitiba"
+            reverseLayout={true}
+          />
         </div>
         <div className={homeStyles.project}>
           <Project

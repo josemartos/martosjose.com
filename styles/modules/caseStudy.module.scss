@@ -14,7 +14,13 @@
   }
 
   .listTitle {
+    font-size: functions.rem(24px);
+    font-weight: 400;
     margin-bottom: 20px;
+  }
+
+  ul {
+    font-weight: 300;
   }
 
   ul:not(:last-child) {
@@ -123,10 +129,12 @@
   }
 }
 
-.goalsWrapper h2 {
-  margin-bottom: 40px;
-  font-weight: 500;
-  font-size: functions.rem(36px);
+.goalsWrapper {
+  h2 {
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: functions.rem(36px);
+  }
 }
 
 .blockHeader {
@@ -215,14 +223,6 @@
     font-size: functions.rem(24px);
     font-weight: 400;
     margin-bottom: 10px;
-  }
-
-  ul {
-    font-size: functions.rem(20px);
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-    font-weight: 200;
   }
 
   @media screen and (max-width: vars.$phablet) {

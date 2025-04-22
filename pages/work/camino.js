@@ -127,23 +127,14 @@ const Camino = () => {
       <UnderstandSection>
         <CaseStudyBlockHeader title="Understand">
           <div className={caseStudy.indexGroup}>
-            <h3>Secondary research</h3>
-            <ul>
-              <li>Competitor analysis</li>
-            </ul>
-          </div>
-          <div className={caseStudy.indexGroup}>
-            <h3>Primary research</h3>
-            <ul>
-              <li>User Interviews</li>
-              <li>Subject-matter Expert Interviews</li>
-            </ul>
+            <h3>Competitor analysis</h3>
+            <h3>User Interviews</h3>
           </div>
         </CaseStudyBlockHeader>
 
         {/* Research */}
         <div className={caseStudy.segment}>
-          <h3 className={caseStudy.segmentTitle}>Research</h3>
+          <h3 className={caseStudy.segmentTitle}>Competitor analysis</h3>
           <div
             className={cn(
               'flexGrid',
@@ -187,7 +178,7 @@ const Camino = () => {
 
         {/* Interviews */}
         <div className={caseStudy.segment}>
-          <h3 className={caseStudy.segmentTitle}>Interviews</h3>
+          <h3 className={caseStudy.segmentTitle}>User Interviews</h3>
           <div
             className={cn(
               'flexGrid',
@@ -209,9 +200,7 @@ const Camino = () => {
                 motivations.
               </p>
 
-              <p className={caseStudy.listTitle}>
-                <strong>Needs</strong>:
-              </p>
+              <h4 className={caseStudy.listTitle}>Needs</h4>
               <ul>
                 <li>
                   Recommendations are a key factor for all participants when
@@ -235,9 +224,7 @@ const Camino = () => {
                 </li>
               </ul>
 
-              <p className={caseStudy.listTitle}>
-                <strong>Frustrations</strong>:
-              </p>
+              <h4 className={caseStudy.listTitle}>Frustrations</h4>
               <ul>
                 <li>
                   All participants find the current process of finding a
@@ -250,9 +237,7 @@ const Camino = () => {
                 </li>
               </ul>
 
-              <p className={caseStudy.listTitle}>
-                <strong>Motivations</strong>:
-              </p>
+              <h4 className={caseStudy.listTitle}>Motivations</h4>
               <ul>
                 <li>
                   2 out of 4 participants believe online sessions are a good
@@ -277,19 +262,9 @@ const Camino = () => {
       <DefineSection>
         <CaseStudyBlockHeader title="Define">
           <div className={caseStudy.indexGroup}>
-            <h3 className={caseStudy.titleAlone}>Persona</h3>
-          </div>
-          <div className={caseStudy.indexGroup}>
-            <h3>Information architecture</h3>
-            <ul>
-              <li>Sitemap</li>
-            </ul>
-          </div>
-          <div className={caseStudy.indexGroup}>
-            <h3>Interaction Design</h3>
-            <ul>
-              <li>Wireframes</li>
-            </ul>
+            <h3>Persona</h3>
+            <h3>Sitemap</h3>
+            <h3>Wireframes</h3>
           </div>
         </CaseStudyBlockHeader>
 
@@ -408,13 +383,9 @@ const Camino = () => {
       {/* Design */}
       <DesignSection>
         <CaseStudyBlockHeader title="Design">
-          <h3>Brand</h3>
-          <ul>
-            <li>Mood Board</li>
-            <li>Logo</li>
-            <li>Style Tile</li>
-          </ul>
-          <h3>User Interface</h3>
+          <h3>Mood Board & Logo</h3>
+          <h3>Style Tile</h3>
+          <h3>UI Design</h3>
         </CaseStudyBlockHeader>
 
         {/* Mood Board & Style Tile */}
@@ -664,12 +635,12 @@ const Camino = () => {
       {/* Testing */}
       <TestingSection>
         <CaseStudyBlockHeader title="Testing">
-          <h3>User Testing</h3>
+          <h3>Unmoderated User Testing</h3>
         </CaseStudyBlockHeader>
 
         {/* Testing */}
         <div className={caseStudy.segment}>
-          <h3 className={caseStudy.segmentTitle}>User Testing</h3>
+          <h3 className={caseStudy.segmentTitle}>Unmoderated User Testing</h3>
           <div
             className={cn(
               'flexGrid',
