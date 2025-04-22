@@ -89,7 +89,7 @@ const Camino = () => {
               </div>
               <div className={cn('col--md-2')}></div>
               <div className={cn(caseStudy.tagsWrapper, 'col--md-4')}>
-                <CaseStudyTag label="Role" text="Product Designer" />
+                <CaseStudyTag label="Role" text="Product Designer @ zooplus" />
                 <CaseStudyTag
                   label="Skills"
                   text="Research, Interaction & UI Design, Prototyping, Testing"
@@ -139,14 +139,14 @@ const Camino = () => {
       <UnderstandSection>
         <CaseStudyBlockHeader title="Understand">
           <div className={caseStudy.indexGroup}>
-            <h3>Competitor Benchmarking</h3>
+            <h3>Competitor Analysis</h3>
             <h3>Journey Mapping</h3>
           </div>
         </CaseStudyBlockHeader>
 
-        {/* Competitor Benchmarking */}
+        {/* Competitor Analysis */}
         <div className={caseStudy.segment}>
-          <h3 className={caseStudy.segmentTitle}>Competitor Benchmarking</h3>
+          <h3 className={caseStudy.segmentTitle}>Competitor Analysis</h3>
           <div
             className={cn(
               'flexGrid',
@@ -178,7 +178,7 @@ const Camino = () => {
                 <li>
                   <strong>Key benefits:</strong> Most competitors clearly
                   highlight benefits upfront, ensuring users fully understand
-                  the value they’re signing up for.
+                  the value they're signing up for.
                 </li>
                 <li>
                   <strong>Narrative:</strong> Consistent messaging and a
@@ -554,7 +554,7 @@ const Camino = () => {
                   communication, and onboarding clarity.
                 </p>
                 <p>
-                  If I had more time, I’d explore stronger post-purchase
+                  If I had more time, I'd explore stronger post-purchase
                   engagement strategies, run A/B tests, and integrate more
                   behavioral data to track long-term performance.
                 </p>
