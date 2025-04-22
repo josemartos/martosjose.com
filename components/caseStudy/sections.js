@@ -61,7 +61,7 @@ const IntersectionWrapper = ({ children, section }) => {
         }
       }
     }
-  }, [intersectionEntry]);
+  }, [intersectionEntry, section, activeItem, setActiveItem, setShowNavbar]);
 
   return (
     <InView as="div" root={null} onChange={updateSection}>

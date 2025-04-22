@@ -34,7 +34,7 @@ import UIDesign5Image from 'public/images/newbitiba/ui-design5.png';
 import UIDesign6Image from 'public/images/newbitiba/ui-design6.png';
 import UIDesign7Image from 'public/images/newbitiba/ui-design7.png';
 
-const Camino = () => {
+const NewBitiba = () => {
   return (
     <CaseStudyWrapper title="New Bitiba | Budget-friendly e-commerce platform">
       <section className={layoutStyles.section}>
@@ -350,7 +350,7 @@ const Camino = () => {
             <div className={layoutStyles.contentWrapper}>
               <Image
                 src={ExplorationsScreensImage}
-                url="/camino/explorations-screens.png"
+                url="/newbitiba/explorations-screens.png"
                 alt="New Bitiba Explorations Screens"
                 width={1283}
                 height={2297}
@@ -573,6 +573,6 @@ const Camino = () => {
   );
 };
 
-Camino.provider = CaseStudyProvider;
+NewBitiba.provider = CaseStudyProvider;
 
-export default Camino;
+export default NewBitiba;

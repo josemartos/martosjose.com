@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, useCallback } from 'react';
 import Head from 'next/head';
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
@@ -21,10 +21,11 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
   const workSectionRef = useRef(null);
   const router = useRouter();
 
-  const scrollToWork = () => {
-    workSectionRef.current.scrollIntoView({ behavior: 'smooth' });
+  const scrollToWork = useCallback(() => {
+    workSectionRef.current?.scrollIntoView({ behavior: 'smooth' });
     setWorkMenu(false);
-  };
+  }, []);
+
   // Check if the pathname matches `/` (home) or starts with `/work`
   const shouldShowGoTopButton =
     router.pathname === '/' || router.pathname.startsWith('/work');

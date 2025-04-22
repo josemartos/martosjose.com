@@ -1,4 +1,5 @@
 import React from 'react';
+import { SITE_CONFIG } from 'lib/constants';
 
 import EmailIcon from 'public/images/email.svg';
 import LinkedinIcon from 'public/images/linkedin.svg';
@@ -19,13 +20,13 @@ const Footer = () => {
           </h4>
           <div className={styles.icons}>
             <a
-              href="mailto:martosjosele@gmail.com?subject=Hi%20Jose"
+              href={`mailto:${SITE_CONFIG.email}?subject=Hi%20Jose`}
               title="Say hi to Jose"
             >
               <EmailIcon />
             </a>
             <a
-              href="https://www.linkedin.com/in/josemmartos/"
+              href={SITE_CONFIG.social.linkedin}
               title="Visit my Linkedin profile"
               target="_blank"
               rel="noreferrer"
@@ -33,7 +34,7 @@ const Footer = () => {
               <LinkedinIcon />
             </a>
             <a
-              href="https://github.com/josemartos"
+              href={SITE_CONFIG.social.github}
               title="Visit my Github profile"
               target="_blank"
               rel="noreferrer"
@@ -41,7 +42,7 @@ const Footer = () => {
               <GithubIcon />
             </a>
             <a
-              href="https://500px.com/p/martosjosele"
+              href={SITE_CONFIG.social['500px']}
               title="Visit my 500px profile"
               target="_blank"
               rel="noreferrer"
