@@ -1,9 +1,8 @@
 import { useContext, useEffect } from 'react';
 import Head from 'next/head';
-import dynamic from 'next/dynamic';
 import cn from 'classnames';
 
-import { Layout } from 'components';
+import { Layout, HeroHeader, Project } from 'components';
 import AppContext from 'context/appContext';
 import { SITE_CONFIG } from 'lib/constants';
 
@@ -15,16 +14,6 @@ import homeStyles from 'styles/modules/home.module.scss';
 import NewBitibaCoverImage from 'public/images/newbitiba/cover.png';
 import CaminoCoverImage from 'public/images/camino/cover.png';
 import BiciBavareseCoverImage from 'public/images/bicibavarese/cover.jpg';
-
-// Dynamically import components
-const HeroHeader = dynamic(() => import('components/heroHeader'), {
-  loading: () => <div>Loading...</div>,
-  ssr: false,
-});
-
-const Project = dynamic(() => import('components/project'), {
-  loading: () => <div>Loading...</div>,
-});
 
 export default function Home() {
   const { workSectionRef, scrollToWork, workMenu, setWorkMenu } =
