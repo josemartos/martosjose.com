@@ -77,14 +77,14 @@ const NewBitiba = () => {
               <div className={cn('col--md-1')}></div>
               <div className={cn('col--md-5')}>
                 <p>
-                  As part of an initiative to refresh and scale a pet supply
-                  platform, I joined the team to strengthen the MVP ahead of
-                  launch and lead the design of a new membership concept to
-                  boost user retention. While the MVP was already developed, I
-                  identified usability gaps and contributed design refinements.
-                  Simultaneously, I led the design efforts for the new
-                  membership journey — from early research to stakeholder
-                  presentation.
+                  As part of an initiative to refresh and scale a
+                  budget-friendly pet supply platform, I joined the team to
+                  strengthen the MVP ahead of launch and lead the design of a
+                  new membership concept aimed at boosting user retention.
+                  Although the MVP was already in development, I identified
+                  usability gaps and contributed targeted design refinements. In
+                  parallel, I led the membership workstream — from early
+                  research to stakeholder presentations.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -107,9 +107,9 @@ const NewBitiba = () => {
             <div className={cn('col--md-8')}>
               <h2>Problem & Goals</h2>
               <p>
-                There was no clearly stated design problem at kickoff, but
-                through conversations and analysis, I understood the underlying
-                goals:
+                There was no clearly defined design problem at kickoff, but
+                through ongoing conversations and analysis, I uncovered the
+                underlying objectives:
               </p>
               <ul>
                 <li>
@@ -117,17 +117,17 @@ const NewBitiba = () => {
                   engagement.
                 </li>
                 <li>
-                  Introduce a lean membership model to drive user registrations
-                  and loyalty.
+                  Introduce a lean membership model to drive registrations and
+                  foster loyalty.
                 </li>
                 <li>
                   Streamline operations via centralized catalog improvements.
                 </li>
               </ul>
               <p>
-                From a design perspective, the key challenge was to bring
-                clarity to the value proposition and ensure the experience was
-                both trustworthy and conversion-focused.
+                From a design perspective, the core challenge was to clarify the
+                value proposition and ensure a trustworthy, conversion-oriented
+                experience.
               </p>
             </div>
             <div className={cn('col--md-3')}></div>

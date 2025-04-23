@@ -1,7 +1,6 @@
 import { useContext, useEffect } from 'react';
 import Head from 'next/head';
 import { Layout } from 'components';
-import { SITE_CONFIG } from 'lib/constants';
 
 import AppContext from 'context/appContext';
 
@@ -19,9 +18,7 @@ export default function BasePage({ children, title }) {
   return (
     <Layout>
       <Head>
-        <title>
-          {title} - {SITE_CONFIG.title} - Portfolio
-        </title>
+        <title>{title} - Jose Martos - Portfolio</title>
       </Head>
       {children}
     </Layout>

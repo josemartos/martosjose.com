@@ -4,7 +4,6 @@ import cn from 'classnames';
 
 import { Layout, HeroHeader, Project } from 'components';
 import AppContext from 'context/appContext';
-import { SITE_CONFIG } from 'lib/constants';
 
 // Styles
 import layoutStyles from 'styles/modules/layout.module.scss';
@@ -31,9 +30,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>
-          {SITE_CONFIG.title} - {SITE_CONFIG.description}
-        </title>
+        <title>Jose Martos - Product Designer with technical roots</title>
       </Head>
       <section className={homeStyles.homeHeader}>
         <HeroHeader scrollToWork={scrollToWork} />
