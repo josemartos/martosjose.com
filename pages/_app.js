@@ -3,6 +3,8 @@ import Head from 'next/head';
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { GoogleAnalytics } from 'lib/googleAnalytics';
+import { Title } from 'components/Title';
+import { SITE_CONFIG } from 'lib/constants';
 
 import smoothscroll from 'smoothscroll-polyfill';
 
@@ -47,6 +49,7 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
   return (
     <>
       <GoogleAnalytics />
+      <Title />
       <Head>
         <meta charSet="UTF-8" />
         <meta
@@ -59,8 +62,8 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
         />
         <meta name="author" content="Jose Martos" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="url" content="https://www.martosjose.com" />
-        <link rel="canonical" href="https://www.martosjose.com" />
+        <meta name="url" content={SITE_CONFIG.url} />
+        <link rel="canonical" href={SITE_CONFIG.url} />
 
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link
@@ -82,24 +85,30 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
           href="/favicon-16x16.png"
         />
 
-        <meta property="og:url" content="https://www.martosjose.com/" />
+        <meta property="og:url" content={SITE_CONFIG.url} />
         <meta property="og:type" content="website" />
 
-        <meta property="og:title" content="Jose Martos." />
+        <meta property="og:title" content={SITE_CONFIG.meta.title} />
         <meta
           property="og:description"
-          content="Product Designer with technical roots."
+          content={SITE_CONFIG.meta.description}
         />
-        <meta property="og:image" content="/images/social.jpg" />
-        <meta property="og:image:secure_url" content="/images/social.jpg" />
+        <meta property="og:image" content={SITE_CONFIG.meta.ogImage} />
+        <meta
+          property="og:image:secure_url"
+          content={SITE_CONFIG.meta.ogImage}
+        />
         <meta property="og:image:type" content="image/jpeg" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="627" />
-        <meta property="og:locale" content="en" />
-        <meta property="og:site_name" content="Jose Martos - Portfolio" />
-
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta
+          property="og:image:width"
+          content={SITE_CONFIG.meta.ogImageWidth}
+        />
+        <meta
+          property="og:image:height"
+          content={SITE_CONFIG.meta.ogImageHeight}
+        />
+        <meta property="og:locale" content={SITE_CONFIG.meta.ogLocale} />
+        <meta property="og:site_name" content={SITE_CONFIG.meta.ogSiteName} />
       </Head>
       <AppContext.Provider value={contextValue}>
         {shouldShowGoTopButton && <GoTopButton />}
