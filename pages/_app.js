@@ -107,6 +107,10 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
           property="og:image:height"
           content={SITE_CONFIG.meta.ogImageHeight}
         />
+        <meta
+          property="og:image:alt"
+          content={`${SITE_CONFIG.title} - ${SITE_CONFIG.description}`}
+        />
         <meta property="og:locale" content={SITE_CONFIG.meta.ogLocale} />
         <meta property="og:site_name" content={SITE_CONFIG.meta.ogSiteName} />
       </Head>

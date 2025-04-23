@@ -9,9 +9,6 @@ export const Title = ({ title }) => {
   return (
     <Head>
       <title>{fullTitle}</title>
-      <meta name="description" content={SITE_CONFIG.meta.description} />
-      <meta name="keywords" content={SITE_CONFIG.meta.keywords} />
-      <meta name="author" content={SITE_CONFIG.meta.author} />
     </Head>
   );
 };
