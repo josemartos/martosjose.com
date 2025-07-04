@@ -2,7 +2,7 @@ import { useContext, useEffect } from 'react';
 import Head from 'next/head';
 import cn from 'classnames';
 
-import { Layout, HeroHeader, Project } from 'components';
+import { Layout, HeroHeader, Project, Testimonials } from 'components';
 import AppContext from 'context/appContext';
 
 // Styles
@@ -90,6 +90,16 @@ export default function Home() {
             link="/work/camino"
             reverseLayout={true}
           />
+        </div>
+      </section>
+      <section className={cn(layoutStyles.section, homeStyles.section)}>
+        <div className={layoutStyles.contentWrapper}>
+          <h2
+            className={cn(layoutStyles.sectionTitle, homeStyles.sectionTitle)}
+          >
+            Voices from the <strong>team</strong>
+          </h2>
+          <Testimonials />
         </div>
       </section>
     </Layout>

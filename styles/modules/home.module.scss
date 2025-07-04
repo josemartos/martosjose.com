@@ -13,6 +13,10 @@
 
 .section {
   padding-top: 120px;
+
+  &:last-of-type {
+    padding-top: 0;
+  }
 }
 
 .sectionTitle {

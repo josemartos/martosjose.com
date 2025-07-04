@@ -20,3 +20,4 @@ export {
 export { default as Image } from './Image';
 export { default as Carousel } from './carousel';
 export { default as GDPRBanner } from './gdprBanner';
+export { default as Testimonials } from './testimonials';
