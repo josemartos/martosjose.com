@@ -1,10 +1,7 @@
 import React from 'react';
 import { SITE_CONFIG } from 'lib/constants';
 
-import EmailIcon from 'public/images/email.svg';
-import LinkedinIcon from 'public/images/linkedin.svg';
-import GithubIcon from 'public/images/github.svg';
-import PicsIcon from 'public/images/500px.svg';
+import { Mail, Briefcase, Code, Camera } from 'lucide-react';
 
 // Styles
 import layoutStyles from 'styles/modules/layout.module.scss';
@@ -23,7 +20,7 @@ const Footer = () => {
               href={`mailto:${SITE_CONFIG.email}?subject=Hi%20Jose`}
               title="Say hi to Jose"
             >
-              <EmailIcon />
+              <Mail color="white" size={24} strokeWidth={1.75} />
             </a>
             <a
               href={SITE_CONFIG.social.linkedin}
@@ -31,7 +28,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <LinkedinIcon />
+              <Briefcase color="white" size={24} strokeWidth={1.75} />
             </a>
             <a
               href={SITE_CONFIG.social.github}
@@ -39,7 +36,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <GithubIcon />
+              <Code color="white" size={24} strokeWidth={1.75} />
             </a>
             <a
               href={SITE_CONFIG.social['500px']}
@@ -47,7 +44,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <PicsIcon />
+              <Camera color="white" size={24} strokeWidth={1.75} />
             </a>
           </div>
           <div className={styles.closing}>
