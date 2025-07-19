@@ -2,11 +2,11 @@ import styles from './testimonials.module.scss';
 
 const testimonials = [
   {
-    name: 'Teil Wise',
-    title: 'Design Director',
+    name: 'Patricia Marí',
+    title: 'Product Manager',
     company: 'zooplus',
-    avatar: '/images/teil.jpeg',
-    text: `You've adapted to significant changes with professionalism and a positive mindset, always open to growth`,
+    avatar: '/images/patricia.jpeg',
+    text: `Special thanks for the great job you've done in the past month (at least). Not only the work itself, but the attitude, the team-work, implication, honesty, support, etc. It means a lot to me having someone like you by my side to work with, because the way you behave builds trust!`,
   },
   {
     name: 'José Acedo',
@@ -16,11 +16,11 @@ const testimonials = [
     text: `Thanks for your commitment and thoughtful collaboration. You go the extra mile to align teams, keep us informed, and stay open to feedback. It’s great working with someone so supportive and easy to communicate with!`,
   },
   {
-    name: 'Patricia Marí',
-    title: 'Product Manager',
+    name: 'Teil Wise',
+    title: 'Design Director',
     company: 'zooplus',
-    avatar: '/images/patricia.jpeg',
-    text: `Special thanks for the great job you've done in the past month (at least). Not only the work itself, but the attitude, the team-work, implication, honesty, support, etc. It means a lot to me having someone like you by my side to work with, because the way you behave builds trust!`,
+    avatar: '/images/teil.jpeg',
+    text: `You've adapted to significant changes with professionalism and a positive mindset, always open to growth`,
   },
 ];
 
