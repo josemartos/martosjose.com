@@ -21,8 +21,8 @@ const HeroHeader = ({ scrollToWork }) => {
               technical roots.
             </h1>
             <p>
-              Designing simple, scalable digital products—built on 11+ years of
-              coding and a passion for thoughtful UX.
+              Crafting thoughtful and feasible digital experiences through
+              structure, detail, and collaboration.
             </p>
           </div>
         </div>
