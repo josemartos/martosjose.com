@@ -62,7 +62,7 @@ const NewBitiba = () => {
             <div className={cn('col--md-1')}></div>
             <div className={cn('col--md-11', caseStudy.title)}>
               <h1>New Bitiba</h1>
-              <small>Web app | Nov 2024 - Feb 2025</small>
+              <small>Web app | Nov 2024 - Mar 2025</small>
             </div>
           </div>
           <div className={cn(caseStudy.introContentWrapper)}>

@@ -46,12 +46,12 @@ export default function About() {
               </p>
               <p>
                 After 11+ years as a developer across diverse projects, I
-                transitioned into UX/UI design in 2021 to blend my technical
+                transitioned into UX/UI design in 2021 to combine my technical
                 roots with a passion for crafting thoughtful, user-centered
-                digital experiences. I bring a structured, detail-driven, and
-                collaborative mindset to my work — and I'm currently exploring
-                how systems thinking, AI, and automation can help scale design
-                impact and streamline workflows.
+                digital experiences. I bring a structured, detail-oriented, and
+                collaborative mindset to my work — and I’m currently exploring
+                how systems thinking, AI, and automation can scale design impact
+                and streamline workflows.
               </p>
               <p>
                 Outside of work, I enjoy reading, biking, hiking,{' '}
@@ -62,9 +62,9 @@ export default function About() {
                 >
                   photography
                 </a>
-                , exploring, and martial arts. In 2018-2019, I solo backpacked
-                through Asia for four months — part of a journey that's taken me
-                to{' '}
+                , martial arts, and getting lost in new places. In 2018–2019, I
+                solo-backpacked through Asia for four months — part of a journey
+                that’s taken me to{' '}
                 <a
                   target="_blank"
                   href="https://visitedplaces.com/view/?map=world&projection=geoOrthographic&theme=dark-green&water=1&graticule=0&names=1&duration=2000&placeduration=100&slider=0&autoplay=1&autozoom=none&autostep=1&home=DE&places=My%20Home~DE~1_0_0_-10.4_-51*Europe~ES_DE.daaa44_GB_IE_FR_AT_NL_EE_SE_CZ_PL_BA_HR_IT_GR_NO_HU_MT_VA_ME_DK~2.4_12.1_53.3_-12.1~-53.3*Africa~MA~1.5_18_1.6_-18~-1.6*Asia~TH_KH_NP_MM_VN_JP_CN_IN~1.5_83.8_33.3~-83.8~-33.3*North%20America~US~1.6_-100.6_44.4~100.6~-44.4"
@@ -72,13 +72,13 @@ export default function About() {
                 >
                   32 countries
                 </a>
-                . Originally from Antequera, I've lived in Málaga, Madrid,
+                . Originally from Antequera, I’ve lived in Málaga, Madrid,
                 Berlin — and now call Munich home.
               </p>
               <p>
-                Since March 2023, I've also taken on my most rewarding role yet:
-                being a dad to Mila, a curious and energetic little human who's
-                brought new layers of empathy and perspective to life.
+                Since March 2023, I’ve also taken on my most rewarding role yet:
+                being a dad to Mila — a curious, energetic little human who’s
+                brought new layers of empathy and perspective to my life.
               </p>
               <p>
                 Feel free to check out my{' '}

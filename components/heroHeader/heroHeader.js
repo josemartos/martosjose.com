@@ -20,7 +20,10 @@ const HeroHeader = ({ scrollToWork }) => {
               Hi, I'm Jos&eacute; Martos, <strong>Product Designer</strong> with
               technical roots.
             </h1>
-            <p>Crafting thoughtful and meaningful digital experiences.</p>
+            <p>
+              Designing simple, scalable digital products—built on 11+ years of
+              coding and a passion for thoughtful UX.
+            </p>
           </div>
         </div>
         <div className={styles.scroll}>

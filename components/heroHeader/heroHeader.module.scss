@@ -97,7 +97,6 @@
     font-size: functions.rem(48px);
     margin-bottom: 24px;
     font-weight: 300;
-    max-width: 792px;
     line-height: 150%;
 
     & > strong {
@@ -114,6 +113,7 @@
   p {
     // TODO: Think of a cool animation here
     animation: fadein 400ms;
+    max-width: 792px;
 
     @media screen and (max-width: vars.$phablet) {
       text-align: center;
