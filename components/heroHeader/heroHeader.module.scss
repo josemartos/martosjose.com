@@ -17,7 +17,11 @@
 }
 
 .bracket {
-  margin-right: 50px;
+  margin-right: 48px;
+
+  @media screen and (max-width: vars.$tablet) {
+    margin-right: 32px;
+  }
 
   @media screen and (max-width: vars.$phablet) {
     display: none;
@@ -114,6 +118,10 @@
     // TODO: Think of a cool animation here
     animation: fadein 400ms;
     max-width: 792px;
+
+    @media screen and (max-width: vars.$tablet) {
+      max-width: 640px;
+    }
 
     @media screen and (max-width: vars.$phablet) {
       text-align: center;
