@@ -21,8 +21,8 @@ const HeroHeader = ({ scrollToWork }) => {
               technical roots.
             </h1>
             <p>
-              Crafting thoughtful and feasible digital experiences through
-              structure, detail, and collaboration.
+              Turning complexity into clarity through structured, thoughtful
+              design.
             </p>
           </div>
         </div>
