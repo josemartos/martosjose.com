@@ -21,8 +21,8 @@ const HeroHeader = ({ scrollToWork }) => {
               technical roots.
             </h1>
             <p>
-              Turning complexity into clarity through structured, thoughtful
-              design.
+              Bridging logic and empathy to shape clear, scalable product
+              experiences.
             </p>
           </div>
         </div>
