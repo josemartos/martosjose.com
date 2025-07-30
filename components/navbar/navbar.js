@@ -46,7 +46,7 @@ const Navbar = () => {
       />
       <NavbarLink href="/about" text="about" />
       <NavbarLink
-        href="/CVJoseMartos.pdf"
+        href="/CV_JoseMartos.pdf"
         text="cv"
         target="_blank"
         rel="noreferrer"
