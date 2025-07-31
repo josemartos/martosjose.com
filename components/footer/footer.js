@@ -1,7 +1,7 @@
 import React from 'react';
 import { SITE_CONFIG } from 'lib/constants';
 
-import { Mail, Briefcase, Code, Camera } from 'lucide-react';
+import { Mail, Briefcase, Code, Camera, FolderHeart } from 'lucide-react';
 
 // Styles
 import layoutStyles from 'styles/modules/layout.module.scss';
@@ -45,6 +45,14 @@ const Footer = () => {
               rel="noreferrer"
             >
               <Camera color="white" size={24} strokeWidth={1.75} />
+            </a>
+            <a
+              href={SITE_CONFIG.social.blogspot}
+              title="Visit my Blogspot profile"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FolderHeart color="white" size={24} strokeWidth={1.75} />
             </a>
           </div>
           <div className={styles.closing}>
