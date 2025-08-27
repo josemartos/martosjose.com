@@ -46,14 +46,6 @@ const Footer = () => {
             >
               <Camera color="white" size={24} strokeWidth={1.75} />
             </a>
-            <a
-              href={SITE_CONFIG.social.blogspot}
-              title="Visit my Blogspot profile"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FolderHeart color="white" size={24} strokeWidth={1.75} />
-            </a>
           </div>
           <div className={styles.closing}>
             Crafted with care using Figma and Next.js

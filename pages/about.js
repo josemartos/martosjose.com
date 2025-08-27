@@ -49,9 +49,7 @@ export default function About() {
                 transitioned into UX/UI design in 2021 to combine my technical
                 roots with a passion for crafting thoughtful, user-centered
                 digital experiences. I bring a structured, detail-oriented, and
-                collaborative mindset to my work — and I’m currently exploring
-                how systems thinking, AI, and automation can scale design impact
-                and streamline workflows.
+                collaborative mindset to my work.
               </p>
               <p>
                 Outside of work, I enjoy reading, biking, hiking,{' '}
@@ -62,7 +60,7 @@ export default function About() {
                 >
                   photography
                 </a>
-                , martial arts, and getting lost in new places. In 2018–2019, I
+                , Qigong, and getting lost in new places. In 2018–2019, I
                 solo-backpacked through Asia for four months — part of a journey
                 that’s taken me to{' '}
                 <a
