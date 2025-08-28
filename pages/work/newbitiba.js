@@ -62,7 +62,7 @@ const NewBitiba = () => {
             <div className={cn('col--md-1')}></div>
             <div className={cn('col--md-11', caseStudy.title)}>
               <h1>New Bitiba</h1>
-              <small>Web app | Nov 2024 - Mar 2025</small>
+              <small>Web app | Feb 2025 - Jun 2025</small>
             </div>
           </div>
           <div className={cn(caseStudy.introContentWrapper)}>
@@ -80,11 +80,12 @@ const NewBitiba = () => {
                   As part of an initiative to refresh and scale a
                   budget-friendly pet supply platform, I joined the team to
                   strengthen the MVP ahead of launch and lead the design of a
-                  new membership concept aimed at boosting user retention.
-                  Although the MVP was already in development, I identified
-                  usability gaps and contributed targeted design refinements. In
-                  parallel, I led the membership workstream — from early
-                  research to stakeholder presentations.
+                  new membership concept aimed at driving user registration and
+                  building a foundation for loyalty. Although the MVP was
+                  already in development, I identified usability gaps and
+                  contributed targeted design refinements. In parallel, I led
+                  the membership workstream — from early research to stakeholder
+                  presentations.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -118,7 +119,7 @@ const NewBitiba = () => {
                 </li>
                 <li>
                   Introduce a lean membership model to drive registrations and
-                  foster loyalty.
+                  foster long-term loyalty.
                 </li>
                 <li>
                   Streamline operations via centralized catalog improvements.
