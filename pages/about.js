@@ -60,7 +60,7 @@ export default function About() {
                 >
                   photography
                 </a>
-                , Qigong, and getting lost in new places. In 2018–2019, I
+                , and getting lost in new places. In 2018–2019, I
                 solo-backpacked through Asia for four months — part of a journey
                 that’s taken me to{' '}
                 <a
