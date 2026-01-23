@@ -17,12 +17,12 @@ const HeroHeader = ({ scrollToWork }) => {
           </div>
           <div>
             <h1>
-              Hi, I'm Jos&eacute; Martos, <strong>Product Designer</strong> with
-              technical roots.
+              Hi, I'm Jos&eacute; Martos, <strong>Frontend Developer</strong>{' '}
+              with Product Design experience.
             </h1>
             <p>
-              Bridging logic and empathy to shape clear, scalable product
-              experiences.
+              Building interfaces with a strong focus on usability, clarity, and
+              collaboration.
             </p>
           </div>
         </div>

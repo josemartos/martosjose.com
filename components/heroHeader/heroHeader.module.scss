@@ -117,7 +117,7 @@
   p {
     // TODO: Think of a cool animation here
     animation: fadein 400ms;
-    max-width: 792px;
+    max-width: 840px;
 
     @media screen and (max-width: vars.$tablet) {
       max-width: 640px;
