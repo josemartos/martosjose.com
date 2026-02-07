@@ -20,8 +20,8 @@ const HeroHeader = ({ scrollToWork }) => {
               Hi, I'm Jos&eacute; Martos, <strong>Frontend Developer</strong>
             </h1>
             <p>
-              Building clear, maintainable interfaces shaped by engineering and
-              product design experience.
+              Building clear, maintainable interfaces shaped by product design
+              experience.
             </p>
           </div>
         </div>
