@@ -9,6 +9,9 @@ import { SITE_CONFIG } from 'lib/constants';
 import smoothscroll from 'smoothscroll-polyfill';
 
 // Styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 import 'styles/global.scss';
 
 import AppContext from 'context/appContext';
