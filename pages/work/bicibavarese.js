@@ -619,5 +619,6 @@ const BiciBavarese = () => {
 };
 
 BiciBavarese.provider = CaseStudyProvider;
+BiciBavarese.theme = 'white';
 
 export default BiciBavarese;

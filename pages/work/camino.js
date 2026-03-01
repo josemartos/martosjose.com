@@ -720,5 +720,6 @@ const Camino = () => {
 };
 
 Camino.provider = CaseStudyProvider;
+Camino.theme = 'white';
 
 export default Camino;

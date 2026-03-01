@@ -575,5 +575,6 @@ const NewBitiba = () => {
 };
 
 NewBitiba.provider = CaseStudyProvider;
+NewBitiba.theme = 'white';
 
 export default NewBitiba;
