@@ -33,7 +33,7 @@ function About() {
             <div className="col--md-1"></div>
             <div className={cn(styles.text, 'col--md-7')}>
               <p>
-                Hi, I’m José — a Munich-based Frontend Developer currently
+                Hi, I'm José — a Munich-based Frontend Developer currently
                 working at{' '}
                 <a
                   target="_blank"
@@ -46,14 +46,14 @@ function About() {
               </p>
 
               <p>
-                I have over 11 years of experience in web development, with a
-                background that spans frontend engineering and product design. I
-                enjoy building interfaces that are clear, maintainable, and
-                grounded in real user needs.
+                Over 11 years in web development, with a stretch in the middle
+                as a Product Designer. That time on the other side of the
+                handoff changed how I think about building — I care as much
+                about why something is built as how.
               </p>
 
               <p>
-                Outside of work, I enjoy reading, biking, hiking,{' '}
+                Outside of work I'm into reading, biking, hiking,{' '}
                 <a
                   target="_blank"
                   href={SITE_CONFIG.social['500px']}
@@ -61,12 +61,12 @@ function About() {
                 >
                   photography
                 </a>
-                , and exploring new places. Between 2018 and 2019, I spent
-                several months solo-backpacking through Asia as part of a longer
-                journey that’s taken me to{' '}
+                , and getting lost in new places. Between 2018 and 2019 I spent
+                several months solo-backpacking through Asia — part of a longer
+                journey that's taken me to{' '}
                 <a
                   target="_blank"
-                  href="https://visitedplaces.com/view/?map=world&projection=geoOrthographic&theme=dark-green&water=1&graticule=0&names=1&duration=2000&placeduration=100&slider=0&autoplay=1&autozoom=none&autostep=1&home=DE&places=My%20Home~DE~1_0_0_-10.4_-51*Europe~ES_DE.daaa44_GB_IE_FR_AT_NL_EE_SE_CZ_PL_BA_HR_IT_GR_NO_HU_MT_VA_ME_DK~2.4_12.1_53.3~-12.1~-53.3*Africa~MA~1.5_18_1.6~-18~-1.6*Asia~TH_KH_NP_MM_VN_JP_CN_IN~1.5_83.8_33.3~-83.8~-33.3*North%20America~US~1.6~-100.6_44.4~100.6~-44.4"
+                  href="https://visitedplaces.com/..."
                   rel="noreferrer"
                 >
                   32 countries
@@ -75,11 +75,10 @@ function About() {
               </p>
 
               <p>
-                Originally from a town near Málaga, I’ve lived in Madrid and
-                Berlin before settling in Munich. Since March 2023, I’ve also
-                taken on my most rewarding role yet: being a dad to a curious
-                and energetic little human, which has added new layers of
-                empathy and perspective to my life.
+                Originally from near Málaga, I've lived in Madrid and Berlin
+                before landing in Munich. Since March 2023 I've also been a dad
+                — which turns out to be the most humbling and
+                perspective-shifting thing I've ever done.
               </p>
 
               <p>
@@ -91,7 +90,7 @@ function About() {
                 <RouterLink href="/contact" title="Go to contact">
                   get in touch
                 </RouterLink>{' '}
-                if you’d like to collaborate.
+                if you'd like to collaborate.
               </p>
             </div>
           </div>

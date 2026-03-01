@@ -42,7 +42,9 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Jose Martos - Product Designer with technical roots</title>
+        <title>
+          Jose Martos - I build interfaces. I've also designed them for 3 years.
+        </title>
       </Head>
       <section className={homeStyles.homeHeader}>
         <HeroHeader scrollToWork={scrollToWork} />

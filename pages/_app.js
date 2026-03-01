@@ -64,7 +64,7 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
         <meta charSet="UTF-8" />
         <meta
           name="description"
-          content="Jose Martos - Product Designer with technical roots."
+          content="Jose Martos - I build interfaces. I've also designed them for 3 years."
         />
         <meta
           name="keywords"
