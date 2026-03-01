@@ -1,4 +1,3 @@
-import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
 import { Button } from 'components/button';

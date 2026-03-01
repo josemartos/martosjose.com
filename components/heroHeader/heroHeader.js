@@ -4,8 +4,8 @@ import cn from 'classnames';
 import layoutStyles from 'styles/modules/layout.module.scss';
 import styles from './heroHeader.module.scss';
 
-import BracketIcon from 'public/images/bracket.svg';
-import ArrowHeader from 'public/images/arrow-header.svg';
+import BracketIcon from 'components/icons/BracketIcon';
+import ArrowHeader from 'components/icons/ArrowHeaderIcon';
 
 const HeroHeader = ({ scrollToWork }) => {
   return (

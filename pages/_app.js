@@ -1,6 +1,5 @@
-import { useState, useRef, useCallback } from 'react';
+import { useState, useRef, useCallback, useEffect } from 'react';
 import Head from 'next/head';
-import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { GoogleAnalytics } from 'lib/googleAnalytics';
 import { Title } from 'components/Title';
@@ -21,7 +20,7 @@ const Noop = ({ children }) => <>{children}</>;
 
 function App({ Component, pageProps, maintenanceMode = 'false' }) {
   const ComponentProvider = Component.provider || Noop;
-  const [theme, setTheme] = useState('normal');
+  const theme = Component.theme ?? 'normal';
   const [workMenu, setWorkMenu] = useState(false);
   const workSectionRef = useRef(null);
   const router = useRouter();
@@ -42,7 +41,6 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
 
   const contextValue = {
     theme,
-    setTheme,
     workSectionRef,
     scrollToWork,
     workMenu,

@@ -4,7 +4,7 @@ import { BasePage, ContactForm } from 'components';
 // Styles
 import layoutStyles from 'styles/modules/layout.module.scss';
 
-export default function Contact() {
+function Contact() {
   return (
     <BasePage title="Contact">
       <section className={layoutStyles.section}>
@@ -19,3 +19,7 @@ export default function Contact() {
     </BasePage>
   );
 }
+
+Contact.theme = 'white';
+
+export default Contact;

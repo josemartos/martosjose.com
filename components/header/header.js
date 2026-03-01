@@ -4,7 +4,7 @@ import RouterLink from 'next/link';
 
 import AppContext from 'context/appContext';
 
-import LogoIcon from 'public/images/logo.svg';
+import LogoIcon from 'components/icons/LogoIcon';
 import { Navbar } from 'components';
 
 // Styles

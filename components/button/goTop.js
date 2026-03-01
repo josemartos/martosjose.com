@@ -3,14 +3,20 @@
 import { useEffect, useRef, useState } from 'react';
 import cn from 'classnames';
 import { getCookieValue } from 'utils';
-import GoTopIcon from 'public/images/go-top-button.svg';
+import GoTopIcon from 'components/icons/GoTopIcon';
 import styles from './goTop.module.scss';
 
 const SCROLL_THRESHOLD = 1500;
 
 const GoTopButton = () => {
   const [showScroll, setShowScroll] = useState(false);
-  const [hasGdprBanner, setHasGdprBanner] = useState(false);
+  const [hasGdprBanner] = useState(() => {
+    try {
+      return !getCookieValue('gdprBanner');
+    } catch {
+      return false;
+    }
+  });
   const rafIdRef = useRef(null);
 
   const scrollTop = () => {
@@ -21,17 +27,6 @@ const GoTopButton = () => {
 
     window.scrollTo({ top: 0, behavior: prefersReduced ? 'auto' : 'smooth' });
   };
-
-  // Read cookie once on mount
-  useEffect(() => {
-    try {
-      const gdprBannerCookie = getCookieValue('gdprBanner');
-      setHasGdprBanner(!gdprBannerCookie);
-    } catch {
-      // if utils access fails on server, ignore
-      setHasGdprBanner(false);
-    }
-  }, []);
 
   // Scroll listener
   useEffect(() => {

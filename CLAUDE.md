@@ -57,5 +57,5 @@ Grid classes (`flexGrid`, `col--md-1` through `col--md-12`) come from `styles/ba
 - **Contact form** uses `@formspree/react`.
 - **Maintenance mode** can be enabled by uncommenting `App.getInitialProps` in `_app.js` and setting the `MAINTENANCE_MODE=true` env var.
 - Prettier: single quotes, 2-space indent.
-- ESLint extends `next/core-web-vitals`, `prettier`, and `jsx-a11y/recommended`.
+- ESLint 9 with flat config (`eslint.config.js`). Config composes `eslint-config-next/core-web-vitals`, `eslint-config-prettier`, and custom `jsx-a11y` rules. Note: ESLint 10 is incompatible with `eslint-config-next@16` due to a scope manager API change; stay on ESLint 9 until upstream fixes land.
 - Use comments sparingly — only for genuinely complex logic, not for self-evident code.

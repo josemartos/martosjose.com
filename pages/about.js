@@ -11,7 +11,7 @@ import styles from 'styles/modules/about.module.scss';
 // Images
 import JoseDresdenImage from 'public/images/jose-pic-dresden.jpg';
 
-export default function About() {
+function About() {
   return (
     <BasePage title="About">
       <section className={layoutStyles.section}>
@@ -100,3 +100,7 @@ export default function About() {
     </BasePage>
   );
 }
+
+About.theme = 'white';
+
+export default About;

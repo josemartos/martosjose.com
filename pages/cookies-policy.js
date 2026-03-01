@@ -5,7 +5,7 @@ import { BasePage } from 'components';
 import layoutStyles from 'styles/modules/layout.module.scss';
 import styles from 'styles/modules/cookies.module.scss';
 
-export default function CookiesPolicy() {
+function CookiesPolicy() {
   return (
     <BasePage title="CookiesPolicy">
       <section className={layoutStyles.section}>
@@ -92,3 +92,7 @@ export default function CookiesPolicy() {
     </BasePage>
   );
 }
+
+CookiesPolicy.theme = 'white';
+
+export default CookiesPolicy;

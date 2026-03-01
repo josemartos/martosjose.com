@@ -4,7 +4,7 @@ import { BasePage } from 'components';
 // Styles
 import layoutStyles from 'styles/modules/layout.module.scss';
 
-export default function Photos() {
+function Photos() {
   return (
     <BasePage title="Photos">
       <section className={layoutStyles.section}>
@@ -17,3 +17,7 @@ export default function Photos() {
     </BasePage>
   );
 }
+
+Photos.theme = 'white';
+
+export default Photos;
