@@ -103,10 +103,10 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
           property="og:description"
           content={SITE_CONFIG.meta.description}
         />
-        <meta property="og:image" content={SITE_CONFIG.meta.ogImage} />
+        <meta property="og:image" content={`${SITE_CONFIG.url}${SITE_CONFIG.meta.ogImage}`} />
         <meta
           property="og:image:secure_url"
-          content={SITE_CONFIG.meta.ogImage}
+          content={`${SITE_CONFIG.url}${SITE_CONFIG.meta.ogImage}`}
         />
         <meta property="og:image:type" content="image/jpeg" />
         <meta
