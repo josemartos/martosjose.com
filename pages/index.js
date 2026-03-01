@@ -1,9 +1,9 @@
-import { useContext, useEffect } from 'react';
+import { useEffect, useRef, useCallback } from 'react';
 import Head from 'next/head';
 import cn from 'classnames';
 
 import { Layout, HeroHeader, Project, Testimonials } from 'components';
-import AppContext from 'context/appContext';
+import { useAppContext } from 'context/appContext';
 
 // Styles
 import layoutStyles from 'styles/modules/layout.module.scss';
@@ -15,8 +15,12 @@ import CaminoCoverImage from 'public/images/camino/cover.png';
 import BiciBavareseCoverImage from 'public/images/bicibavarese/cover.jpg';
 
 export default function Home() {
-  const { workSectionRef, scrollToWork, workMenu, setWorkMenu } =
-    useContext(AppContext);
+  const { workMenu, setWorkMenu } = useAppContext();
+  const workSectionRef = useRef(null);
+
+  const scrollToWork = useCallback(() => {
+    workSectionRef.current?.scrollIntoView({ behavior: 'smooth' });
+  }, []);
 
   useEffect(() => {
     if (!workMenu) return;

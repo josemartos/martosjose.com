@@ -1,8 +1,7 @@
-import { useContext } from 'react';
 import cn from 'classnames';
 import RouterLink from 'next/link';
 
-import AppContext from 'context/appContext';
+import { useTheme } from 'context/appContext';
 
 import LogoIcon from 'components/icons/LogoIcon';
 import { Navbar } from 'components';
@@ -12,7 +11,7 @@ import layoutStyles from 'styles/modules/layout.module.scss';
 import styles from './header.module.scss';
 
 const Header = () => {
-  const { theme } = useContext(AppContext);
+  const theme = useTheme();
 
   return (
     <header

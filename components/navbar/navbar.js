@@ -1,8 +1,7 @@
-import { useContext } from 'react';
 import { useRouter } from 'next/router';
 import cn from 'classnames';
 
-import AppContext from 'context/appContext';
+import { useTheme, useAppContext } from 'context/appContext';
 
 import React from 'react';
 import RouterLink from 'next/link';
@@ -34,7 +33,8 @@ const NavbarLink = React.forwardRef(
 );
 
 const Navbar = () => {
-  const { theme, setWorkMenu } = useContext(AppContext);
+  const theme = useTheme();
+  const { setWorkMenu } = useAppContext();
 
   return (
     <div className={cn({ [styles.white]: theme === 'white' })}>

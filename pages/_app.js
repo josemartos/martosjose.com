@@ -1,4 +1,4 @@
-import { useState, useRef, useCallback, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { GoogleAnalytics } from 'lib/googleAnalytics';
@@ -13,7 +13,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'styles/global.scss';
 
-import AppContext from 'context/appContext';
+import AppContext, { ThemeContext } from 'context/appContext';
 import { Maintenance, GoTopButton, GDPRBanner } from 'components';
 
 const Noop = ({ children }) => <>{children}</>;
@@ -22,13 +22,7 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
   const ComponentProvider = Component.provider || Noop;
   const theme = Component.theme ?? 'normal';
   const [workMenu, setWorkMenu] = useState(false);
-  const workSectionRef = useRef(null);
   const router = useRouter();
-
-  const scrollToWork = useCallback(() => {
-    workSectionRef.current?.scrollIntoView({ behavior: 'smooth' });
-    setWorkMenu(false);
-  }, []);
 
   // Check if the pathname matches `/` (home) or starts with `/work`
   const shouldShowGoTopButton =
@@ -39,13 +33,11 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
     smoothscroll.polyfill();
   }, []);
 
-  const contextValue = {
-    theme,
-    workSectionRef,
-    scrollToWork,
-    workMenu,
-    setWorkMenu,
-  };
+  // setWorkMenu is stable (useState guarantee), so workMenu is the only real dep.
+  const contextValue = useMemo(
+    () => ({ workMenu, setWorkMenu }),
+    [workMenu]
+  );
 
   return (
     <>
@@ -115,19 +107,21 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
         <meta property="og:locale" content={SITE_CONFIG.meta.ogLocale} />
         <meta property="og:site_name" content={SITE_CONFIG.meta.ogSiteName} />
       </Head>
-      <AppContext.Provider value={contextValue}>
-        {shouldShowGoTopButton && <GoTopButton />}
-        {maintenanceMode === 'true' ? (
-          <Maintenance />
-        ) : (
-          <>
-            <ComponentProvider>
-              <Component {...pageProps} />
-            </ComponentProvider>
-            <GDPRBanner />
-          </>
-        )}
-      </AppContext.Provider>
+      <ThemeContext.Provider value={theme}>
+        <AppContext.Provider value={contextValue}>
+          {shouldShowGoTopButton && <GoTopButton />}
+          {maintenanceMode === 'true' ? (
+            <Maintenance />
+          ) : (
+            <>
+              <ComponentProvider>
+                <Component {...pageProps} />
+              </ComponentProvider>
+              <GDPRBanner />
+            </>
+          )}
+        </AppContext.Provider>
+      </ThemeContext.Provider>
     </>
   );
 }

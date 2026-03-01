@@ -1,6 +1,6 @@
 'use client';
 
-import { createContext, useContext, useMemo, useRef, useState } from 'react';
+import { createContext, useCallback, useContext, useMemo, useRef, useState } from 'react';
 
 const CaseStudyContext = createContext(undefined);
 
@@ -14,31 +14,34 @@ export const CaseStudyProvider = ({ children }) => {
   const designSectionRef = useRef(null);
   const testingSectionRef = useRef(null);
 
-  const scrollTo =
+  // Refs are stable — empty deps is correct and intentional here.
+  const scrollTo = useCallback(
     (ref, { offset = 0 } = {}) =>
-    () => {
-      const node = ref?.current;
-      if (!node) return;
+      () => {
+        const node = ref?.current;
+        if (!node) return;
 
-      // Respect reduced motion
-      const prefersReduced =
-        typeof window !== 'undefined' &&
-        window.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches;
+        // Respect reduced motion
+        const prefersReduced =
+          typeof window !== 'undefined' &&
+          window.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches;
 
-      if (offset) {
-        const y = window.scrollY + node.getBoundingClientRect().top - offset;
-        window.scrollTo({
-          top: y,
-          behavior: prefersReduced ? 'auto' : 'smooth',
-        });
-      } else {
-        node.scrollIntoView({
-          block: 'start',
-          inline: 'nearest',
-          behavior: prefersReduced ? 'auto' : 'smooth',
-        });
-      }
-    };
+        if (offset) {
+          const y = window.scrollY + node.getBoundingClientRect().top - offset;
+          window.scrollTo({
+            top: y,
+            behavior: prefersReduced ? 'auto' : 'smooth',
+          });
+        } else {
+          node.scrollIntoView({
+            block: 'start',
+            inline: 'nearest',
+            behavior: prefersReduced ? 'auto' : 'smooth',
+          });
+        }
+      },
+    [],
+  );
 
   const value = useMemo(
     () => ({
@@ -52,11 +55,7 @@ export const CaseStudyProvider = ({ children }) => {
       testingSectionRef,
       scrollTo,
     }),
-    [
-      activeItem,
-      showNavbar,
-      // refs are stable and don't need to be in deps
-    ],
+    [activeItem, showNavbar, scrollTo],
   );
 
   return (
