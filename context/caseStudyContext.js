@@ -1,5 +1,3 @@
-'use client';
-
 import { createContext, useCallback, useContext, useMemo, useRef, useState } from 'react';
 
 const CaseStudyContext = createContext(undefined);

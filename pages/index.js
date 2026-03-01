@@ -15,21 +15,29 @@ import CaminoCoverImage from 'public/images/camino/cover.png';
 import BiciBavareseCoverImage from 'public/images/bicibavarese/cover.jpg';
 
 export default function Home() {
-  const { workMenu, setWorkMenu } = useAppContext();
+  const { shouldScrollToWork, setShouldScrollToWork } = useAppContext();
   const workSectionRef = useRef(null);
 
   const scrollToWork = useCallback(() => {
-    workSectionRef.current?.scrollIntoView({ behavior: 'smooth' });
+    const prefersReduced =
+      typeof window !== 'undefined' &&
+      window.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches;
+
+    workSectionRef.current?.scrollIntoView({
+      behavior: prefersReduced ? 'auto' : 'smooth',
+    });
   }, []);
 
   useEffect(() => {
-    if (!workMenu) return;
+    if (!shouldScrollToWork) return;
     scrollToWork();
-  }, [workMenu, scrollToWork]);
+    setShouldScrollToWork(false);
+  }, [shouldScrollToWork, scrollToWork, setShouldScrollToWork]);
 
+  // Safety net: reset if unmounted before the effect fires
   useEffect(() => {
-    return () => setWorkMenu(false);
-  }, [setWorkMenu]);
+    return () => setShouldScrollToWork(false);
+  }, [setShouldScrollToWork]);
 
   return (
     <Layout>

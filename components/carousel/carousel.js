@@ -3,6 +3,9 @@ import { Navigation, Pagination } from 'swiper/modules';
 import { Swiper } from 'swiper/react';
 
 // Styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 import styles from './carousel.module.scss';
 
 const Carousel = ({ children }) => {

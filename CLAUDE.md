@@ -35,7 +35,7 @@ Key component groups:
 
 ### State / Context
 
-- `context/appContext.js` — Global context (theme, workMenu state, workSectionRef, scrollToWork). Provided in `_app.js`.
+- `context/appContext.js` — Global context (theme, `shouldScrollToWork` trigger). Provided in `_app.js`.
 - `context/caseStudyContext.js` — Per-case-study context (active nav section, section refs, scroll helpers). Provided via `Component.provider` on each work page.
 
 ### Styling
@@ -50,10 +50,10 @@ Grid classes (`flexGrid`, `col--md-1` through `col--md-12`) come from `styles/ba
 
 ### Other Conventions
 
-- **SVGs** are imported as React components via `@svgr/webpack` (configured in `next.config.js`).
+- **SVGs** are hand-authored as JSX React components in `components/icons/`. They are not `.svg` file imports; `next.config.js` is intentionally empty.
 - **Images** use a custom `Image` component (`components/Image/Image.js`) wrapping Next.js `<Image>`, with an optional `link` prop that opens the full image.
 - **Scroll animations** use the `ComeInAnimation` wrapper (`animation/comeIn.js`), which triggers a CSS `come-in` class via `react-intersection-observer`.
-- **Site config** (URL, social links, OG meta) lives in `lib/constants.js` (`SITE_CONFIG`).
+- **Site config** (URL, social links, OG meta) lives in `lib/constants.js` (`SITE_CONFIG`). Testimonials data also lives there as `TESTIMONIALS`.
 - **Contact form** uses `@formspree/react`.
 - **Maintenance mode** can be enabled by uncommenting `App.getInitialProps` in `_app.js` and setting the `MAINTENANCE_MODE=true` env var.
 - Prettier: single quotes, 2-space indent.

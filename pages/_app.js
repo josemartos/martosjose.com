@@ -1,16 +1,11 @@
-import { useState, useEffect, useMemo } from 'react';
+import { Component, useState, useMemo } from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { GoogleAnalytics } from 'lib/googleAnalytics';
 import { Title } from 'components/Title';
 import { SITE_CONFIG } from 'lib/constants';
 
-import smoothscroll from 'smoothscroll-polyfill';
-
 // Styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
 import 'styles/global.scss';
 
 import AppContext, { ThemeContext } from 'context/appContext';
@@ -18,29 +13,51 @@ import { Maintenance, GoTopButton, GDPRBanner } from 'components';
 
 const Noop = ({ children }) => <>{children}</>;
 
+class ErrorBoundary extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { hasError: false };
+  }
+
+  static getDerivedStateFromError() {
+    return { hasError: true };
+  }
+
+  componentDidCatch(error, info) {
+    console.error('Render error:', error, info);
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div style={{ padding: '2rem', textAlign: 'center' }}>
+          <p>Something went wrong. Please refresh the page.</p>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
+}
+
 function App({ Component, pageProps, maintenanceMode = 'false' }) {
   const ComponentProvider = Component.provider || Noop;
   const theme = Component.theme ?? 'normal';
-  const [workMenu, setWorkMenu] = useState(false);
+  const [shouldScrollToWork, setShouldScrollToWork] = useState(false);
   const router = useRouter();
 
-  // Check if the pathname matches `/` (home) or starts with `/work`
   const shouldShowGoTopButton =
     router.pathname === '/' || router.pathname.startsWith('/work');
 
-  // window object available
-  useEffect(() => {
-    smoothscroll.polyfill();
-  }, []);
+  const canonicalUrl = `${SITE_CONFIG.url}${router.asPath.split('?')[0]}`;
 
-  // setWorkMenu is stable (useState guarantee), so workMenu is the only real dep.
+  // setShouldScrollToWork is stable (useState guarantee), so shouldScrollToWork is the only real dep.
   const contextValue = useMemo(
-    () => ({ workMenu, setWorkMenu }),
-    [workMenu]
+    () => ({ shouldScrollToWork, setShouldScrollToWork }),
+    [shouldScrollToWork],
   );
 
   return (
-    <>
+    <ErrorBoundary>
       <GoogleAnalytics />
       <Title />
       <Head>
@@ -56,7 +73,7 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
         <meta name="author" content="Jose Martos" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="url" content={SITE_CONFIG.url} />
-        <link rel="canonical" href={SITE_CONFIG.url} />
+        <link rel="canonical" href={canonicalUrl} />
 
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link
@@ -122,7 +139,7 @@ function App({ Component, pageProps, maintenanceMode = 'false' }) {
           )}
         </AppContext.Provider>
       </ThemeContext.Provider>
-    </>
+    </ErrorBoundary>
   );
 }
 
