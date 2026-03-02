@@ -1,0 +1,72 @@
+import { useEffect, useRef, useState } from 'react';
+import cn from 'classnames';
+import { getCookieValue } from 'utils';
+import GoTopIcon from 'components/icons/GoTopIcon';
+import styles from './goTop.module.scss';
+
+const SCROLL_THRESHOLD = 1500;
+
+const GoTopButton = () => {
+  const [showScroll, setShowScroll] = useState(false);
+  const [hasGdprBanner] = useState(() => {
+    try {
+      return !getCookieValue('gdprBanner');
+    } catch {
+      return false;
+    }
+  });
+  const rafIdRef = useRef<number | null>(null);
+
+  const scrollTop = () => {
+    const prefersReduced =
+      typeof window !== 'undefined' &&
+      window.matchMedia &&
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    window.scrollTo({ top: 0, behavior: prefersReduced ? 'auto' : 'smooth' });
+  };
+
+  // Scroll listener
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+
+    const update = () => {
+      // coalesce state updates into rAF
+      if (rafIdRef.current !== null) return;
+      rafIdRef.current = window.requestAnimationFrame(() => {
+        rafIdRef.current = null;
+        const shouldShow = window.scrollY > SCROLL_THRESHOLD;
+        setShowScroll((prev) => (prev !== shouldShow ? shouldShow : prev));
+      });
+    };
+
+    window.addEventListener('scroll', update, { passive: true });
+    // Run once on mount to set initial state
+    update();
+
+    return () => {
+      window.removeEventListener('scroll', update);
+      if (rafIdRef.current !== null) {
+        window.cancelAnimationFrame(rafIdRef.current);
+        rafIdRef.current = null;
+      }
+    };
+  }, []);
+
+  return (
+    <button
+      type="button"
+      className={cn(styles.button, {
+        [styles.active]: showScroll,
+        [styles.hasGdprBanner]: hasGdprBanner,
+      })}
+      title="Go to top"
+      aria-label="Go to top"
+      onClick={scrollTop}
+    >
+      <GoTopIcon />
+    </button>
+  );
+};
+
+export default GoTopButton;
