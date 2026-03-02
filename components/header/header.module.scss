@@ -7,6 +7,7 @@
   display: flex;
   align-items: center;
   height: vars.$header-height;
+  transition: background-color 250ms ease;
 
   @media screen and (max-width: vars.$phablet) {
     height: vars.$header-height-sm;
@@ -21,6 +22,7 @@
 
 .logo svg {
   fill: #fff;
+  transition: fill 250ms ease;
 }
 
 .white {

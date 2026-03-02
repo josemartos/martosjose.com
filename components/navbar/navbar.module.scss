@@ -2,6 +2,11 @@
 @use 'styles/utils/functions' as functions;
 @use 'styles/base/animations';
 
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
 .item {
   color: vars.$c-secondary-light;
   margin-left: 40px;
@@ -49,5 +54,114 @@
   .item:hover,
   .itemActive {
     color: vars.$c-secondary;
+  }
+}
+
+// Burger button — visible on mobile only
+.burger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  color: #fff;
+  line-height: 0;
+
+  &:focus-visible {
+    outline: 2px solid vars.$c-primary;
+    outline-offset: 4px;
+    border-radius: 2px;
+  }
+
+  @media screen and (max-width: vars.$phablet) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.white .burger {
+  color: vars.$c-secondary;
+}
+
+// Burger SVG — hamburger bars
+.burgerBar {
+  transition: opacity 200ms ease;
+}
+
+.burgerBarMid {
+  transition: opacity 120ms ease;
+}
+
+.burgerBarHide {
+  opacity: 0;
+}
+
+// Burger SVG — × lines
+.burgerX {
+  opacity: 0;
+  transition: opacity 200ms ease;
+}
+
+.burgerXShow {
+  opacity: 1;
+}
+
+// Nav — desktop: flex row; mobile: full-screen overlay
+.nav {
+  display: flex;
+  align-items: center;
+
+  @media screen and (max-width: vars.$phablet) {
+    position: fixed;
+    top: vars.$header-height-sm;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: vars.$c-secondary;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition:
+      opacity 250ms ease,
+      visibility 0ms ease 250ms;
+    z-index: 100;
+
+    &.navOpen {
+      opacity: 1;
+      visibility: visible;
+      transition:
+        opacity 250ms ease,
+        visibility 0ms ease;
+    }
+
+    .item {
+      font-size: functions.rem(28px);
+      margin-left: 0;
+      animation: none;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+
+    .itemActive {
+      color: #fff;
+    }
+
+    // Keep white text in the dark overlay regardless of page theme
+    .white & {
+      .item {
+        color: vars.$c-secondary-light;
+      }
+
+      .item:hover,
+      .itemActive {
+        color: #fff;
+      }
+    }
   }
 }
