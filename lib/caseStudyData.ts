@@ -57,7 +57,7 @@ export interface CaseStudyImageConfig {
   width: number;
   height: number;
   quality?: number;
-  priority?: boolean;
+  preload?: boolean;
   shadow?: boolean;
   link?: boolean;
   url?: string;
@@ -93,7 +93,7 @@ export const newBitibaData: CaseStudyData = {
     alt: 'New Bitiba - Mockups',
     width: 1283,
     height: 720,
-    priority: true,
+    preload: true,
     quality: 90,
   },
   tags: {
@@ -158,7 +158,7 @@ export const caminoData: CaseStudyData = {
     alt: 'Camino App Mockups',
     width: 1283,
     height: 720,
-    priority: true,
+    preload: true,
     quality: 90,
   },
   tags: {
@@ -325,7 +325,7 @@ export const biciBavareseData: CaseStudyData = {
     alt: 'Bici Bavarese Website Mockups',
     width: 1280,
     height: 720,
-    priority: true,
+    preload: true,
     quality: 90,
   },
   tags: {

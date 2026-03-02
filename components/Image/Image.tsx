@@ -15,7 +15,7 @@ const Image = ({
   width,
   height,
   quality = 75,
-  priority = false,
+  preload = false,
   shadow,
   link,
   url,
@@ -38,7 +38,7 @@ const Image = ({
         width={width}
         height={height}
         quality={quality}
-        priority={priority}
+        preload={preload}
         placeholder="blur"
         blurDataURL={`data:image/svg+xml;base64,${Buffer.from(
           `<svg width="${width}" height="${height}" xmlns="http://www.w3.org/2000/svg"><rect width="100%" height="100%" fill="#CCCCCC"/></svg>`,

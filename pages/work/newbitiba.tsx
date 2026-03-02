@@ -362,7 +362,7 @@ const NewBitiba: CaseStudyPage = () => {
               <Carousel>
                 {newBitibaData.carousel!.map((img, i) => (
                   <SwiperSlide key={i}>
-                    <Image {...img} priority />
+                    <Image {...img} preload />
                   </SwiperSlide>
                 ))}
               </Carousel>

@@ -27,7 +27,7 @@ const About: NextPage & { theme?: string } = () => {
                 alt="Jose image - in Dresden with a camera"
                 width={411}
                 height={540}
-                priority={true}
+                preload
               />
               <small>Enjoying the sights in Dresden</small>
             </div>
