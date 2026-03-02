@@ -1,6 +1,7 @@
 import { useEffect, useRef, useCallback } from 'react';
 import Head from 'next/head';
 import cn from 'classnames';
+import { SITE_CONFIG } from 'lib/constants';
 
 import { Layout, HeroHeader, Project, Testimonials } from 'components';
 import { useAppContext } from 'context/appContext';
@@ -42,9 +43,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>
-          Jose Martos - I build interfaces. I've also designed them for 3 years.
-        </title>
+        <title>{SITE_CONFIG.meta.title}</title>
       </Head>
       <section className={homeStyles.homeHeader}>
         <HeroHeader scrollToWork={scrollToWork} />

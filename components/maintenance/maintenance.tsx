@@ -1,4 +1,5 @@
 import cn from 'classnames';
+import { SITE_CONFIG } from 'lib/constants';
 
 // Styles
 import styles from './maintenance.module.scss';
@@ -9,7 +10,7 @@ const Maintenance = () => {
       <h1 className={styles.title}>Something new is cooking</h1>
 
       <a
-        href="mailto:martosjosele@gmail.com?subject=Hi%20Jose"
+        href={`mailto:${SITE_CONFIG.email}?subject=Hi%20Jose`}
         title="Say hi"
         className={cn(styles.email, styles.link, styles.linkEffect)}
       >

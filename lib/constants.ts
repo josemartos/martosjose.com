@@ -51,7 +51,8 @@ interface SiteConfig {
 
 export const SITE_CONFIG: SiteConfig = {
   title: 'Jose Martos',
-  description: "I build interfaces. I've also designed them for +3 years.",
+  description:
+    'Frontend Developer who crossed over to Product Design for 3 years — and brought it back.',
   url: 'https://www.martosjose.com',
   email: 'martosjosele@gmail.com',
   social: {
@@ -60,16 +61,16 @@ export const SITE_CONFIG: SiteConfig = {
     '500px': 'https://500px.com/p/martosjosele',
   },
   meta: {
-    title: "Jose Martos - I build interfaces. I've also designed them for +3 years.",
+    title: 'Jose Martos — Frontend Developer',
     description:
-      "Jose Martos - I build interfaces. I've also designed them for +3 years.",
+      'Frontend Developer based in Munich with 14+ years of experience, including 3 years as a Product Designer. I build interfaces that work and feel right.',
     keywords:
-      'portfolio, ux design, ui design, product design, ux research, front-end dev',
+      'frontend developer, react, next.js, product design, ui design, munich',
     author: 'Jose Martos',
-    ogImage: '/images/social.jpg',
+    ogImage: 'https://www.martosjose.com/images/social.jpg',
     ogImageWidth: '1200',
     ogImageHeight: '627',
-    ogLocale: 'en',
-    ogSiteName: 'Jose Martos - Portfolio',
+    ogLocale: 'en_US',
+    ogSiteName: 'Jose Martos',
   },
 };

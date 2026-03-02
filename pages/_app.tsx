@@ -75,15 +75,9 @@ function App({ Component, pageProps, maintenanceMode = 'false' }: AppPropsWithPr
       <Title />
       <Head>
         <meta charSet="UTF-8" />
-        <meta
-          name="description"
-          content="Jose Martos - I build interfaces. I've also designed them for 3 years."
-        />
-        <meta
-          name="keywords"
-          content="portfolio, ux design, ui design, product design, ux research, front-end dev"
-        />
-        <meta name="author" content="Jose Martos" />
+        <meta name="description" content={SITE_CONFIG.meta.description} />
+        <meta name="keywords" content={SITE_CONFIG.meta.keywords} />
+        <meta name="author" content={SITE_CONFIG.meta.author} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="url" content={SITE_CONFIG.url} />
         <link rel="canonical" href={canonicalUrl} />
@@ -116,11 +110,8 @@ function App({ Component, pageProps, maintenanceMode = 'false' }: AppPropsWithPr
           property="og:description"
           content={SITE_CONFIG.meta.description}
         />
-        <meta property="og:image" content={`${SITE_CONFIG.url}${SITE_CONFIG.meta.ogImage}`} />
-        <meta
-          property="og:image:secure_url"
-          content={`${SITE_CONFIG.url}${SITE_CONFIG.meta.ogImage}`}
-        />
+        <meta property="og:image" content={SITE_CONFIG.meta.ogImage} />
+        <meta property="og:image:secure_url" content={SITE_CONFIG.meta.ogImage} />
         <meta property="og:image:type" content="image/jpeg" />
         <meta
           property="og:image:width"
