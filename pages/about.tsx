@@ -47,10 +47,10 @@ const About: NextPage & { theme?: string } = () => {
               </p>
 
               <p>
-                Over 11 years in web development, with a stretch in the middle
-                as a Product Designer. That time on the other side of the
-                handoff changed how I think about building — I care as much
-                about why something is built as how.
+                11+ years in web development, with 3 years as a Product Designer
+                in between. That time on the other side of the handoff changed
+                how I think about building — I care as much about why something
+                is built as how.
               </p>
 
               <p>
@@ -77,9 +77,8 @@ const About: NextPage & { theme?: string } = () => {
 
               <p>
                 Originally from near Málaga, I've lived in Madrid and Berlin
-                before landing in Munich. Since March 2023 I've also been a dad
-                — which turns out to be the most humbling and
-                perspective-shifting thing I've ever done.
+                before settling in Munich. Since March 2023 I've also been a dad
+                — still the most humbling thing I've ever done.
               </p>
 
               <p>
