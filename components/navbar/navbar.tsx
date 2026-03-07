@@ -137,7 +137,11 @@ const Navbar = ({ isOpen, setIsOpen }: NavbarProps) => {
   }, [isOpen]);
 
   return (
-    <div className={cn(styles.wrapper, { [styles.white]: theme === 'white' && !isOpen })}>
+    <div
+      className={cn(styles.wrapper, {
+        [styles.white]: theme === 'white' && !isOpen,
+      })}
+    >
       <button
         ref={burgerRef}
         className={styles.burger}
@@ -157,8 +161,8 @@ const Navbar = ({ isOpen, setIsOpen }: NavbarProps) => {
           }}
           scroll={false}
         />
+        <NavbarLink href="/story" text="story" onClick={close} />
         <NavbarLink href="/about" text="about" onClick={close} />
-        <NavbarLink href="/CV_JoseMartos.pdf" text="cv" target="_blank" onClick={close} />
         <NavbarLink href="/contact" text="contact" onClick={close} />
       </nav>
     </div>

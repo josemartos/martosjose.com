@@ -1,0 +1,261 @@
+@use 'styles/base/variables' as vars;
+@use 'styles/utils/functions' as functions;
+
+// ─── Intro ────────────────────────────────────────────────────────────────────
+
+.introBg {
+  width: 100%;
+  background: vars.$c-grey100;
+  padding: 60px 0 72px;
+  margin-bottom: 80px;
+
+  @media screen and (max-width: vars.$phablet) {
+    padding: 40px 0 56px;
+    margin-bottom: 56px;
+  }
+}
+
+.introGrid {
+  display: flex;
+  align-items: center;
+
+  @media screen and (max-width: vars.$phablet) {
+    flex-direction: column;
+  }
+}
+
+.introImageCol {
+  @media screen and (max-width: vars.$phablet) {
+    margin-bottom: 36px;
+    width: 100%;
+    max-width: 200px;
+  }
+}
+
+.introImageWrapper {
+  border-radius: 50%;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  width: 100%;
+
+  img {
+    display: block;
+  }
+
+  @media screen and (min-width: vars.$phablet) {
+    max-width: 300px;
+  }
+}
+
+.introText {
+  font-size: functions.rem(20px);
+  font-weight: 300;
+  color: vars.$c-secondary;
+
+  p {
+    margin-bottom: 24px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// ─── Section blocks ───────────────────────────────────────────────────────────
+
+.narrowContent {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.storySectionTitle {
+  font-size: functions.rem(24px);
+  font-weight: 400;
+  color: vars.$c-secondary;
+  margin: 0 0 40px;
+}
+
+.sectionBlock {
+  margin-bottom: 100px;
+
+  @media screen and (max-width: vars.$phablet) {
+    margin-bottom: 72px;
+  }
+}
+
+// ─── Experience timeline ──────────────────────────────────────────────────────
+
+$line-x: 10px;
+
+.timeline {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: $line-x;
+    top: 10px;
+    bottom: 0;
+    width: 2px;
+    background: vars.$c-grey300;
+    transform: translateX(-50%);
+  }
+}
+
+// ─── Education & Courses ──────────────────────────────────────────────────────
+
+.educationGroup {
+  margin-bottom: 48px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.educationGroupTitle {
+  font-size: functions.rem(13px);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: vars.$c-secondary-light;
+  margin: 0 0 20px;
+}
+
+.educationList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.educationItem {
+  padding: 16px 0;
+  border-bottom: 1px solid vars.$c-grey200;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.educationCourse {
+  display: block;
+  font-size: functions.rem(16px);
+  font-weight: 500;
+  color: vars.$c-secondary;
+  margin-bottom: 4px;
+}
+
+.educationMeta {
+  display: block;
+  font-size: functions.rem(14px);
+  font-weight: 300;
+  color: vars.$c-secondary-light;
+}
+
+// ─── Skills ───────────────────────────────────────────────────────────────────
+
+.skillsList {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.skillCategory {
+  font-size: functions.rem(11px);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: vars.$c-secondary-light;
+  margin: 0 0 8px;
+}
+
+.skillPills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skillPill {
+  font-size: functions.rem(14px);
+  font-weight: 400;
+  color: vars.$c-secondary;
+  background: vars.$c-grey200;
+  padding: 6px 14px;
+  border-radius: 100px;
+}
+
+// ─── Languages & Interests ────────────────────────────────────────────────────
+
+.langInterests {
+  display: flex;
+  gap: 80px;
+
+  @media screen and (max-width: vars.$phablet) {
+    flex-direction: column;
+    gap: 48px;
+  }
+}
+
+.langBlock,
+.interestsBlock {
+  flex: 1;
+}
+
+.langList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.langItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 14px 0;
+  border-bottom: 1px solid vars.$c-grey200;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.langName {
+  font-size: functions.rem(16px);
+  font-weight: 400;
+  color: vars.$c-secondary;
+}
+
+.langLevel {
+  font-size: functions.rem(13px);
+  font-weight: 300;
+  color: vars.$c-secondary-light;
+}
+
+// ─── CV Download ─────────────────────────────────────────────────────────────
+
+.cvDownload {
+  display: flex;
+  justify-content: center;
+
+  @media screen and (max-width: vars.$phablet) {
+    padding-top: 56px;
+  }
+}
+
+.cvLink {
+  display: inline-flex;
+  align-items: center;
+  font-size: functions.rem(16px);
+  font-weight: 500;
+  color: vars.$c-secondary;
+  border: 2px solid vars.$c-secondary;
+  padding: 12px 32px;
+  border-radius: 12px;
+  transition:
+    background 220ms ease,
+    color 220ms ease;
+
+  &:hover {
+    background: vars.$c-secondary;
+    color: #fff;
+  }
+}

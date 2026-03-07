@@ -1,0 +1,138 @@
+@use 'sass:math';
+@use 'styles/base/variables' as vars;
+@use 'styles/utils/functions' as functions;
+
+$line-x: 10px;
+$dot-size: 12px;
+$content-indent: 44px;
+
+.item {
+  position: relative;
+  padding: 0 0 52px $content-indent;
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 500ms ease,
+    transform 500ms ease;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+
+  &.itemVisible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dot {
+  position: absolute;
+  left: $line-x - math.div($dot-size, 2);
+  top: 6px;
+  width: $dot-size;
+  height: $dot-size;
+  border-radius: 50%;
+  background: vars.$c-grey300;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 2px vars.$c-grey300;
+  transition:
+    background 200ms ease,
+    box-shadow 200ms ease;
+
+  &.dot--fe {
+    background: vars.$c-blue;
+    box-shadow: 0 0 0 2px vars.$c-blue;
+  }
+
+  &.dot--design {
+    background: vars.$c-primary;
+    box-shadow: 0 0 0 2px vars.$c-primary;
+  }
+
+  &.dot--hybrid {
+    background: vars.$c-secondary-light;
+    box-shadow: 0 0 0 2px vars.$c-secondary-light;
+  }
+
+  &.dotActive {
+    width: $dot-size + 4px;
+    height: $dot-size + 4px;
+    left: $line-x - math.div($dot-size + 4px, 2);
+    top: 4px;
+  }
+}
+
+.content {
+  transition: border-left-color 200ms ease;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  font-size: functions.rem(12px);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+
+  &.tag--fe {
+    background: vars.$c-blue-light;
+    color: vars.$c-blue;
+  }
+
+  &.tag--design {
+    background: vars.$c-primary-light;
+    color: vars.$c-primary;
+  }
+
+  &.tag--hybrid {
+    background: vars.$c-grey200;
+    color: vars.$c-secondary-light;
+  }
+}
+
+.period {
+  font-size: functions.rem(14px);
+  font-weight: 300;
+  color: vars.$c-secondary-light;
+}
+
+.title {
+  font-size: functions.rem(20px);
+  font-weight: 500;
+  margin: 0 0 12px;
+  color: vars.$c-secondary;
+}
+
+.company {
+  font-weight: 300;
+  color: vars.$c-secondary-light;
+}
+
+.bullets {
+  list-style: disc;
+  padding-left: 18px;
+  margin: 0;
+
+  li {
+    font-size: functions.rem(16px);
+    font-weight: 300;
+    color: vars.$c-secondary;
+    line-height: 1.65;
+    margin-bottom: 6px;
+    list-style: disc;
+    margin-left: 24px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
