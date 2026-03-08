@@ -155,6 +155,7 @@ const SKILLS: SkillCategory[] = [
       'HTML',
       'CSS / SASS',
       'JavaScript',
+      'TypeScript',
       'React',
       'Next.js',
       'Webpack',
@@ -163,15 +164,7 @@ const SKILLS: SkillCategory[] = [
   },
   {
     category: 'Tools',
-    items: [
-      'VS Code',
-      'Figma',
-      'Git',
-      'ChatGPT',
-      'Claude',
-      'Perplexity',
-      'Maze',
-    ],
+    items: ['VS Code', 'Figma', 'ChatGPT', 'Claude Code', 'Perplexity', 'Maze'],
   },
   {
     category: 'Design',
@@ -280,44 +273,44 @@ const Story: NextPage & { theme?: string } = () => {
             <div className={styles.sectionBlock}>
               <h3 className={styles.storySectionTitle}>Learning</h3>
               <div className={styles.educationGroup}>
-                  <h4 className={styles.educationGroupTitle}>Education</h4>
-                  <ul className={styles.educationList}>
-                    {educationItems.map((item, i) => (
-                      <li key={i} className={styles.educationItem}>
-                        <ComeInAnimation>
-                          <>
-                            <span className={styles.educationCourse}>
-                              {item.course} @ {item.institution}
-                            </span>
-                            <span className={styles.educationMeta}>
-                              {item.duration} · {item.year}
-                            </span>
-                          </>
-                        </ComeInAnimation>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+                <h4 className={styles.educationGroupTitle}>Education</h4>
+                <ul className={styles.educationList}>
+                  {educationItems.map((item, i) => (
+                    <li key={i} className={styles.educationItem}>
+                      <ComeInAnimation>
+                        <>
+                          <span className={styles.educationCourse}>
+                            {item.course} @ {item.institution}
+                          </span>
+                          <span className={styles.educationMeta}>
+                            {item.duration} · {item.year}
+                          </span>
+                        </>
+                      </ComeInAnimation>
+                    </li>
+                  ))}
+                </ul>
+              </div>
 
-                <div className={styles.educationGroup}>
-                  <h4 className={styles.educationGroupTitle}>Courses</h4>
-                  <ul className={styles.educationList}>
-                    {courseItems.map((item, i) => (
-                      <li key={i} className={styles.educationItem}>
-                        <ComeInAnimation>
-                          <>
-                            <span className={styles.educationCourse}>
-                              {item.course} @ {item.institution}
-                            </span>
-                            <span className={styles.educationMeta}>
-                              {item.duration} · {item.year}
-                            </span>
-                          </>
-                        </ComeInAnimation>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+              <div className={styles.educationGroup}>
+                <h4 className={styles.educationGroupTitle}>Courses</h4>
+                <ul className={styles.educationList}>
+                  {courseItems.map((item, i) => (
+                    <li key={i} className={styles.educationItem}>
+                      <ComeInAnimation>
+                        <>
+                          <span className={styles.educationCourse}>
+                            {item.course} @ {item.institution}
+                          </span>
+                          <span className={styles.educationMeta}>
+                            {item.duration} · {item.year}
+                          </span>
+                        </>
+                      </ComeInAnimation>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
             {/* Skills */}
             <div className={styles.sectionBlock}>
@@ -329,7 +322,9 @@ const Story: NextPage & { theme?: string } = () => {
                       <p className={styles.skillCategory}>{skill.category}</p>
                       <div className={styles.skillPills}>
                         {skill.items.map((item) => (
-                          <span key={item} className={styles.skillPill}>{item}</span>
+                          <span key={item} className={styles.skillPill}>
+                            {item}
+                          </span>
                         ))}
                       </div>
                     </div>
