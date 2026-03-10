@@ -47,7 +47,7 @@ const About: NextPage & { theme?: string } = () => {
               </p>
 
               <p>
-                11+ years in web development, with 3+ years as a Product
+                15+ years in web development, with 3+ years as a Product
                 Designer in between. That time on the other side of the handoff
                 changed how I think about building — I care as much about why
                 something is built as how.
