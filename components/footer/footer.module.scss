@@ -28,19 +28,15 @@
 }
 
 .icons {
-  display: flex;
   align-items: center;
+  display: flex;
+  gap: 24px;
   margin-bottom: 70px;
 
   > a {
-    margin-left: 20px;
     display: inline-block;
     width: 24px;
     height: 24px;
-
-    &:first-child {
-      margin-left: 0;
-    }
   }
 }
 
