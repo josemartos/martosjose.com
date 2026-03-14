@@ -63,10 +63,11 @@ const Camino: CaseStudyPage = () => {
               <div className={cn('col--md-1')}></div>
               <div className={cn('col--md-5')}>
                 <p>
-                  In this project, I delved into the topic of mental health.
-                  Conducting user and expert interviews was particularly
-                  insightful, reaffirming that the process of finding therapy in
-                  Germany is outdated and ripe for new, innovative solutions.
+                  Finding a therapist in Germany is genuinely difficult — long
+                  waiting lists, outdated directories, no clear way to match on
+                  what actually matters. As a project for Designlab's UX
+                  Academy, I designed the full MVP around that problem: from
+                  early research through to a tested, clickable prototype.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -86,9 +87,9 @@ const Camino: CaseStudyPage = () => {
             <div className={cn('col--md-8')}>
               <h2>Goal</h2>
               <p>
-                Design an MVP app to efficiently match patients with the right
-                therapist, emphasizing thorough research and incorporating
-                branding and identity elements.
+                Design a mobile app that connects people with the right
+                therapist — reducing the friction of an outdated process
+                without losing the sensitivity the subject demands.
               </p>
             </div>
             <div className={cn('col--md-3')}></div>
@@ -118,19 +119,10 @@ const Camino: CaseStudyPage = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                My initial focus was to deeply understand the scope of the
-                problem and the current state of the market.
-              </p>
-              <p>
-                This idea stemmed from conversations with my girlfriend. With so
-                many existing solutions out there, it was challenging to find a
-                truly unfilled niche. However, competition isn't a negative
-                thing—it often validates the need for a solution. No idea is
-                completely original, and there's always room for improvement.
-              </p>
-              <p>
-                Below, you can see a comparison of three primary competitors and
-                their features.
+                The idea came from a personal conversation. Before going
+                anywhere near a screen, I mapped the existing landscape — local
+                providers and international apps — to understand how the space
+                was being served, and where the real gaps were.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -409,9 +401,9 @@ const Camino: CaseStudyPage = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                The final UI design was crafted to be modern, warm, and
-                inviting. After several rounds of testing and user feedback, the
-                following screens represent the polished, final version.
+                The final screens prioritize clarity and calm. The subject
+                matter required a design that felt safe to use — not clinical,
+                not transactional.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -494,24 +486,18 @@ const Camino: CaseStudyPage = () => {
               <div className={cn('col--md-8')}>
                 <h3>Takeaways</h3>
                 <p>
-                  I applied the learnings from my previous project to create a
-                  more comprehensive Maze test, asking detailed questions to
-                  obtain deeper insights. This resulted in a well-thought-out
-                  set of design blocks.
+                  Sixteen participants is a solid number for an unmoderated
+                  test, and the results gave clear direction. The "Get Matched"
+                  flow worked better than expected. The copy needed the most
+                  work — "Your way to a better self" reads as judgmental to
+                  enough people that it matters.
                 </p>
                 <p>
-                  As a next step, I would further iterate on the "Get Matched"
-                  feature by conducting additional interviews with users and
-                  subject-matter experts. I would also explore implementing a
-                  dark mode, which was requested by a user and is increasingly
-                  popular.
+                  Next steps: more interviews with users and therapists to
+                  pressure-test the matching flow, and a dark mode — which came
+                  up unprompted from a participant and is clearly worth
+                  exploring.
                 </p>
-                <p>
-                  Overall, this experience was incredibly enriching. I felt that
-                  all my design skills came together to create what I consider
-                  to be my most complete project to date.
-                </p>
-                <p>Thanks for reading!</p>
               </div>
               <div className={cn('col--md-2')}></div>
             </div>

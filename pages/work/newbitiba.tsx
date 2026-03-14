@@ -63,15 +63,13 @@ const NewBitiba: CaseStudyPage = () => {
               <div className={cn('col--md-1')}></div>
               <div className={cn('col--md-5')}>
                 <p>
-                  As part of an initiative to refresh and scale a
-                  budget-friendly pet supply platform, I joined the team to
-                  strengthen the MVP ahead of launch and lead the design of a
-                  new membership concept aimed at driving user registration and
-                  building a foundation for loyalty. Although the MVP was
-                  already in development, I identified usability gaps and
-                  contributed targeted design refinements. In parallel, I led
-                  the membership workstream — from early research to stakeholder
-                  presentations.
+                  Bitiba was relaunching as a leaner, price-first pet supply
+                  platform. I joined mid-development as the design lead —
+                  tasked with tightening the MVP before launch and shaping a
+                  new membership concept from scratch. That meant identifying
+                  usability gaps in a live build, researching loyalty models,
+                  and taking a membership concept from early research to tested
+                  prototype in four months.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>
@@ -91,27 +89,26 @@ const NewBitiba: CaseStudyPage = () => {
             <div className={cn('col--md-8')}>
               <h2>Problem & Goals</h2>
               <p>
-                There was no clearly defined design problem at kickoff, but
-                through ongoing conversations and analysis, I uncovered the
-                underlying objectives:
+                There was no single design brief at kickoff. Through stakeholder
+                conversations and early analysis, I shaped the scope around
+                three core objectives:
               </p>
               <ul>
                 <li>
-                  Differentiate the platform through pricing and customer
-                  engagement.
+                  Make the platform's price advantage visible and credible.
                 </li>
                 <li>
                   Introduce a lean membership model to drive registrations and
-                  foster long-term loyalty.
+                  build long-term loyalty.
                 </li>
                 <li>
                   Streamline operations via centralized catalog improvements.
                 </li>
               </ul>
               <p>
-                From a design perspective, the core challenge was to clarify the
-                value proposition and ensure a trustworthy, conversion-oriented
-                experience.
+                The design challenge was simpler to state than to solve: make
+                the value obvious, the sign-up frictionless, and the experience
+                trustworthy.
               </p>
             </div>
             <div className={cn('col--md-3')}></div>
@@ -338,15 +335,12 @@ const NewBitiba: CaseStudyPage = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                Here's a look at the final UI design, shaped by our research and
-                iteration process. The focus remained on clarity, trust, and
-                ease of use across key touchpoints, from product pages to
-                checkout.
-              </p>
-              <p>
-                I paid particular attention to price presentation and membership
-                messaging—balancing visual hierarchy, tone, and color to help
-                users recognize savings without confusion or friction.
+                The final screens reflect the decisions made upstream — clarity
+                at every touchpoint, from product pages to checkout. Price
+                visibility and membership messaging were the hardest problems
+                to solve: the savings had to be obvious without feeling pushy,
+                and the hierarchy had to work for both members and non-members
+                at the same time.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -438,28 +432,17 @@ const NewBitiba: CaseStudyPage = () => {
               <div className={cn('col--md-8')}>
                 <h3>Takeaways</h3>
                 <p>
-                  This project allowed me to shape a leaner, more transparent
-                  membership experience by balancing user needs with business
-                  goals. From aligning with stakeholders to hands-on testing,
-                  each step helped guide focused, evidence-based iterations.
-                </p>
-                <p>
-                  Early journey mapping was instrumental in bringing the team
-                  together, while competitive benchmarking and lightweight user
-                  research offered clarity on opportunities and best practices.
-                  Moderated testing later confirmed key assumptions and surfaced
-                  areas for refinement—especially around copy, savings
-                  communication, and onboarding clarity.
+                  A live platform, tight timelines, and stakeholders with
+                  strong opinions on scope. The constraints were real — and
+                  they made the work sharper. Journey mapping aligned the team
+                  early; competitive research clarified direction; moderated
+                  testing confirmed what worked and surfaced what didn't —
+                  especially around savings messaging and onboarding clarity.
                 </p>
                 <p>
                   If I had more time, I'd explore stronger post-purchase
-                  engagement strategies, run A/B tests, and integrate more
-                  behavioral data to track long-term performance.
-                </p>
-                <p>
-                  Overall, this project strengthened my ability to work across
-                  disciplines, iterate quickly, and advocate for users while
-                  delivering on strategic priorities.
+                  engagement, run A/B tests, and bring in more behavioral data
+                  to track performance over time.
                 </p>
               </div>
               <div className={cn('col--md-2')}></div>

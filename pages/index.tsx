@@ -62,7 +62,7 @@ export default function Home() {
         <div className={homeStyles.project}>
           <Project
             title="New Bitiba"
-            description="Revamping the shopping experience for a budget-friendly e-commerce platform."
+            description="E-commerce redesign that moved the needle on purchases — across discovery, cart, and checkout."
             image={{
               src: NewBitibaCoverImage,
               alt: 'New Bitiba - Web App',
@@ -77,7 +77,7 @@ export default function Home() {
         <div className={homeStyles.project}>
           <Project
             title="Bici Bavarese"
-            description="Researched and redesigned the digital experience for a local bike shop."
+            description="Research-led redesign for a Munich bike shop — understanding the customer first, then fixing the screen."
             image={{
               src: BiciBavareseCoverImage,
               alt: 'Bike store re-design',
@@ -91,7 +91,7 @@ export default function Home() {
         <div className={homeStyles.project}>
           <Project
             title="Camino"
-            description="Designed a comprehensive mobile MVP app from concept through prototyping."
+            description="A mobile app connecting people with therapists — taken from zero to tested prototype."
             image={{
               src: CaminoCoverImage,
               alt: 'Camino - MVP App',

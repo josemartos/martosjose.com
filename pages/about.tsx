@@ -48,9 +48,8 @@ const About: NextPage & { theme?: string } = () => {
 
               <p>
                 15+ years in web development, with 3+ years as a Product
-                Designer in between. That time on the other side of the handoff
-                changed how I think about building — I care as much about why
-                something is built as how.
+                Designer along the way. Working on the design side changed how I
+                think about building — the why matters as much as the how.
               </p>
 
               <p>

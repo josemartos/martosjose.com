@@ -52,7 +52,7 @@ const ROLES: Role[] = [
     location: 'Munich (remote)',
     bullets: [
       'Enhanced the front-end of the Checkout Funnel, aligning design and implementation through close collaboration.',
-      'Leveraged A/B testing via Adobe Target to increase conversion and usability.',
+      'Used A/B testing via Adobe Target to improve conversion and usability.',
     ],
     type: 'fe',
   },
@@ -240,15 +240,14 @@ const Story: NextPage & { theme?: string } = () => {
               <div className="col--md-1" />
               <div className={cn(styles.introText, 'col--md-7')}>
                 <p>
-                  15+ years building for the web — with a deliberate detour
-                  through Product Design in the middle. I crossed over to
-                  research and UX, then came back to frontend. That shift
-                  changed how I think about code: I care as much about the why
-                  as the how.
+                  15+ years building for the web. Three of them as a Product
+                  Designer — a deliberate move, not a detour. I went deep into
+                  UX research and product thinking, then came back to frontend
+                  on purpose. That shift changed what I notice when I build.
                 </p>
                 <p>
                   From early agency work in Málaga and Madrid to product teams
-                  in Berlin and Munich — every role shaped how I build.
+                  in Berlin and Munich — different problems, the same care.
                   Functional and meaningful aren't a tradeoff. They're the
                   brief.
                 </p>

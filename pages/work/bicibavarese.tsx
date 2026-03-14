@@ -61,14 +61,13 @@ const BiciBavarese: CaseStudyPage = () => {
               <div className={cn('col--md-1')}></div>
               <div className={cn('col--md-5')}>
                 <p>
-                  For my first project at Designlab's UX Academy, I worked on
-                  the <strong>redesign of a local bike shop</strong> based in
-                  Munich. This gave me a chance to learn a lot about the local
-                  bike scene. I conducted research and user interviews to
-                  understand customer needs and placed a strong emphasis on
-                  understanding the existing product. My primary focus was on
-                  wireframing and UI design, creating a design that visually
-                  captured the shop's spirit.
+                  Bici Bavarese is a Munich bike shop with a split identity:
+                  part retailer, part community hub. Their existing site didn't
+                  reflect either. As a project during Designlab's UX Academy, I
+                  took on the full redesign — from competitive research and user
+                  interviews through to final UI — keeping the brand's character
+                  intact while giving it a visual language that matched what the
+                  shop actually is.
                 </p>
                 <p>
                   (Disclaimer: I used their existing logo, text, and some images
@@ -91,18 +90,15 @@ const BiciBavarese: CaseStudyPage = () => {
             <div className={cn('col--md-8')}>
               <h2>Goals</h2>
               <p>
-                My goal was to research the local market, focusing on the bike
-                industry and Bici Bavarese's dual focus on bike sales and
-                repairs. The shop is also known for its annual old-timer racing
-                bike event, which gathers enthusiasts to enjoy the beautiful
-                surrounding nature.
+                The shop sells bikes, repairs bikes, and runs the Giro
+                Bavarese — an annual old-timer racing event that draws riders
+                from across the region. The redesign had to serve all of that
+                without losing the character that makes the shop what it is.
               </p>
               <p>
-                The objective was to redesign their website while preserving
-                their brand essence, color palette, and key assets. I aimed to
-                create an eye-catching design that communicates a sense of
-                community. Given the time constraints (one month), the focus was
-                on key pages.
+                Constraints were tight: one month, working with their existing
+                logo and brand assets, focused on key pages. The goal was a
+                site that felt as alive as the shop does.
               </p>
             </div>
             <div className={cn('col--md-3')}></div>
@@ -132,11 +128,9 @@ const BiciBavarese: CaseStudyPage = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                I started by conducting secondary <strong>research</strong> to
-                understand the general scope of <strong>bike shops</strong> and
-                the current local market, followed by a{' '}
-                <strong>competitor analysis</strong> to further contextualize
-                the project.
+                I started with secondary research to understand the Munich bike
+                market, then ran a competitor analysis to see how similar shops
+                positioned themselves online.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -211,10 +205,8 @@ const BiciBavarese: CaseStudyPage = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                Using insights from the user interviews, I created a{' '}
-                <strong>Persona</strong> to capture the main user needs,
-                frustrations, and motivations. This was a crucial element in the
-                design process.
+                Using insights from the interviews, I built a persona to
+                capture the main user needs, frustrations, and motivations.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -308,12 +300,12 @@ const BiciBavarese: CaseStudyPage = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                I created wireframes for the key pages of the website: the{' '}
-                <strong>Homepage</strong>, the <strong>Event Page</strong> for
-                the yearly Giro Bavarese event, and the{' '}
-                <strong>Our Bike</strong> page showcasing their custom-built
-                bikes. The wireframes follow a minimalist, modern design with
-                classic touches.
+                Three key pages, each with a different job: the{' '}
+                <strong>Homepage</strong> to communicate the shop's identity at
+                a glance, the <strong>Giro Bavarese</strong> event page to
+                bring the annual ride to life, and{' '}
+                <strong>Our Bike</strong> to showcase their custom-built bikes
+                in detail.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -378,9 +370,9 @@ const BiciBavarese: CaseStudyPage = () => {
             <div className={cn('col--md-2')}></div>
             <div className={cn('col--md-8')}>
               <p>
-                With all elements in place, I created the following{' '}
-                <strong>hi-fi designs</strong>, refining them based on feedback
-                from user interviews.
+                The final designs grew from the research — each page shaped by
+                what users said they needed and what the shop needed to
+                communicate.
               </p>
             </div>
             <div className={cn('col--md-2')}></div>
@@ -505,20 +497,18 @@ const BiciBavarese: CaseStudyPage = () => {
               <div className={cn('col--md-8')}>
                 <h3>Takeaways</h3>
                 <p>
-                  In this project, I had the opportunity to refresh and redesign
-                  an existing website, maintaining key elements while adding a
-                  unique look and feel to enhance the brand's presence.
+                  You can get surprisingly far with secondary research and three
+                  user interviews — if you ask the right questions. The
+                  interviews shaped real decisions: the "customise your bike"
+                  feature came directly from what participants said, and the
+                  homepage evolved based on their first impressions.
                 </p>
                 <p>
-                  Once again, I was reminded of how essential User Testing is
-                  for uncovering key improvements and updates.
+                  The gap I couldn't close: I never spoke to actual Bici
+                  Bavarese customers or the shop owners. That context would
+                  have changed some choices — a reminder that research quality
+                  matters as much as research quantity.
                 </p>
-                <p>
-                  Although I wasn't able to work directly with the shop owners
-                  or interview their real customers, the project was a rewarding
-                  experience overall.
-                </p>
-                <p>Thanks for reading!</p>
               </div>
               <div className={cn('col--md-2')}></div>
             </div>
