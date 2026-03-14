@@ -15,6 +15,7 @@ import {
 import ComeInAnimation from 'animation/comeIn';
 import { CaseStudyProvider } from 'context/caseStudyContext';
 import { biciBavareseData } from 'lib/caseStudyData';
+import { Title } from 'components/Title';
 
 // Styles
 import layoutStyles from 'styles/modules/layout.module.scss';
@@ -27,7 +28,9 @@ type CaseStudyPage = NextPage & {
 
 const BiciBavarese: CaseStudyPage = () => {
   return (
-    <CaseStudyWrapper title={biciBavareseData.title}>
+    <>
+      <Title title="Bici Bavarese – Case Study" />
+      <CaseStudyWrapper title={biciBavareseData.title}>
       <section className={layoutStyles.section}>
         <header className={caseStudy.hero}>
           <ComeInAnimation>
@@ -516,6 +519,7 @@ const BiciBavarese: CaseStudyPage = () => {
         </div>
       </section>
     </CaseStudyWrapper>
+    </>
   );
 };
 

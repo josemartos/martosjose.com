@@ -17,6 +17,7 @@ import { SwiperSlide } from 'swiper/react';
 import ComeInAnimation from 'animation/comeIn';
 import { CaseStudyProvider } from 'context/caseStudyContext';
 import { newBitibaData } from 'lib/caseStudyData';
+import { Title } from 'components/Title';
 
 // Styles
 import layoutStyles from 'styles/modules/layout.module.scss';
@@ -29,7 +30,9 @@ type CaseStudyPage = NextPage & {
 
 const NewBitiba: CaseStudyPage = () => {
   return (
-    <CaseStudyWrapper title={newBitibaData.title}>
+    <>
+      <Title title="New Bitiba – Case Study" />
+      <CaseStudyWrapper title={newBitibaData.title}>
       <section className={layoutStyles.section}>
         <header className={caseStudy.hero}>
           <ComeInAnimation>
@@ -451,6 +454,7 @@ const NewBitiba: CaseStudyPage = () => {
         </div>
       </section>
     </CaseStudyWrapper>
+    </>
   );
 };
 

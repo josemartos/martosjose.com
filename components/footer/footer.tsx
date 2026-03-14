@@ -11,39 +11,39 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={layoutStyles.contentWrapper}>
         <div className={styles.inner}>
-          <h4 className={styles.title}>
+          <p className={styles.title}>
             Stay <strong>connected</strong>
-          </h4>
+          </p>
           <div className={styles.icons}>
             <a
               href={`mailto:${SITE_CONFIG.email}?subject=Hi%20Jose`}
-              title="Say hi to Jose"
+              aria-label="Send Jose an email"
             >
-              <Mail color="white" size={24} strokeWidth={1.75} />
+              <Mail color="white" size={24} strokeWidth={1.75} aria-hidden={true} />
             </a>
             <a
               href={SITE_CONFIG.social.linkedin}
-              title="Visit my Linkedin profile"
+              aria-label="Visit my LinkedIn profile"
               target="_blank"
               rel="noreferrer"
             >
-              <Briefcase color="white" size={24} strokeWidth={1.75} />
+              <Briefcase color="white" size={24} strokeWidth={1.75} aria-hidden={true} />
             </a>
             <a
               href={SITE_CONFIG.social.github}
-              title="Visit my Github profile"
+              aria-label="Visit my GitHub profile"
               target="_blank"
               rel="noreferrer"
             >
-              <Code color="white" size={24} strokeWidth={1.75} />
+              <Code color="white" size={24} strokeWidth={1.75} aria-hidden={true} />
             </a>
             <a
               href={SITE_CONFIG.social['500px']}
-              title="Visit my 500px profile"
+              aria-label="Visit my 500px profile"
               target="_blank"
               rel="noreferrer"
             >
-              <Camera color="white" size={24} strokeWidth={1.75} />
+              <Camera color="white" size={24} strokeWidth={1.75} aria-hidden={true} />
             </a>
           </div>
           <div className={styles.closing}>

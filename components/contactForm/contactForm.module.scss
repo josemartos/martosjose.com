@@ -33,8 +33,7 @@
     padding: 8px 15px;
 
     &::placeholder {
-      color: vars.$c-secondary;
-      opacity: 0.4;
+      color: vars.$c-grey400;
     }
   }
 }

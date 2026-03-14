@@ -1,5 +1,22 @@
 @use 'styles/base/variables' as vars;
 
+.skipLink {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  z-index: 9999;
+  padding: 12px 24px;
+  background-color: vars.$c-secondary;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 0 0 4px 0;
+
+  &:focus {
+    top: 0;
+  }
+}
+
 .container {
   background-color: vars.$c-secondary;
   min-height: 100vh;

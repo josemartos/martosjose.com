@@ -18,6 +18,7 @@ const Carousel = ({ children }: { children: ReactNode }) => {
           styles.carouselArrow,
           styles.carouselArrowLeft,
         )}
+        aria-label="Previous slide"
       ></button>
       <button
         className={cn(
@@ -25,6 +26,7 @@ const Carousel = ({ children }: { children: ReactNode }) => {
           styles.carouselArrow,
           styles.carouselArrowRight,
         )}
+        aria-label="Next slide"
       ></button>
       <Swiper
         modules={[Navigation, Pagination]}

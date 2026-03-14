@@ -7,8 +7,8 @@ const Testimonials = () => {
     <section className={styles.testimonialsSection}>
       <div className={styles.grid}>
         {TESTIMONIALS.map((t) => (
-          <div key={t.name} className={styles.card}>
-            <p className={styles.text}>"{t.text}"</p>
+          <article key={t.name} className={styles.card}>
+            <blockquote className={styles.text}>{t.text}</blockquote>
             <div className={styles.profile}>
               <NextImage
                 src={t.avatar}
@@ -24,7 +24,7 @@ const Testimonials = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </article>
         ))}
       </div>
     </section>

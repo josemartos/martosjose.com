@@ -23,7 +23,7 @@ const Header = () => {
     >
       <div className={layoutStyles.contentWrapper}>
         <div className={styles.inner}>
-          <RouterLink href="/" className={styles.logo} title="Go to homepage">
+          <RouterLink href="/" className={styles.logo} aria-label="José Martos – go to homepage">
             <LogoIcon />
           </RouterLink>
           <Navbar isOpen={isMenuOpen} setIsOpen={setIsMenuOpen} />

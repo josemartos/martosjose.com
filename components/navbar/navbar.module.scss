@@ -51,6 +51,10 @@
 }
 
 .white {
+  .item {
+    color: #595869;
+  }
+
   .item:hover,
   .itemActive {
     color: vars.$c-secondary;

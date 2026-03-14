@@ -17,7 +17,8 @@ const Navbar = () => {
   } = useCaseStudy();
 
   return (
-    <div
+    <nav
+      aria-label="Case study sections"
       className={cn(caseStudy.navbar, { [caseStudy.navbarActive]: showNavbar })}
     >
       <div className={caseStudy.navbarWrapper}>
@@ -54,7 +55,7 @@ const Navbar = () => {
           Testing
         </button>
       </div>
-    </div>
+    </nav>
   );
 };
 
