@@ -21,7 +21,7 @@ const HeroHeader = ({ scrollToWork }: HeroHeaderProps) => {
           </div>
           <div>
             <h1>
-              Hi, I'm Jos&eacute; Martos &mdash; <strong>Frontend Developer</strong>, 15+ years in.
+              Hi, I'm Jos&eacute; Martos, <strong>Frontend Developer</strong>
             </h1>
             <p>
               I spent 3 years on the design side. It changed how I write code.
