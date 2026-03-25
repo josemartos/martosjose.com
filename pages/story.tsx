@@ -29,7 +29,7 @@ const ROLES: Role[] = [
     period: 'Jan 2026 – Present',
     location: 'Munich (hybrid)',
     bullets: [
-      'Contributing to Travian: Legends in a large-scale codebase using React and TypeScript.',
+      'Contributing to Travian: Legends, a live multiplayer strategy game, across a large-scale React, TypeScript and SASS codebase spanning legacy and modern systems.',
     ],
     type: 'fe',
     isActive: true,
@@ -240,10 +240,8 @@ const Story: NextPage & { theme?: string } = () => {
               <div className="col--md-1" />
               <div className={cn(styles.introText, 'col--md-7')}>
                 <p>
-                  15+ years building for the web. Three of them as a Product
-                  Designer — a deliberate move, not a detour. I went deep into
-                  UX research and product thinking, then came back to frontend
-                  on purpose. That shift changed what I notice when I build.
+                  15+ years building for the web. Three of them on the design
+                  side — it changed what I notice when I build.
                 </p>
                 <p>
                   From early agency work in Málaga and Madrid to product teams
