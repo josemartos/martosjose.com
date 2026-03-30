@@ -121,6 +121,13 @@ const EDUCATION: EducationItem[] = [
     category: 'course',
   },
   {
+    course: 'Concept Art Fundamentals',
+    institution: 'VHS',
+    duration: '6 weeks',
+    year: '2025',
+    category: 'course',
+  },
+  {
     course: 'Data-Driven Design',
     institution: 'Designlab',
     duration: '6 weeks',
@@ -132,13 +139,6 @@ const EDUCATION: EducationItem[] = [
     institution: 'NNGroup',
     duration: '7 hours',
     year: '2022',
-    category: 'course',
-  },
-  {
-    course: 'Concept Art Fundamentals',
-    institution: 'VHS',
-    duration: '6 weeks',
-    year: '2025',
     category: 'course',
   },
 ];
